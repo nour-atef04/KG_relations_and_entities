@@ -1,0 +1,389 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+6647,gene,C0017337,Gene or Genome,PART_OF,chromosome 20,C0008663,Cell Component,True,True
+6647,gene,C0017337,Gene or Genome,PRODUCES,preprohormone,C0599102,Hormone,True,True
+6661,avp,C0078039,Therapeutic or Preventive Procedure,TREATS,central diabetes insipidus,C0687720,Disease or Syndrome,True,True
+6661,vasopressinase,C0030098,"Amino Acid, Peptide, or Protein",CAUSES,diabetes insipidus,C0011848,Disease or Syndrome,True,True
+6670,avp,C0078039,Therapeutic or Preventive Procedure,AFFECTS,inner medullary collecting duct,C2755078,Organ or Tissue Function,True,True
+6721,avp,C0078039,Therapeutic or Preventive Procedure,AFFECTS,water reabsorption,C2610988,Physiologic Function,True,True
+6782,angiotensin ii,C0003009,"Amino Acid, Peptide, or Protein",AFFECTS,na+ reabsorption,C2610986,Physiologic Function,True,True
+6782,aldosterone,C0002006,Organic Chemical,AFFECTS,na+ reabsorption,C2610986,Physiologic Function,True,True
+6806,heart,C0018787,"Body Part, Organ, or Organ Component",PRODUCES,natriuretic peptides,C1144709,"Amino Acid, Peptide, or Protein",True,True
+6807,atrial myocytes,C2334101,Cell,PRODUCES,anp,C0027481,"Amino Acid, Peptide, or Protein",True,True
+6807,ventricular myocytes,C2339371,Cell,PRODUCES,bnp,C0054015,"Amino Acid, Peptide, or Protein",True,True
+6807,kidneys,C0022646,"Body Part, Organ, or Organ Component",PRODUCES,urodilatin,C0077910,"Amino Acid, Peptide, or Protein",True,True
+6826,reabsorption,C2610986,Physiologic Function,AFFECTS,na+ balance,C0014653,Organism Function,True,True
+6850,sympathetic nerve activity,C0039038,Therapeutic or Preventive Procedure,AFFECTS,rpf,C0206088,Organ or Tissue Function,True,True
+6851,sympathetic nerve activity,C0039038,Therapeutic or Preventive Procedure,AFFECTS,na+ reabsorption,C2610986,Physiologic Function,True,True
+6851,aldosterone,C0002006,Organic Chemical,AFFECTS,nacl reabsorption,C2610986,Physiologic Function,True,True
+6867,avp,C0078039,Therapeutic or Preventive Procedure,AFFECTS,duct reabsorption,C2610986{?},Physiologic Function,True,True
+6872,water reabsorption,C2610988,Physiologic Function,AFFECTS,urine volume,C0232856,Clinical Attribute,True,True
+6894,aldosterone regulation,C3270508,Organ or Tissue Function,AFFECTS,transport,C0005528,Cell Function,True,True
+6946,hormones,C0019932,Hormone,AFFECTS,uptake,C0243144,Physiologic Function,True,True
+6947,"na+,k+-atpase",C1149024,Molecular Function,AFFECTS,uptake,C0243144,Physiologic Function,True,True
+6948,aldosterone,C0002006,Organic Chemical,AFFECTS,uptake,C0243144,Physiologic Function,True,True
+6956,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,movement,C0026649,Organism Function,True,True
+6956,epinephrine,C0014563,Organic Chemical,AFFECTS,movement,C0026649,Organism Function,True,True
+6956,aldosterone,C0002006,Organic Chemical,AFFECTS,movement,C0026649,Organism Function,True,True
+6956,aldosterone,C0002006,Organic Chemical,AFFECTS,excretion,C0221102,Physiologic Function,True,True
+6968,k+,C0597277,Pharmacologic Substance,CAUSES,hyperkalemia,C0024348,Pathologic Function,True,True
+6976,β1-adrenergic receptor antagonists,C0242889,Pharmacologic Substance,TREATS,hypertension,C0020538,Disease or Syndrome,True,True
+6984,k+,C0597277,Pharmacologic Substance,AFFECTS,resting membrane potential,C0025251,Cell Function,True,True
+6992,aldosterone,C0002006,Organic Chemical,AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+6992,ingestion,C0232478,Biologic Function,AFFECTS,renal k+ excretion,C0221102,Physiologic Function,True,True
+6992,arginine vasopressin,C0003779,"Amino Acid, Peptide, or Protein",AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+7001,glucocorticoids,C0017710,Organic Chemical,AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+7002,hypokalemia,C0021467,Mental Process,AFFECTS,"na+,k+-atpase",C1149024,Molecular Function,True,True
+7014,flow,C0806140,Natural Phenomenon or Process,AFFECTS,secretion,C0036536,Biologic Function,True,True
+7015,bk k+ channels,C0288250,"Amino Acid, Peptide, or Protein",AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+7017,depolarization,C3714805,Cell Function,AFFECTS,secretion,C0036536,Biologic Function,True,True
+7017,na+ uptake,,Physiologic Function,AFFECTS,"na+,k+-atpase",C1149024,Molecular Function,True,True
+7018,h+,C0033727,"Element, Ion, or Isotope",AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+7018,alkalosis,C0002063,Disease or Syndrome,AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+7018,acidosis,C0001122,Pathologic Function,AFFECTS,k+ secretion,C0036536,Biologic Function,True,True
+7018,acute acidosis,C0001122,Pathologic Function,AFFECTS,"na+,k+-atpase",C1149024,Molecular Function,True,True
+7024,inorganic acids,C0369760,Organic Chemical,CAUSES,chronic acidosis,C1735903,Pathologic Function,True,True
+7026,glucocorticoids,C0017710,Organic Chemical,AFFECTS,urinary k+ excretion,C0221102,Physiologic Function,True,True
+7026,gfr,C0017654,Diagnostic Procedure,AFFECTS,urinary flow rate,C0012797,Organ or Tissue Function,True,True
+7027,flow,C0806140,Natural Phenomenon or Process,AFFECTS,k+ excretion,C0221102,Physiologic Function,True,True
+7027,flow,C0806140,Natural Phenomenon or Process,AFFECTS,k+ homeostasis,C0019868,Biologic Function,True,True
+7030,aldosterone,C0002006,Organic Chemical,AFFECTS,k+ uptake,,Physiologic Function,True,True
+7066,pth,C0020063,"Amino Acid, Peptide, or Protein",CAUSES,hypercalcemia,C0020437,Disease or Syndrome,True,True
+7074,pth,C0020063,"Amino Acid, Peptide, or Protein",AFFECTS,pi excretion,C0221102,Physiologic Function,True,True
+7074,calcitriol,C0006674,Organic Chemical,AFFECTS,pi excretion,C0221102,Physiologic Function,True,True
+7076,pth,C0020063,"Amino Acid, Peptide, or Protein",AFFECTS,urinary pi excretion,C0221102,Physiologic Function,True,True
+7076,pth,C0020063,"Amino Acid, Peptide, or Protein",AFFECTS,proximal tubule pi reabsorption,C2610986,Physiologic Function,True,True
+7082,plasma ca++,C0006675,Pharmacologic Substance,AFFECTS,pth secretion,C0036536,Biologic Function,True,True
+7085,osteocytes,C0029432,Cell,PRODUCES,fgf-23,C1431973,"Amino Acid, Peptide, or Protein",True,True
+7085,osteoblasts,C0029418,Cell,PRODUCES,fgf-23,C1431973,"Amino Acid, Peptide, or Protein",True,True
+7107,pth,C0020063,"Amino Acid, Peptide, or Protein",AFFECTS,ca++ excretion,C0221102,Physiologic Function,True,True
+7107,calcitriol,C0006674,Organic Chemical,AFFECTS,ca++ excretion,C0221102,Physiologic Function,True,True
+7111,fgf-23,C1431973,"Amino Acid, Peptide, or Protein",AFFECTS,pi excretion,C0221102,Physiologic Function,True,True
+7111,dietary phosphate,C0080014,"Element, Ion, or Isotope",AFFECTS,pi excretion,C0221102,Physiologic Function,True,True
+7111,growth hormone,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,pi excretion,C0221102,Physiologic Function,True,True
+7111,fgf-23,C1431973,"Amino Acid, Peptide, or Protein",CAUSES,hypophosphatemia,C0085682,Disease or Syndrome,True,True
+7111,fgf-23,C1431973,"Amino Acid, Peptide, or Protein",CAUSES,hyperphosphatemia,C0085681,Disease or Syndrome,True,True
+7111,fgf-23,C1431973,"Amino Acid, Peptide, or Protein",CAUSES,osteomalacia,C0029442,Disease or Syndrome,True,True
+7162,hco3,C0005367,Pharmacologic Substance,CAUSES,metabolic acid-base disorders,C0025517,Disease or Syndrome,True,True
+7215,aldosterone,C0002006,Organic Chemical,AFFECTS,h+ secretion,C0036536,Biologic Function,True,True
+7217,potassium balance,C0014653,Organism Function,AFFECTS,h+ secretion,C0036536,Biologic Function,True,True
+7217,hypokalemia,,Natural Phenomenon or Process,AFFECTS,h+ secretion,C0036536,Biologic Function,True,True
+7217,hyperkalemia,C0021467,Mental Process,AFFECTS,h+ secretion,C0036536,Biologic Function,True,True
+7217,hypokalemia,,Natural Phenomenon or Process,AFFECTS,"h+,k+-atpase",C1149024,Molecular Function,True,True
+7252,h+,C0033727,"Element, Ion, or Isotope",AFFECTS,ventilatory rate,C0035203,Physiologic Function,True,True
+7253,hypoxia,C0242184,Pathologic Function,AFFECTS,ventilatory rate,C0035203,Physiologic Function,True,True
+7258,antiporter,C0052088,"Amino Acid, Peptide, or Protein",AFFECTS,h+ secretion,C0036536,Biologic Function,True,True
+7304,kidney,C0022646,"Body Part, Organ, or Organ Component",LOCATION_OF,ammonia transport,C5672682,Cell Function,True,True
+7325,regulated secretion,C1523071,Cell Function,PRODUCES,hormone,C0019932,Hormone,True,True
+7330,endocrine glands,C0014133,"Body Part, Organ, or Organ Component",PRODUCES,hormone,C0019932,Hormone,True,True
+7333,liver cells,C0227525,Cell,PRODUCES,igf-1,C0021665,"Amino Acid, Peptide, or Protein",True,True
+7333,cell bodies,C0599444,Cell Component,PRODUCES,peptides,C0030956,"Amino Acid, Peptide, or Protein",True,True
+7337,hormone,C0019932,Hormone,AFFECTS,secretion,C0036536,Biologic Function,True,True
+7352,pineal gland,C0031939,"Body Part, Organ, or Organ Component",CONNECTED_TO,scn,C0038866,"Body Part, Organ, or Organ Component",True,True
+7352,pineal gland,C0031939,"Body Part, Organ, or Organ Component",PRODUCES,melatonin,C0025219,Organic Chemical,True,True
+7352,darkness,C0010986,Natural Phenomenon or Process,AFFECTS,melatonin synthesis,,Biologic Function,True,True
+7353,melatonin,C0025219,Organic Chemical,AFFECTS,sleep,C0037313,Organism Function,True,True
+7370,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",PRODUCES,epinephrine,C0014563,Organic Chemical,True,True
+7370,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",PRODUCES,norepinephrine,C0028351,Organic Chemical,True,True
+7371,adrenal cortex,C0001613,"Body Part, Organ, or Organ Component",PRODUCES,steroid hormones,C0019932,Hormone,True,True
+7371,ovaries,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,steroid hormones,C0019932,Hormone,True,True
+7371,testes,C0021358,"Body Part, Organ, or Organ Component",PRODUCES,steroid hormones,C0019932,Hormone,True,True
+7377,mineralocorticoids,C0026160,Organic Chemical,INTERACTS_WITH,mineralocorticoid{_}receptor,C0066563,"Amino Acid, Peptide, or Protein",True,True
+7377,glucocorticoids,C0017710,Organic Chemical,INTERACTS_WITH,glucocorticoid{_}receptor,C0034809,"Amino Acid, Peptide, or Protein",True,True
+7377,estrogens,C0014939,Organic Chemical,INTERACTS_WITH,estrogen{_}receptor,C0034804,"Amino Acid, Peptide, or Protein",True,True
+7383,steroid hormones,C0301818,Organic Chemical,INTERACTS_WITH,albumin,C0001924,"Amino Acid, Peptide, or Protein",True,True
+7389,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,plasma proteins,C0032120,"Amino Acid, Peptide, or Protein",True,True
+7392,protein binding,C0033618,Molecular Function,AFFECTS,transport,C0005528,Cell Function,True,True
+7425,hormones,C0019932,Hormone,INTERACTS_WITH,membrane receptors,C0230664,Receptor,True,True
+7425,signaling pathways,C0037080,Molecular Function,AFFECTS,responses,C0871261,Organism Attribute,True,True
+7427,hormones,C0019932,Hormone,AFFECTS,gene transcription,C0040649,Genetic Function,True,True
+7470,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,metabolism,C0025519,Organism Function,True,True
+7475,tca cycle,C0008858,Molecular Function,PRODUCES,co2,C0007012,Biologically Active Substance,True,True
+7482,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glycolysis,C0017952,Molecular Function,True,True
+7485,insulin,C0021641,"Amino Acid, Peptide, or Protein",CAUSES,translocation,C0040715,Cell or Molecular Dysfunction,True,True
+7489,skeletal muscle,C0242692,Tissue,PRODUCES,glycogen,C0017911,Organic Chemical,True,True
+7489,hepatocytes,C0227525,Cell,PRODUCES,ffas,C0015688,Organic Chemical,True,True
+7504,erythrocytes,C0014792,Cell,PRODUCES,lactate,C0022924,Organic Chemical,True,True
+7504,skeletal muscle,C0242692,Tissue,PRODUCES,lactate,C0022924,Organic Chemical,True,True
+7522,islets,C0022131,"Body Part, Organ, or Organ Component",PART_OF,endocrine pancreas,C0022131,"Body Part, Organ, or Organ Component",True,True
+7523,cell types,C0007634,Cell,PRODUCES,hormone,C0019932,Hormone,True,True
+7523,beta cells,C0030281,Cell,PART_OF,islets,C0022131,"Body Part, Organ, or Organ Component",True,True
+7523,beta cells,C0030281,Cell,PRODUCES,hormone insulin,C0021641,"Amino Acid, Peptide, or Protein",True,True
+7524,alpha cells,C0030280,Cell,PRODUCES,glucagon,C0017687,"Amino Acid, Peptide, or Protein",True,True
+7525,endocrine cell,C0229525,Cell,PART_OF,islets,C0022131,"Body Part, Organ, or Organ Component",True,True
+7540,adrenergic inhibition,C0242978,Pharmacologic Substance,PREVENTS,hypoglycemia,C0020615,Disease or Syndrome,True,True
+7540,β-blockers,C0242889,Pharmacologic Substance,COMPLICATES,hypoglycemic episodes,C0745153,Disease or Syndrome,True,True
+7561,glucagon,C0017687,"Amino Acid, Peptide, or Protein",AFFECTS,ketogenesis,C0599816,Molecular Function,True,True
+7563,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,glucagon degradation,C0243125,Organism Function,True,True
+7564,glucagon receptor,C0061352,"Amino Acid, Peptide, or Protein",AFFECTS,adenylyl cyclase activity,C1151015,Molecular Function,True,True
+7565,blood glucose,C0005802,Organic Chemical,AFFECTS,glucagon secretion,C0036536,Biologic Function,True,True
+7568,circulating catecholamines,C0007412,Pharmacologic Substance,AFFECTS,glucagon secretion,C0036536,Biologic Function,True,True
+7571,postganglionic sympathetic nerve endings,C0206254,"Body Part, Organ, or Organ Component",PRODUCES,norepinephrine,C0028351,Organic Chemical,True,True
+7575,pathways,C1704259,Molecular Function,AFFECTS,integrated metabolism,C0025519,Organism Function,True,True
+7580,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glycogen synthesis,C1157202,Molecular Function,True,True
+7587,protein phosphatase,C0031686,"Amino Acid, Peptide, or Protein",AFFECTS,dephosphorylation,C1158884,Molecular Function,True,True
+7594,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,atp-citrate lyase gene expression,,Genetic Function,True,True
+7594,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,acetyl-coa carboxylase gene expression,,Genetic Function,True,True
+7594,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,fasn gene expression,,Genetic Function,True,True
+7596,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,g6pd gene expression,,Genetic Function,True,True
+7597,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,oxidation,C0030011,Molecular Function,True,True
+7599,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,pdh,C0034345,Disease or Syndrome,True,True
+7600,glucagon,C0017687,"Amino Acid, Peptide, or Protein",AFFECTS,malonyl decarboxylase,C1323906,Molecular Function,True,True
+7601,foxo1,C1333572,Gene or Genome,AFFECTS,transcription,C0040649,Genetic Function,True,True
+7601,glucagon,C0017687,"Amino Acid, Peptide, or Protein",AFFECTS,gene expression,C0017262,Genetic Function,True,True
+7601,catecholamines,C0007412,Pharmacologic Substance,AFFECTS,gene expression,C0017262,Genetic Function,True,True
+7603,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glucose tolerance,C0178665,Physiologic Function,True,True
+7603,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,translocation,C0040715,Cell or Molecular Dysfunction,True,True
+7605,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,uptake,C0243144,Physiologic Function,True,True
+7607,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,expression,C0017262,Genetic Function,True,True
+7616,tgs,C1537574,Gene or Genome,PRODUCES,ffas,C0015688,Organic Chemical,True,True
+7619,adipocytes,C0206131,Cell,PRODUCES,lpl,C0023816,"Amino Acid, Peptide, or Protein",True,True
+7623,cr particles,C0597177,Chemical Viewed Structurally,INTERACTS_WITH,membrane receptors,C0230664,Receptor,True,True
+7623,cr particles,C0597177,Chemical Viewed Structurally,INTERACTS_WITH,glycolipids,C0017950,Organic Chemical,True,True
+7626,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,tg,C0039902,Organic Chemical,True,True
+7627,hepatocytes,C0227525,Cell,PRODUCES,vldl,C0023825,"Amino Acid, Peptide, or Protein",True,True
+7632,adipose tissue,C0001527,Tissue,PRODUCES,adiponectin,C0389071,"Amino Acid, Peptide, or Protein",True,True
+7632,adipose tissue,C0001527,Tissue,PRODUCES,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",True,True
+7632,adipose tissue,C0001527,Tissue,PRODUCES,resistin,C0963992,"Amino Acid, Peptide, or Protein",True,True
+7632,adipose tissue,C0001527,Tissue,PRODUCES,interleukin-6,C0021760,"Amino Acid, Peptide, or Protein",True,True
+7632,adipose tissue,C0001527,Tissue,PRODUCES,angiotensinogen,C0003017,"Amino Acid, Peptide, or Protein",True,True
+7664,bmi,C0005893,Diagnostic Procedure,MEASURES,adiposity,C0028754,Disease or Syndrome,True,True
+7666,obesity,C0028754,Disease or Syndrome,ASSOCIATED_WITH,dyslipidemia,C0242339,Disease or Syndrome,True,True
+7666,obesity,C0028754,Disease or Syndrome,ASSOCIATED_WITH,diabetes,C0011847,Disease or Syndrome,True,True
+7666,obesity,C0028754,Disease or Syndrome,ASSOCIATED_WITH,cardiovascular disease,C0007222,Disease or Syndrome,True,True
+7666,obesity,C0028754,Disease or Syndrome,ASSOCIATED_WITH,hypertension,C0020538,Disease or Syndrome,True,True
+7668,waist-hip ratio,C0205682,Organism Attribute,ASSOCIATED_WITH,diabetes,C0011847,Disease or Syndrome,True,True
+7668,waist-hip ratio,C0205682,Organism Attribute,ASSOCIATED_WITH,cardiovascular disease,C0007222,Disease or Syndrome,True,True
+7676,ghrelin,C0911014,"Amino Acid, Peptide, or Protein",AFFECTS,food intake,C0013470,Organism Function,True,True
+7677,ghrelin,C0911014,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,receptor,C0597357,"Amino Acid, Peptide, or Protein",True,True
+7679,cells,C0007634,Cell,PRODUCES,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",True,True
+7685,endocrine pancreas,C0022131,"Body Part, Organ, or Organ Component",PRODUCES,hormones insulin,C0019932,Hormone,True,True
+7685,endocrine pancreas,C0022131,"Body Part, Organ, or Organ Component",PRODUCES,glucagon,C0017687,"Amino Acid, Peptide, or Protein",True,True
+7685,endocrine pancreas,C0022131,"Body Part, Organ, or Organ Component",PRODUCES,somatostatin,C0037659,"Amino Acid, Peptide, or Protein",True,True
+7685,endocrine pancreas,C0022131,"Body Part, Organ, or Organ Component",PRODUCES,gastrin,C0017151,"Amino Acid, Peptide, or Protein",True,True
+7685,endocrine pancreas,C0022131,"Body Part, Organ, or Organ Component",PRODUCES,pancreatic polypeptide,C0030298,"Amino Acid, Peptide, or Protein",True,True
+7689,aas,C0175701,Disease or Syndrome,AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7689,cholinergic,C0242893,Pharmacologic Substance,AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7689,α2-adrenergic receptors,C0034783,"Amino Acid, Peptide, or Protein",AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7689,incretin hormones,C1562292,"Amino Acid, Peptide, or Protein",AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7689,glp-1 analogues,C0243071,Chemical Viewed Structurally,AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7689,inhibitors of dpp-4,C0243077,Chemical Viewed Functionally,AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7691,insulin,C0021641,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,insulin receptor (,C0034818,"Amino Acid, Peptide, or Protein",True,True
+7693,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glycogenesis,C0596623,Molecular Function,True,True
+7693,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,de novo lipogenesis,C1563744,Organism Function,True,True
+7693,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,gluconeogenesis,C0017715,Molecular Function,True,True
+7693,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glycogenolysis,C0596624,Molecular Function,True,True
+7695,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glut4-mediated glucose uptake,C1159527,Cell Function,True,True
+7697,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,lipogenesis,C1563744,Organism Function,True,True
+7708,glucagon,C0017687,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,glucagon receptor,C0061352,"Amino Acid, Peptide, or Protein",True,True
+7710,glucagon,C0017687,"Amino Acid, Peptide, or Protein",AFFECTS,hepatic metabolism,C1373178,Organ or Tissue Function,True,True
+7712,epinephrine,C0014563,Organic Chemical,INTERACTS_WITH,β2-and β3-adrenergic receptors,C0034783,"Amino Acid, Peptide, or Protein",True,True
+7712,norepinephrine,C0028351,Organic Chemical,INTERACTS_WITH,β2-and β3-adrenergic receptors,C0034783,"Amino Acid, Peptide, or Protein",True,True
+7712,epinephrine,C0014563,Organic Chemical,AFFECTS,glycogenolysis,C0596624,Molecular Function,True,True
+7712,norepinephrine,C0028351,Organic Chemical,AFFECTS,glycogenolysis,C0596624,Molecular Function,True,True
+7712,epinephrine,C0014563,Organic Chemical,AFFECTS,fatty acyl oxidation,C1158366,Molecular Function,True,True
+7712,norepinephrine,C0028351,Organic Chemical,AFFECTS,fatty acyl oxidation,C1158366,Molecular Function,True,True
+7721,adipose tissue,C0001527,Tissue,PRODUCES,hormones,C0019932,Hormone,True,True
+7721,adipose tissue,C0001527,Tissue,PRODUCES,leptin,C0299583,"Amino Acid, Peptide, or Protein",True,True
+7724,pparα,C0166418,"Amino Acid, Peptide, or Protein",AFFECTS,lipid metabolism,C0598783,Molecular Function,True,True
+7724,pparα,C0166418,"Amino Acid, Peptide, or Protein",AFFECTS,inflammation,C0021368,Pathologic Function,True,True
+7724,pparα,C0166418,"Amino Acid, Peptide, or Protein",AFFECTS,fibrosis,C0016059,Pathologic Function,True,True
+7753,parenchymal cell,C0682552,Cell,PART_OF,parathyroid b gland,C0030518,"Body Part, Organ, or Organ Component",True,True
+7785,pth,C0020063,"Amino Acid, Peptide, or Protein",AFFECTS,1α-hydroxylase activity,C1151087,Molecular Function,True,True
+7785,hypophosphatemia,C0085682,Disease or Syndrome,AFFECTS,1α-hydroxylase activity,C1151087,Molecular Function,True,True
+7788,vdr,C0919430,Gene or Genome,AFFECTS,gene expression,C0017262,Genetic Function,True,True
+7796,"1,25-dihydroxyvitamin d",C0370232,Organic Chemical,AFFECTS,absorption,C0000854,Natural Phenomenon or Process,True,True
+7854,endocrine cell types,C0229525,Cell,PART_OF,adenohypophysis,C0032008,"Body Part, Organ, or Organ Component",True,True
+7854,endocrine cell types,C0229525,Cell,PRODUCES,tropic hormones,C0019932,Hormone,True,True
+7892,neurons,C0027882,Cell,PRODUCES,releasing hormones,C0815016,Hormone,True,True
+7894,adenohypophysis,C0032008,"Body Part, Organ, or Organ Component",PRODUCES,protein hormones,C0682768,"Amino Acid, Peptide, or Protein",True,True
+7909,corticotropes,C1707524,Cell,PRODUCES,hormone acth,C0001655,"Amino Acid, Peptide, or Protein",True,True
+7913,acth,C0001655,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,melanocortin-2 receptor,C0219940,"Amino Acid, Peptide, or Protein",True,True
+7932,tsh,C0040160,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,tsh receptor,C0034844,"Amino Acid, Peptide, or Protein",True,True
+7934,tsh,C0040160,"Amino Acid, Peptide, or Protein",AFFECTS,thyroid function,C2242456,Physiologic Function,True,True
+7934,tsh,C0040160,"Amino Acid, Peptide, or Protein",AFFECTS,hypertrophy,C0020564,Pathologic Function,True,True
+7934,tsh,C0040160,"Amino Acid, Peptide, or Protein",AFFECTS,hyperplasia,C0020507,Pathologic Function,True,True
+7936,trh,C0040162,"Amino Acid, Peptide, or Protein",AFFECTS,pituitary thyrotrope,C4021121,Neoplastic Process,True,True
+7938,triiodothyronine,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,pituitary thyrotropes,C4021121,Neoplastic Process,True,True
+7941,gonadotrope,C1708248,Cell,PRODUCES,lh,C0023607,"Amino Acid, Peptide, or Protein",True,True
+7960,ghrh,C0037668,"Amino Acid, Peptide, or Protein",AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7960,ghrh,C0037668,"Amino Acid, Peptide, or Protein",AFFECTS,gh gene expression,C0017262,Genetic Function,True,True
+7960,ghrelin,C0911014,"Amino Acid, Peptide, or Protein",AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7960,ghrelin,C0911014,"Amino Acid, Peptide, or Protein",AFFECTS,appetite,C0003618,Organism Function,True,True
+7962,igf-i,C0021665,"Amino Acid, Peptide, or Protein",AFFECTS,gh synthesis,C0220781,Biologic Function,True,True
+7962,igf-i,C0021665,"Amino Acid, Peptide, or Protein",AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7963,deep slow-wave sleep,C0234451,Physiologic Function,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7964,neurogenic stress,C0751549,Disease or Syndrome,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7964,physical stress,C0231302,Pathologic Function,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7964,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,lipolysis,C0023796,Organism Function,True,True
+7964,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,protein synthesis,C0597295,Molecular Function,True,True
+7964,acute hypoglycemia,C0745150,Disease or Syndrome,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7964,blood glucose,C0005802,Organic Chemical,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7964,obesity,C0028754,Disease or Syndrome,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7967,estrogen,C0014939,Organic Chemical,AFFECTS,gh secretion,C0036536,Biologic Function,True,True
+7968,igfs,C2931783,Disease or Syndrome,AFFECTS,cellular proliferation,C0020507,Pathologic Function,True,True
+7968,igfs,C2931783,Disease or Syndrome,AFFECTS,differentiation,C0007589,Cell Function,True,True
+7968,igfs,C2931783,Disease or Syndrome,AFFECTS,metabolism,C0025519,Organism Function,True,True
+7979,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,gh receptor expression,C0597360,Genetic Function,True,True
+7979,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,signaling,C0037083,Cell Function,True,True
+7980,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,chondrocyte proliferation,C3271470,Cell Function,True,True
+7980,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,differentiation,C0007589,Cell Function,True,True
+7980,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,hypertrophy,C0020564,Pathologic Function,True,True
+7980,igf-i,C0021665,"Amino Acid, Peptide, or Protein",AFFECTS,chondrocyte proliferation,C3271470,Cell Function,True,True
+7980,igf-i,C0021665,"Amino Acid, Peptide, or Protein",AFFECTS,differentiation,C0007589,Cell Function,True,True
+7980,igf-i,C0021665,"Amino Acid, Peptide, or Protein",AFFECTS,hypertrophy,C0020564,Pathologic Function,True,True
+7988,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,pancreatic function,C0232786,Organ or Tissue Function,True,True
+7988,gh,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,insulin secretion,C1256369,Cell Function,True,True
+7989,muscle weakness,C0030552,Disease or Syndrome,MANIFESTATION_OF,gh deficiency,C3714796,Disease or Syndrome,True,True
+7989,early exhaustion,C0392674,Sign or Symptom,MANIFESTATION_OF,gh deficiency,C3714796,Disease or Syndrome,True,True
+8009,thyroid hormone,C0040135,Hormone,AFFECTS,gene transcription,C0040649,Genetic Function,True,True
+8014,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",PRODUCES,prohormone tetraiodothyronine,C0040165,"Amino Acid, Peptide, or Protein",True,True
+8014,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",PRODUCES,active hormone triiodothyronine,C0041014,"Amino Acid, Peptide, or Protein",True,True
+8014,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,bone development,C0005939,Organ or Tissue Function,True,True
+8014,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,metabolism,C0025519,Organism Function,True,True
+8014,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,cardiovascular function,C0007227,Organ or Tissue Function,True,True
+8016,left lobes,C0796494,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+8018,thyroid follicle,C0229577,"Body Part, Organ, or Organ Component",PART_OF,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",True,True
+8057,thyroxine-binding globulin,C0087090,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,t4,C0040165,"Amino Acid, Peptide, or Protein",True,True
+8057,thyroxine-binding globulin,C0087090,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,t3,C0041014,"Amino Acid, Peptide, or Protein",True,True
+8068,lumen,C0524461,Body Space or Junction,PART_OF,thyroid follicle,C0229577,"Body Part, Organ, or Organ Component",True,True
+8073,tsh,C0040160,"Amino Acid, Peptide, or Protein",AFFECTS,proteolysis,C0597304,Molecular Function,True,True
+8085,thyroid hormone,C0040135,Hormone,AFFECTS,systemic resistance,C1155264,Physiologic Function,True,True
+8089,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,glucose absorption,C3158808,Cell Function,True,True
+8089,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,glucose uptake,C1159527,Cell Function,True,True
+8089,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,oxidation,C0030011,Molecular Function,True,True
+8089,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,synthesis,C0220781,Biologic Function,True,True
+8089,thyroid hormone,C0040135,Hormone,AFFECTS,lipolysis,C0023796,Organism Function,True,True
+8090,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,gluconeogenesis,C0017715,Molecular Function,True,True
+8091,thyroid hormone,C0040135,Hormone,AFFECTS,biliary secretion,C0036536,Biologic Function,True,True
+8092,thyroid hormones,C0040135,Hormone,AFFECTS,thermogenesis,C0018841,Organism Function,True,True
+8092,catecholamines,C0007412,Pharmacologic Substance,AFFECTS,lipolysis,C0023796,Organism Function,True,True
+8094,thyroid hormone,C0040135,Hormone,AFFECTS,glycolysis,C0017952,Molecular Function,True,True
+8094,thyroid hormone,C0040135,Hormone,AFFECTS,glycogenolysis,C0596624,Molecular Function,True,True
+8096,thyroid hormones,C0040135,Hormone,AFFECTS,metabolic rate,C0870882,Physiologic Function,True,True
+8097,thyroid hormone,C0040135,Hormone,AFFECTS,growth,C0018270,Organism Function,True,True
+8097,thyroid hormone,C0040135,Hormone,AFFECTS,maturation,C0678723,Organism Function,True,True
+8099,thyroid hormone,C0040135,Hormone,AFFECTS,endochondral ossification,C1622923,Organ or Tissue Function,True,True
+8099,thyroid hormone,C0040135,Hormone,AFFECTS,linear bone growth,C0971859,Organ or Tissue Function,True,True
+8099,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,cartilage growth plate,C2753826,Cell Function,True,True
+8099,t3,C0041014,"Amino Acid, Peptide, or Protein",AFFECTS,adult bone remodeling,C0085268,Organ or Tissue Function,True,True
+8100,thyroid hormone,C0040135,Hormone,AFFECTS,tooth development,C0028877,Organ or Tissue Function,True,True
+8100,thyroid hormone,C0040135,Hormone,AFFECTS,normal cycle of growth,C0018270,Organism Function,True,True
+8100,thyroid hormone,C0040135,Hormone,AFFECTS,maturation of the epidermis,C0678723,Organism Function,True,True
+8100,thyroid hormone,C0040135,Hormone,AFFECTS,degradative processes,C1623036,Molecular Function,True,True
+8100,thyroid hormone,C0040135,Hormone,AFFECTS,hair loss,C0002170,Disease or Syndrome,True,True
+8100,thyroid hormone,C0040135,Hormone,AFFECTS,abnormal nail formation,C0221260,Disease or Syndrome,True,True
+8102,thyroid hormone deficiency,C4014130,Disease or Syndrome,AFFECTS,synaptogenesis,C0597545,Organ or Tissue Function,True,True
+8102,thyroid hormone deficiency,C4014130,Disease or Syndrome,AFFECTS,myelination,C0596991,Cell Function,True,True
+8102,thyroid hormone deficiency,C4014130,Disease or Syndrome,AFFECTS,cell migration,C1622501,Cell Function,True,True
+8103,thyroid hormone,C0040135,Hormone,AFFECTS,wakefulness,C0043012,Mental Process,True,True
+8103,thyroid hormone,C0040135,Hormone,AFFECTS,alertness,C1443086,Mental Process,True,True
+8103,thyroid hormone,C0040135,Hormone,AFFECTS,auditory sense,C0018767,Physiologic Function,True,True
+8103,thyroid hormone,C0040135,Hormone,AFFECTS,memory,C0025260,Mental Process,True,True
+8103,thyroid hormone,C0040135,Hormone,AFFECTS,peripheral nerve reflexes,C0034929,Organ or Tissue Function,True,True
+8103,thyroid hormone,C0040135,Hormone,AFFECTS,motility of the gastrointestinal tract,C0007608,Cell Function,True,True
+8104,thyroid hormone,C0040135,Hormone,AFFECTS,reproductive function,C0232896,Physiologic Function,True,True
+8104,thyroid hormone,C0040135,Hormone,AFFECTS,hepatic synthesis,C1156902,Molecular Function,True,True
+8126,neck,C0027530,Body Location or Region,LOCATION_OF,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",True,True
+8128,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",PRODUCES,tetraiodothyronine,C0040165,"Amino Acid, Peptide, or Protein",True,True
+8128,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",PRODUCES,triiodothyronine,C0041014,"Amino Acid, Peptide, or Protein",True,True
+8130,follicle,C0018120,"Body Part, Organ, or Organ Component",CONSISTS_OF,spherical layer,C0934502,"Body Part, Organ, or Organ Component",True,True
+8147,thyroid hormone,C0040135,Hormone,AFFECTS,thermogenesis,C0018841,Organism Function,True,True
+8147,thyroid hormone,C0040135,Hormone,AFFECTS,ventilation,C0035203,Physiologic Function,True,True
+8147,thyroid hormone,C0040135,Hormone,AFFECTS,vascular resistance,C0042380,Physiologic Function,True,True
+8147,thyroid hormone,C0040135,Hormone,AFFECTS,disposal of metabolic products,C1524026,Cell Function,True,True
+8166,cortisol,C0020268,Organic Chemical,INTERACTS_WITH,mineralocorticoid receptor,C0066563,"Amino Acid, Peptide, or Protein",True,True
+8173,adrenal glands,C0001625,"Body Part, Organ, or Organ Component",PRODUCES,steroids,C0038317,Organic Chemical,True,True
+8173,adrenal gland,C0001625,"Body Part, Organ, or Organ Component",PRODUCES,dheas,C0011185,Organic Chemical,True,True
+8191,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",LOCATION_OF,secretion,C0036536,Biologic Function,True,True
+8193,preganglionic sympathetic neurons,C2328196,Cell,PRODUCES,acetylcholine,C0001041,Organic Chemical,True,True
+8193,acetylcholine,C0001041,Organic Chemical,INTERACTS_WITH,nicotinic receptors,C0034830,"Amino Acid, Peptide, or Protein",True,True
+8196,ach,C0001041,Organic Chemical,AFFECTS,exocytosis,C0015283,Cell Function,True,True
+8208,postganglionic sympathetic neurons,C0206254,"Body Part, Organ, or Organ Component",PRODUCES,norepinephrine,C0028351,Organic Chemical,True,True
+8273,type ii alveolar cells,C0225700,Cell,PRODUCES,surfactant,C0034085,Organic Chemical,True,True
+8276,acth,C0001655,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,melanocortin 2 receptor,C0219940,"Amino Acid, Peptide, or Protein",True,True
+8311,aldosterone,C0002006,Organic Chemical,INTERACTS_WITH,albumin,C0001924,"Amino Acid, Peptide, or Protein",True,True
+8311,aldosterone,C0002006,Organic Chemical,INTERACTS_WITH,corticosteroid-binding protein,C0040643,"Amino Acid, Peptide, or Protein",True,True
+8349,angiotensin ii,C0003009,"Amino Acid, Peptide, or Protein",AFFECTS,growth,C0018270,Organism Function,True,True
+8360,acth,C0001655,"Amino Acid, Peptide, or Protein",AFFECTS,adrenal cortical growth,C0018270,Organism Function,True,True
+8399,tail,C0039259,"Body Part, Organ, or Organ Component",PART_OF,epididymis,C0014533,"Body Part, Organ, or Organ Component",True,True
+8401,interstitial cells of leydig,C0023602,Cell,PRODUCES,testosterone,C0039601,Organic Chemical,True,True
+8414,vas deferens,C0042360,"Body Part, Organ, or Organ Component",PART_OF,processus vaginalis,C0450297,"Body Part, Organ, or Organ Component",True,True
+8426,leydig cells,C0023602,Cell,PRODUCES,testosterone,C0039601,Organic Chemical,True,True
+8429,sertoli cell,C0036770,Cell,PRODUCES,antimüllerian hormone,C0687670,"Amino Acid, Peptide, or Protein",True,True
+8429,sertoli cell,C0036770,Cell,PRODUCES,inhibin,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8430,primary endocrine cell,C0229525,Cell,PART_OF,testis,C0039597,"Body Part, Organ, or Organ Component",True,True
+8442,adipose tissue,C0001527,Tissue,PRODUCES,estrogen,C0014939,Organic Chemical,True,True
+8461,leydig cell,C0023602,Cell,PRODUCES,lh receptor,C0034823,"Amino Acid, Peptide, or Protein",True,True
+8469,epididymis,C0014533,"Body Part, Organ, or Organ Component",PART_OF,tract,C1185740,"Body Part, Organ, or Organ Component",True,True
+8469,vas deferens,C0042360,"Body Part, Organ, or Organ Component",PART_OF,tract,C1185740,"Body Part, Organ, or Organ Component",True,True
+8469,ejaculatory duct,C0013747,"Body Part, Organ, or Organ Component",PART_OF,tract,C1185740,"Body Part, Organ, or Organ Component",True,True
+8474,vas deferens,C0042360,"Body Part, Organ, or Organ Component",CONNECTED_TO,prostatic urethra,C0458450,"Body Part, Organ, or Organ Component",True,True
+8476,seminal vesicles,C0036628,"Body Part, Organ, or Organ Component",PRODUCES,fructose,C0016745,Organic Chemical,True,True
+8476,seminal vesicles,C0036628,"Body Part, Organ, or Organ Component",PRODUCES,semenogelins,C0138741,"Amino Acid, Peptide, or Protein",True,True
+8476,bulbourethral glands,C1261211,"Body Part, Organ, or Organ Component",CONNECTED_TO,penile urethra,C0458451,"Body Part, Organ, or Organ Component",True,True
+8488,ovary,C0029939,"Body Part, Organ, or Organ Component",ADJACENT_TO,lateral wall,C0456482,"Body Part, Organ, or Organ Component",True,True
+8490,inner medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,ovary,C0029939,"Body Part, Organ, or Organ Component",True,True
+8491,ovarian follicles,C0018120,"Body Part, Organ, or Organ Component",PART_OF,stroma,C0927195,"Body Part, Organ, or Organ Component",True,True
+8498,ovarian follicle,C0018120,"Body Part, Organ, or Organ Component",PART_OF,ovary,C0029939,"Body Part, Organ, or Organ Component",True,True
+8509,cigarette smoking,C0239059,Hazardous or Poisonous Substance,DISRUPTS,ovarian reserve,C3850153,Organ or Tissue Function,True,True
+8545,thecal cells,C0039748,Cell,PRODUCES,androstenedione,C0002860,Organic Chemical,True,True
+8559,granulosa cells,C0018207,Cell,PRODUCES,angiogenic factors,C0002976,Biologically Active Substance,True,True
+8575,human chorionic gonadotropin,C1141639,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lh receptor,C0034823,"Amino Acid, Peptide, or Protein",True,True
+8575,granulosa lutein cells,C1135969,Cell,PRODUCES,pgf2α,C0012471,Organic Chemical,True,True
+8575,uterus,C0042149,"Body Part, Organ, or Organ Component",PRODUCES,pgf2α,C0012471,Organic Chemical,True,True
+8578,granulosa lutein cells,C1135969,Cell,PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+8581,granulosa lutein cells,C1135969,Cell,PRODUCES,inhibin,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8582,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+8586,somatic follicle cells,C1257909,Cell,PRODUCES,estrogen,C0014939,Organic Chemical,True,True
+8587,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",PRODUCES,estradiol,C0014912,Organic Chemical,True,True
+8589,hypothalamic neurons,C0020663,"Body Part, Organ, or Organ Component",PRODUCES,gnrh,C0023610,"Amino Acid, Peptide, or Protein",True,True
+8596,follicles,C0221971,"Body Part, Organ, or Organ Component",PRODUCES,estrogen,C0014939,Organic Chemical,True,True
+8596,follicles,C0221971,"Body Part, Organ, or Organ Component",PRODUCES,inhibin b,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8600,dominant follicle,C0018120,"Body Part, Organ, or Organ Component",PRODUCES,estradiol-17β,C0014939,Organic Chemical,True,True
+8600,dominant follicle,C0018120,"Body Part, Organ, or Organ Component",PRODUCES,inhibin b,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8610,fsh,C0016424,Clinical Drug,CAUSES,atresia,C0243066,Congenital Abnormality,True,True
+8610,follicles,C0221971,"Body Part, Organ, or Organ Component",PRODUCES,inhibin,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8616,oviducts,C0029954,"Body Part, Organ, or Organ Component",TRAVERSES,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+8627,secretory cells,C1519221,Cell,PRODUCES,mucus,C0036537,Body Substance,True,True
+8629,estrogen,C0014939,Organic Chemical,AFFECTS,blood flow,C0005775,Physiologic Function,True,True
+8629,estrogen,C0014939,Organic Chemical,AFFECTS,ciliogenesis,C4329131,Cell Function,True,True
+8629,progesterone,C0033308,Organic Chemical,AFFECTS,function,C0031843,Physiologic Function,True,True
+8631,mucosa,C0026724,Tissue,PART_OF,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+8631,connective tissue,C0009780,Tissue,PART_OF,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+8631,serosa,C0036760,Tissue,PART_OF,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+8631,fundus,C0016823,"Body Part, Organ, or Organ Component",PART_OF,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+8662,implants,C0021102,Medical Device,CAUSES,endometriosis,C0014175,Disease or Syndrome,True,True
+8672,estrogen,C0014939,Organic Chemical,AFFECTS,proliferation,C0334094,Pathologic Function,True,True
+8674,labia majora,C0227760,"Body Part, Organ, or Organ Component",SURROUNDS,external genitalia,C0042993,"Body Part, Organ, or Organ Component",True,True
+8678,androgens,C0002844,Pharmacologic Substance,AFFECTS,libido,C0023618,Mental Process,True,True
+8690,aromatase inhibitors,C0593802,Pharmacologic Substance,TREATS,breast cancer,C0006142,Neoplastic Process,True,True
+8699,estrogen,C0014939,Organic Chemical,AFFECTS,maturation,C0678723,Organism Function,True,True
+8699,estrogen,C0014939,Organic Chemical,AFFECTS,ovulation,C0029965,Organ or Tissue Function,True,True
+8700,progesterone,C0033308,Organic Chemical,AFFECTS,secretion,C0036536,Biologic Function,True,True
+8701,progesterone,C0033308,Organic Chemical,AFFECTS,myometrial contraction,C0042130,Organ or Tissue Function,True,True
+8708,signaling cascade,C2611812,Cell Function,AFFECTS,exocytosis,C0015283,Cell Function,True,True
+8728,hcg,C1141639,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lh receptor,C0034823,"Amino Acid, Peptide, or Protein",True,True
+8729,lh receptors,C0034823,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,hcg,C1141639,"Amino Acid, Peptide, or Protein",True,True
+8760,oxytocin,C0030095,"Amino Acid, Peptide, or Protein",AFFECTS,uterine contractions,C0042130,Organ or Tissue Function,True,True
+8761,prostaglandins,C0033554,Organic Chemical,AFFECTS,uterine motility,C0007608,Cell Function,True,True
+8761,estrogen,C0014939,Organic Chemical,AFFECTS,prostaglandin synthesis,C1157324,Molecular Function,True,True
+8762,stretch,C0600080,Therapeutic or Preventive Procedure,AFFECTS,muscle contraction,C0026820,Physiologic Function,True,True
+8770,breast,C0006141,"Body Part, Organ, or Organ Component",PRODUCES,colostrum,C0009413,Body Substance,True,True
+8770,lobuloalveolar structures,C1517920,Neoplastic Process,PRODUCES,milk,C0026131,Body Substance,True,True
+8786,reproductive systems,C0017420,"Body Part, Organ, or Organ Component",CONSISTS_OF,gonads,C0018067,"Body Part, Organ, or Organ Component",True,True
+8786,reproductive systems,C0017420,"Body Part, Organ, or Organ Component",CONSISTS_OF,external genitalia,C0042993,"Body Part, Organ, or Organ Component",True,True
+8788,gonads,C0018067,"Body Part, Organ, or Organ Component",PRODUCES,hormones,C0019932,Hormone,True,True
+8794,hormones,C0019932,Hormone,AFFECTS,spermatogenesis,C0037864,Cell Function,True,True
+8794,sertoli cells,C0036770,Cell,PRODUCES,hormone inhibin,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8796,sertoli cells,C0036770,Cell,PRODUCES,androgen-binding protein,C0085805,"Amino Acid, Peptide, or Protein",True,True
+8810,follicle,C0018120,"Body Part, Organ, or Organ Component",PART_OF,ovary,C0029939,"Body Part, Organ, or Organ Component",True,True
+8820,estradiol,C0014912,Organic Chemical,AFFECTS,gonadotropin secretion,C1819179,Organ or Tissue Function,True,True
+8820,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",PRODUCES,inhibin,C0021463,"Amino Acid, Peptide, or Protein",True,True
+8824,estrogen,C0014939,Organic Chemical,AFFECTS,transport,C0005528,Cell Function,True,True
+8826,uterine mucosa,C0026724,Tissue,LOCATION_OF,embryonic implantation,C0029976,Organism Function,True,True
+8828,ovary,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,estradiol,C0014912,Organic Chemical,True,True
+8830,ovary,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+8834,cervix,C0007874,"Body Part, Organ, or Organ Component",PART_OF,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+8837,anabolic-androgenic steroid abuse,C0002845,Pharmacologic Substance,AFFECTS,blood pressure,C0005823,Organism Function,True,True
+8849,hormones,C0019932,Hormone,CAUSES,insulin resistance,C0021655,Pathologic Function,True,True
+8851,oxytocin,C0030095,"Amino Acid, Peptide, or Protein",CAUSES,contraction,C1140999,Pathologic Function,True,True
