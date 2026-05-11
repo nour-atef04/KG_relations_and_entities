@@ -1,0 +1,756 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+3,blood,C0005767,Body Substance,CONTAINS,glucose,C0017725,Organic Chemical,False,True
+3,blood,C0005767,Body Substance,CONTAINS,fatty acids,C0015684,Organic Chemical,False,True
+3,blood,C0005767,Body Substance,CONTAINS,ketoacids,C0022618,Organic Chemical,False,True
+3,adipose tissue,C0001527,Tissue,CONTAINS,triglycerides,C0041004,Organic Chemical,False,True
+3,liver,C0023884,"Body Part, Organ, or Organ Component",CONTAINS,glycogen,C0017911,Organic Chemical,False,True
+3,skeletal muscle,C0242692,Tissue,CONTAINS,glycogen,C0017911,Organic Chemical,False,True
+5,skeletal muscle,C0242692,Tissue,CONTAINS,protein,C0033684,"Amino Acid, Peptide, or Protein",False,True
+34,plasma membrane,C0007603,Cell Component,SURROUNDS,cells,C0007634,Cell,False,True
+35,membrane transport proteins,C0596902,"Amino Acid, Peptide, or Protein",PERFORMS,selective transport,C0005529,Physiologic Function,False,True
+36,cell surface antigens,C0003320,Immunologic Factor,PERFORMS,cell recognition,C0678836,Cell Function,False,True
+40,cytoskeleton,C0010853,Cell Component,PHYSICALLY_RELATED_TO,plasma membrane,C0007603,Cell Component,False,True
+40,plasma membrane,C0007603,Cell Component,PERFORMS,transport,C0005528,Cell Function,False,True
+41,plasma membrane,C0007603,Cell Component,CONSISTS_OF,lipid bilayer,C0023768,Cell Component,False,True
+41,plasma membrane,C0007603,Cell Component,CONTAINS,associated proteins,C2350424,"Amino Acid, Peptide, or Protein",False,True
+49,plasma membrane,C0007603,Cell Component,CONTAINS,lipids,C0023779,Organic Chemical,False,True
+55,phosphatidylinositol,C0031676,Organic Chemical,PERFORMS,signal transduction,C0037083,Cell Function,False,True
+56,cholesterol,C0008377,Organic Chemical,PART_OF,bilayer,C0934502,"Body Part, Organ, or Organ Component",False,True
+57,glycolipids,C0017950,Organic Chemical,CONTAINS,fatty acyl chains,C5556757,Organic Chemical,False,True
+62,membrane proteins,C0033684,"Amino Acid, Peptide, or Protein",CONNECTED_TO,intracellular cytoskeleton,C0010853,Cell Component,False,True
+67,glycosylphosphatidylinositol (gpi),C0061688,Chemical Viewed Structurally,CONNECTED_TO,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+68,peripheral proteins,C2936482,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,polar head,C0018670,Body Location or Region,False,True
+83,solute carriers,C4277658,"Amino Acid, Peptide, or Protein",IS_A,membrane transporters,C0596902,"Amino Acid, Peptide, or Protein",False,True
+84,atp-dependent transporters,C0949927,"Amino Acid, Peptide, or Protein",USES,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+85,"na+,k+-atpase",C1149024,Molecular Function,IS_A,p-type atpases,C4505118,"Amino Acid, Peptide, or Protein",False,True
+86,membranes,C0025255,Tissue,LOCATION_OF,v-type h+-atpases,C0379099,"Amino Acid, Peptide, or Protein",False,True
+88,plasma membrane,C0007603,Cell Component,LOCATION_OF,h+-atpase,C0379099,"Amino Acid, Peptide, or Protein",False,True
+89,abc transporters,C0242738,"Amino Acid, Peptide, or Protein",IS_A,membrane transporters,C0596902,"Amino Acid, Peptide, or Protein",False,True
+89,eukaryotic cells,C0015161,Cell,LOCATION_OF,abc transporters,C0242738,"Amino Acid, Peptide, or Protein",False,True
+92,cystic fibrosis transmembrane conductance regulator,C0056889,"Amino Acid, Peptide, or Protein",AFFECTS,membrane transporters,C0596902,"Amino Acid, Peptide, or Protein",False,True
+95,pinocytosis,C0031945,Cell Function,CONSISTS_OF,uptake,C0243144,Physiologic Function,False,True
+98,bacteria,C0004611,Bacterium,INTERACTS_WITH,membrane,C0025255,Tissue,False,True
+100,cytoplasm,C0010834,Cell{ Component,LOCATION_OF,secretory product,C1327616,Cell Function,False,True
+102,receptor,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ligand,C0023688,Chemical,False,True
+103,cholesterol,C0008377,Organic Chemical,PART_OF,cells,C0007634,Cell,False,True
+117,phospholipid portion,C0031676,Organic Chemical,PART_OF,plasma membrane,C0007603,Cell Component,False,True
+117,phospholipid portion,C0031676,Organic Chemical,IS_A,barrier,C1706912,Medical Device,False,True
+134,movement,C0026649,Organism Function,IS_A,passive transport,C0301624,Molecular Function,False,True
+135,movement,C0026649,Organism Function,IS_A,active transport,C0005529,Physiologic Function,False,True
+138,movement,C0026649,Organism Function,USES,osmosis,C0029391,Natural Phenomenon or Process,False,True
+138,osmotic pressure difference,C0029393,Natural Phenomenon or Process,CAUSES,movement,C0026649,Organism Function,False,True
+149,osmotic pressure,C0029393,Natural Phenomenon or Process,MEASUREMENT_OF,mm hg,C0025424,Hazardous or Poisonous Substance,False,True
+149,osmotic pressure,C0029393,Natural Phenomenon or Process,MEASUREMENT_OF,osmolarity,C0029387,Clinical Attribute,False,True
+192,homeostasis,C0019868,Biologic Function,OCCURS_IN,steady-state balance,C0678587,Natural Phenomenon or Process,False,True
+202,sensor,C0183210,Medical Device,AFFECTS,sensitivity,C0020517,Pathologic Function,False,True
+214,water balance,C0014653,Organism Function,AFFECTS,body fluids,C0005889,Body Substance,False,True
+221,water,C0043047,Pharmacologic Substance,PART_OF,body’s weight,C0005910,Organism Attribute,False,True
+225,interstitial fluid,C0162367,Body Substance,PART_OF,ecf,C0247098,Therapeutic or Preventive Procedure,False,True
+225,plasma,C0032105,Body Substance,PART_OF,ecf,C0247098,Therapeutic or Preventive Procedure,False,True
+225,interstitial fluid,C0162367,Body Substance,SURROUNDS,cells,C0007634,Cell,False,True
+228,ascites,C0003962,Disease or Syndrome,LOCATION_OF,peritoneal cavity,C1704247,Body Space or Junction,False,True
+233,osmotic pressure difference,C0029393,Natural Phenomenon or Process,CAUSES,water movement,C0043052,Natural Phenomenon or Process,False,True
+234,fenestrations,C0015825,Therapeutic or Preventive Procedure,PART_OF,capillary wall,C0006901,"Body Part, Organ, or Organ Component",False,True
+234,endothelial cells,C0225336,Cell,PERFORMS,pinocytosis,C0031945,Cell Function,False,True
+240,water,C0043047,Pharmacologic Substance,BRINGS_ABOUT,osmotic equilibrium,C0014653,Organism Function,False,True
+247,cerebrospinal fluid,C0007806,Body Substance,PART_OF,ecf,C0247098,Therapeutic or Preventive Procedure,False,True
+276,plasma membrane,C0007603,Cell Component,LOCATION_OF,transporters,C0596902,"Amino Acid, Peptide, or Protein",False,True
+280,"na+,k+-atpase",C1149024,Molecular Function,USES,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+282,na+–amino acid symporters,C0598849,"Amino Acid, Peptide, or Protein",USES,na+,C0597484,"Element, Ion, or Isotope",False,True
+303,k+,C0597277,Pharmacologic Substance,AFFECTS,vm,C5202956,Organic Chemical,False,True
+308,conductance,C0814024,Organ or Tissue Function,PRODUCES,action potentials,C0001272,Cell Function,False,True
+321,cardiac glycosides,C0007158,Organic Chemical,DISRUPTS,"na+,k+-atpase",C1149024,Molecular Function,False,True
+321,ouabain,C0029904,Organic Chemical,DISRUPTS,"na+,k+-atpase",C1149024,Molecular Function,False,True
+321,digoxin,C0012265,Organic Chemical,DISRUPTS,"na+,k+-atpase",C1149024,Molecular Function,False,True
+321,lanoxin,C0699988,Organic Chemical,DISRUPTS,"na+,k+-atpase",C1149024,Molecular Function,False,True
+338,sheets,C0183235,Medical Device,CONTAINS,epithelial cells,C0014597,Cell,False,True
+339,epithelial cells,C0014597,Cell,PRODUCES,basal lamina,C0085872,Tissue,False,True
+339,basal lamina,C0085872,Tissue,CONNECTED_TO,connective tissue,C0009780,Tissue,False,True
+340,epithelial cells,C0014597,Cell,CONNECTED_TO,connective tissue,C0009780,Tissue,False,True
+342,gap junctions,C0206117,Body Space or Junction,CONNECTED_TO,cells,C0007634,Cell,False,True
+345,membrane protein subunits,C0599220,"Amino Acid, Peptide, or Protein",IS_A,connexins,C0110611,"Amino Acid, Peptide, or Protein",False,True
+354,stereocilia,C0230626,Cell Component,AFFECTS,apical membrane,C0596119,Cell Component,False,True
+358,nonmotile cilia,C4328979,Cell Component,AFFECTS,organs,C0178784,"Body Part, Organ, or Organ Component",False,True
+358,nonmotile cilia,C4328979,Cell Component,AFFECTS,nephron,C0027713,"Body Part, Organ, or Organ Component",False,True
+359,tight junction,C0242358,Body Space or Junction,AFFECTS,plasma membrane,C0007603,Cell Component,False,True
+359,invaginations,C0221224,Anatomical Abnormality,AFFECTS,membrane surface area,C0061622,Cell Component,False,True
+361,membrane transport proteins,C0596902,"Amino Acid, Peptide, or Protein",LOCATION_OF,membrane domains,C0887868,Cell Component,False,True
+362,"na+,k+-atpase",C1149024,Molecular Function,LOCATION_OF,basolateral membrane,C0596156,Cell Component,False,True
+362,k+ channels,C0814023,"Amino Acid, Peptide, or Protein",LOCATION_OF,basolateral membrane,C0596156,Cell Component,False,True
+364,choroid plexus,C0008524,"Body Part, Organ, or Organ Component",LOCATION_OF,ventricles,C0018827,"Body Part, Organ, or Organ Component",False,True
+370,paracellular pathway,C2936269,Cell Function,CONTAINS,solute transport,C0005528,Cell Function,False,True
+372,transcellular transport processes,C0597601,Cell Function,PRODUCES,transepithelial chemical,C2753390,Cell Function,False,True
+373,paracellular pathway,C2936269,Cell Function,CONTAINS,cl− reabsorption,C2610986,Physiologic Function,False,True
+378,solutes,C0597488,Chemical Viewed Structurally,TRAVERSES,tight junction,C0242358,Body Space or Junction,False,True
+379,epithelial cells,C0014597,Cell,PERFORMS,transcellular transport of solutes,,Cell Function,False,True
+383,transport,C0005528,Cell Function,CAUSES,nacl reabsorption,C2610986,Physiologic Function,False,True
+385,enteric nervous system,C0206111,Body System,MANAGES,water transport,C1159571,Cell Function,False,True
+385,enteric nervous system,C0206111,Body System,MANAGES,solute,C0597488,Chemical Viewed Structurally,False,True
+385,sympathetic nervous system,C0039044,Body System,MANAGES,transport,C0005528,Cell Function,False,True
+388,synthesis,C0220781,Biologic Function,PRODUCES,transporters,C0596902,"Amino Acid, Peptide, or Protein",False,True
+392,water transport,C1159571,Cell Function,OCCURS_IN,cell membranes,C0007603,Cell Component,False,True
+410,aspirin,C0004057,Organic Chemical,INHIBITS,cyclooxygenase-1,C0389003,"Amino Acid, Peptide, or Protein",False,True
+410,aspirin,C0004057,Organic Chemical,INHIBITS,cyclooxygenase-2,C0387583,"Amino Acid, Peptide, or Protein",False,True
+411,β1-agonists,C0682770,Pharmacologic Substance,AFFECTS,heart rate,C0018810,Clinical Attribute,False,True
+411,β2-agonists,,,TREATS,asthma,C0004096,Disease or Syndrome,False,True
+411,β2-agonists,,,TREATS,chronic obstructive lung disease,C0024117,Disease or Syndrome,False,True
+413,fluoxetine,C0016365,Organic Chemical,INHIBITS,reuptake,C0599702,Cell Function,False,True
+413,fluoxetine,C0016365,Organic Chemical,IS_A,antidepressant,C0003289,Pharmacologic Substance,False,True
+414,monoclonal antibodies,C0003250,"Amino Acid, Peptide, or Protein",TREATS,cancer,C0006826,Neoplastic Process,False,True
+414,trastuzumab,C0728747,"Amino Acid, Peptide, or Protein",TREATS,metastatic breast cancer,C0278488,Neoplastic Process,False,True
+414,antibodies,C0003250,"Amino Acid, Peptide, or Protein",INHIBITS,egf receptor,C0034802,"Amino Acid, Peptide, or Protein",False,True
+414,cetuximab,C0995188,"Amino Acid, Peptide, or Protein",TREATS,metastatic colorectal cancer,C4721579,Neoplastic Process,False,True
+414,cetuximab,C0995188,"Amino Acid, Peptide, or Protein",TREATS,cancers of the head and neck,C0006826,Neoplastic Process,False,True
+414,bevacizumab,C0796392,"Amino Acid, Peptide, or Protein",TREATS,metastatic colorectal cancer,C4721579,Neoplastic Process,False,True
+414,bevacizumab,C0796392,"Amino Acid, Peptide, or Protein",TREATS,cancers of the head and neck,C0006826,Neoplastic Process,False,True
+415,drugs,C0013227,Pharmacologic Substance,INHIBITS,cyclic guanosine monophosphate (cgmp)–specific phosphodiesterase type 5,C0018338,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+415,sildenafil,C0529793,Organic Chemical,TREATS,erectile dysfunction,C0242350,Disease or Syndrome,False,True
+415,sildenafil,C0529793,Organic Chemical,TREATS,pulmonary arterial hypertension,C2973725,Disease or Syndrome,False,True
+415,tadalafil,C1176316,Organic Chemical,TREATS,erectile dysfunction,C0242350,Disease or Syndrome,False,True
+415,tadalafil,C1176316,Organic Chemical,TREATS,pulmonary arterial hypertension,C2973725,Disease or Syndrome,False,True
+415,vardenafil,C0971579,Organic Chemical,TREATS,erectile dysfunction,C0242350,Disease or Syndrome,False,True
+415,vardenafil,C0971579,Organic Chemical,TREATS,pulmonary arterial hypertension,C2973725,Disease or Syndrome,False,True
+418,extracellular signaling molecules,C1519315,Biologically Active Substance,INTERACTS_WITH,receptor proteins,C0597357,"Amino Acid, Peptide, or Protein",False,True
+420,plasma membrane,C0007603,Cell Component,LOCATION_OF,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+423,signaling molecule,C1519315,Biologically Active Substance,INTERACTS_WITH,plasma membrane receptor,C0007603,Cell Component,False,True
+429,blood,C0005767,Body Substance,LOCATION_OF,hormone,C0019932,Hormone,False,True
+429,endocrine signals,C3159084,Cell Function,IS_A,hormone,C0019932,Hormone,False,True
+436,endocrine signaling,C3159084,Cell Function,IS_A,cell-to-cell communication,C0007582,Cell Function,False,True
+445,subunits activate,C1566647,"Amino Acid, Peptide, or Protein",ACTIVATES,ion channels,C0022009,"Amino Acid, Peptide, or Protein",False,True
+445,subunit,C0599220,"Amino Acid, Peptide, or Protein",ACTIVATES,enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+446,phospholipases,C0031671,"Amino Acid, Peptide, or Protein",PRODUCES,insp3,C1442756,Gene or Genome,False,True
+446,phospholipases,C0031671,"Amino Acid, Peptide, or Protein",PRODUCES,arachidonic acid,C0003695,Organic Chemical,False,True
+446,phospholipases,C0031671,"Amino Acid, Peptide, or Protein",PRODUCES,diacylglycerol,C0043791,Organic Chemical,False,True
+450,signaling molecules,C1519315,Biologically Active Substance,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+450,receptors,C0597357,"Amino Acid, Peptide, or Protein",PERFORMS,signal transducers,C3658238,Biologically Active Substance,False,True
+450,ligand-receptor binding event,C0597358,Molecular Function,PRODUCES,intracellular signals,C0037083,Cell Function,False,True
+453,neurotransmitters,C0027908,Biologically Active Substance,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+470,srebp,C1566548,"Amino Acid, Peptide, or Protein",PERFORMS,rip,C0297981,"Amino Acid, Peptide, or Protein",False,True
+470,srebp,C1566548,"Amino Acid, Peptide, or Protein",AFFECTS,genes,C0017337,Gene or Genome,False,True
+471,hormones,C0019932,Hormone,INTERACTS_WITH,plasma membrane receptors,C0007603,Cell Component,False,True
+473,thyroid hormone receptor,C0034843,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,inhibitory protein,C1415142,Gene or Genome,False,True
+474,adenylyl cyclase,C0001492,"Amino Acid, Peptide, or Protein",PRODUCES,camp,C0001455,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+475,desensitization,C0178702,Therapeutic or Preventive Procedure,AFFECTS,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+477,ryanodine receptor,C0054493,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,caffeine,C0006644,Organic Chemical,False,True
+477,ryanodine receptor,C0054493,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+477,n-methyl-d-aspartate receptor,C0080093,"Amino Acid, Peptide, or Protein",AFFECTS,ca++,C0006675,Pharmacologic Substance,False,True
+478,gtp binding,C1149035,Molecular Function,AFFECTS,gtp-binding proteins,C0086376,"Amino Acid, Peptide, or Protein",False,True
+478,gtpase-activating proteins,C0061928,"Amino Acid, Peptide, or Protein",AFFECTS,gtpase,C0018296,"Amino Acid, Peptide, or Protein",False,True
+478,guanine nucleotide exchange factors,C0120465,"Amino Acid, Peptide, or Protein",AFFECTS,gtpase,C0018296,"Amino Acid, Peptide, or Protein",False,True
+482,hydrolysis,C0020291,Natural Phenomenon or Process,AFFECTS,gtp-binding proteins,C0086376,"Amino Acid, Peptide, or Protein",False,True
+486,g proteins,C0086376,"Amino Acid, Peptide, or Protein",PART_OF,heterotrimeric complex,C1167216,Cell Component,False,True
+488,plasma membrane,C0007603,Cell Component,LOCATION_OF,receptor,C0597357,"Amino Acid, Peptide, or Protein",False,True
+488,β-arrestins,,Protein,INTERACTS_WITH,gpcr,C0682972,"Amino Acid, Peptide, or Protein",False,True
+490,plasma membrane,C0007603,Cell Component,LOCATION_OF,gpcr,C0682972,"Amino Acid, Peptide, or Protein",False,True
+497,heterotrimeric g proteins,C0752348,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,phototransduction,C0376451,Cell Function,False,True
+497,αt subunit,C0599220,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cgmp phosphodiesterase,C1323606,Molecular Function,False,True
+498,heterotrimeric g proteins,C0752348,"Amino Acid, Peptide, or Protein",AFFECTS,phospholipases,C0031671,"Amino Acid, Peptide, or Protein",False,True
+498,diacylglycerol,C0043791,Organic Chemical,ACTIVATES,protein kinase c,C0033634,"Amino Acid, Peptide, or Protein",False,True
+499,ligand binding,C1517880,Molecular Function,ACTIVATES,phospholipase a2,C0031667,"Amino Acid, Peptide, or Protein",False,True
+499,phospholipase a2,C0031667,"Amino Acid, Peptide, or Protein",RELEASES,arachidonic acid,C0003695,Organic Chemical,False,True
+499,cytosolic cyclooxygenases,C0033551,"Amino Acid, Peptide, or Protein",PRODUCES,prostaglandins,C0033554,Organic Chemical,False,True
+499,cytosolic cyclooxygenases,C0033551,"Amino Acid, Peptide, or Protein",PRODUCES,thromboxanes,C0040061,Organic Chemical,False,True
+499,thromboxanes,C0040061,Organic Chemical,INDUCES,platelet aggregation,C0032176,Cell Function,False,True
+499,prostacyclin,C0033567,Organic Chemical,INHIBITS,platelet aggregation,C0032176,Cell Function,False,True
+500,cam,C0007578,"Amino Acid, Peptide, or Protein",REGULATES,camp phosphodiesterase,C0000359,"Amino Acid, Peptide, or Protein",False,True
+500,myosin light-chain kinase,C0027120,"Amino Acid, Peptide, or Protein",FACILITATES,smooth muscle contraction,C1155937,Organ or Tissue Function,False,True
+501,protein phosphatases,C0031686,"Amino Acid, Peptide, or Protein",INHIBITS,cyclic nucleotide kinases,C0206761,"Amino Acid, Peptide, or Protein",False,True
+504,prostacyclins,C0205911,Organic Chemical,INHIBITS,blood clots,C0087086,Pathologic Function,False,True
+505,cox2 inhibitors,C1257954,Organic Chemical,INCREASES_RISK_OF,heart attacks,C0027051,Disease or Syndrome,False,True
+505,cox2 inhibitors,C1257954,Organic Chemical,INCREASES_RISK_OF,strokes,C0038454,Disease or Syndrome,False,True
+508,anp,C0027481,"Amino Acid, Peptide, or Protein",CAUSES,conformational change,C0301641,Molecular Function,False,True
+508,conformational change,C0301641,Molecular Function,CAUSES,receptor dimerization,C0376525,Natural Phenomenon or Process,False,True
+508,guanylyl cyclase,C0018358,"Amino Acid, Peptide, or Protein",PRODUCES,cgmp,C0018338,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+508,anp,C0027481,"Amino Acid, Peptide, or Protein",INHIBITS,reabsorption of sodium,C2610987,Physiologic Function,False,True
+508,anp,C0027481,"Amino Acid, Peptide, or Protein",INHIBITS,water,C0043047,Pharmacologic Substance,False,True
+509,soluble receptor guanylyl cyclase,C1097411,"Amino Acid, Peptide, or Protein",PRODUCES,cgmp,C0018338,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+510,mutations,C0026882,Genetic Function,CAUSES,cancer,C0006826,Neoplastic Process,False,True
+511,nitric oxide,C0028128,Pharmacologic Substance,PRODUCES,cgmp,C0018338,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+519,transcription factors,C0040648,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+523,nuclear receptors,C0206588,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dna sequences,C0162326,Nucleotide Sequence,False,True
+523,glucocorticoids,C0017710,Organic Chemical,DISRUPTS,transcription activator protein-1,C1336776,"Amino Acid, Peptide, or Protein",False,True
+525,camp,C0001455,"Nucleic Acid, Nucleoside, or Nucleotide",AFFECTS,pka,C0010531,"Amino Acid, Peptide, or Protein",False,True
+525,pka,C0010531,"Amino Acid, Peptide, or Protein",AFFECTS,creb,C0056695,"Amino Acid, Peptide, or Protein",False,True
+527,growth factors,C0018284,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,enzyme-linked receptors,C1155360,Molecular Function,False,True
+527,tyrosine kinases,C0033681,"Amino Acid, Peptide, or Protein",AFFECTS,map kinase,C0752312,"Amino Acid, Peptide, or Protein",False,True
+568,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",CONSISTS_OF,brain,C0006104,"Body Part, Organ, or Organ Component",False,True
+568,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",CONSISTS_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",False,True
+568,peripheral nervous system,C0206417,Body System,CONSISTS_OF,nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+568,peripheral nervous system,C0206417,Body System,CONSISTS_OF,ganglia,C0017067,"Body Part, Organ, or Organ Component",False,True
+570,neuron,C0027882,Cell,PRODUCES,signals,C0037083,Cell Function,False,True
+575,cell body,C0599444,Cell Component,CONTAINS,nucleus,C0007610,Cell Component,False,True
+575,cell body,C0599444,Cell Component,CONTAINS,nucleolus,C0007609,Cell Component,False,True
+575,cell body,C0599444,Cell Component,CONTAINS,biosynthetic apparatus,C0220781,Biologic Function,False,True
+575,biosynthetic apparatus,C0220781,Biologic Function,CONTAINS,nissl bodies,C0028117,Cell Component,False,True
+590,organelles,C0029219,Cell Component,CONNECTED_TO,microtubules,C0026046,Cell Component,False,True
+593,glia,C0027836,Cell,PART_OF,nervous system,C0027763,Body System,False,True
+595,schwann cells,C0036387,Cell,IS_A,glial cells,C0027836,Cell,False,True
+595,glial cells,C0027836,Cell,AFFECTS,synaptic transmission,C0027793,Cell Function,False,True
+596,astrocytes,C0004112,Cell,CONNECTED_TO,neurons,C0027882,Cell,False,True
+596,astrocytes,C0004112,Cell,SURROUNDS,synaptic endings,C0206181,Cell Component,False,True
+596,astrocytes,C0004112,Cell,CONNECTED_TO,capillaries,C0006901,"Body Part, Organ, or Organ Component",False,True
+597,cytoplasm,C0010834,Cell Component,CONTAINS,glial filaments,C0017626,"Amino Acid, Peptide, or Protein",False,True
+597,glial scar,C1262048,Acquired Abnormality,AFFECTS,damaged tissue,C0040300,Tissue,False,True
+598,oligodendrocytes,C0028944,Cell,AFFECTS,axons,C0004461,Cell Component,False,True
+598,schwann cells,C0036387,Cell,AFFECTS,axons,C0004461,Cell Component,False,True
+599,myelin,C0026969,Tissue,AFFECTS,speed,C0002658,Organic Chemical,False,True
+603,schwann cells,C0036387,Cell,SURROUNDS,axons,C0004461,Cell Component,False,True
+605,satellite cells,C0205868,Cell,SURROUNDS,dorsal root,C0205955,"Body Part, Organ, or Organ Component",False,True
+605,satellite cells,C0205868,Cell,SURROUNDS,cranial nerve ganglion cells,C0228071,Cell,False,True
+606,microglia,C0206116,Cell,AFFECTS,cellular products,C0033712,"Amino Acid, Peptide, or Protein",False,True
+610,peripheral nervous system,C0206417,Body System,CONTAINS,primary afferent,C0682680,Cell Component,False,True
+611,receptor,C0597357,"Amino Acid, Peptide, or Protein",PART_OF,sensory pathways,C0682651,"Body Part, Organ, or Organ Component",False,True
+611,receptor,C0597357,"Amino Acid, Peptide, or Protein",PART_OF,axon,C0004461,Cell Component,False,True
+611,sensory receptor,C0034837,Cell Component,PRODUCES,electrical signal,C0013790,Natural Phenomenon or Process,False,True
+612,transduction process,C1160185,Organism Function,PRODUCES,electrical response,C1658783,Organism Function,False,True
+612,action potentials,C0001272,Cell Function,CONTAINS,sensory stimulus,C0683184,Organ or Tissue Function,False,True
+613,somatic motor neurons,C0026609,Cell,AFFECTS,skeletal muscles,C0242692,Tissue,False,True
+613,ventral horn,C0003154,Cell,LOCATION_OF,cell bodies,C0599444,Cell Component,False,True
+618,gray matter,C0018220,Tissue,LOCATION_OF,axons,C0004461,Cell Component,False,True
+621,bundles,C3658308,Therapeutic or Preventive Procedure,CONTAINS,axons,C0004461,Cell Component,False,True
+621,tracts,C1185740,"Body Part, Organ, or Organ Component",CONTAINS,axons,C0004461,Cell Component,False,True
+622,nucleus,C0007610,Cell Component,CONSISTS_OF,neurons,C0027882,Cell,False,True
+622,cortex,C0001614,Disease or Syndrome,CONSISTS_OF,neurons,C0027882,Cell,False,True
+630,white matter,C0682708,Tissue,CONSISTS_OF,tracts,C1185740,"Body Part, Organ, or Organ Component",False,True
+634,brainstem,C0006121,"Body Part, Organ, or Organ Component",CONTAINS,nuclei,C0007610,Cell Component,False,True
+634,brainstem,C0006121,"Body Part, Organ, or Organ Component",CONTAINS,pathways,C1704259,Molecular Function,False,True
+648,csf,C0007806,Body Substance,TRAVERSES,subarachnoid space,C0038527,Body Space or Junction,False,True
+648,lumbar cistern,C2332170,Body Space or Junction,SURROUNDS,sacral spinal roots,C0581672,"Body Part, Organ, or Organ Component",False,True
+658,capillary endothelial cells,C1180238,Cell,PART_OF,blood-brain barrier,C0392148,Therapeutic or Preventive Procedure,False,True
+658,tight junctions,C0242358,Body Space or Junction,PART_OF,blood-brain barrier,C0392148,Therapeutic or Preventive Procedure,False,True
+660,injury,C3263722,Injury or Poisoning,CAUSES,cell death,C0007587,Cell Function,False,True
+663,hippocampus,C0019564,"Body Part, Organ, or Organ Component",EXHIBITS,neurogenesis,C0814002,Organism Function,False,True
+669,schwann cells,C0036387,Cell,PERFORMS,cell division,C0007590,Cell Function,False,True
+674,growth cones,C0596632,Cell Component,TRAVERSES,schwann cells,C0036387,Cell,False,True
+677,astrocytes,C0004112,Cell,PERFORMS,glial scar,C1262048,Acquired Abnormality,False,True
+679,nervous system,C0027763,Body System,FUNCTIONALLY_RELATED_TO,excitability,C0235169,Sign or Symptom,False,True
+679,nervous system,C0027763,Body System,FUNCTIONALLY_RELATED_TO,sensory detection,C1327494,Physiologic Function,False,True
+679,nervous system,C0027763,Body System,FUNCTIONALLY_RELATED_TO,behavior,C0004927,Behavior,False,True
+683,neuron,C0027882,Cell,PART_OF,nervous system,C0027763,Body System,False,True
+683,axon,C0004461,Cell Component,CARRIES_OUT,signals,C0037083,Cell Function,False,True
+685,pns,C0206417,Body System,CONTAINS,primary afferent neurons,C0027882,Cell,False,True
+685,pns,C0206417,Body System,CONTAINS,sensory receptors,C0034837,Cell Component,False,True
+685,pns,C0206417,Body System,CONTAINS,axons,C0004461,Cell Component,False,True
+685,pns,C0206417,Body System,CONTAINS,autonomic neurons,C0259749,Disease or Syndrome,False,True
+689,ion channel,C0022009,"Amino Acid, Peptide, or Protein",PART_OF,cell membrane,C0007603,Cell Component,False,True
+691,interoceptors,C0682650,Cell Component,IS_A,sensory receptors,C0034837,Cell Component,False,True
+691,proprioceptors,C0682649,Cell,IS_A,sensory receptors,C0034837,Cell Component,False,True
+691,environmental events,C0456156,Natural Phenomenon or Process,AFFECTS,sensory receptors,C0034837,Cell Component,False,True
+691,environmental events,C0456156,Natural Phenomenon or Process,PRODUCES,responses,C0871261,Organism Attribute,False,True
+695,axons,C0004461,Cell Component,LOCATION_OF,chemical substances,C0220806,Chemical,False,True
+697,astrocytes,C0004112,Cell,IS_A,glial cells,C0027836,Cell,False,True
+697,oligodendroglia,C0028944,Cell,IS_A,glial cells,C0027836,Cell,False,True
+697,ependymal cells,C0228092,Cell,IS_A,glial cells,C0027836,Cell,False,True
+697,microglia,C0206116,Cell,IS_A,cns macrophages,C0024432,Cell,False,True
+697,oligodendroglia,C0028944,Cell,PRODUCES,cns myelin,C0026969,Tissue,False,True
+697,schwann cells,C0036387,Cell,PRODUCES,myelin,C0026969,Tissue,False,True
+701,csf,C0007806,Body Substance,MANAGES,extracellular fluid,C0015349,Body Substance,False,True
+701,blood-brain barrier,C0005854,"Body Part, Organ, or Organ Component",MANAGES,extracellular fluid,C0015349,Body Substance,False,True
+701,astrocytes,C0004112,Cell,MANAGES,extracellular fluid,C0015349,Body Substance,False,True
+703,damage,C0010957,Injury or Poisoning,CAUSES,axonal reaction,C0035354,Cell or Molecular Dysfunction,False,True
+703,damage,C0010957,Injury or Poisoning,CAUSES,wallerian degeneration,C0043020,Cell or Molecular Dysfunction,False,True
+724,voltage-dependent ion channels,C1506024,"Amino Acid, Peptide, or Protein",PRODUCES,action potentials,C0001272,Cell Function,False,True
+725,microelectrode,C0025973,Medical Device,CONNECTED_TO,plasma membrane,C0007603,Cell Component,False,True
+726,neurons,C0027882,Cell,AFFECTS,membrane potential,C0025255,Tissue,False,True
+739,axon,C0004461,Cell Component,AFFECTS,membrane,C0025255,Tissue,False,True
+753,pulses,C0034107,Health Care Activity,CAUSES,depolarizations,C3714805,Cell Function,False,True
+757,pulse,C0034107,Health Care Activity,AFFECTS,local responses,C0871261,Organism Attribute,False,True
+760,action potential,C0001272,Cell Function,OCCURS_IN,axon,C0004461,Cell Component,False,True
+760,action potential,C0001272,Cell Function,IS_A,response,C0871261,Organism Attribute,False,True
+763,axonic action potential,C0001272,Cell Function,RESULT_OF,sequence,C0004793,Nucleotide Sequence,False,True
+764,action potential,C0001272,Cell Function,RESULT_OF,gna,C1366550,Gene or Genome,False,True
+769,voltage-gated na+ channel,C3494197,"Amino Acid, Peptide, or Protein",CONTAINS,α subunit,C0599220,"Amino Acid, Peptide, or Protein",False,True
+769,voltage-gated na+ channel,C3494197,"Amino Acid, Peptide, or Protein",CONTAINS,β subunit,C0599220,"Amino Acid, Peptide, or Protein",False,True
+769,transmembrane helices,C1017315,Eukaryote,SURROUNDS,pore,C1325742,Cell Component,False,True
+769,motif,C1514562,Amino Acid Sequence,PART_OF,α subunit,C0599220,"Amino Acid, Peptide, or Protein",False,True
+773,voltage-gated na+ channel,C3494197,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,action potential,C0001272,Cell Function,False,True
+778,depolarization,C3714805,Cell Function,AFFECTS,activation gate,C0009170,Organic Chemical,False,True
+778,depolarization,C3714805,Cell Function,AFFECTS,inactivation gate,C1742831,Organic Chemical,False,True
+780,action potential,C0001272,Cell Function,AFFECTS,gna,C1366550,Gene or Genome,False,True
+782,repolarization,C3268904,Cell Function,AFFECTS,inactivation gate,C1742831,Organic Chemical,False,True
+787,membrane depolarization,C1816453,Cell Function,CAUSES,action potential,C0001272,Cell Function,False,True
+795,neurons,C0027882,Cell,PRODUCES,action potentials,C0001272,Cell Function,False,True
+798,depolarization,C3714805,Cell Function,CAUSES,action potential,C0001272,Cell Function,False,True
+801,gate,C1742831,Organic Chemical,CAUSES,propagation,C4236672,Cell Function,False,True
+802,electrical properties,C0013790,Natural Phenomenon or Process,AFFECTS,speed,C0002658,Organic Chemical,False,True
+808,myelin,C0026969,Tissue,CONSISTS_OF,plasma membranes,C0007603,Cell Component,False,True
+809,myelin sheath,C0026973,Cell Component,CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+815,layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,myelin sheath,C0026973,Cell Component,False,True
+816,action potential,C0001272,Cell Function,LOCATION_OF,node,C0746922,"Body Part, Organ, or Organ Component",False,True
+826,environmental events,C0456156,Natural Phenomenon or Process,CAUSES,sensory transduction,C0683184,Organ or Tissue Function,False,True
+831,chemical stimulant,C0038337,Molecular Function,AFFECTS,ion channel,C0022009,"Amino Acid, Peptide, or Protein",False,True
+831,ion channel,C0022009,"Amino Acid, Peptide, or Protein",PRODUCES,influx,C2752294,Cell Function,False,True
+849,action potentials,C0001272,Cell Function,CAUSES,release,C0030685,Health Care Activity,False,True
+849,action potentials,C0001272,Cell Function,CARRIES_OUT,signals,C0037083,Cell Function,False,True
+856,sensory modality,C1327513,Organ or Tissue Function,IS_A,sensation,C0036658,Organ or Tissue Function,False,True
+856,mechanical stimuli,C0810556,Medical Device,PRODUCES,sensations,C0036658,Organ or Tissue Function,False,True
+856,mechanical stimulation,C1285354,Therapeutic or Preventive Procedure,PRODUCES,visual sensation,C0036658,Organ or Tissue Function,False,True
+856,electrical stimulation,C0013786,Therapeutic or Preventive Procedure,PRODUCES,visual sensation,C0036658,Organ or Tissue Function,False,True
+856,neurons,C0027882,Cell,PRODUCES,visual sensation,C0036658,Organ or Tissue Function,False,True
+856,visual pathway,C0042829,"Body Part, Organ, or Organ Component",CONTAINS,photoreceptors,,Cell,False,True
+856,visual pathway,C0042829,"Body Part, Organ, or Organ Component",CONTAINS,neurons,C0027882,Cell,False,True
+856,visual pathway,C0042829,"Body Part, Organ, or Organ Component",CONTAINS,lateral geniculate nucleus,C0086526,"Body Part, Organ, or Organ Component",False,True
+856,visual pathway,C0042829,"Body Part, Organ, or Organ Component",CONTAINS,visual areas,C0007776,"Body Part, Organ, or Organ Component",False,True
+863,receptors,C0597357,"Amino Acid, Peptide, or Protein",PRODUCES,repetitive discharge,C0012621,Body Substance,False,True
+863,receptors,C0597357,"Amino Acid, Peptide, or Protein",PRODUCES,spikes,C3689447,Medical Device,False,True
+866,ion channels,C0022009,"Amino Acid, Peptide, or Protein",IS_A,integral membrane proteins,C0021699,"Amino Acid, Peptide, or Protein",False,True
+870,voltage-dependent na+ channels,C1506024,"Amino Acid, Peptide, or Protein",PRODUCES,action potential,C0001272,Cell Function,False,True
+870,voltage-dependent k+ channels,C1506024,"Amino Acid, Peptide, or Protein",PRODUCES,action potential,C0001272,Cell Function,False,True
+874,signals,C0037083,Cell Function,LOCATION_OF,cell,C0007634,Cell,False,True
+880,myelin,C0026969,Tissue,AFFECTS,membrane resistance,C1514892,Physiologic Function,False,True
+880,myelin,C0026969,Tissue,AFFECTS,membrane capacitance,,Physiologic Function,False,True
+913,electrical synapse,C1179884,Cell Component,CONNECTED_TO,neurons,C0027882,Cell,False,True
+913,glia,C0027836,Cell,PART_OF,synapse,C0039062,Body Space or Junction,False,True
+922,neuromuscular junction,C0027869,Cell Component,LOCATION_OF,acetylcholine,C0001041,Organic Chemical,False,True
+922,synapses,C0039062,Body Space or Junction,LOCATION_OF,acetylcholine,C0001041,Organic Chemical,False,True
+926,mitochondria,C0026237,Cell Component,LOCATION_OF,presynaptic terminal,C3546722,Cell Component,False,True
+926,rough endoplasmic reticulum,C0014239,Cell Component,LOCATION_OF,presynaptic terminal,C3546722,Cell Component,False,True
+927,chemical synapses,C1179882,Body Space or Junction,CONNECTED_TO,neurons,C0027882,Cell,False,True
+927,axon,C0004461,Cell Component,CONNECTED_TO,dendrites,C0011305,Cell Component,False,True
+927,axon,C0004461,Cell Component,CONNECTED_TO,soma,C0599444,Cell Component,False,True
+927,axodendritic,C1180001,Body Space or Junction,IS_A,synapse,C0039062,Body Space or Junction,False,True
+927,axosomatic synapse,C1180004,Body Space or Junction,IS_A,synapse,C0039062,Body Space or Junction,False,True
+927,axoaxonic synapse,C1180003,Body Space or Junction,IS_A,synapse,C0039062,Body Space or Junction,False,True
+928,glomerulus,C0022663,"Body Part, Organ, or Organ Component",CONTAINS,chemical synapse,C1179882,Body Space or Junction,False,True
+928,glomerulus,C0022663,"Body Part, Organ, or Organ Component",CONTAINS,electrical synapse,C1179884,Cell Component,False,True
+929,frog neuromuscular junction,C0027869,Cell Component,IS_A,synapse,C0039062,Body Space or Junction,False,True
+929,motor neuron,C0026609,Cell,CONNECTED_TO,muscle fiber,C0242697,Cell,False,True
+931,vesicles,C0333262,Anatomical Abnormality,CONTAINS,neurotransmitter,C0027908,Biologically Active Substance,False,True
+931,neurotransmitter,C0027908,Biologically Active Substance,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+935,calcium entry,C0006675,Pharmacologic Substance,CAUSES,transmitter release,C0598964,Cell Function,False,True
+936,ca++,C0006675,Pharmacologic Substance,CAUSES,release,C0030685,Health Care Activity,False,True
+936,repolarization,C3268904,Cell Function,CAUSES,ca++,C0006675,Pharmacologic Substance,False,True
+936,high membrane permeability,C0007605,Cell Function,CAUSES,release,C0030685,Health Care Activity,False,True
+943,neurotransmitter,C0027908,Biologically Active Substance,INTERACTS_WITH,postsynaptic receptors,C0206129,"Amino Acid, Peptide, or Protein",False,True
+944,vesicles,C0333262,Anatomical Abnormality,LOCATION_OF,neurotransmitter,C0027908,Biologically Active Substance,False,True
+956,ion channel,C0022009,"Amino Acid, Peptide, or Protein",PART_OF,receptor,C0597357,"Amino Acid, Peptide, or Protein",False,True
+969,epsps,C1419333,Gene or Genome,CAUSES,depolarization,C3714805,Cell Function,False,True
+971,synapse,C0039062,Body Space or Junction,CAUSES,synaptic currents,C2350340,Organ or Tissue Function,False,True
+978,axon 1,C0004461,Cell Component,PRODUCES,epsp,C0524913,Organ or Tissue Function,False,True
+978,axon 3,C0004461,Cell Component,PRODUCES,epsp,C0524913,Organ or Tissue Function,False,True
+981,action potentials,C0001272,Cell Function,PRODUCES,epsps,C1419333,Gene or Genome,False,True
+982,cell membrane,C0007603,Cell Component,CONTAINS,channels,C0022009,"Amino Acid, Peptide, or Protein",False,True
+982,synapse,C0039062,Body Space or Junction,CAUSES,epsp,C0524913,Organ or Tissue Function,False,True
+988,activation,C1817160,Biologic Function,PRODUCES,response,C0871261,Organism Attribute,False,True
+993,stimulation,C1292856,Therapeutic or Preventive Procedure,PRODUCES,release,C0030685,Health Care Activity,False,True
+1026,peptide neurotransmitters,C0027908,Biologically Active Substance,CONSISTS_OF,amino acids,C0002520,"Amino Acid, Peptide, or Protein",False,True
+1030,synaptic vesicles,C0039065,Cell Component,CONTAINS,neuropeptides,C0027895,"Amino Acid, Peptide, or Protein",False,True
+1057,gabaergic synapses,C1512777,Cell Component,IS_A,inhibitory synapses,C1512777,Cell Component,False,True
+1059,α subunit,C0599220,"Amino Acid, Peptide, or Protein",CONTAINS,glycine binding site,C1148574,Molecular Function,False,True
+1076,electrical synapses,C1179884,Cell Component,CONNECTED_TO,cytosol,C1383501,Cell Component,False,True
+1078,gap junctions,C0206117,Body Space or Junction,CONTAINS,channels,C0022009,"Amino Acid, Peptide, or Protein",False,True
+1078,proteins,C0033684,"Amino Acid, Peptide, or Protein",INGREDIENT_OF,connexons,C0230609,Cell Component,False,True
+1080,presynaptic,C3546722,Cell Component,LOCATION_OF,release,C0030685,Health Care Activity,False,True
+1082,calcium,C0006675,Pharmacologic Substance,CAUSES,release,C0030685,Health Care Activity,False,True
+1084,release,C0030685,Health Care Activity,CAUSES,mepp,C0162568,Disease or Syndrome,False,True
+1086,synaptotagmin,C0084697,"Amino Acid, Peptide, or Protein",IS_A,sensor,C0183210,Medical Device,False,True
+1090,excitatory synapses,C1516988,Cell Component,PRODUCES,epsps,C1419333,Gene or Genome,False,True
+1092,inhibitory synapses,C1512777,Cell Component,PRODUCES,ipsps,C1720982,Organ or Tissue Function,False,True
+1099,nervous system,C0027763,Body System,USES,neurotransmitters,C0027908,Biologically Active Substance,False,True
+1103,ionotropic receptors,C2936399,"Amino Acid, Peptide, or Protein",CONTAINS,ion channel,C0022009,"Amino Acid, Peptide, or Protein",False,True
+1124,somatosensory system,C0682661,Body System,AFFECTS,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",False,True
+1124,sensory receptors,C0034837,Cell Component,PERFORMS,transduce,C0040661,Medical Device,False,True
+1124,dorsal root,C0205955,"Body Part, Organ, or Organ Component",LOCATION_OF,cell bodies,C0599444,Cell Component,False,True
+1128,ganglion cell,C0228071,Cell,PRODUCES,axon,C0004461,Cell Component,False,True
+1128,sensory nerve,C0501385,"Body Part, Organ, or Organ Component",CONTAINS,axons,C0004461,Cell Component,False,True
+1129,central process,C0228071,Cell,PRODUCES,branches,C0080322,Embryonic Structure,False,True
+1130,second-order neurons,C1704259,Molecular Function,CONNECTED_TO,thalamic nuclei,C0039727,"Body Part, Organ, or Organ Component",False,True
+1130,second-order neurons,C1704259,Molecular Function,CONNECTED_TO,cerebellum,C0007765,"Body Part, Organ, or Organ Component",False,True
+1135,spinocerebellar pathways,C1704259,Molecular Function,CONNECTED_TO,cerebellum,C0007765,"Body Part, Organ, or Organ Component",False,True
+1141,skin,C0444099,Body Substance,LOCATION_OF,innervation,C0021516,Organ or Tissue Function,False,True
+1144,fa fibers,C0000696,Tissue,PERFORMS,short burst of action potentials,C4236668,Cell Function,False,True
+1159,afferents,C0206309,"Body Part, Organ, or Organ Component",CONNECTED_TO,targets,C0085104,Medical Device,False,True
+1161,axons,C0004461,Cell Component,PART_OF,peripheral nervous system,C0206417,Body System,False,True
+1161,dorsal root,C0205955,"Body Part, Organ, or Organ Component",CONTAINS,central processes,C0025361,Mental Process,False,True
+1161,ventral root,C0205956,"Body Part, Organ, or Organ Component",CONTAINS,motor axons,C0004461,Cell Component,False,True
+1165,transection,C0152060,Therapeutic or Preventive Procedure,CAUSES,sensory loss,C0278134,Sign or Symptom,False,True
+1181,medulla,C0025148,"Body Part, Organ, or Organ Component",LOCATION_OF,dorsal column nuclei,C0228576,"Body Part, Organ, or Organ Component",False,True
+1181,dorsal column nuclei,C0228576,"Body Part, Organ, or Organ Component",CONTAINS,second-order neurons,C0027882,Cell,False,True
+1184,thalamus,C0039729,"Body Part, Organ, or Organ Component",LOCATION_OF,third-order neurons,C0027882,Cell,False,True
+1199,ventroposterior nuclear complex,C0175298,"Body Part, Organ, or Organ Component",CONSISTS_OF,nuclei,C0007610,Cell Component,False,True
+1202,gabaergic inhibitory interneurons,C0815002,Cell,CONNECTED_TO,vpl nucleus,C0228337,"Body Part, Organ, or Organ Component",False,True
+1202,gabaergic inhibitory interneurons,C0815002,Cell,CONNECTED_TO,vpm nucleus,C0752056,"Body Part, Organ, or Organ Component",False,True
+1210,postcentral gyrus,C0152302,"Body Part, Organ, or Organ Component",LOCATION_OF,s-i cortex,C3496281,"Body Part, Organ, or Organ Component",False,True
+1210,lateral fissure,C0228187,Body Space or Junction,LOCATION_OF,s-ii cortex,C3496176,"Body Part, Organ, or Organ Component",False,True
+1214,layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,cortex,C0001614,Disease or Syndrome,False,True
+1225,axons,C0004461,Cell Component,PRODUCES,sensations,C0036658,Organ or Tissue Function,False,True
+1225,c fibers,C0006549,"Body Part, Organ, or Organ Component",PRODUCES,sensations,C0036658,Organ or Tissue Function,False,True
+1231,trigeminal nerve,C0040996,"Body Part, Organ, or Organ Component",CONTAINS,tooth,C0040426,"Body Part, Organ, or Organ Component",False,True
+1231,trigeminal nerve,C0040996,"Body Part, Organ, or Organ Component",CONTAINS,headache pain,C0018681,Sign or Symptom,False,True
+1233,central pain pathways,C1704259,Molecular Function,CONTAINS,spinothalamic tract,C0037953,"Body Part, Organ, or Organ Component",False,True
+1233,central pain pathways,C1704259,Molecular Function,CONTAINS,spinoreticular,C1184602,"Body Part, Organ, or Organ Component",False,True
+1233,central pain pathways,C1704259,Molecular Function,CONTAINS,spinomesencephalic tracts,C0025462,"Body Part, Organ, or Organ Component",False,True
+1235,spinothalamic cells,C0037953,"Body Part, Organ, or Organ Component",CONNECTED_TO,vpi,C0042454,Disease or Syndrome,False,True
+1235,nociceptive signals,C3178766,Sign or Symptom,CONNECTED_TO,cortical areas,C0001613,"Body Part, Organ, or Organ Component",False,True
+1241,chest wall,C0205076,"Body Part, Organ, or Organ Component",LOCATION_OF,pain,C0030193,Sign or Symptom,False,True
+1241,left arm,C0230347,"Body Part, Organ, or Organ Component",LOCATION_OF,pain,C0030193,Sign or Symptom,False,True
+1242,neurotransmitters,C0027908,Biologically Active Substance,CONTAINS,excitatory amino acid glutamate,C0243046,"Amino Acid, Peptide, or Protein",False,True
+1242,glutamate,C0017789,"Amino Acid, Peptide, or Protein",AFFECTS,excitatory amino acid receptors,C0162827,"Amino Acid, Peptide, or Protein",False,True
+1244,gaba,C0016904,"Amino Acid, Peptide, or Protein",AFFECTS,spinothalamic tract cells,C0037953,"Body Part, Organ, or Organ Component",False,True
+1248,periaqueductal gray,C0228398,"Body Part, Organ, or Organ Component",PART_OF,analgesia system,C0002766,Therapeutic or Preventive Procedure,False,True
+1255,spontaneous activity,C5569529,Clinical Attribute,CAUSES,pain,C0030193,Sign or Symptom,False,True
+1260,axons,C0004461,Cell Component,CONTAINS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+1261,accessory structure,C0038476,Congenital Abnormality,MODIFIES,transduction process,,"Body Part, Organ, or Organ Component",False,True
+1261,merkel cells,C0205832,Cell,RELEASES,neurotransmitter,C0027908,Biologically Active Substance,False,True
+1263,asic proteins,C0033684,"Amino Acid, Peptide, or Protein",PLAYS_ROLE_IN,touch sensation,C0702221,Organ or Tissue Function,False,True
+1264,piezo2,C1539429,Gene or Genome,THINKED_TO_BE_UNDERLYING,mechanotransduction process,,"Body Part, Organ, or Organ Component",False,True
+1264,sirna for piezo2,,Genetic Function,BLOCKS,rapid mechanoactivated current,,Natural Phenomenon or Process,False,True
+1265,low-threshold ganglion cells,,Cell,EXPRESSES,piezo2,C1539429,Gene or Genome,False,True
+1265,nociceptive-type ganglion cells,,Cell,EXPRESSES,piezo2,C1539429,Gene or Genome,False,True
+1267,temperature,C0005903,Organism Attribute,AFFECTS,trp channels,C3824812,"Amino Acid, Peptide, or Protein",False,True
+1276,nociceptors,C0028246,"Body Part, Organ, or Organ Component",CAUSES,local release,C0030685,Health Care Activity,False,True
+1277,sensitization,C1325847,Organism Function,CAUSES,thermal hyperalgesia,C0751214,Sign or Symptom,False,True
+1285,naloxone,C0027358,Organic Chemical,PREVENTS,opiate analgesia,C0002766,Therapeutic or Preventive Procedure,False,True
+1285,substance p receptor opioids,C0164209,"Amino Acid, Peptide, or Protein",CONTAINS,enkephalin,C0014298,"Amino Acid, Peptide, or Protein",False,True
+1290,serotonin,C0036751,Organic Chemical,IS_A,neurotransmitter,C0027908,Biologically Active Substance,False,True
+1290,monoamine neurotransmitters,C0815020,Biologically Active Substance,INTERACTS_WITH,opioids,C0002772,Organic Chemical,False,True
+1290,opiate antagonists,C0027410,Pharmacologic Substance,PREVENTS,opiate analgesia,C0002766,Therapeutic or Preventive Procedure,False,True
+1292,sensory nerve ganglia,C0206429,"Body Part, Organ, or Organ Component",LOCATION_OF,cell bodies,C0599444,Cell Component,False,True
+1292,sensory neurons,C0027883,Cell,CONNECTED_TO,sensory receptor,C0034837,Cell Component,False,True
+1292,sensory neurons,C0027883,Cell,CONNECTED_TO,second-order neurons,C0027882,Cell,False,True
+1294,skin,C0444099,Body Substance,CONTAINS,mechanoreceptors,C0039821,Cell Component,False,True
+1294,skin,C0444099,Body Substance,CONTAINS,thermoreceptors,C0039821,Cell Component,False,True
+1294,skin,C0444099,Body Substance,CONTAINS,nociceptors,C0028246,"Body Part, Organ, or Organ Component",False,True
+1294,muscle,C0026845,Tissue,CONTAINS,mechanoreceptors,C0025032,Cell,False,True
+1294,muscle,C0026845,Tissue,CONTAINS,nociceptors,C0028246,"Body Part, Organ, or Organ Component",False,True
+1294,thermoreceptors,C0039821,Cell Component,CONTAINS,cold,C0009264,Natural Phenomenon or Process,False,True
+1294,thermoreceptors,C0039821,Cell Component,CONTAINS,warm receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+1302,spinothalamic tract,C0037953,"Body Part, Organ, or Organ Component",CONTAINS,nociceptive,C3178766,Sign or Symptom,False,True
+1302,spinothalamic tract,C0037953,"Body Part, Organ, or Organ Component",CONTAINS,thermoreceptive,C0039478,Organism Function,False,True
+1302,spinothalamic tract,C0037953,"Body Part, Organ, or Organ Component",CONTAINS,tactile neurons,C0027882,Cell,False,True
+1302,axons,C0004461,Cell Component,CONNECTED_TO,vpl,C0228337,"Body Part, Organ, or Organ Component",False,True
+1302,axons,C0004461,Cell Component,CONNECTED_TO,vpi,C0042454,Disease or Syndrome,False,True
+1302,axons,C0004461,Cell Component,CONNECTED_TO,intralaminar nuclei,C0228349,"Body Part, Organ, or Organ Component",False,True
+1308,somatosensory cortex,C0037658,"Body Part, Organ, or Organ Component",CONTAINS,regions,C0242961,Nucleotide Sequence,False,True
+1312,analgesia system,C0002766,Therapeutic or Preventive Procedure,USES,opioid peptides,C0205753,"Amino Acid, Peptide, or Protein",False,True
+1312,analgesia system,C0002766,Therapeutic or Preventive Procedure,USES,norepinephrine,C0028351,Organic Chemical,False,True
+1312,analgesia system,C0002766,Therapeutic or Preventive Procedure,USES,serotonin,C0036751,Organic Chemical,False,True
+1313,subunits,C0599220,"Amino Acid, Peptide, or Protein",PART_OF,mechanically activated channels,C1153472,Molecular Function,False,True
+1329,visual system,C3536733,Body System,DETECTS,electromagnetic waves,C0034519,Natural Phenomenon or Process,False,True
+1329,visual system,C3536733,Body System,DETECTS,visible light,C0242377,Natural Phenomenon or Process,False,True
+1329,photoreceptors,C0031760,Cell,LOCATED_IN,sensory epithelium,C1179148,Tissue,False,True
+1331,axons,C0004461,Cell Component,LOCATED_IN,optic chiasm,C0029126,"Body Part, Organ, or Organ Component",False,True
+1331,visual pathway,C0042829,"Body Part, Organ, or Organ Component",TARGETS,lateral geniculate nucleus,C0086526,"Body Part, Organ, or Organ Component",False,True
+1357,retina,C0035298,"Body Part, Organ, or Organ Component",LOCATION_OF,axons,C0004461,Cell Component,False,True
+1360,rod,C0206427,Cell,CONTAINS,cell body,C0599444,Cell Component,False,True
+1360,rod,C0206427,Cell,CONTAINS,outer segment,C0035798,Cell Component,False,True
+1360,rod,C0206427,Cell,CONTAINS,synaptic terminals,C0206181,Cell Component,False,True
+1360,outer segment,C0035798,Cell Component,CONTAINS,disc membranes,C0025255,Tissue,False,True
+1361,inner segments,C2350297,Cell Component,CONTAINS,visual pigment,C0035323,Organic Chemical,False,True
+1361,discs,C1150999,Molecular Function,CONTAINS,visual pigment,C0035323,Organic Chemical,False,True
+1364,macula lutea,C0450295,"Body Part, Organ, or Organ Component",ADJACENT_TO,optic nerve fibers,C0027749,Cell Component,False,True
+1365,retina,C0035298,"Body Part, Organ, or Organ Component",CONTAINS,fovea,C0016622,"Body Part, Organ, or Organ Component",False,True
+1365,fovea,C0016622,"Body Part, Organ, or Organ Component",CONTAINS,cones,C0206428,Cell,False,True
+1370,rods,C0206427,Cell,USES,light energy,C0542479,Natural Phenomenon or Process,False,True
+1370,cones,C0206428,Cell,USES,light energy,C0542479,Natural Phenomenon or Process,False,True
+1370,rods,C0206427,Cell,CONTAINS,visual pigment molecules,C0035323,Organic Chemical,False,True
+1370,cones,C0206428,Cell,CONTAINS,visual pigment molecules,C0035323,Organic Chemical,False,True
+1370,visual pigment,C0035323,Organic Chemical,CONSISTS_OF,chromophore,C0596335,Chemical Viewed Functionally,False,True
+1370,rhodopsin,C0035499,"Amino Acid, Peptide, or Protein",IS_A,visual pigment,C0035323,Organic Chemical,False,True
+1373,visual pigment molecule,C0035323,Organic Chemical,CAUSES,isomerization,C0596342,Molecular Function,False,True
+1374,separation,C0036679,Pathologic Function,CAUSES,bleaching,C0303749,Inorganic Chemical,False,True
+1374,cones,C0206428,Cell,USES,second pathway,C1704259,Molecular Function,False,True
+1376,absorption,C0000854,Natural Phenomenon or Process,CAUSES,hyperpolarize,C4729661,Medical Device,False,True
+1376,depolarization,C3714805,Cell Function,CAUSES,release,C0030685,Health Care Activity,False,True
+1384,absorption,C0000854,Natural Phenomenon or Process,CAUSES,all-trans retinal,C0035331,Organic Chemical,False,True
+1389,cone absorption spectra,C2347023,Organism Function,BRINGS_ABOUT,color vision,C0086032,Organism Function,False,True
+1391,light intensity,C0023693,Natural Phenomenon or Process{,AFFECTS,absorption,C0000854,Natural Phenomenon or Process,False,True
+1392,neurons,C0027882,Cell,LOCATION_OF,retina,C0035298,"Body Part, Organ, or Organ Component",False,True
+1392,neurons,C0027882,Cell,LOCATION_OF,visual pathway,C0042829,"Body Part, Organ, or Organ Component",False,True
+1394,photoreceptor,C0031760,Cell,CONNECTED_TO,bipolar cell,C1564995,Cell,False,True
+1394,bipolar cell,C1564995,Cell,CONNECTED_TO,ganglion cell,C0228071,Cell,False,True
+1412,ionotropic glutamate receptor channels,C2936399,"Amino Acid, Peptide, or Protein",PART_OF,cells,C0007634,Cell,False,True
+1412,metabotropic glutamate receptors,C0206529,"Amino Acid, Peptide, or Protein",PART_OF,bipolar cells,C1564995,Cell,False,True
+1413,photoreceptors,C0031760,Cell,CONNECTED_TO,horizontal cells,C1565000,Cell,False,True
+1416,retina,C0035298,"Body Part, Organ, or Organ Component",CONSISTS_OF,axons,C0004461,Cell Component,False,True
+1419,retinal ganglion cells,C0035316,Cell,CONNECTED_TO,optic nerve,C0029130,"Body Part, Organ, or Organ Component",False,True
+1419,retinal ganglion cells,C0035316,Cell,CONNECTED_TO,optic chiasm,C0029126,"Body Part, Organ, or Organ Component",False,True
+1419,retinal ganglion cells,C0035316,Cell,CONNECTED_TO,optic tract,C0152405,"Body Part, Organ, or Organ Component",False,True
+1419,retinal ganglion cells,C0035316,Cell,CONNECTED_TO,brain,C0006104,"Body Part, Organ, or Organ Component",False,True
+1421,retinal ganglion cells,C0035316,Cell,CONNECTED_TO,hemispheres,C0228174,"Body Part, Organ, or Organ Component",False,True
+1426,axons,C0004461,Cell Component,TRAVERSES,optic nerve,C0029130,"Body Part, Organ, or Organ Component",False,True
+1426,axons,C0004461,Cell Component,TRAVERSES,optic chiasm,C0029126,"Body Part, Organ, or Organ Component",False,True
+1426,axons,C0004461,Cell Component,TRAVERSES,optic tract,C0152405,"Body Part, Organ, or Organ Component",False,True
+1426,brain,C0006104,"Body Part, Organ, or Organ Component",LOCATION_OF,axons,C0004461,Cell Component,False,True
+1427,retina,C0035298,"Body Part, Organ, or Organ Component",CONNECTED_TO,lgn,C1428865,Gene or Genome,False,True
+1428,m cell,C0599757,Cell,CONNECTED_TO,layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+1430,lgn,C1428865,Gene or Genome,CONNECTED_TO,visual cortex,C0042817,"Body Part, Organ, or Organ Component",False,True
+1433,axons,C0004461,Cell Component,CONNECTED_TO,cuneus gyrus,C0152307,"Body Part, Organ, or Organ Component",False,True
+1437,layer 4,C0934502,"Body Part, Organ, or Organ Component",PART_OF,striate cortex,C0038446,Body Location or Region,False,True
+1438,lgn,C1428865,Gene or Genome,CONNECTED_TO,layers 2,C0934502,"Body Part, Organ, or Organ Component",False,True
+1438,axons,C0004461,Cell Component,CONNECTED_TO,layer 4c,,,False,True
+1438,cortical neurons,C0027882,Cell,PART_OF,column,C1185738,"Body Part, Organ, or{Organ Component",False,True
+1446,p pathway,C1704259,Molecular Function,CONTAINS,v4,C0449221,Body Location or Region,False,True
+1446,p pathway,C1704259,Molecular Function,CONTAINS,inferotemporal region,C0039485,"Body Part, Organ, or Organ Component",False,True
+1447,m cells,C0599757,Cell,INGREDIENT_OF,m pathway,C1704259,Molecular Function,False,True
+1450,temporal lobe,C0039485,"Body Part, Organ, or Organ Component",LOCATION_OF,mst,C0591830,Organic Chemical,False,True
+1456,superior colliculus,C0228405,"Body Part, Organ, or Organ Component",IS_A,layered structure,C0934502,"Body Part, Organ, or Organ Component",False,True
+1457,edinger-westphal nucleus,C0228416,"Body Part, Organ, or Organ Component",CAUSES,pupillary constriction,C0026205,Disease or Syndrome,False,True
+1457,reflex,C0034929,Organ or Tissue Function,CAUSES,pupillary constriction,C0026205,Disease or Syndrome,False,True
+1469,external ear,C0013453,"Body Part, Organ, or Organ Component",CONTAINS,external auditory meatus,C0013444,"Body Part, Organ, or Organ Component",False,True
+1469,auditory canal,C0013444,"Body Part, Organ, or Organ Component",CONTAINS,glands,C1285092,"Body Part, Organ, or Organ Component",False,True
+1481,eustachian tube,C0175730,Medical Device,CONNECTED_TO,pharynx,C0031354,"Body Part, Organ, or Organ Component",False,True
+1486,apex,C0140145,"Amino Acid, Peptide, or Protein",PART_OF,cochlea,C0009195,"Body Part, Organ, or Organ Component",False,True
+1486,vestibule,C0042606,Body Space or Junction,CONNECTED_TO,scala vestibuli,C0229511,"Body Part, Organ, or Organ Component",False,True
+1486,helicotrema,C0229512,Body Space or Junction,LOCATION_OF,scala tympani,C0036264,"Body Part, Organ, or Organ Component",False,True
+1486,helicotrema,C0229512,Body Space or Junction,LOCATION_OF,scala vestibuli,C0229511,"Body Part, Organ, or Organ Component",False,True
+1492,organ of corti,C0178784,"Body Part, Organ, or Organ Component",IS_A,neural apparatus,C1947951,Anatomical Structure,False,True
+1498,sound waves,C3179344,Natural Phenomenon or Process,CAUSES,oscillations,C0695434,Therapeutic or Preventive Procedure,False,True
+1503,tip links,C1705504,Gene or Genome,CAUSES,channels,C0022009,"Amino Acid, Peptide, or Protein",False,True
+1504,current flow,C0806140,Natural Phenomenon or Process,PRODUCES,receptor potential,C0597357,"Amino Acid, Peptide, or Protein",False,True
+1506,neurotransmitter,C0027908,Biologically Active Substance,PRODUCES,excitatory postsynaptic potential,C0524913,Organ or Tissue Function,False,True
+1506,basilar membrane,C0004816,"Body Part, Organ, or Organ Component",CAUSES,transmembrane voltage,C1167322,Cell Component,False,True
+1513,peripheral processes,C0039062,Body Space or Junction,CONNECTED_TO,base,C0178499,Chemical Viewed Functionally,False,True
+1513,central processes,C0039062,Body Space or Junction,CONNECTED_TO,cochlear nuclei,C0152411,"Body Part, Organ, or Organ Component",False,True
+1524,neurons,C0027882,Cell,PART_OF,auditory system,C0587901,Body System,False,True
+1527,fibers,C0039062,Body Space or Junction,CONNECTED_TO,neurons,C0027882,Cell,False,True
+1527,axons,C0004461,Cell Component,TRAVERSES,lateral lemniscus,C0152375,"Body Part, Organ, or Organ Component",False,True
+1533,synapses,C0039062,Body Space or Junction,CONNECTED_TO,medial dendrites,C0011305,Cell Component,False,True
+1533,synapses,C0039062,Body Space or Junction,CONNECTED_TO,ventral cochlear nucleus,C0175500,"Body Part, Organ, or Organ Component",False,True
+1552,epithelium,C0014609,Tissue,CONTAINS,vestibular hair cells,C0206511,Cell,False,True
+1557,innervation,C0021516,Organ or Tissue Function,OCCURS_IN,sensory epithelia,C0599332,Tissue,False,True
+1558,scarpa ganglion,C0036286,"Body Part, Organ, or Organ Component",LOCATION_OF,cell bodies,C0599444,Cell Component,False,True
+1560,conductance,C0814024,Organ or Tissue Function,PROPERTY_OF,apical membrane,C0596119,Cell Component,False,True
+1562,head,C0018670,Body Location or Region,PRODUCES,movement,C0026649,Organism Function,False,True
+1588,taste bud,C0039337,"Body Part, Organ, or Organ Component",CONSISTS_OF,receptor cells,C1514760,Cell,False,True
+1588,taste bud,C0039337,"Body Part, Organ, or Organ Component",CONSISTS_OF,supporting cells,C0007634,Cell,False,True
+1588,taste bud,C0039337,"Body Part, Organ, or Organ Component",CONSISTS_OF,basal cells,C0596155,Cell,False,True
+1593,taste papillae,C1182961,"Body Part, Organ, or Organ Component",LOCATION_OF,taste buds,C0039337,"Body Part, Organ, or Organ Component",False,True
+1600,second-order taste neurons,C0027882,Cell,CONNECTED_TO,parabrachial nucleus,C0597169,"Body Part, Organ, or Organ Component",False,True
+1600,ventroposterior medial (vpmpc) nucleus,C0039729,"Body Part, Organ, or Organ Component",CONNECTED_TO,gustatory areas,C0278192,Disease or Syndrome,False,True
+1605,odor receptors,C0164313,"Amino Acid, Peptide, or Protein",LOCATION_OF,genome,C0017428,Gene or Genome,False,True
+1605,somatosensory receptors,C0682664,"Body Part, Organ, or Organ Component",LOCATION_OF,olfactory mucosa,C0028937,Tissue,False,True
+1606,olfactory mucosa,C0028937,Tissue,LOCATION_OF,olfactory chemoreceptor cells,C1518566,Cell Component,False,True
+1606,olfactory chemoreceptors,C1518566,Cell Component,IS_A,bipolar nerve cells,C0027882,Cell,False,True
+1608,nonmotile cilia,C4328979,Cell Component,CONTAINS,chemoreceptors,C0008010,Cell,False,True
+1611,mucus,C0026727,Body Substance,CONTAINS,odorants,C2985522,Chemical Viewed Functionally,False,True
+1613,olfactory bulb,C0028936,"Body Part, Organ, or Organ Component",CONTAINS,mitral cells,C0007634,Cell,False,True
+1613,olfactory bulb,C0028936,"Body Part, Organ, or Organ Component",CONTAINS,interneurons,C0021792,Cell,False,True
+1618,axons,C0004461,Cell Component,CONNECTED_TO,olfactory bulb,C0028936,"Body Part, Organ, or Organ Component",False,True
+1618,axons,C0004461,Cell Component,CONNECTED_TO,olfactory tracts,C0162435,"Body Part, Organ, or Organ Component",False,True
+1618,primary olfactory cortex,C0162434,"Body Part, Organ, or Organ Component",CONTAINS,prepiriform cortex,C0228280,"Body Part, Organ, or Organ Component",False,True
+1620,light,C0023693,Natural Phenomenon or Process{,TRAVERSES,cornea,C0010031,"Body Part, Organ, or Organ Component",False,True
+1620,light,C0023693,Natural Phenomenon or Process,TRAVERSES,lens,C0023317,"Body Part, Organ, or Organ Component",False,True
+1622,outer segments,C0227622,Body Location or Region,PART_OF,photoreceptor cells,C0031760,Cell,False,True
+1622,photoreceptors,C0031760,Cell,CONNECTED_TO,bipolar cells,C1564995,Cell,False,True
+1622,bipolar cells,C1564995,Cell,CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1622,bipolar cells,C1564995,Cell,CONNECTED_TO,ganglion cells,C0228071,Cell,False,True
+1622,ganglion cells,C0228071,Cell,CONNECTED_TO,brain,C0006104,"Body Part, Organ, or Organ Component",False,True
+1629,ganglion cells,C0228071,Cell,PRODUCES,action potentials,C0001272,Cell Function,False,True
+1631,axons,C0004461,Cell Component,CONNECTED_TO,brain,C0006104,"Body Part, Organ, or Organ Component",False,True
+1631,m ganglion cells,C0228071,Cell,CONNECTED_TO,layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+1631,p ganglion cells,C0228071,Cell,CONNECTED_TO,layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+1633,lgn,C1428865,Gene or Genome,CONNECTED_TO,primary visual cortex,C0038446,Body Location or Region,False,True
+1633,lgn,C1428865,Gene or Genome,CONNECTED_TO,layer 4,C0934502,"Body Part, Organ, or Organ Component",False,True
+1637,natural sounds,C0037709,Natural Phenomenon or Process,CONSISTS_OF,tones,C0006736,Body Substance,False,True
+1655,central vestibular pathways,C0597643,"Body Part, Organ, or Organ Component",CONTAINS,vestibular nuclei,C0042600,"Body Part, Organ, or Organ Component",False,True
+1655,central vestibular pathways,C0597643,"Body Part, Organ, or Organ Component",CONTAINS,cerebellum,C0007765,"Body Part, Organ, or Organ Component",False,True
+1655,vestibular nuclei,C0042600,"Body Part, Organ, or Organ Component",CONNECTED_TO,pathways,C1704259,Molecular Function,False,True
+1705,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",CONTAINS,motor control,C4720933,Therapeutic or Preventive Procedure,False,True
+1709,spinal cord,C0037925,"Body Part, Organ, or Organ Component",CONTAINS,white matter,C0682708,Tissue,False,True
+1710,ventral horn,C0003154,Cell,PERFORMS,motor function,C0234130,Biologic Function,False,True
+1713,motor neuron,C0026609,Cell,CONNECTED_TO,muscle cells,C0596981,Cell,False,True
+1716,motor neuron axon,C2335621,Cell Component,CONNECTED_TO,muscle,C0026845,Tissue,False,True
+1716,motor unit,C0231502,"Body Part, Organ, or Organ Component",CONTAINS,motor neuron,C0026609,Cell,False,True
+1716,motor unit,C0231502,"Body Part, Organ, or Organ Component",CONTAINS,muscle fibers,C0242697,Cell,False,True
+1716,motor neuron,C0026609,Cell,CAUSES,muscle fiber,C0242697,Cell,False,True
+1720,motor unit,C0231502,"Body Part, Organ, or Organ Component",CONTAINS,slow-twitch fibers,C0242874,Cell,False,True
+1720,motor unit,C0231502,"Body Part, Organ, or Organ Component",PRODUCES,contractile force,C0026820,Physiologic Function,False,True
+1721,axon,C0004461,Cell Component,CONNECTED_TO,fast-twitch fibers,C0242873,Cell,False,True
+1723,γ motor neurons,C0026609,Cell,CONNECTED_TO,intrafusal muscle fibers,C0242697,Cell,False,True
+1723,γ motor neurons,C0026609,Cell,AFFECTS,sensitivity,C0020517,Pathologic Function,False,True
+1730,interneurons,C0021792,Cell,PART_OF,spinal reflex arcs,C0597502,Organ or Tissue Function,False,True
+1731,interneurons,C0021792,Cell,CONNECTED_TO,motor neurons,C0026609,Cell,False,True
+1737,ia fibers,C0000696,Tissue,IS_A,sensory nerve fibers,C0027749,Cell Component,False,True
+1737,secondary endings,C0027627,Neoplastic Process,CONTAINS,mechanosensitive channels,C1153472,Molecular Function,False,True
+1739,γ motor axons,C0004461,Cell Component,CONNECTED_TO,bag1 fibers,C0379646,"Amino Acid, Peptide, or Protein",False,True
+1754,γ motor neuron system,C0597054,Body System,PREVENTS,tension,C0233494,Mental or Behavioral Dysfunction,False,True
+1755,brain,C0006104,"Body Part, Organ, or Organ Component",AFFECTS,motor neurons,C0026609,Cell,False,True
+1758,dynamic γ motor neuron,C0026609,Cell,AFFECTS,group ia afferent fiber,C0225326,Organic Chemical,False,True
+1762,group ia afferent fiber,C0225326,Organic Chemical,PRODUCES,excitatory synapses,C1516988,Cell Component,False,True
+1763,group ia fibers,C0000696,Tissue,CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1766,α motor neurons,C0026609,Cell,CONNECTED_TO,antagonist muscles,C0003385,Pharmacologic Substance,False,True
+1770,γ motor neuron system,C0597054,Body System,MANAGES,muscle spindle sensitivity,C0020517,Pathologic Function,False,True
+1787,interneurons,C0021792,Cell,AFFECTS,α motor neurons,C0026609,Cell,False,True
+1796,central pattern generator,C0056912,"Nucleic Acid, Nucleoside, or Nucleotide",CONSISTS_OF,neurons,C0027882,Cell,False,True
+1796,central pattern generator,C0056912,"Nucleic Acid, Nucleoside, or Nucleotide",CONSISTS_OF,circuits,C0179423,Medical Device,False,True
+1803,afferent fiber,C0225326,Organic Chemical,AFFECTS,central pattern generator,C0056912,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1803,terrain,C3897367,"Nucleic Acid, Nucleoside, or Nucleotide",AFFECTS,pattern generator,C0598031,Body Location or Region,False,True
+1807,electrical stimulation,C0013786,Therapeutic or Preventive Procedure,CAUSES,monosynaptic reflex,C0034937,Organ or Tissue Function,False,True
+1808,nerve a,C0027740,"Body Part, Organ, or Organ Component",CAUSES,reflex a,C0034929,Organ or Tissue Function,False,True
+1808,nerve b,C0027740,"Body Part, Organ, or Organ Component",CAUSES,reflex b,C0034929,Organ or Tissue Function,False,True
+1811,nerve,C0027740,"Body Part, Organ, or Organ Component",CAUSES,α motor neurons,C0026609,Cell,False,True
+1817,volleys,C0183644,Medical Device,CAUSES,discharge,C0012621,Body Substance,False,True
+1818,stimulation,C1292856,Therapeutic or Preventive Procedure,PRODUCES,inhibition,C0021467,Mental Process,False,True
+1820,ventral root,C0205956,"Body Part, Organ, or Organ Component",CONTAINS,motor neuron axons,C0004461,Cell Component,False,True
+1820,stimulation,C1292856,Therapeutic or Preventive Procedure,CAUSES,inhibition,C0021467,Mental Process,False,True
+1821,ventral root stimulation,C1292856,Therapeutic or Preventive Procedure,INHIBITS,group ia inhibition,C0021467,Mental Process,False,True
+1822,renshaw cell,C0682695,Cell,CONNECTED_TO,motor neurons,C0026609,Cell,False,True
+1827,spinal cord,C0037925,"Body Part, Organ, or Organ Component",LOCATION_OF,motor pathways,C0870920,"Body Part, Organ, or Organ Component",False,True
+1828,lateral pathways,C1704259,Molecular Function,AFFECTS,motor neurons,C0026609,Cell,False,True
+1828,lateral pathways,C1704259,Molecular Function,AFFECTS,interneurons,C0021792,Cell,False,True
+1832,brainstem,C0006121,"Body Part, Organ, or Organ Component",LOCATION_OF,corticobulbar axons,,Cell Component,False,True
+1832,motor nuclei,C0228686,"Body Part, Organ, or Organ Component",LOCATION_OF,corticobulbar axons,,Cell Component,False,True
+1834,corticospinal pathway,C2952280,"Body Part, Organ, or Organ Component",AFFECTS,finger movement,C0026649,Organism Function,False,True
+1836,rubrospinal tract,C0152377,"Body Part, Organ, or Organ Component",AFFECTS,motor neurons,C0026609,Cell,False,True
+1836,motor cortex,C0026607,Body Location or Region,CONNECTED_TO,red nucleus neurons,C0034910,"Body Part, Organ, or Organ Component",False,True
+1838,ventral corticospinal tract,C0152403,"Body Part, Organ, or Organ Component",CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1838,corticobulbar tract,C0751459,"Body Part, Organ, or Organ Component",CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1838,medial system pathways,C1704259,Molecular Function,AFFECTS,axial muscles,C0026845,Tissue,False,True
+1841,interneurons,C0021792,Cell,AFFECTS,motor neurons,C0026609,Cell,False,True
+1842,neurons,C0027882,Cell,LOCATION_OF,medial medulla,C0025148,"Body Part, Organ, or Organ Component",False,True
+1842,medullary reticulospinal tracts,C0546040,"Body Part, Organ, or Organ Component",LOCATION_OF,ventral lateral funiculus,C0228570,"Body Part, Organ, or Organ Component",False,True
+1842,medullary reticulospinal tracts,C0546040,"Body Part, Organ, or Organ Component",CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1843,lateral vestibulospinal tract,C2327201,"Body Part, Organ, or Organ Component",CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1843,lateral vestibulospinal tract,C2327201,"Body Part, Organ, or Organ Component",AFFECTS,motor neurons,C0026609,Cell,False,True
+1843,lateral vestibulospinal tract,C2327201,"Body Part, Organ, or Organ Component",AFFECTS,flexor motor neurons,C0026609,Cell,False,True
+1843,purkinje cells,C0034143,Cell,CONNECTED_TO,lateral vestibular nucleus,C0011193,"Body Part, Organ, or Organ Component",False,True
+1844,medial vestibulospinal tract,C2339608,"Body Part, Organ, or Organ Component",LOCATION_OF,medial vestibular nucleus,C0036385,"Body Part, Organ, or Organ Component",False,True
+1844,medial vestibulospinal tract,C2339608,"Body Part, Organ, or Organ Component",LOCATION_OF,ventral funiculus,C0228570,"Body Part, Organ, or Organ Component",False,True
+1844,medial vestibulospinal tract,C2339608,"Body Part, Organ, or Organ Component",CONNECTED_TO,interneurons,C0021792,Cell,False,True
+1846,deep layers,C0934502,"Body Part, Organ, or Organ Component",LOCATION_OF,tectospinal tract,C1284078,"Body Part, Organ, or Organ Component",False,True
+1846,tectospinal tract,C1284078,"Body Part, Organ, or Organ Component",AFFECTS,movement,C0026649,Organism Function,False,True
+1858,reticulospinal tracts,C0546040,"Body Part, Organ, or Organ Component",AFFECTS,γ motor neurons,C0026609,Cell,False,True
+1858,γ motor neuron,C0026609,Cell,AFFECTS,muscle stiffness,C0221170,Pathologic Function,False,True
+1858,dorsal roots,C0205955,"Body Part, Organ, or Organ Component",CONNECTED_TO,α motor neurons,C0026609,Cell,False,True
+1859,lateral vestibulospinal tract,C2327201,"Body Part, Organ, or Organ Component",AFFECTS,α motor neurons,C0026609,Cell,False,True
+1861,brainstem systems,C0006121,"Body Part, Organ, or Organ Component",AFFECTS,posture,C0722716,Pharmacologic Substance,False,True
+1861,brainstem systems,C0006121,"Body Part, Organ, or Organ Component",AFFECTS,locomotion,C0023946,Organism Function,False,True
+1862,head movement,C0376591,Organism Function,AFFECTS,vestibular apparatus,C0042606,Body Space or Junction,False,True
+1863,vestibular reflexes,C0034944,Organ or Tissue Function,PART_OF,postural reflex,C0234154,Organ or Tissue Function,False,True
+1863,head rotation,C0018670,Body Location or Region,AFFECTS,sensory receptors,C0034837,Cell Component,False,True
+1863,lateral vestibulospinal tract,C2327201,"Body Part, Organ, or Organ Component",AFFECTS,extensor muscles,C0682594,Tissue,False,True
+1863,postural support,C0344211,Health Care Activity,PREVENTS,person,C0027361,Population Group,False,True
+1863,disease,C0012634,Disease or Syndrome,AFFECTS,left labyrinth,C0022889,"Body Part, Organ, or Organ Component",False,True
+1863,medial vestibulospinal tract,C2339608,"Body Part, Organ, or Organ Component",CAUSES,contractions,C1140999,Pathologic Function,False,True
+1864,head,C0018670,Body Location or Region,AFFECTS,linear acceleration,C0023730,Medical Device,False,True
+1867,righting reflexes,C0234156,Organ or Tissue Function,IS_A,postural reflex,C0234154,Organ or Tissue Function,False,True
+1869,spinal cord,C0037925,"Body Part, Organ, or Organ Component",CONTAINS,neural circuits,C0814033,"Body Part, Organ, or Organ Component",False,True
+1869,cpg circuits,C0056912,"Nucleic Acid, Nucleoside, or Nucleotide",PRODUCES,stereotyped behavior,C0038271,Individual Behavior,False,True
+1871,stimulation,C1292856,Therapeutic or Preventive Procedure,CAUSES,phase shift,C5424934,Clinical Attribute,False,True
+1872,locomotor regions,C0033413,"Nucleic Acid, Nucleoside, or Nucleotide",LOCATION_OF,subthalamus,C0152349,Body Location or Region,False,True
+1872,locomotor regions,C0033413,"Nucleic Acid, Nucleoside, or Nucleotide",LOCATION_OF,medulla,C0025148,"Body Part, Organ, or Organ Component",False,True
+1874,cognitive processes,C0871689,Mental Process,CAUSES,movement,C0026649,Organism Function,False,True
+1874,motor areas,C0026607,Body Location or Region,PART_OF,cerebral cortex,C0007776,"Body Part, Organ, or Organ Component",False,True
+1882,electrical stimuli,C0013786,Therapeutic or Preventive Procedure,PRODUCES,movement,C0026649,Organism Function,False,True
+1885,primary motor cortex,C3495441,Body Location or Region,PART_OF,cortex,C0001614,Disease or Syndrome,False,True
+1887,homunculus,C1518715,Neoplastic Process,INDICATES,cortex,C0001614,Disease or Syndrome,False,True
+1891,axon collaterals,C1178982,Cell Component,INTERCONNECTS,cell columns,C0227428,"Body Part, Organ, or Organ Component",False,True
+1895,sma,C0026847,Disease or Syndrome,INTERCONNECTS,motor areas,C0026607,Body Location or Region,False,True
+1900,dorsal division,C0152060,Therapeutic or Preventive Procedure,CONTAINS,leg,C0023216,"Body Part, Organ, or Organ Component",False,True
+1900,dorsal division,C0152060,Therapeutic or Preventive Procedure,CONTAINS,trunk,C0225442,"Body Part, Organ, or Organ Component",False,True
+1900,dorsal division,C0152060,Therapeutic or Preventive Procedure,CONTAINS,arm,C0446516,Body Location or Region,False,True
+1900,dorsal division,C0152060,Therapeutic or Preventive Procedure,CONTAINS,face,C0015450,Body Location or Region,False,True
+1900,ventral division,C0152060,Therapeutic or Preventive Procedure,CONTAINS,arm,C0446516,Body Location or Region,False,True
+1900,ventral division,C0152060,Therapeutic or Preventive Procedure,CONTAINS,face,C0015450,Body Location or Region,False,True
+1900,pmd,C0205711,Disease or Syndrome,CONTAINS,proximal muscles,C2984223,"Body Part, Organ, or Organ Component",False,True
+1900,pmv,C0340364,Congenital Abnormality,CONTAINS,distal muscles,C2984224,"Body Part, Organ, or Organ Component",False,True
+1901,motor areas,C0026607,Body Location or Region,PART_OF,cingulate sulcus,C0228189,Body Space or Junction,False,True
+1902,microstimulation,C1292856,Therapeutic or Preventive Procedure,PRODUCES,movement,C0026649,Organism Function,False,True
+1932,damage,C0010957,Injury or Poisoning,DISRUPTS,motor function,C0234130,Biologic Function,False,True
+1932,cerebellum,C0007765,"Body Part, Organ, or Organ Component",CONNECTED_TO,motor cortex,C0026607,Body Location or Region,False,True
+1935,ataxia,C0004134,Sign or Symptom,EXHIBITS,dysdiadochokinesia,C0234979,Sign or Symptom,False,True
+1938,cranium,C0037303,"Body Part, Organ, or Organ Component",LOCATION_OF,cerebellum,C0007765,"Body Part, Organ, or Organ Component",False,True
+1948,flocculonodular lobe,C0152388,"Body Part, Organ, or Organ Component",LOCATION_OF,mossy fibers,C0596975,Cell Component,False,True
+1948,vermis,C0228482,"Body Part, Organ, or Organ Component",LOCATION_OF,mossy fibers,C0596975,Cell Component,False,True
+1952,rostral medulla,C0025148,"Body Part, Organ, or Organ Component",LOCATION_OF,inferior olivary nucleus,C0228540,"Body Part, Organ, or Organ Component",False,True
+1955,gap junctions,C0206117,Body Space or Junction,CONNECTED_TO,olivary neurons,C0027882,Cell,False,True
+1955,inferior olivary nucleus,C0228540,"Body Part, Organ, or Organ Component",CONTAINS,gap junctions,C0206117,Body Space or Junction,False,True
+1958,cerebellar cortex,C0007759,"Body Part, Organ, or Organ Component",CONTAINS,purkinje cells,C0034143,Cell,False,True
+1958,cerebellar cortex,C0007759,"Body Part, Organ, or Organ Component",CONTAINS,golgi cells,C0018042,Cell Component,False,True
+1958,cerebellar cortex,C0007759,"Body Part, Organ, or Organ Component",CONTAINS,granule cells,C0010837,Cell Component,False,True
+1958,cerebellar cortex,C0007759,"Body Part, Organ, or Organ Component",CONTAINS,basket cells,C0225356,Cell,False,True
+1958,cerebellar cortex,C0007759,"Body Part, Organ, or Organ Component",CONTAINS,stellate cells,C0598117,Cell,False,True
+1958,cerebellar cortex,C0007759,"Body Part, Organ, or Organ Component",CONTAINS,unipolar brush cells,C1180392,Cell,False,True
+1959,granule cell layer,C0010837,Cell Component,CONTAINS,granule cells,C0010837,Cell Component,False,True
+1959,granule cell layer,C0010837,Cell Component,CONTAINS,golgi cells,C0018042,Cell Component,False,True
+1959,granule cell layer,C0010837,Cell Component,CONTAINS,unipolar brush cells,C1180392,Cell,False,True
+1959,purkinje cell layer,C0228470,Tissue,CONTAINS,purkinje cells,C0034143,Cell,False,True
+1960,purkinje cell axon,C0034143,Cell,PART_OF,cortex,C0001614,Disease or Syndrome,False,True
+1965,axons,C0004461,Cell Component,CONNECTED_TO,purkinje cells,C0034143,Cell,False,True
+1965,basket cells,C0225356,Cell,CONNECTED_TO,purkinje cell soma,C0034143,Cell,False,True
+1965,basket cells,C0225356,Cell,SURROUNDS,soma,C0599444,Cell Component,False,True
+1966,dendrites,C0011305,Cell Component,CONNECTED_TO,mossy fiber rosette,C0596975,Cell Component,False,True
+1966,dendrites,C0011305,Cell Component,CONNECTED_TO,golgi cell axons,C0018042,Cell Component,False,True
+1966,parallel fibers,C3546707,Cell Component,CONNECTED_TO,"dendrites of purkinje, golgi, stellate, and basket cells",,Cell Component,False,True
+1967,beam,C0338248,Therapeutic or Preventive Procedure,AFFECTS,purkinje cells,C0034143,Cell,False,True
+1967,beam,C0338248,Therapeutic or Preventive Procedure,AFFECTS,interneurons,C0021792,Cell,False,True
+1969,mossy fibers,C0596975,Cell Component,AFFECTS,golgi cells,C0018042,Cell Component,False,True
+1969,olivocerebellar fibers,C0228543,"Body Part, Organ, or Organ Component",AFFECTS,golgi cells,C0018042,Cell Component,False,True
+1969,basket cells,C0225356,Cell,AFFECTS,golgi cells,C0018042,Cell Component,False,True
+1969,golgi cells,C0018042,Cell Component,AFFECTS,granule cells,C0010837,Cell Component,False,True
+1970,purkinje cell axon collaterals,C1178982,Cell Component,CONNECTED_TO,lugaro cells,,Cell,False,True
+1970,granule cell axons,C0004461,Cell Component,CONNECTED_TO,lugaro cells,,Cell,False,True
+1970,lugaro cells,,Cell,AFFECTS,interneurons,C0021792,Cell,False,True
+1970,lugaro cells,,Cell,AFFECTS,purkinje cells,C0034143,Cell,False,True
+1971,mossy fibers,C0596975,Cell Component,AFFECTS,unipolar brush cells,C1180392,Cell,False,True
+1971,golgi cells,C0018042,Cell Component,AFFECTS,unipolar brush cells,C1180392,Cell,False,True
+1971,unipolar brush cells,C1180392,Cell,CONNECTED_TO,granule cells,C0010837,Cell Component,False,True
+1971,unipolar brush cells,C1180392,Cell,CONNECTED_TO,golgi cells,C0018042,Cell Component,False,True
+1971,unipolar brush cells,C1180392,Cell,PART_OF,mossy fiber–parallel fiber pathway,,Cell Component,False,True
+1973,vermis,,Cell,AFFECTS,fastigial nucleus,C0042600,"Body Part, Organ, or Organ Component",False,True
+1973,vermis,,Cell,AFFECTS,vestibular nuclei,C0042600,"Body Part, Organ, or Organ Component",False,True
+1973,paravermal region,,Cell,AFFECTS,interpositus nucleus,,"Body Part, Organ, or Organ Component",False,True
+1973,lateral hemisphere,C0228174,"Body Part, Organ, or Organ Component",AFFECTS,dentate nucleus,C0086120,"Body Part, Organ, or Organ Component",False,True
+1975,gabaergic cells,C0242898,Pharmacologic Substance,CONNECTED_TO,inferior olivary nucleus,C0228540,"Body Part, Organ, or Organ Component",False,True
+1976,cerebellar,C0007765,"Body Part, Organ, or Organ Component",CONNECTED_TO,primary motor cortex,C3495441,Body Location or Region,False,True
+1976,cerebellar,C0007765,"Body Part, Organ, or Organ Component",CONNECTED_TO,motor areas,C0026607,Body Location or Region,False,True
+1978,mossy fiber,C0596975,Cell Component,CAUSES,discharge,C0012621,Body Substance,False,True
+1980,climbing fibers,C2752551,Cell Component,CAUSES,complex spikes,C3689447,Medical Device,False,True
+1981,climbing fiber,C2752551,Cell Component,CAUSES,high-frequency burst of spikes,C3689447,Medical Device,False,True
+1984,olivocerebellar system,C0228543,"Body Part, Organ, or Organ Component",FUNCTIONALLY_RELATED_TO,motor control,C4720933,Therapeutic or Preventive Procedure,False,True
+1984,olivocerebellar system,C0228543,"Body Part, Organ, or Organ Component",PRODUCES,complex spikes,C3689447,Medical Device,False,True
+1991,fiber bundles,C3658308,Therapeutic or Preventive{Procedure,PRODUCES,striations,C1420489,Gene or Genome,False,True
+1992,thalamic nuclei,C0039727,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,basal ganglia,C0004781,"Body Part, Organ, or Organ Component",False,True
+1993,substantia nigra,C0038590,"Body Part, Organ, or Organ Component",CONTAINS,melanin pigment,C0031916,Chemical Viewed Functionally,False,True
+2016,levodopa,C0023570,"Amino Acid, Peptide, or Protein",TREATS,parkinson’s disease,C0030567,Disease or Syndrome,False,True
+2017,gene,C0017337,Gene or Genome,CAUSES,huntington’s disease,C0020179,Disease or Syndrome,False,True
+2024,vor,C0034944,Clinical Attribute,PRODUCES,eye movements,C0026649,Organism Function,False,True
+2027,head motion,C0018670,Body Location or Region,AFFECTS,vor,C0034944,Clinical Attribute,False,True
+2045,circuits,C0179423,Medical Device,PART_OF,vestibuloocular reflex,C0034944,Clinical Attribute,False,True
+2054,depolarization,C3714805,Cell Function,CAUSES,vor,C0034944,Clinical Attribute,False,True
+2064,photoreceptors,C0031760,Cell,PART_OF,reflex,C0034929,Organ or Tissue Function,False,True
+2064,motion-sensitive retinal ganglion cells,C0035316,Cell,CONNECTED_TO,nuclei,C0007610,Cell Component,False,True
+2070,vertical gaze center,C0085637,Pathologic Function,LOCATION_OF,reticular formation,C0035284,"Body Part, Organ, or Organ Component",False,True
+2080,motor unit,C0231502,"Body Part, Organ, or Organ Component",CONSISTS_OF,α motor neuron,C0026609,Cell,False,True
+2080,motor unit,C0231502,"Body Part, Organ, or Organ Component",CONSISTS_OF,muscle fibers,C0242697,Cell,False,True
+2086,skeletal muscle,C0242692,Tissue,LOCATION_OF,muscle spindles,C0027871,"Body Part, Organ, or Organ Component",False,True
+2086,spindle,C1166795,Cell Component,CONTAINS,intrafusal muscle fibers,C0242697,Cell,False,True
+2092,intrafusal muscle fibers,C0242697,Cell,CONNECTED_TO,γ motor neurons,C0026609,Cell,False,True
+2092,γ motor neurons,C0026609,Cell,AFFECTS,muscle spindle,C0027871,"Body Part, Organ, or Organ Component",False,True
+2094,tendons,C0039508,"Body Part, Organ, or Organ Component",LOCATION_OF,golgi tendon organs,C0027929,"Body Part, Organ, or Organ Component",False,True
+2098,ib fibers,C0000696,Tissue,CAUSES,disynaptic inhibition,C1154412,Cell Function,False,True
+2100,volleys,C0183644,Medical Device,CAUSES,inhibition,C0021467,Mental Process,False,True
+2104,lateral system,C1720970,Body System,CONTAINS,lateral corticospinal tract,C0152402,"Body Part, Organ, or Organ Component",False,True
+2106,pathways,C1704259,Molecular Function,AFFECTS,posture,C0722716,Pharmacologic Substance,False,True
+2108,midbrain,C0025462,"Body Part, Organ, or Organ Component",CAUSES,locomotion,C0023946,Organism Function,False,True
+2110,motor areas,C0026607,Body Location or Region,INTERACTS_WITH,cerebral cortex,C0007776,"Body Part, Organ, or Organ Component",False,True
+2110,motor areas,C0026607,Body Location or Region,INTERACTS_WITH,cerebellum,C0007765,"Body Part, Organ, or Organ Component",False,True
+2110,motor areas,C0026607,Body Location or Region,INTERACTS_WITH,basal ganglia,C0004781,"Body Part, Organ, or Organ Component",False,True
+2126,fiber,C0225326,Organic Chemical,CONNECTED_TO,purkinje cell,C0034143,Cell,False,True
+2126,fiber discharge,C0012621,Body Substance,PRODUCES,high-frequency burst,C0019541,Therapeutic or Preventive Procedure,False,True
+2126,high-frequency burst,C0019541,Therapeutic or Preventive Procedure,CONTAINS,action potentials,C0001272,Cell Function,False,True
+2130,basal ganglia,C0004781,"Body Part, Organ, or Organ Component",INTERCONNECTS,cerebral cortex,C0007776,"Body Part, Organ, or Organ Component",False,True
+2133,eye movement,C0015413,Physiologic Function,AFFECTS,visual world,C2700280,Population Group,False,True
+2133,visual world,C2700280,Population Group,AFFECTS,visual acuity,C0042812,Clinical Attribute,False,True
+2133,vestibuloocular,C0034944,Clinical Attribute,AFFECTS,visual world,C2700280,Population Group,False,True
+2133,optokinetic movements,C0162567,Physiologic Function,AFFECTS,visual world,C2700280,Population Group,False,True
+2133,smooth pursuit movements,C0034158,Organ or Tissue Function,AFFECTS,foveae,C0016622,"Body Part, Organ, or Organ Component",False,True
+2140,brainstem,C0006121,"Body Part, Organ, or Organ Component",LOCATION_OF,circuits,C0179423,Medical Device,False,True
+2167,hippocampal formation,C0220781,Biologic Function,PART_OF,limbic lobe,C0458337,"Body Part, Organ, or Organ Component",False,True
+2168,cerebral commissures,C3498502,"Body Part, Organ, or Organ Component",INTERCONNECTS,hemispheres,C0228174,"Body Part, Organ, or Organ Component",False,True
+2168,massive corpus callosum,C0010090,"Body Part, Organ, or Organ Component",CONNECTED_TO,cortex,C0001614,Disease or Syndrome,False,True
+2170,neocortex,C0175173,"Body Part, Organ, or Organ Component",CONTAINS,cortical layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+2170,archicortex,C0598598,"Body Part, Organ, or Organ Component",CONTAINS,cortical layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+2170,paleocortex,C2337931,Body Location or Region,CONTAINS,cortical layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+2184,pyramidal cells,C0206441,Cell,CONNECTED_TO,subcortical white matter,C0948163,Pathologic Function,False,True
+2184,cortex,C0001614,Disease or Syndrome,LOCATION_OF,axon,C0004461,Cell Component,False,True
+2184,layer iv,C0934502,"Body Part, Organ, or Organ Component",LOCATION_OF,interneurons,C0021792,Cell,False,True
+2184,cortical region,C0001613,"Body Part, Organ, or Organ Component",LOCATION_OF,axons,C0004461,Cell Component,False,True
+2184,axons,C0004461,Cell Component,CONNECTED_TO,upper cortical layers,C0023307,"Body Part, Organ, or Organ Component",False,True
+2199,optic pathway,C1704259,Molecular Function,TRAVERSES,temporal lobe,C0039485,"Body Part, Organ, or Organ Component",False,True
+2199,posterior region,C0230445,Body Location or Region,CONTAINS,wernicke’s area,C0043120,"Body Part, Organ, or Organ Component",False,True
+2205,seizures,C0036572,Sign or Symptom,CAUSES,buzzing,C0040264,Disease or Syndrome,False,True
+2207,synaptic potentials,C0205855,Organ or Tissue Function,OCCURS_IN,pyramidal cells,C0206441,Cell,False,True
+2209,tracing,C1561445,Animal,CONSISTS_OF,waves,C0678544,Natural Phenomenon or Process,False,True
+2211,visual stimulus,C0597664,Organ or Tissue Function,CAUSES,evoked potentials,C0015214,Organ or Tissue Function,False,True
