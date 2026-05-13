@@ -1,0 +1,798 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+0,naive t cells,C3641721,Cell,INTERACTS_WITH,antigen-presenting cells,C0003315,Cell,False,True
+1,co-stimulation,C0021756,"Amino Acid, Peptide, or Protein",CAUSES,high-affinity il-2 receptor,C1149311,Molecular Function,False,True
+2,cytokines,C0079189,"Amino Acid, Peptide{, or Protein",CAUSES,differentiation,C0007589,Cell Function,False,True
+3,regulatory cd4 t cells,C5420769,Cell,MANAGES,adaptive immune responses,C1155229,Cell Function,False,True
+8,cytotoxic t cells,C0039195,Cell,CAUSES,apoptosis,C0162638,Cell Function,False,True
+9,cytotoxic t cells,C0039195,Cell,CAUSES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+20,fc receptor,C0034805,"Amino Acid, Peptide, or Protein",CARRIES_OUT,igg,C0020852,"Amino Acid, Peptide, or Protein",False,True
+25,extracellular bacterial pathogens,C0521119,Cell Component,PREVENTS,detection,C1511790,Therapeutic or Preventive Procedure,False,True
+29,rna viruses,C0035691,Virus,USES,antigenic variation,C0003319,Molecular Function,False,True
+30,dna viruses,C0012923,Virus,DISRUPTS,nk-cell,C0022688,Cell,False,True
+30,dna viruses,C0012923,Virus,DISRUPTS,ctl responses,C0039195,Organism Attribute,False,True
+33,hiv,C0019682,Virus,IS_A,retrovirus,C0035366,Virus,False,True
+51,adoptive transfer,C0376518,Therapeutic or Preventive Procedure,USES,lymphocytes,C0024264,Cell,False,True
+77,cowpox,C0010232,Disease or Syndrome,PREVENTS,smallpox,C0037354,Disease or Syndrome,False,True
+79,microorganisms,C0445623,Organism,CAUSES,infectious diseases,C0009450,Disease or Syndrome,False,True
+83,vaccination,C0042196,Therapeutic or Preventive Procedure,BRINGS_ABOUT,eradication,C3178994,Health Care Activity,False,True
+86,phagocytic cells,C0031307,Cell,PREVENTS,infection,C0009450,Disease or Syndrome,False,True
+87,antibodies,C0003241,"Amino Acid, Peptide{, or Protein",INTERACTS_WITH,antigens,C0003320,Immunologic Factor,False,True
+88,cells,C0007634,Cell,PART_OF,immune system,C0020962,Body System,False,True
+90,immune system,C0020962,Body System,CONSISTS_OF,effector cells,C3178739,Cell,False,True
+93,platelets,C0005821,Cell,PERFORMS,blood clotting,C0005778,Organ or Tissue Function,False,True
+96,pathogens,C0450254,Organism,CAUSES,damage,C0010957,Injury or Poisoning,False,True
+97,bacteria,C0004611,Bacterium,PRODUCES,toxins,C0040549,Biologically Active Substance,False,True
+144,macrophages,C0024432,Cell,IS_A,inflammatory cells,C0440752,Cell,False,True
+144,neutrophils,C0027950,Cell,IS_A,inflammatory cells,C0440752,Cell,False,True
+146,innate lymphocytes,C0024264,Cell,IS_A,effector cells,C3178739,Cell,False,True
+146,natural killer cells,C0022688,Cell,IS_A,effector cells,C3178739,Cell,False,True
+148,innate lymphoid cells,C5401424,Cell,LOCATION_OF,intestine,C0021853,"Body Part, Organ, or Organ Component",False,True
+150,sensor cells,C0034837,Cell Component,PRODUCES,inflammatory mediators,C0243042,Pharmacologic Substance,False,True
+150,cytokines,C0079189,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,immune cells,C4330475,Cell,False,True
+157,antigens,C0003320,Immunologic Factor,INTERACTS_WITH,antigen receptors,C0034788,"Amino Acid, Peptide, or Protein",False,True
+158,antigen,C0003320,Immunologic Factor,INTERACTS_WITH,antigen receptors,C0034788,"Amino Acid, Peptide, or Protein",False,True
+160,antigen,C0003320,Immunologic Factor,INTERACTS_WITH,b-cell antigen receptor,C0034789,"Amino Acid, Peptide, or Protein",False,True
+162,membrane-bound version,C2754974,Cell Component,IS_A,b-cell antigen receptor,C0034789,"Amino Acid, Peptide, or Protein",False,True
+168,immune response,C0020964,Organ or Tissue Function,INTERACTS_WITH,antigens,C0003320,Immunologic Factor,False,True
+200,dendritic cells,C0011306,Cell,PERFORMS,adaptive immune responses,C1155229,Cell Function,False,True
+200,dendritic cells,C0011306,Cell,AFFECTS,lymphocyte proliferation,C0596873,Cell Function,False,True
+202,dendritic cells,C0011306,Cell,CONNECTED_TO,innate immune system,C0020962,Body System,False,True
+202,dendritic cells,C0011306,Cell,CONNECTED_TO,adaptive immune system,C0020962,Body System,False,True
+202,dendritic cells,C0011306,Cell,INTERACTS_WITH,pathogens,C0450254,Organism,False,True
+204,dendritic cells,C0011306,Cell,IS_A,antigen-presenting cells,C0003315,Cell,False,True
+204,b lymphocytes,C0004561,Cell,INTERACTS_WITH,antigens,C0003320,Immunologic Factor,False,True
+204,t lymphocytes,C0039194,Cell,INTERACTS_WITH,antigens,C0003320,Immunologic Factor,False,True
+204,free antigens,C0003320,Immunologic Factor,AFFECTS,antigen receptors,C0034788,"Amino Acid, Peptide, or Protein",False,True
+210,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",IS_A,lymphoid organs,C0502330,"Body Part, Organ, or Organ Component",False,True
+210,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",LOCATION_OF,vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+210,blood,C0005767,Body Substance,PRODUCES,extracellular fluid,C0015349,Body Substance,False,True
+222,peyer's patch,C0031272,"Body Part, Organ, or Organ Component",CONTAINS,b-cell follicles,,Cell,False,True
+222,subepithelial dome,,"Body Part, Organ, or Organ Component",CONTAINS,dendritic cells,C0011306,Cell,False,True
+222,subepithelial dome,,"Body Part, Organ, or Organ Component",CONTAINS,t cells,C0039194,Cell,False,True
+222,subepithelial dome,,"Body Part, Organ, or Organ Component",CONTAINS,b cells,C0004561,Cell,False,True
+225,microbes,C0450254,Organism,TRAVERSES,m cells,C0599757,Cell,False,True
+240,bone marrow,C0005953,Tissue,LOCATION_OF,b cells,C0004561,Cell,False,True
+240,thymus,C0040112,Biologically Active Substance,LOCATION_OF,t cells,C0039194,Cell,False,True
+250,interferon-γ,C0021747,"Amino Acid, Peptide, or Protein",AFFECTS,phagocytes,C0031307,Cell,False,True
+250,interferon-γ,C0021747,"Amino Acid, Peptide, or Protein",AFFECTS,tissues,C0040300,Tissue,False,True
+253,antibodies,C0003241,"Amino Acid, Peptide, or Protein",PREVENTS,extracellular pathogens,C0521119,Cell Component,False,True
+253,antibodies,C0003241,"Amino Acid, Peptide, or Protein",PREVENTS,bacterial toxin,C0004630,"Amino Acid, Peptide, or Protein",False,True
+262,t cells,C0039194,Cell,MANAGES,cell-mediated immunity,C0020966,Organism Function,False,True
+262,t cells,C0039194,Cell,MANAGES,b-cell responses,C0871261,Organism Attribute,False,True
+263,t lymphocytes,C0039194,Cell,PERFORMS,destruction,C1261381,Therapeutic or Preventive Procedure,False,True
+266,cytotoxic t cells,C0039195,Cell,CONTAINS,cd8,C0085358,Immunologic Factor,False,True
+270,caspases,C0010656,"Amino Acid, Peptide, or Protein",AFFECTS,cytosolic nuclease,C1383501,Cell Component,False,True
+270,caspases,C0010656,"Amino Acid, Peptide, or Protein",AFFECTS,viral dna,C0012939,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+272,cytotoxic t cells,C0039195,Cell,AFFECTS,infected cell,C0007634,Cell,False,True
+272,cytotoxic t cells,C0039195,Cell,INTERACTS_WITH,class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+273,cd4 t cells,C5420769,Cell,IS_A,helper t cells,C0018894,Cell,False,True
+273,cd4 t cells,C5420769,Cell,INTERACTS_WITH,antigen,C0003320,Immunologic Factor,False,True
+273,cd4 t cells,C5420769,Cell,INTERACTS_WITH,b cells,C0004561,Cell,False,True
+273,cd4 t cells,C5420769,Cell,AFFECTS,antibody,C0003241,"Amino Acid, Peptide, or Protein",False,True
+274,th1,C5420769,Cell,AFFECTS,bacteria,C0004611,Bacterium,False,True
+274,ifn-γ,C0002199,"Amino Acid, Peptide, or Protein",AFFECTS,macrophages,C0024432,Cell,False,True
+276,th1 cells,C5420769,Cell,AFFECTS,macrophage,C0024432,Cell,False,True
+276,follicular helper,C0242632,Cell,AFFECTS,b cells,C0004561,Cell,False,True
+279,immune system,C0020962,Body System,PREVENTS,infection,C0009450,Disease or Syndrome,False,True
+290,mass immunization programs,C0206082,Health Care Activity,CAUSES,virtual eradication,C1553497,Health Care Activity,False,True
+291,measles,C0025007,Disease or Syndrome,CAUSES,sspe,C0038522,Disease or Syndrome,False,True
+301,protective immunity,C0020965,Organ or Tissue Function,PREVENTS,reinfection,C0205339,Pathologic Function,False,True
+305,serum,C0229671,Body Substance,PREVENTS,diphtheria toxin,C0012550,"Amino Acid, Peptide, or Protein",False,True
+306,bacterial infection,C0004623,Disease or Syndrome,CAUSES,complement activation,C0009528,Molecular Function,False,True
+307,immunologic memory,C0021055,Organ or Tissue Function,PREVENTS,chickenpox,C0008049,Disease or Syndrome,False,True
+311,toll-like receptors,C0670896,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,intracellular bacteria,C4695382,Bacterium,False,True
+311,nod-like receptors,C4277661,"Amino Acid, Peptide{, or Protein",INTERACTS_WITH,extracellular bacteria,C0521119,Cell Component,False,True
+327,immunological process disease,C0021053,Disease or Syndrome,PREVENTS,immunological response,C0020964,Organ or Tissue Function,False,True
+332,suppression,C0221103,Pathologic Function,AFFECTS,self-reactive lymphocytes,C4317010,Cell,False,True
+356,co-stimulation,C0021756,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,t cells,C0039194,Cell,False,True
+381,innate immune system,C0020962,Body System,USES,secreted proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+383,gene segment rearrangements,C0017287,Genetic Function,PRODUCES,antigen-specific receptors,C0034788,"Amino Acid, Peptide, or Protein",False,True
+387,complement system,C0009498,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,microorganisms,C0445623,Organism,False,True
+392,body compartments,C0684079,Body Space or Junction,LOCATION_OF,infectious agents,C0314732,Organism,False,True
+431,defensins,C0057256,"Amino Acid, Peptide, or Protein",DISRUPTS,cell membranes,C0007603,Cell Component,False,True
+431,defensins,C0057256,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,charged surface,C1706211,Organism Attribute,False,True
+433,proteolytic processing,C1514570,Molecular Function,PRODUCES,defensins,C0057256,"Amino Acid, Peptide, or Protein",False,True
+433,cellular proteases,C1260229,"Amino Acid, Peptide, or Protein",PRODUCES,cationic defensin,C0057256,"Amino Acid, Peptide, or Protein",False,True
+433,primary granules,C1325603,Cell Component,CONTAINS,defensins,C0057256,"Amino Acid, Peptide, or Protein",False,True
+437,c-type lectins,C0907411,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,peptidoglycans,C0030958,Organic Chemical,False,True
+440,lps,C0023810,Organic Chemical,PREVENTS,pore-forming activity,C1152942,Molecular Function,False,True
+445,blood,C0005767,Body Substance,LOCATION_OF,complement,C0009498,"Amino Acid, Peptide, or Protein",False,True
+445,complement,C0009498,"Amino Acid, Peptide, or Protein",PART_OF,innate immunity,C0020969,Organism Attribute,False,True
+446,pathways,C1704259,Molecular Function,CAUSES,killing,C0162388,Social Behavior,False,True
+448,complement protein,C0009498,"Amino Acid, Peptide, or Protein",PRODUCES,inflammation,C0021368,Pathologic Function,False,True
+450,cleavage,C0010813,Cell Function,PRODUCES,c3a,C1332656,Gene or Genome,False,True
+450,cleavage,C0010813,Cell Function,PRODUCES,c3b,C1332656,Gene or Genome,False,True
+456,mac,C0009545,"Amino Acid, Peptide, or Protein",DISRUPTS,cell membrane,C0007603,Cell Component,False,True
+460,c3b,C1332656,Gene or Genome,PHYSICALLY_RELATED_TO,pathogen,C0450254,Organism,False,True
+460,hydrolysis,C0020291,Natural Phenomenon or Process,DISRUPTS,c3b,C1332656,Gene or Genome,False,True
+461,c3 convertase,C0009507,"Amino Acid, Peptide, or Protein",AFFECTS,c3,C0446413,Body Location or Region,False,True
+461,c3 convertase,C0009507,"Amino Acid, Peptide, or Protein",PRODUCES,c3a,C1332656,Gene or Genome,False,True
+463,regulatory proteins,C0815047,"Amino Acid, Peptide, or Protein",PREVENTS,complement,C0009498,"Amino Acid, Peptide, or Protein",False,True
+463,complement coating,C0009498,"Amino Acid, Peptide, or Protein",AFFECTS,phagocytes,C0031307,Cell,False,True
+465,lectin pathway,C1704259,Molecular Function,USES,soluble receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+468,acute-phase response,C0001349,Pathologic Function,PRODUCES,mbl,C0526870,"Amino Acid, Peptide, or Protein",False,True
+470,mannose-binding lectin,C0065661,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,mbl-associated serine proteases,C0256616,"Amino Acid, Peptide, or Protein",False,True
+470,mannose-binding lectin,C0065661,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,bacterial surfaces,C0445623,Organism,False,True
+470,ficolins,C0753749,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,masp-1,C0003993,"Amino Acid, Peptide, or Protein",False,True
+470,ficolins,C0753749,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,masp-2,C0537643,"Amino Acid, Peptide, or Protein",False,True
+471,mannose-binding lectin,C0065661,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,serine proteases,C0036734,"Amino Acid, Peptide, or Protein",False,True
+471,ficolins,C0753749,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,serine proteases,C0036734,"Amino Acid, Peptide, or Protein",False,True
+475,mbl,C0526870,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,masp-1,C0003993,"Amino Acid, Peptide, or Protein",False,True
+475,mbl,C0526870,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,masp-2,C0537643,"Amino Acid, Peptide, or Protein",False,True
+475,mbl,C0526870,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,masp-3,C1417036,Gene or Genome,False,True
+475,masp-1,C0003993,"Amino Acid, Peptide, or Protein",AFFECTS,masp-2,C0537643,"Amino Acid, Peptide, or Protein",False,True
+475,masp-2,C0537643,"Amino Acid, Peptide, or Protein",AFFECTS,c4,C0009516,"Amino Acid, Peptide, or Protein",False,True
+475,masp-2,C0537643,"Amino Acid, Peptide, or Protein",AFFECTS,c2,C0009516,"Amino Acid, Peptide, or Protein",False,True
+477,mannose-binding lectin,C0065661,"Amino Acid, Peptide, or Protein",AFFECTS,c3,C0446413,Body Location or Region,False,True
+477,ficolins,C0753749,"Amino Acid, Peptide, or Protein",AFFECTS,c3,C0446413,Body Location or Region,False,True
+479,l-ficolin,C0753748,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lipoteichoic acid,C0065067,Organic Chemical,False,True
+482,c1 complex,C2263081,Cell Component,CONSISTS_OF,c1q,C1167386,Cell Component,False,True
+482,c1q,C1167386,Cell Component,CONSISTS_OF,monomers,C0596973,Chemical Viewed Structurally,False,True
+482,c1r,C1412936,Gene or Genome,INTERACTS_WITH,c1s,C1412937,Gene or Genome,False,True
+483,c1q,C1167386,Cell Component,INTERACTS_WITH,ligand,C0023688,Chemical,False,True
+483,ligand,C0023688,Chemical,AFFECTS,c1r:c1s complex,C0009504,"Amino Acid, Peptide, or Protein",False,True
+483,c1r,C1412936,Gene or Genome,AFFECTS,c1s,C1412937,Gene or Genome,False,True
+483,c1s,C1412937,Gene or Genome,AFFECTS,c4,C0009516,"Amino Acid, Peptide, or Protein",False,True
+483,c1s,C1412937,Gene or Genome,AFFECTS,c2,,"Amino Acid, Peptide, or Protein",False,True
+483,c4b,C1412999,Gene or Genome,INTERACTS_WITH,pathogen,C0450254,Organism,False,True
+483,c4b,C1412999,Gene or Genome,INTERACTS_WITH,c2,,"Amino Acid, Peptide, or Protein",False,True
+484,c1q,C1167386,Cell Component,INTERACTS_WITH,pathogens,C0450254,Organism,False,True
+486,c1q,C1167386,Cell Component,INTERACTS_WITH,c-reactive protein,C0006560,"Amino Acid, Peptide, or Protein",False,True
+489,c3bbb complex,C1564374,"Amino Acid, Peptide, or Protein",PART_OF,alternative pathway,C0009546,Molecular Function,False,True
+489,c3b,C1332656,Gene or Genome,INTERACTS_WITH,factor b,C0033453,"Amino Acid, Peptide, or Protein",False,True
+491,c4b,C1412999,Gene or Genome,PART_OF,c3 convertase c4b2a,C1564378,"Amino Acid, Peptide, or Protein",False,True
+494,c3b,C1332656,Gene or Genome,PHYSICALLY_RELATED_TO,factor b,C0033453,"Amino Acid, Peptide, or Protein",False,True
+496,c3b,C1332656,Gene or Genome,PHYSICALLY_RELATED_TO,cell surface,C0699040,Cell Component,False,True
+499,properdin,C0033452,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,alternative pathway c3 convertase c3bbb,C1564374,"Amino Acid, Peptide, or Protein",False,True
+500,properdin,C0033452,"Amino Acid, Peptide, or Protein",AFFECTS,c3bbb convertase,C1564374,"Amino Acid, Peptide, or Protein",False,True
+500,c3bbb,C1564374,"Amino Acid, Peptide, or Protein",AFFECTS,c3,C0446413,Body Location or Region,False,True
+500,c3bbb,C1564374,"Amino Acid, Peptide, or Protein",PRODUCES,c3b,C1332656,Gene or Genome,False,True
+501,c3bbb complex,C1564374,"Amino Acid, Peptide, or Protein",IS_A,c3 convertase,C0009507,"Amino Acid, Peptide, or Protein",False,True
+501,c3bbb complex,C1564374,"Amino Acid, Peptide, or Protein",PERFORMS,opsonization,C1159762,Cell Function,False,True
+502,cr1,C0056182,"Amino Acid, Peptide, or Protein",PREVENTS,c3 convertase formation,C0009507,"Amino Acid, Peptide, or Protein",False,True
+502,cr1,C0056182,"Amino Acid, Peptide, or Protein",AFFECTS,c3b,C1332656,Gene or Genome,False,True
+504,properdin,C0033452,"Amino Acid, Peptide, or Protein",IS_A,regulatory protein,C0815047,"Amino Acid, Peptide, or Protein",False,True
+505,factor h,C0056207,"Amino Acid, Peptide, or Protein",AFFECTS,c3b,C1332656,Gene or Genome,False,True
+521,receptors,C0597357,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,complement proteins,C0009498,"Amino Acid, Peptide, or Protein",False,True
+525,c3b,C1332656,Gene or Genome,PHYSICALLY_RELATED_TO,cr1,C0056182,"Amino Acid, Peptide, or Protein",False,True
+526,factor i,C0016006,"Amino Acid, Peptide, or Protein",PRODUCES,c3c,C1332656,Gene or Genome,False,True
+532,c3a,C1332656,Gene or Genome,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+532,c5a,C1367710,Gene or Genome,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+532,c3a,C1332656,Gene or Genome,CAUSES,inflammatory responses,C1155266,Pathologic Function,False,True
+532,c5a,C1367710,Gene or Genome,CAUSES,inflammatory responses,C1155266,Pathologic Function,False,True
+532,c3a,C1332656,Gene or Genome,CAUSES,contraction,C1140999,Pathologic Function,False,True
+532,c5a,C1367710,Gene or Genome,CAUSES,contraction,C1140999,Pathologic Function,False,True
+532,c3a,C1332656,Gene or Genome,CAUSES,vascular permeability,C0162337,Organ or Tissue Function,False,True
+532,c5a,C1367710,Gene or Genome,CAUSES,vascular permeability,C0162337,Organ or Tissue Function,False,True
+532,c3a,C1332656,Gene or Genome,CAUSES,adhesion molecules,C0007578,"Amino Acid, Peptide, or Protein",False,True
+532,c5a,C1367710,Gene or Genome,CAUSES,adhesion molecules,C0007578,"Amino Acid, Peptide, or Protein",False,True
+533,small complement-cleavage products,C0009498,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+533,small complement-cleavage products,C0009498,"Amino Acid, Peptide, or Protein",CAUSES,vascular permeability,C0162337,Organ or Tissue Function,False,True
+533,small complement-cleavage products,C0009498,"Amino Acid, Peptide, or Protein",CAUSES,cell-adhesion molecules,C0007578,"Amino Acid, Peptide, or Protein",False,True
+535,c5a,C1367710,Gene or Genome,CAUSES,local inflammatory responses,C1155266,Pathologic Function,False,True
+535,c3a,C1332656,Gene or Genome,CAUSES,local inflammatory responses,C1155266,Pathologic Function,False,True
+535,c5a,C1367710,Gene or Genome,CAUSES,blood flow,C0005775,Physiologic Function,False,True
+538,terminal complement proteins,C0009498,"Amino Acid, Peptide, or Protein",CAUSES,pores,C0038027,Cell,False,True
+539,complement activation,C0009528,Molecular Function,CAUSES,membrane-attack complex,C5552697,"Amino Acid, Peptide, or Protein",False,True
+539,membrane-attack complex,C5552697,"Amino Acid, Peptide, or Protein",CAUSES,pore,C1325742,Cell Component,False,True
+540,c8α-γ,C5551434,"Amino Acid, Peptide, or Protein",CAUSES,membrane-attack complex,C5552697,"Amino Acid, Peptide, or Protein",False,True
+540,membrane-attack complex,C5552697,"Amino Acid, Peptide, or Protein",CONNECTED_TO,lipid bilayer,C0023768,Cell Component,False,True
+540,lipid bilayer,C0023768,Cell Component,DISRUPTS,cellular homeostasis,C2244223,Cell Function,False,True
+540,membrane-attack complex,C5552697,"Amino Acid, Peptide, or Protein",CAUSES,pathogen,C0450254,Organism,False,True
+545,complement activation,C0009528,Molecular Function,OCCURS_IN,pathogen,C0450254,Organism,False,True
+545,complement components,C0312743,"Amino Acid, Peptide, or Protein",OCCURS_IN,plasma,C0032105,Body Substance,False,True
+546,c1inh,C1173148,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,c1s,C1412937,Gene or Genome,False,True
+549,c1inh,C1173148,"Amino Acid, Peptide, or Protein",TREATS,hereditary angioedema,C0019243,Disease or Syndrome,False,True
+558,neisseria meningitidis,C0027575,Bacterium,PRODUCES,factor h binding protein,C1313749,"Amino Acid, Peptide, or Protein",False,True
+560,membrane protein pora,C0025252,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,c4bp,C0056193,"Amino Acid, Peptide, or Protein",False,True
+560,factor h,C0056207,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,pathogen membrane,C0450254,Organism,False,True
+560,c4bp,C0056193,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,pathogen membrane,C0450254,Organism,False,True
+560,pathogen,C0450254,Organism,DISRUPTS,c3b,C1332656,Gene or Genome,False,True
+561,staphylococcal protein a,C0038164,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",False,True
+561,staphylococcal protein staphylokinase,C0038164,"Amino Acid, Peptide, or Protein",PREVENTS,complement activation,C0009528,Molecular Function,False,True
+561,staphylococcal protein staphylokinase,C0038164,"Amino Acid, Peptide, or Protein",PREVENTS,phagocytosis,C0031308,Cell Function,False,True
+585,classical complement pathway,C0009547,Molecular Function,BRINGS_ABOUT,low c3,C1332656,Gene or Genome,False,True
+585,alternative complement pathway,C0009546,Molecular Function,BRINGS_ABOUT,low c3,C1332656,Gene or Genome,False,True
+604,epithelial cells,C0014597,Cell,PRODUCES,antimicrobial proteins,C1136254,Pharmacologic Substance,False,True
+604,phagocytes,C0031307,Cell,PRODUCES,antimicrobial proteins,C1136254,Pharmacologic Substance,False,True
+607,defensins,C0057256,"Amino Acid, Peptide, or Protein",IS_A,antimicrobial peptides,C4084937,"Amino Acid, Peptide, or Protein",False,True
+614,soluble receptors,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,microbial,C0445623,Organism,False,True
+626,properdin,C0033452,"Amino Acid, Peptide, or Protein",PERFORMS,pattern recognition,C1518918,Mental Process,False,True
+644,complement c3a,C0009510,"Amino Acid, Peptide, or Protein",CAUSES,signal transduction,C0037083,Cell Function,False,True
+644,c5a,C1367710,Gene or Genome,CAUSES,signal transduction,C0037083,Cell Function,False,True
+658,pathogens,C0450254,Organism,PRODUCES,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+659,complement regulator c4b-binding protein,C0056193,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,type iv pili,C2752415,Cell Component,False,True
+662,phagocytic cells,C0031307,Cell,CAUSES,inflammatory response,C1155266,Pathologic Function,False,True
+668,innate immune system,C0020962,Body System,USES,germline-encoded receptors,,"Amino Acid, Peptide, or Protein",False,True
+668,adaptive immune system,C0020962,Body System,USES,antigen receptors,C0034788,"Amino Acid, Peptide, or Protein",False,True
+671,phagocytes,C0031307,Cell,PERFORMS,microbes,C0445623,Organism,False,True
+671,phagocytes,C0031307,Cell,DISRUPTS,microbes,C0445623,Organism,False,True
+674,tissues,C0040300,Tissue,PRODUCES,interleukin 34,C1824430,Gene or Genome,False,True
+676,macrophages,C0024432,Cell,DISRUPTS,pathogens,C0450254,Organism,False,True
+677,cdcs,C0055295,Organic Chemical,PROCESS_OF,microbes,C0445623,Organism,False,True
+677,cdcs,C0055295,Organic Chemical,PRODUCES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+681,phagosome,C0031310,Cell Component,CONNECTED_TO,lysosomes,C0024369,Cell Component,False,True
+681,granules,C0010837,Cell Component,CONNECTED_TO,phagosomes,C0031310,Cell Component,False,True
+683,scavenger receptors,C0074129,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,anionic polymers,C0032521,Chemical Viewed Structurally,False,True
+683,class a scavenger receptors,C0074129,"Amino Acid, Peptide, or Protein",IS_A,membrane proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+684,receptors,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,microbes,C0445623,Organism,False,True
+684,cd36,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lipids,C0023779,Organic Chemical,False,True
+684,complement receptors,C0034793,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,bacteria,C0004611,Bacterium,False,True
+686,sr-a i,C1417374,Gene or Genome,INTERACTS_WITH,cell-wall components,C0243092,Cell Component,False,True
+686,cd36,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ligands,C0023688,Chemical,False,True
+687,complement receptors,C0034793,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,microbes,C0445623,Organism,False,True
+690,fmlf receptor,C0682972,"Amino Acid, Peptide, or Protein",PRODUCES,reactive oxygen species,C0162772,Biologically Active Substance,False,True
+691,ligand,C0023688,Chemical,CAUSES,conformational change,C0301641,Molecular Function,False,True
+695,adenylate cyclase,C0001492,"Amino Acid, Peptide, or Protein",PRODUCES,cyclic amp,C0001465,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+698,c5a receptor,C0056196,"Amino Acid, Peptide, or Protein",PRODUCES,reactive oxygen species,C0162772,Biologically Active Substance,False,True
+704,nadph oxidase reaction,C0068355,"Amino Acid, Peptide, or Protein",PRODUCES,oxygen consumption,C0030055,Clinical Attribute,False,True
+704,nadph oxidase reaction,C0068355,"Amino Acid, Peptide, or Protein",PRODUCES,superoxide anion,C0038836,Organic Chemical,False,True
+704,enzyme superoxide dismutase,C0038838,"Amino Acid, Peptide, or Protein",PRODUCES,h2o2,C0020281,Pharmacologic Substance,False,True
+706,inactivating mutations,C4505106,Genetic Function,CAUSES,nadph oxidase deficiency,C0068355,"Amino Acid, Peptide, or Protein",False,True
+707,acidification,C1522821,Cell Function,CAUSES,acid hydrolases,C0020289,"Amino Acid, Peptide, or Protein",False,True
+708,fmet-leu-phe peptides,C0118022,"Amino Acid, Peptide, or Protein",CAUSES,rac2,C1419228,Gene or Genome,False,True
+708,rac2,C1419228,Gene or Genome,CAUSES,nadph oxidase,C0068355,"Amino Acid, Peptide, or Protein",False,True
+709,nadph oxidase,C0068355,"Amino Acid, Peptide, or Protein",BRINGS_ABOUT,microbicidal respiratory burst,C0085416,Cell Function,False,True
+709,nadph oxidase,C0068355,"Amino Acid, Peptide, or Protein",PRODUCES,superoxide ion,C0038836,Organic Chemical,False,True
+709,superoxide dismutase,C0038838,"Amino Acid, Peptide, or Protein",PRODUCES,hydrogen peroxide,C0020281,Pharmacologic Substance,False,True
+711,nets,C1423506,Gene or Genome,INTERACTS_WITH,microorganisms,C0445623,Organism,False,True
+711,ros,C0162772,Biologically Active Substance,BRINGS_ABOUT,net formation,C0220781,Biologic Function,False,True
+712,macrophages,C0024432,Cell,PRODUCES,respiratory burst,C0085416,Cell Function,False,True
+715,mycobacteria,C0026912,Bacterium,PREVENTS,acidification,C1522821,Cell Function,False,True
+716,microbial recognition,C0445623,Organism,BRINGS_ABOUT,inflammatory response,C1155266,Pathologic Function,False,True
+716,tissue damage,C0010957,Injury or Poisoning,BRINGS_ABOUT,inflammatory response,C1155266,Pathologic Function,False,True
+718,inflammation,C0021368,Pathologic Function,BRINGS_ABOUT,blood clotting,C0005778,Organ or Tissue Function,False,True
+718,inflammation,C0021368,Pathologic Function,BRINGS_ABOUT,repair,C0043240,Organism Function,False,True
+727,enzymatic pathways,C1704259,Molecular Function,PRODUCES,lipid mediators,C0127400,Organic Chemical,False,True
+729,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",AFFECTS,endothelial cells,C0225336,Cell,False,True
+730,c5a,C1367710,Gene or Genome,AFFECTS,neutrophils,C0027950,Cell,False,True
+730,c5a,C1367710,Gene or Genome,AFFECTS,monocytes,C0026473,Cell,False,True
+730,c5a,C1367710,Gene or Genome,AFFECTS,inflammation,C0021368,Pathologic Function,False,True
+730,c5a,C1367710,Gene or Genome,AFFECTS,adhesion molecules,C0007578,"Amino Acid, Peptide, or Protein",False,True
+730,c5a,C1367710,Gene or Genome,AFFECTS,mast cells,C0024880,Cell,False,True
+732,clot,C0009074,Organic Chemical,PREVENTS,blood loss,C0019080,Pathologic Function,False,True
+732,clot,C0009074,Organic Chemical,PREVENTS,infectious microorganisms,C0445623,Organism,False,True
+732,inflammatory response,C1155266,Pathologic Function,CAUSES,influx,C2752294,Cell Function,False,True
+732,coagulation,C0005778,Organ or Tissue Function,PRODUCES,blood clots,C0087086,Pathologic Function,False,True
+734,pattern recognition receptors,C1564907,"Amino Acid, Peptide, or Protein",PERFORMS,sensors,C0183210,Medical Device,False,True
+735,mutations,C0026882,Genetic Function,AFFECTS,antimicrobial peptides,C4084937,"Amino Acid, Peptide, or Protein",False,True
+735,mutations,C0026882,Genetic Function,CAUSES,susceptibility,C0012655,Clinical Attribute,False,True
+751,cell surface,C0699040,Cell Component,LOCATION_OF,tlr-1,C1336636,Gene or Genome,False,True
+751,cell surface,C0699040,Cell Component,LOCATION_OF,tlr-2,C1336636,Gene or Genome,False,True
+752,cells,C0007634,Cell,EXHIBITS,pattern recognition,C1518918,Mental Process,False,True
+758,lps,C0023810,Organic Chemical,CAUSES,secretion,C0036536,Biologic Function,False,True
+759,md-2,C0768899,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,tlr-4,C1336636,Gene or Genome,False,True
+759,lps,C0023810,Organic Chemical,INTERACTS_WITH,tlr-4,C1336636,Gene or Genome,False,True
+759,lps,C0023810,Organic Chemical,CAUSES,tlr-4 dimerization,C0376525,Natural Phenomenon or Process,False,True
+760,cd14,C0108768,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,tlr-4,C1336636,Gene or Genome,False,True
+761,tlr,C1332683,Gene or Genome,CAUSES,nfκb,C0085828,"Amino Acid, Peptide, or Protein",False,True
+761,tlr,C1332683,Gene or Genome,CAUSES,ap-1,C0040648,"Amino Acid, Peptide, or Protein",False,True
+761,tlr,C1332683,Gene or Genome,CAUSES,inflammatory cytokines,C1332683,Gene or Genome,False,True
+761,tlr,C1332683,Gene or Genome,CAUSES,type i interferons,C0021743,"Amino Acid, Peptide, or Protein",False,True
+762,tlr signaling,,Cell Function,CAUSES,inflammatory cytokines,C1332683,Gene or Genome,False,True
+762,tlr signaling,,Cell Function,CAUSES,chemotactic factors,C0008013,Biologically Active Substance,False,True
+762,tlr signaling,,Cell Function,CAUSES,antimicrobial peptides,C4084937,"Amino Acid, Peptide, or Protein",False,True
+762,tlr signaling,,Cell Function,CAUSES,antiviral cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+767,tlr-3,C1336636,Gene or Genome,INTERACTS_WITH,trif,C1823491,Gene or Genome,False,True
+767,tlr-2,C1336636,Gene or Genome,INTERACTS_WITH,myd88,C1417530,Gene or Genome,False,True
+767,tlr-2,C1336636,Gene or Genome,INTERACTS_WITH,mal,C1424810,Gene or Genome,False,True
+767,tlr-4,C1336636,Gene or Genome,INTERACTS_WITH,myd88,C1417530,Gene or Genome,False,True
+767,tlr-4,C1336636,Gene or Genome,INTERACTS_WITH,mal,C1424810,Gene or Genome,False,True
+767,tlr-4,C1336636,Gene or Genome,INTERACTS_WITH,trif,C1823491,Gene or Genome,False,True
+767,tlr-4,C1336636,Gene or Genome,INTERACTS_WITH,tram,C1539964,Gene or Genome,False,True
+768,tlr signaling,,Cell Function,CAUSES,nfκb,C0085828,"Amino Acid, Peptide, or Protein",False,True
+768,tlr signaling,,Cell Function,CAUSES,ap-1,C0040648,"Amino Acid, Peptide, or Protein",False,True
+768,nfκb,C0085828,"Amino Acid, Peptide, or Protein",CAUSES,pro-inflammatory cytokines,C0017262,Genetic Function,False,True
+768,nfκb,C0085828,"Amino Acid, Peptide, or Protein",CAUSES,chemotactic factors,C0008013,Biologically Active Substance,False,True
+768,irf3,C1564741,"Amino Acid, Peptide, or Protein",CAUSES,antiviral type i interferons,C0021743,"Amino Acid, Peptide, or Protein",False,True
+768,irf7,C1416475,Gene or Genome,CAUSES,antiviral type i interferons,C0021743,"Amino Acid, Peptide, or Protein",False,True
+768,tlr signaling,,Cell Function,CAUSES,cytokine genes,C1333196,Gene or Genome,False,True
+769,myd88,C1417530,Gene or Genome,PHYSICALLY_RELATED_TO,tlr cytoplasmic tails,C1336763,Gene or Genome,False,True
+769,myd88 death domain,C1511738,Amino Acid Sequence,INTERACTS_WITH,irak4,C1334137,Gene or Genome,False,True
+769,myd88 death domain,C1511738,Amino Acid Sequence,INTERACTS_WITH,irak1,C1334134,Gene or Genome,False,True
+770,irak complex,C1334134,Gene or Genome,INTERACTS_WITH,traf6,C0530129,"Amino Acid, Peptide, or Protein",False,True
+770,traf6,C0530129,"Amino Acid, Peptide, or Protein",PRODUCES,protein polymers,C0032521,Chemical Viewed Structurally,False,True
+770,irak complex,C1334134,Gene or Genome,AFFECTS,tak1,C1334477,Gene or Genome,False,True
+770,tak1,C1334477,Gene or Genome,AFFECTS,c-jun terminal kinase,C0248813,"Amino Acid, Peptide, or Protein",False,True
+770,tak1,C1334477,Gene or Genome,AFFECTS,p38 mapk,C0257535,"Amino Acid, Peptide, or Protein",False,True
+771,tak1,C1334477,Gene or Genome,AFFECTS,ikk complex,,Gene or Genome,False,True
+771,nemo,C1416380,Gene or Genome,PHYSICALLY_RELATED_TO,polyubiquitin chains,C0084133,"Amino Acid, Peptide, or Protein",False,True
+773,ikk,,"Amino Acid, Peptide, or Protein",AFFECTS,iκb,C0663914,"Amino Acid, Peptide, or Protein",False,True
+774,tlr signaling,,Cell Function,AFFECTS,nfκb,C0040648,"Amino Acid, Peptide, or Protein",False,True
+774,irak,C1334134,Gene or Genome,AFFECTS,traf6,C0530129,"Amino Acid, Peptide, or Protein",False,True
+776,inactivating mutations,C4505106,Genetic Function,CAUSES,immunodeficiency,C0021051,Disease or Syndrome,False,True
+777,irf proteins,C0063700,"Amino Acid, Peptide, or Protein",LOCATION_OF,cytoplasm,C0010834,Cell Component,False,True
+778,traf3,,"Amino Acid, Peptide, or Protein",PRODUCES,polyubiquitin chains,C0084133,"Amino Acid, Peptide, or Protein",False,True
+778,tbk1,C1336579,Gene or Genome,AFFECTS,irf3,C0063700,"Amino Acid, Peptide, or Protein",False,True
+778,irf3,C0063700,"Amino Acid, Peptide, or Protein",LOCATION_OF,nucleus,C0007610,Cell Component,False,True
+778,irf3,C0063700,"Amino Acid, Peptide, or Protein",AFFECTS,type i interferon genes,C0021747,"Amino Acid, Peptide, or Protein",False,True
+779,trif,C1823491,Gene or Genome,INTERACTS_WITH,traf3,C0295022,"Amino Acid, Peptide, or Protein",False,True
+779,traf3,C0295022,"Amino Acid, Peptide, or Protein",PRODUCES,polyubiquitin scaffold,C0084133,"Amino Acid, Peptide, or Protein",False,True
+779,irak1,C1334134,Gene or Genome,INTERACTS_WITH,irf7,C1416475,Gene or Genome,False,True
+787,nod2,C1826449,Gene or Genome,INTERACTS_WITH,muramyl dipeptide,C0001060,"Amino Acid, Peptide, or Protein",False,True
+788,nod1,C1826448,Gene or Genome,INTERACTS_WITH,rip2,C1335624,Gene or Genome,False,True
+788,nod2,C1826449,Gene or Genome,INTERACTS_WITH,rip2,C1335624,Gene or Genome,False,True
+788,rip2,C1335624,Gene or Genome,INTERACTS_WITH,ciap1,C1332414,Gene or Genome,False,True
+788,rip2,C1335624,Gene or Genome,INTERACTS_WITH,ciap2,C1332415,Gene or Genome,False,True
+788,rip2,C1335624,Gene or Genome,INTERACTS_WITH,xiap,C1337109,Gene or Genome,False,True
+789,nod proteins,C0033684,"Amino Acid, Peptide, or Protein",LOCATION_OF,cytoplasm,C0010834,Cell Component,False,True
+789,nod1,C1826448,Gene or Genome,INTERACTS_WITH,γ-glutamyl diaminopimelic acid,C0011961,"Amino Acid, Peptide, or Protein",False,True
+789,rip2,C1335624,Gene or Genome,INTERACTS_WITH,e3 ligases,C0077678,"Amino Acid, Peptide, or Protein",False,True
+789,e3 ligase activity,C0077678,"Amino Acid, Peptide, or Protein",PRODUCES,polyubiquitin,C0084133,"Amino Acid, Peptide, or Protein",False,True
+792,cellular damage,C0151763,Pathologic Function,AFFECTS,nlrp3 inflammasome,C3156614,Cell Component,False,True
+793,lrr domain of nlrp3,C1517773,Amino Acid Sequence,INTERACTS_WITH,chaperones,C0243041,"Amino Acid, Peptide, or Protein",False,True
+793,chaperones,C0243041,"Amino Acid, Peptide, or Protein",PREVENTS,nlrp3 activation,,,False,True
+794,nod1,C1826448,Gene or Genome,AFFECTS,susceptibility,C0012655,Clinical Attribute,False,True
+795,nod2,C1826449,Gene or Genome,LOCATION_OF,paneth cells,C0227276,Cell,False,True
+795,nod2,C1826449,Gene or Genome,AFFECTS,antimicrobial peptides,C4084937,"Amino Acid, Peptide, or Protein",False,True
+796,nlrp proteins,C4277661,"Amino Acid, Peptide, or Protein",CAUSES,cell death,C0007587,Cell Function,False,True
+797,nlrp3,C1424250,Gene or Genome,LOCATION_OF,cytoplasm,C0010834,Cell Component,False,True
+798,potassium ef˜ux,C0032821,Pharmacologic Substance,AFFECTS,nlrp3 oligomers,C1881903,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+809,gout,C0018099,Disease or Syndrome,CAUSES,inflammation,C0021368,Pathologic Function,False,True
+816,lgp2,C1837808,Gene or Genome,INTERACTS_WITH,rig-i,C1310468,"Amino Acid, Peptide, or Protein",False,True
+816,lgp2,C1837808,Gene or Genome,INTERACTS_WITH,mda-5,C1310463,"Amino Acid, Peptide, or Protein",False,True
+818,sting,C0038340,Injury or Poisoning,CAUSES,type i interferons,C0021743,"Amino Acid, Peptide, or Protein",False,True
+823,cytoplasm,C0010834,Cell Component,LOCATION_OF,cgas,C0055633,Hormone,False,True
+823,cgas,C0055633,Hormone,PRODUCES,cgamp,C3710730,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+823,cgamp,C3710730,"Nucleic Acid, Nucleoside, or Nucleotide",INTERACTS_WITH,sting dimer,C0596448,Chemical Viewed Structurally,False,True
+827,innate sensing pathways,C1704259,Molecular Function,PRODUCES,co-stimulatory molecules,C2985420,"Amino Acid, Peptide, or Protein",False,True
+830,proteolytic cascade,C0030940,"Amino Acid, Peptide, or Protein",CAUSES,cleavage,C0010813,Cell Function,False,True
+831,toll signaling pathway,,Molecular Function,AFFECTS,dif,C0812246,Gene or Genome,False,True
+831,toll signaling pathway,,Molecular Function,AFFECTS,antimicrobial peptides,C4084937,"Amino Acid, Peptide, or Protein",False,True
+835,tlr signaling,C1336763,Gene or Genome,AFFECTS,nfκb transcription factors,C0040648,"Amino Acid, Peptide, or Protein",False,True
+839,infection,C0009450,Disease or Syndrome,PRODUCES,innate responses,C0020969,Organism Attribute,False,True
+840,macrophage-derived chemokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,microbes,C0445623,Organism,False,True
+841,cytokines,C0079189,"Amino Acid, Peptide, or Protein",PART_OF,families,C0015576,Family Group,False,True
+841,receptors,C0597357,"Amino Acid, Peptide, or Protein",PART_OF,families,C0015576,Family Group,False,True
+842,cytokines,C0079189,"Amino Acid, Peptide, or Protein",CAUSES,responses,C0871261,Organism Attribute,False,True
+842,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,cell,C0007634,Cell,False,True
+843,heterodimeric class i cytokine receptors,C0206552,"Amino Acid, Peptide, or Protein",CONTAINS,α chain,,"Amino Acid, Peptide, or Protein",False,True
+846,erythropoietin,C0014822,"Amino Acid, Peptide, or Protein",CAUSES,red blood cell development,,Physiologic Function,False,True
+846,gm-csf,C0079460,"Amino Acid, Peptide, or Protein",CAUSES,production of new monocytes and granulocytes,,Physiologic Function,False,True
+849,tnf family,C0015576,Family Group,CONTAINS,cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+849,cells,C0007634,Cell,LOCATION_OF,tnf receptor i,C0255808,"Amino Acid, Peptide, or Protein",False,True
+849,lymphocytes,C0024264,Cell,LOCATION_OF,tnfr-ii,C1447786,"Amino Acid, Peptide, or Protein",False,True
+856,nucleus,C0007610,Cell Component,LOCATION_OF,stat proteins,C1366753,"Amino Acid, Peptide, or Protein",False,True
+857,mutations,C0026882,Genetic Function,CAUSES,scid,C0085110,Disease or Syndrome,False,True
+858,dimerization,C0376525,Natural Phenomenon or Process,CAUSES,phosphorylation,C0031715,Molecular Function,False,True
+859,ifn-γ,C0002199,"Amino Acid, Peptide, or Protein",AFFECTS,stat1,C1335872,Gene or Genome,False,True
+859,il-4,C0021758,"Amino Acid, Peptide, or Protein",AFFECTS,stat6,C0297890,"Amino Acid, Peptide, or Protein",False,True
+859,cytokine receptors,C0206552,"Amino Acid, Peptide, or Protein",AFFECTS,stats,C1413586,Gene or Genome,False,True
+860,tyrosine phosphatases,C0085536,"Amino Acid, Peptide, or Protein",AFFECTS,receptor complex,C1523873,Cell Component,False,True
+860,socs proteins,C0033684,"Amino Acid, Peptide, or Protein",AFFECTS,jak kinases,C0597721,"Amino Acid, Peptide, or Protein",False,True
+861,stats,C1413586,Gene or Genome,AFFECTS,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+866,chemokines,C0282554,"Amino Acid, Peptide, or Protein",AFFECTS,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+866,chemokines,C0282554,"Amino Acid, Peptide, or Protein",AFFECTS,neutrophils,C0027950,Cell,False,True
+869,cxcr2,C1334126,Gene or Genome,INTERACTS_WITH,cxcl8,C1366571,Gene or Genome,False,True
+869,ccr2b,C0531375,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ccl2,C1337092,Gene or Genome,False,True
+871,infection,C0009450,Disease or Syndrome,CAUSES,chemokine gradients,,"Amino Acid, Peptide, or Protein",False,True
+871,cxcl8,C1366571,Gene or Genome,AFFECTS,target cells,C0221284,Cell,False,True
+871,c5a,C1367710,Gene or Genome,AFFECTS,target cells,C0221284,Cell,False,True
+879,icams,C1322652,Medical Device,IS_A,immunoglobulin-like proteins,C1512665,Amino Acid Sequence,False,True
+880,sulfated sialyl‑lewisx,C0115305,Organic Chemical,PART_OF,cell‑surface glycoproteins,C0025248,"Amino Acid, Peptide, or Protein",False,True
+882,icam-1,C0063695,"Amino Acid, Peptide, or Protein",LOCATION_OF,endothelium,C0014257,Tissue,False,True
+883,p-selectin,C0134835,"Amino Acid, Peptide, or Protein",LOCATION_OF,endothelial cells,C0225336,Cell,False,True
+883,e-selectin,C0115305,"Amino Acid, Peptide, or Protein",LOCATION_OF,endothelial cells,C0225336,Cell,False,True
+883,sulfated sialyl‑lewisx,C0115305,Inorganic Chemical,LOCATION_OF,neutrophils,C0027950,Cell,False,True
+889,neutrophils,C0027950,Cell,IS_A,cells,C0007634,Cell,False,True
+890,extravasation,C0015376,Pathologic Function,IS_A,migration,C0600210,Social Behavior,False,True
+890,leukocytes,C0023516,Cell,INTERACTS_WITH,vascular endothelium,C0014261,Tissue,False,True
+891,selectins,C0282651,"Amino Acid, Peptide, or Protein",CAUSES,leukocyte rolling,C1136143,Cell Function,False,True
+891,p-selectin,C0134835,"Amino Acid, Peptide, or Protein",LOCATION_OF,endothelial cell,C0225336,Cell,False,True
+891,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",CAUSES,e-selectin,C0115305,"Amino Acid, Peptide, or Protein",False,True
+891,monocytes,C0026473,Cell,INTERACTS_WITH,p-selectin,C0134835,"Amino Acid, Peptide, or Protein",False,True
+891,neutrophils,C0027950,Cell,INTERACTS_WITH,p-selectin,C0134835,"Amino Acid, Peptide, or Protein",False,True
+891,neutrophils,C0027950,Cell,INTERACTS_WITH,endothelium,C0014257,Tissue,False,True
+891,slings,C0183346,Medical Device,INTERACTS_WITH,endothelium,C0014257,Tissue,False,True
+893,pecam,C0081939,"Amino Acid, Peptide, or Protein",LOCATION_OF,leukocyte,C0023516,Cell,False,True
+893,pecam,C0081939,"Amino Acid, Peptide, or Protein",LOCATION_OF,endothelial cells,C0225336,Cell,False,True
+893,diapedesis,C0277921,Cell Function,IS_A,movement,C0026649,Organism Function,False,True
+895,leukocytes,C0023516,Cell,INTERACTS_WITH,vascular endothelial surface,C1427021,Gene or Genome,False,True
+896,cxcl8,C1366571,Gene or Genome,INTERACTS_WITH,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",False,True
+896,neutrophils,C0027950,Cell,INTERACTS_WITH,pathogens,C0450254,Organism,False,True
+902,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",AFFECTS,expression of adhesion molecules,C0007578,"Amino Acid, Peptide, or Protein",False,True
+903,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",CAUSES,vasodilation,C0042401,Organ or Tissue Function,False,True
+903,vasodilation,C0042401,Organ or Tissue Function,CAUSES,loss of blood pressure,C0005823,Organism Function,False,True
+903,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",CAUSES,blood clotting,C0005778,Organ or Tissue Function,False,True
+904,soluble tnf-α,C1749467,Cell Component,CAUSES,septic shock,C0036983,Pathologic Function,False,True
+911,tnf-α,C1448177,"Amino Acid, Peptide, or Protein",CAUSES,fever,C0015967,Sign or Symptom,False,True
+911,il-1β,C0021755,"Amino Acid, Peptide, or Protein",CAUSES,fever,C0015967,Sign or Symptom,False,True
+911,il-6,C0021760,"Amino Acid, Peptide, or Protein",CAUSES,fever,C0015967,Sign or Symptom,False,True
+911,cytokines,C0079189,"Amino Acid, Peptide, or Protein",CAUSES,fever,C0015967,Sign or Symptom,False,True
+911,pyrogens,C0034304,Organic Chemical,CAUSES,fever,C0015967,Sign or Symptom,False,True
+915,tlr-4,C1336636,Gene or Genome,CAUSES,prostaglandin e2,C0012472,Organic Chemical,False,True
+917,c-reactive protein,C0006560,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,phosphocholine,C0031716,Organic Chemical,False,True
+917,c-reactive protein,C0006560,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,bacterium,C0004611,Bacterium,False,True
+918,mannose-binding lectin,C0065661,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,monocytes,C0026473,Cell,False,True
+925,viral infection,C0042769,Disease or Syndrome,CAUSES,interferons,C0021747,"Amino Acid, Peptide, or Protein",False,True
+928,rig-i,C1310468,"Amino Acid, Peptide, or Protein",CAUSES,type i interferons,C0021743,"Amino Acid, Peptide, or Protein",False,True
+932,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",LOCATION_OF,plasmacytoid dendritic cells,C1956385,Cell,False,True
+933,ifn-β,C0002199,"Amino Acid, Peptide, or Protein",CAUSES,ifn-α,C0002199,"Amino Acid, Peptide, or Protein",False,True
+933,interferons,C0021747,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,cell‑surface receptor,C0034800,"Amino Acid, Peptide, or Protein",False,True
+938,interferons,C0021747,"Amino Acid, Peptide, or Protein",PRODUCES,cxcl9,C0215469,"Amino Acid, Peptide, or Protein",False,True
+938,interferons,C0021747,"Amino Acid, Peptide, or Protein",CAUSES,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+941,ilcs,C5401424,Cell,PERFORMS,innate immunity,C0020969,Organism Attribute,False,True
+942,il-17,C0384648,"Amino Acid, Peptide, or Protein",AFFECTS,chemokines,C0282554,"Amino Acid, Peptide, or Protein",False,True
+942,il-22,C0961814,"Amino Acid, Peptide, or Protein",AFFECTS,antimicrobial peptides,C4084937,"Amino Acid, Peptide, or Protein",False,True
+944,type i interferon,C0021743,"Amino Acid, Peptide, or Protein",AFFECTS,nk cells,C0022688,Cell,False,True
+944,macrophage-derived cytokines,C0682757,"Amino Acid, Peptide, or Protein",AFFECTS,nk cells,C0022688,Cell,False,True
+945,trail,C1143949,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dr4,C1336643,Gene or Genome,False,True
+945,trail,C1143949,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dr5,C1336644,Gene or Genome,False,True
+947,nk cells,C0022688,Cell,PART_OF,host response,C0020964,Organ or Tissue Function,False,True
+948,mcm4,C0663296,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,predisposition,C0012655,Clinical Attribute,False,True
+949,il-12,C0123759,"Amino Acid, Peptide, or Protein",FUNCTIONALLY_RELATED_TO,il-18,C0383327,"Amino Acid, Peptide, or Protein",False,True
+949,nk cells,C0022688,Cell,PRODUCES,ccl3,C1332690,Gene or Genome,False,True
+949,nk cells,C0022688,Cell,PRODUCES,ccl5,C1332691,Gene or Genome,False,True
+959,kir genes,C0665952,"Amino Acid, Peptide, or Protein",PART_OF,leukocyte receptor complex,C0950624,"Amino Acid, Peptide, or Protein",False,True
+960,itim,C1512604,Amino Acid Sequence,INTERACTS_WITH,shp-1,C1335283,Gene or Genome,False,True
+963,kir genes,C0665952,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,rheumatoid arthritis,C0003873,Disease or Syndrome,False,True
+968,ly49h,,Cell Function,INTERACTS_WITH,m157 viral protein,C0534369,"Amino Acid, Peptide, or Protein",False,True
+969,nkg2d homodimer,C1425775,Molecular Function,INTERACTS_WITH,mhc class i-like molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+970,recognition,C0524637,Mental Process,AFFECTS,immune system,C0020962,Body System,False,True
+971,mic proteins,C1448848,"Amino Acid, Peptide, or Protein",OCCURS_IN,stress,C1516373,Cell or Molecular Dysfunction,False,True
+972,nkg2d,C1425775,Gene or Genome,INTERACTS_WITH,dap10,C1424670,Gene or Genome,False,True
+972,dap10,C1424670,Gene or Genome,AFFECTS,pi 3-kinase,C2936824,"Amino Acid, Peptide, or Protein",False,True
+972,pi 3-kinase,C2936824,"Amino Acid, Peptide, or Protein",AFFECTS,cell survival,,Conceptual,False,True
+972,2b4,C1425360,Gene or Genome,INTERACTS_WITH,cd48,C1413226,Gene or Genome,False,True
+972,2b4–cd48 interaction,,Conceptual,AFFECTS,release of signals,,Conceptual,False,True
+974,innate sensors,C0183210,Medical Device,AFFECTS,cells,C0022688,Cell,False,True
+974,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,fever,C0015967,Sign or Symptom,False,True
+974,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,antigen‑presenting cells,C0003315,Cell,False,True
+976,innate immunity,C0020969,Organism Attribute,AFFECTS,infection,C0009450,Disease or Syndrome,False,True
+976,innate sensors,C0183210,Medical Device,AFFECTS,signaling pathways,,Conceptual,False,True
+976,signaling pathways,,Conceptual,AFFECTS,antiviral cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+977,antigen receptors,C0034788,"Amino Acid, Peptide, or Protein",OCCURS_IN,lymphocytes,C0024264,Cell,False,True
+1002,cytokine receptors,C0206552,"Amino Acid, Peptide, or Protein",AFFECTS,tyrosine kinases,C0033681,"Amino Acid, Peptide, or Protein",False,True
+1004,cgas,C0055633,Hormone,INTERACTS_WITH,cytosolic dna,C1383501,Cell Component,False,True
+1004,cgas,C0055633,Hormone,INTERACTS_WITH,sting,C1310468,"Amino Acid, Peptide, or Protein",False,True
+1007,il-3,C0021757,"Amino Acid, Peptide, or Protein",PART_OF,cytokine receptors,C0206552,"Amino Acid, Peptide, or Protein",False,True
+1007,il-5,C0021759,"Amino Acid, Peptide, or Protein",PART_OF,cytokine receptors,C0206552,"Amino Acid, Peptide, or Protein",False,True
+1007,gm-csf,C0079460,"Amino Acid, Peptide, or Protein",PART_OF,cytokine receptors,C0206552,"Amino Acid, Peptide, or Protein",False,True
+1009,inflammasome,C2936529,"Amino Acid, Peptide, or Protein",CONSISTS_OF,nlrp3,C1424250,Gene or Genome,False,True
+1009,inflammasome,C2936529,"Amino Acid, Peptide, or Protein",CONSISTS_OF,asc,C1538756,Gene or Genome,False,True
+1010,cxcl8,C1366571,Gene or Genome,AFFECTS,neutrophils,C0027950,Cell,False,True
+1013,phagocytes,C0031307,Cell,AFFECTS,microbes,C0445623,Organism,False,True
+1016,plasmacytoid dendritic cells,C1956385,Cell,MANAGES,t‑cell response,C0871261,Organism Attribute,False,True
+1017,innate immune system,C0020962,Body System,INTERACTS_WITH,beta‑glucan,C1134651,Organic Chemical,False,True
+1022,mannose receptor‑mediated regulation,C0065684,"Amino Acid, Peptide, or Protein",MANAGES,serum glycoprotein homeostasis,C4505258,Molecular Function,False,True
+1024,natural killer,C0022688,Cell,CONTAINS,killer-cell immunoglobulin-like receptors,C0665952,"Amino Acid, Peptide, or Protein",False,True
+1024,killer-cell immunoglobulin-like receptors,C0665952,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,pathogen peptides,C0450254,Organism,False,True
+1028,cxcl8,C1366571,Gene or Genome,PERFORMS,signaling,C0037083,Cell Function,False,True
+1028,cxcl8,C1366571,Gene or Genome,USES,cxcr2,C1334126,Gene or Genome,False,True
+1031,cell c‑type lectin receptors,C0034800,"Amino Acid, Peptide, or Protein",PERFORMS,ligand recognition,C0524637,Mental Process,False,True
+1032,macrophage scavenger receptor,C0212576,"Amino Acid, Peptide, or Protein",IS_A,pattern recognition receptor,C1564907,"Amino Acid, Peptide, or Protein",False,True
+1036,neutrophils,C0027950,Cell,PRODUCES,nets,C1423506,Gene or Genome,False,True
+1037,respiratory burst,C0085416,Cell Function,OCCURS_IN,neutrophils,C0027950,Cell,False,True
+1044,mast cells,C0024880,Cell,PART_OF,innate immunity,C0020969,Organism Attribute,False,True
+1048,drosophila,C0013138,Eukaryote,LOCATION_OF,antifungal response,C1155238,Cell Function,False,True
+1049,infection,C0009450,Disease or Syndrome,CAUSES,antimicrobial peptide genes,C4084937,"Amino Acid, Peptide, or Protein",False,True
+1052,single‑stranded rna,C3272452,"Nucleic Acid, Nucleoside, or Nucleotide",CAUSES,innate antiviral responses,C5380237,Organism Attribute,False,True
+1053,toll‑like receptor 7,C1336639,Gene or Genome,INTERACTS_WITH,single‑stranded rna,C3272452,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1054,cd36,C0054954,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,diacylglycerides,C0043791,Organic Chemical,False,True
+1055,tri‑acylated lipopeptide,C2752362,Molecular Function,CAUSES,tlr1‑tlr2 heterodimer,C2752272,Cell Component,False,True
+1056,tlr polymorphisms,C0032529,Genetic Function,ASSOCIATED_WITH,systemic lupus erythematosus,C0024141,Disease or Syndrome,False,True
+1057,toll‑like receptor 3,C1336635,Gene or Genome,INTERACTS_WITH,double‑stranded rna,C0035693,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1067,tlr4–md‑2 complex,C1321919,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lipopolysaccharide,C0023810,Organic Chemical,False,True
+1082,inflammasome,C2936529,"Amino Acid, Peptide, or Protein",CAUSES,cell death,C0007587,Cell Function,False,True
+1084,aim2,C1332065,Gene or Genome,INTERACTS_WITH,asc,C1538756,Gene or Genome,False,True
+1085,naips,C1176239,"Amino Acid, Peptide, or Protein",AFFECTS,inflammasome,C2936529,"Amino Acid, Peptide, or Protein",False,True
+1086,uric acid crystals,C0427896,Body Substance,CAUSES,nalp3 inflammasome,C3156614,Cell Component,False,True
+1088,k+ efflux,C4691060,Cell Function,CAUSES,nlrp3 inflammasome activation,C3272080,Molecular Function,False,True
+1089,rig‑i‑like receptors,C4277661,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,viral rnas,C0035736,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1090,mavs,C1623347,"Amino Acid, Peptide, or Protein",CAUSES,type i interferon production,C1819430,Organism Function,False,True
+1090,mavs,C1623347,"Amino Acid, Peptide, or Protein",CAUSES,pro‑inflammatory cytokines,C1332683,Gene or Genome,False,True
+1100,sting,C0038340,Injury or Poisoning,PRODUCES,type i interferons,C0021743,"Amino Acid, Peptide, or Protein",False,True
+1102,sting,C0038340,Injury or Poisoning,IS_A,endoplasmic reticulum adaptor,C0014239,Cell Component,False,True
+1107,pgrps,C1418515,Gene or Genome,IS_A,antibacterial proteins,C0004627,"Amino Acid, Peptide, or Protein",False,True
+1109,dual detection,C1511790,Therapeutic or Preventive Procedure,DIAGNOSES,fungal infections,C0026946,Disease or Syndrome,False,True
+1109,drosophila,C0013138,Eukaryote,INTERACTS_WITH,glucans,C0017696,Organic Chemical,False,True
+1109,drosophila,C0013138,Eukaryote,INTERACTS_WITH,virulence factors,C1136170,Organic Chemical,False,True
+1110,serine proteases,C0036734,"Amino Acid, Peptide, or Protein",AFFECTS,toll,C1321919,"Amino Acid, Peptide, or Protein",False,True
+1131,pias proteins,C1530216,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,sumo,C0534100,"Amino Acid, Peptide, or Protein",False,True
+1133,jak‑stat signalling,C3537152,Biologic Function,OCCURS_IN,immune system,C0020962,Body System,False,True
+1135,chemokines,C0282554,"Amino Acid, Peptide, or Protein",AFFECTS,effector cells,C3178739,Cell,False,True
+1136,gram‑positive bacteria,C0018154,Bacterium,AFFECTS,alveolar macrophages,C0085236,Cell,False,True
+1136,gram‑positive bacteria,C0018154,Bacterium,AFFECTS,epithelial cells,C0014597,Cell,False,True
+1137,chemokines,C0282554,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,adaptive immunity,C0678209,Physiologic Function,False,True
+1148,rolling neutrophils,C0751564,Sign or Symptom,PERFORMS,integration,C1158478,Genetic Function,False,True
+1151,recombinant interleukin‑8,C1527200,"Amino Acid, Peptide, or Protein",AFFECTS,migration,C0600210,Social Behavior,False,True
+1159,tnf‑α,C0812246,Gene or Genome,CAUSES,shock,C0036974,Pathologic Function,False,True
+1162,immune deficiency,C0021051,Disease or Syndrome,IS_A,death domain protein,C1511738,Amino Acid Sequence,False,True
+1165,cytokines,C0079189,"Amino Acid, Peptide, or Protein",CAUSES,systemic reaction,C1710276,Biologic Function,False,True
+1165,acute‑phase response,C0001349,Pathologic Function,IS_A,systemic reaction,C1710276,Biologic Function,False,True
+1168,serum amyloid a,C0002723,"Amino Acid, Peptide, or Protein",CAUSES,il‑8 secretion,C0036536,Biologic Function,False,True
+1175,interferon regulatory factor family,C1564741,"Amino Acid, Peptide, or Protein",CAUSES,type i interferon gene,C0021743,"Amino Acid, Peptide, or Protein",False,True
+1178,toll‑like receptors,C0670896,"Amino Acid, Peptide, or Protein",CAUSES,antiviral responses,C1155328,Organism Function,False,True
+1178,rna helicases,C0084378,"Amino Acid, Peptide, or Protein",CAUSES,antiviral responses,C1155328,Organism Function,False,True
+1184,type i interferon,C0021743,"Amino Acid, Peptide, or Protein",ACTIVATES,nk cells,C0022688,Cell,False,True
+1184,macrophage‑derived cytokines,C2612241,Organism Function,ACTIVATES,nk cells,C0022688,Cell,False,True
+1187,natural killer cells,C0022688,Cell,INTERACTS_WITH,macrophages,C0024432,Cell,False,True
+1195,nk cells,C0022688,Cell,LOCATION_OF,inhibitory receptors,C0665952,"Amino Acid, Peptide, or Protein",False,True
+1204,activating receptors,C1514758,Cell Function,INTERACTS_WITH,ligands,C0023688,Chemical,False,True
+1205,b7-h6,C1538072,Gene or Genome,INTERACTS_WITH,nkp30,C1425993,Gene or Genome,False,True
+1218,t cells,C0039194,Cell,PERFORMS,antigen recognition,C0678894,Organ or Tissue Function,False,True
+1219,membrane,C0025255,Tissue,PART_OF,b cell,C0004561,Cell,False,True
+1219,b-cell receptor,C3816168,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,intracellular signaling proteins,C1335962,"Amino Acid, Peptide, or Protein",False,True
+1219,antibodies,C0003241,"Amino Acid, Peptide, or Protein",IS_A,drug,C0013227,Pharmacologic Substance,False,True
+1220,membrane-bound proteins,C2754974,Cell Component,PHYSICALLY_RELATED_TO,intracellular signaling complex,C3820662,Cell Component,False,True
+1221,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",PART_OF,major histocompatibility complex,C0024518,Gene or Genome,False,True
+1221,extracellular face,C0521119,Cell Component,PART_OF,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1222,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",PERFORMS,antigen recognition,C0678894,Organ or Tissue Function,False,True
+1226,heavy chains,C1420192,Gene or Genome,PART_OF,igg antibody,C0020852,"Amino Acid, Peptide, or Protein",False,True
+1227,c region,C0021008,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cells,C0007634,Cell,False,True
+1230,heavy chain,C1420192,Gene or Genome,PART_OF,immunoglobulin molecule,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1230,light chain,C0021038,"Amino Acid, Peptide, or Protein",PART_OF,immunoglobulin molecule,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1231,lambda,C0926407,Body Space or Junction,IS_A,light chain,C0021038,"Amino Acid, Peptide, or Protein",False,True
+1231,kappa,,"Amino Acid, Peptide, or Protein",IS_A,light chain,C0021038,"Amino Acid, Peptide, or Protein",False,True
+1231,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CONTAINS,light chain,C0021038,"Amino Acid, Peptide, or Protein",False,True
+1232,immunoglobulin molecules,C0021027,"Amino Acid, Peptide, or Protein",CONTAINS,heavy chain,C1420192,Gene or Genome,False,True
+1232,immunoglobulin molecules,C0021027,"Amino Acid, Peptide, or Protein",CONTAINS,light chain,C0021038,"Amino Acid, Peptide, or Protein",False,True
+1236,immunoglobulin heavy and light chains,C0021034,"Amino Acid, Peptide, or Protein",CONTAINS,constant region,C0021008,"Amino Acid, Peptide, or Protein",False,True
+1236,immunoglobulin heavy and light chains,C0021034,"Amino Acid, Peptide, or Protein",CONTAINS,variable region,C0877857,"Amino Acid, Peptide, or Protein",False,True
+1237,heavy chain,C1420192,Gene or Genome,CONTAINS,ig domain,C1512665,Amino Acid Sequence,False,True
+1237,light chain,C0021038,"Amino Acid, Peptide, or Protein",CONTAINS,ig domain,C1512665,Amino Acid Sequence,False,True
+1244,immunoglobulin-like domains,C4255179,Amino Acid Sequence,PART_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+1246,light chain,C0021038,"Amino Acid, Peptide, or Protein",CONNECTED_TO,heavy chain,C1420192,Gene or Genome,False,True
+1247,papain,C0030346,"Amino Acid, Peptide, or Protein",DISRUPTS,antibody molecule,C0003241,"Amino Acid, Peptide, or Protein",False,True
+1247,papain,C0030346,"Amino Acid, Peptide, or Protein",PRODUCES,fab fragments,C0021031,"Amino Acid, Peptide, or Protein",False,True
+1247,pepsin,C0030909,"Amino Acid, Peptide, or Protein",DISRUPTS,heavy chain,C1420192,Gene or Genome,False,True
+1247,fc fragment,C0021032,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cells,C0007634,Cell,False,True
+1248,antibodies,C0003241,"Amino Acid, Peptide, or Protein",TREATS,diseases,C0012634,Disease or Syndrome,False,True
+1253,light chains,C0021038,"Amino Acid, Peptide, or Protein",PART_OF,igg antibody,C0020852,"Amino Acid, Peptide, or Protein",False,True
+1254,hinge,C0457406,Medical Device,CONNECTED_TO,antibody arms,C0003241,"Amino Acid, Peptide, or Protein",False,True
+1268,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ligand,C0023688,Chemical,False,True
+1268,antigen,C0003320,Immunologic Factor,INTERACTS_WITH,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+1270,antigens,C0003320,Immunologic Factor,INTERACTS_WITH,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+1271,peptide,C0030956,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,pocket,C1166645,Cell Component,False,True
+1273,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,pathogens,C0450254,Organism,False,True
+1278,tyrosine,C0041485,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,hydrogen bonding,C4759724,Natural Phenomenon or Process,False,True
+1278,tyrosine,C0041485,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,hydrophobic interactions,C0678607,Molecular Function,False,True
+1278,aromatic amino acids,C0301713,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cations,C0007447,Chemical Viewed Structurally,False,True
+1281,neutralizing antibody,C0282682,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,loops,C0181687,Medical Device,False,True
+1287,shark,C0036941,Fish,PRODUCES,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1290,sharks,C0036941,Fish,PRODUCES,immunoglobulin new antigen receptor,C0123263,"Amino Acid, Peptide, or Protein",False,True
+1298,t cell,C0039194,Cell,CONTAINS,antigen receptors,C0034788,"Amino Acid, Peptide, or Protein",False,True
+1298,α:β heterodimer,C0124761,"Amino Acid, Peptide, or Protein",PERFORMS,antigen recognition,C0678894,Organ or Tissue Function,False,True
+1301,α:β heterodimer,C0124761,"Amino Acid, Peptide, or Protein",CONSISTS_OF,transmembrane glycoprotein chains,C1415205,Gene or Genome,False,True
+1301,extracellular portion,C0521119,Cell Component,CONSISTS_OF,domains,C1518792,Amino Acid Sequence,False,True
+1309,t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ligand,C0023688,Chemical,False,True
+1315,β2-microglobulin,C0005149,"Amino Acid, Peptide, or Protein",PART_OF,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1317,t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,compound ligand,C1706082,Chemical,False,True
+1329,mhc class i molecules,C0017355,Gene or Genome,INTERACTS_WITH,backbone,C0037949,"Body Part, Organ, or Organ Component",False,True
+1337,invariant chain,C0063356,"Amino Acid, Peptide, or Protein",PART_OF,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",False,True
+1346,cd8,C0085358,Immunologic Factor,INTERACTS_WITH,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1347,cd8,C0085358,Immunologic Factor,INTERACTS_WITH,mhc class i molecules,C0017349,Gene or Genome,False,True
+1347,cd4,C0003323,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc class ii molecules,C0017349,Gene or Genome,False,True
+1347,cd8,C0085358,Immunologic Factor,INTERACTS_WITH,t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",False,True
+1347,cd4,C0003323,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc ligand,C0023688,Chemical,False,True
+1347,cd8,C0085358,Immunologic Factor,INTERACTS_WITH,mhc ligand,C0023688,Chemical,False,True
+1348,cd4,C0003323,"Amino Acid, Peptide, or Protein",CONSISTS_OF,ig-like domains,C4255179,Amino Acid Sequence,False,True
+1349,cd4,C0003323,"Amino Acid, Peptide, or Protein",CONTAINS,ig-like domains,C4255179,Amino Acid Sequence,False,True
+1349,binding site,C0005456,Receptor,PART_OF,ig-like domains,C4255179,Amino Acid Sequence,False,True
+1350,cd4,C0003323,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lck,C0919477,Gene or Genome,False,True
+1351,cd8,C0085358,Immunologic Factor,CONTAINS,ig-like domain,C4255179,Amino Acid Sequence,False,True
+1355,cd8αβ,C0085358,Immunologic Factor,INTERACTS_WITH,mhc class i molecule,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1355,cd8β chain,C0085358,Immunologic Factor,INTERACTS_WITH,α2 domain,C1514562,Amino Acid Sequence,False,True
+1356,cd8,C0085358,Immunologic Factor,INTERACTS_WITH,lck,C0919477,Gene or Genome,False,True
+1358,cd8αβ heterodimer,C0085358,Immunologic Factor,INTERACTS_WITH,α3 domain,C1514562,Amino Acid Sequence,False,True
+1359,mhc class i,C0017355,Gene or Genome,OCCURS_IN,nucleated cells,C1180059,Cell,False,True
+1359,mhc class i,C0017355,Gene or Genome,OCCURS_IN,hematopoietic cells,C0018956,Cell,False,True
+1359,mhc class ii molecules,C0017355,Gene or Genome,OCCURS_IN,hematopoietic cells,C0018956,Cell,False,True
+1359,mhc class ii molecules,C0017355,Gene or Genome,OCCURS_IN,thymic stromal cells,C0162597,Cell,False,True
+1360,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",OCCURS_IN,cells,C0007634,Cell,False,True
+1362,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",LOCATION_OF,dendritic cells,C0011306,Cell,False,True
+1362,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",LOCATION_OF,b lymphocytes,C0004561,Cell,False,True
+1362,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",LOCATION_OF,macrophages,C0024432,Cell,False,True
+1363,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1363,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",False,True
+1363,interferon-α,C0021747,"Amino Acid, Peptide, or Protein",AFFECTS,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1363,ifn-β,C0002199,"Amino Acid, Peptide, or Protein",AFFECTS,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1363,ifn-γ,C0002199,"Amino Acid, Peptide, or Protein",AFFECTS,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1363,ifn-γ,C0002199,"Amino Acid, Peptide, or Protein",AFFECTS,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",False,True
+1367,cellular stress,C1516373,Cell or Molecular Dysfunction,AFFECTS,ligands,C0023688,Chemical,False,True
+1367,γ:δ t cells,C0039194,Cell,INTERACTS_WITH,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1368,γ:δ t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,α:β t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",False,True
+1368,γ:δ t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",RECOGNIZES,ligand,C0023688,Chemical,False,True
+1370,α:β t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",RECOGNIZES,ligand,C0023688,Chemical,False,True
+1370,peptide antigen,C1323239,Molecular Function,BINDS,mhc molecule,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1370,cd8,C0085358,Immunologic Factor,ENHANCES,t-cell response,C0039194,Cell,False,True
+1372,dual specificity,,,UNDERLIES,mhc restriction,C0024518,Gene or Genome,False,True
+1372,γ:δ t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",BINDS,ligands,C0023688,Chemical,False,True
+1375,antibodies,C0003241,"Amino Acid, Peptide, or Protein",BINDS,antigen,C0003320,Immunologic Factor,False,True
+1375,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,immune system,C0020962,Body System,False,True
+1386,epitope,C0003316,Immunologic Factor,CONSISTS_OF,amino acids,C0002520,"Amino Acid, Peptide, or Protein",False,True
+1391,aromatic amino acids,C0301713,"Amino Acid, Peptide, or Protein",CONTAINS,tyrosine,C0041485,"Amino Acid, Peptide, or Protein",False,True
+1392,peptides,C0030956,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,mhc molecule,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1401,helices,C1017315,Eukaryote,CONNECTED_TO,disulfide bonds,C1511997,Amino Acid Sequence,False,True
+1411,t cell receptor recognition of antigen,C0034790,"Amino Acid, Peptide, or Protein",OCCURS_IN,cellular immunity,C0020966,Organism Function,False,True
+1423,intracellular adapters,C0175996,Cell Component,AFFECTS,adhesion,C0001511,Pathologic Function,False,True
+1430,domain movements,C0026649,Organism Function,PART_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+1431,immune system,C0020962,Body System,LOCATION_OF,molecular recognition,C0599844,Molecular Function,False,True
+1441,protein antigens,C0003320,Immunologic Factor,INTERACTS_WITH,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+1446,antigen-binding fragment,C0021031,"Amino Acid, Peptide, or Protein",CONNECTED_TO,single-stranded dna,C0012935,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1450,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CONNECTED_TO,protein antigens,C0003320,Immunologic Factor,False,True
+1451,antibody protection,C0003241,"Amino Acid, Peptide, or Protein",PREVENTS,west nile virus,C0043125,Virus,False,True
+1452,neutralizing antibody,C0282682,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dengue virus,C0011315,Virus,False,True
+1452,neutralizing antibody,C0282682,"Amino Acid, Peptide, or Protein",AFFECTS,surface glycoproteins,C0025248,"Amino Acid, Peptide, or Protein",False,True
+1460,crystal structure,C0444626,Chemical Viewed Structurally,INDICATES,immunodominance,C0079600,Immunologic Factor,False,True
+1468,peptide,C0030956,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,mhc molecule,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1471,peptide,C0030956,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,mhc class ii molecule,C0019630,"Amino Acid, Peptide, or Protein",False,True
+1476,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,short peptides,C0030956,"Amino Acid, Peptide, or Protein",False,True
+1486,peptides,C0030956,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,mhc,C0024518,Gene or Genome,False,True
+1499,cd4,C0003323,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc,C0024518,Gene or Genome,False,True
+1499,cd8,C0085358,Immunologic Factor,INTERACTS_WITH,mhc,C0024518,Gene or Genome,False,True
+1539,rearrangements,C0017287,Genetic Function,PRODUCES,variable region,C4321381,"Amino Acid, Peptide, or Protein",False,True
+1540,progenitors,C0038250,Cell,LOCATION_OF,immunoglobulin genes,C0017350,Gene or Genome,False,True
+1563,rss,C0175693,Disease or Syndrome,CONSISTS_OF,conserved block of seven nucleotides,C0028630,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1582,dna ligase iv,C0285266,"Amino Acid, Peptide, or Protein",PRODUCES,chromosome,C0008633,Cell Component,False,True
+1584,dna-pkcs,C1335262,Gene or Genome,CAUSES,scid,C0085110,Disease or Syndrome,False,True
+1611,t-cell receptor excision circles (trecs),C1515131,"Amino Acid, Peptide, or Protein",INDICATES,t cells,C0039194,Cell,False,True
+1611,genes,C0017337,Gene or Genome,AFFECTS,t cells,C0039194,Cell,False,True
+1611,genes,C0017337,Gene or Genome,AFFECTS,b cells,C0004561,Cell,False,True
+1614,t-cell receptor c-region genes,C0524889,Gene or Genome,PRODUCES,transmembrane polypeptides,C1167322,Cell Component,False,True
+1615,rss,C0175693,Disease or Syndrome,SURROUNDS,d gene,C0017337,Gene or Genome,False,True
+1619,cdr loops,C0181687,Medical Device,INTERACTS_WITH,antigenic peptide,C0597880,"Amino Acid, Peptide, or Protein",False,True
+1620,cdr1 loops,C1332741,Gene or Genome,INTERACTS_WITH,mhc,C0024518,Gene or Genome,False,True
+1620,cdr3 loops,C0181687,Medical Device,INTERACTS_WITH,peptide,C0034790,"Amino Acid, Peptide, or Protein",False,True
+1622,gene rearrangement,C0017287,Genetic Function,PRODUCES,t-cell receptors,C0034790,"Amino Acid, Peptide, or Protein",False,True
+1623,gene segments,C0227622,Body Location or Region,LOCATION_OF,tcrα locus,C0759310,"Amino Acid, Peptide, or Protein",False,True
+1624,tcrγ locus,C0759310,"Amino Acid, Peptide, or Protein",CONTAINS,v gene segments,C0227622,Body Location or Region,False,True
+1625,t-cell receptors,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ligand,C0023688,Chemical,False,True
+1627,somatic recombination,C1158526,Genetic Function,PRODUCES,t-cell receptor genes,C0524889,Gene or Genome,False,True
+1627,t-cell receptor loci,C0034790,"Amino Acid, Peptide, or Protein",CONTAINS,v gene segments,C0227622,Body Location or Region,False,True
+1627,t-cell receptor loci,C0034790,"Amino Acid, Peptide, or Protein",CONTAINS,j gene segments,C0227622,Body Location or Region,False,True
+1632,antibody gene,C0003241,"Amino Acid, Peptide, or Protein",PRODUCES,membrane-bound immunoglobulin,C0034789,"Amino Acid, Peptide, or Protein",False,True
+1632,antibody gene,C0003241,"Amino Acid, Peptide, or Protein",PRODUCES,secreted immunoglobulin,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1636,igm,C0020861,"Amino Acid, Peptide, or Protein",CONTAINS,heavy-chain domain,C0242310,Neoplastic Process,False,True
+1636,ige,C0020846,"Amino Acid, Peptide, or Protein",CONTAINS,heavy-chain domain,C0242310,Neoplastic Process,False,True
+1637,ige antibody,C0020846,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,immediate-type hypersensitivity,C5139307,Pathologic Function,False,True
+1639,bloodstream,C0229671,Body Substance,LOCATION_OF,igg isotypes,C0020852,"Amino Acid, Peptide, or Protein",False,True
+1639,gut,C0017189,Body System,LOCATION_OF,iga,C0020835,"Amino Acid, Peptide, or Protein",False,True
+1639,allergic asthma,C0155877,Disease or Syndrome,ASSOCIATED_WITH,ige,C0020846,"Amino Acid, Peptide, or Protein",False,True
+1642,antibodies,C0003241,"Amino Acid, Peptide, or Protein",PREVENTS,toxin,C0040549,Biologically Active Substance,False,True
+1642,antibodies,C0003241,"Amino Acid, Peptide, or Protein",PREVENTS,virus,C0042776,Virus,False,True
+1643,ige,C0020846,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,high-affinity fcε receptor,C1149311,Molecular Function,False,True
+1646,b cells,C0004561,Cell,LOCATION_OF,igm,C0020861,"Amino Acid, Peptide, or Protein",False,True
+1646,b cells,C0004561,Cell,LOCATION_OF,igd,C0020843,"Amino Acid, Peptide, or Protein",False,True
+1653,cleavage,C0010813,Cell Function,PRODUCES,mrna,C0035696,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1653,polyadenylation,C0949765,Molecular Function,PRODUCES,mrna,C0035696,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1653,splicing,C0035687,Genetic Function,PRODUCES,mrna,C0035696,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+1654,monomers,C0596973,Chemical Viewed Structurally,CONSISTS_OF,heavy chains,C0021017,"Amino Acid, Peptide, or Protein",False,True
+1654,monomers,C0596973,Chemical Viewed Structurally,CONSISTS_OF,light chains,C0021038,"Amino Acid, Peptide, or Protein",False,True
+1655,cleavage,C0949765,Molecular Function,PRODUCES,secreted molecule,C1327616,Cell Function,False,True
+1657,exons,C0015295,"Nucleic Acid, Nucleoside, or Nucleotide",PRODUCES,transmembrane region,C1519623,Amino Acid Sequence,False,True
+1658,cstf-64,C1413780,Gene or Genome,INTERACTS_WITH,rna polymerase,C0035681,"Amino Acid, Peptide, or Protein",False,True
+1658,ell2,C1424720,Gene or Genome,INTERACTS_WITH,rna polymerase,C0035681,"Amino Acid, Peptide, or Protein",False,True
+1659,igm,C0020861,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,j chain,C1416161,Gene or Genome,False,True
+1659,iga,C0020835,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,j chain,C1416161,Gene or Genome,False,True
+1660,j chain,C1416161,Gene or Genome,INTERACTS_WITH,cysteine,C0010654,"Amino Acid, Peptide, or Protein",False,True
+1663,igm antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cell-wall polysaccharides,C0032594,Organic Chemical,False,True
+1663,igm,C0020861,"Amino Acid, Peptide, or Protein",OCCURS_IN,immune responses,C0020964,Organ or Tissue Function,False,True
+1667,rag-1/rag-2 recombinase,C1505108,"Amino Acid, Peptide, or Protein",PRODUCES,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1671,dscam,C1414159,Gene or Genome,INTERACTS_WITH,bacteria,C0004611,Bacterium,False,True
+1672,gene,C0017337,Gene or Genome,PRODUCES,dscam,C1414159,Gene or Genome,False,True
+1672,exon 4,C0015295,"Nucleic Acid, Nucleoside, or Nucleotide",PART_OF,gene,C0017337,Gene or Genome,False,True
+1672,dscam,C1414159,Gene or Genome,FUNCTIONALLY_RELATED_TO,immunity,C0020964,Organ or Tissue Function,False,True
+1674,gene,C0017337,Gene or Genome,CONTAINS,clusters,C1179412,"Body Part, Organ, or Organ Component",False,True
+1677,somatic gene rearrangement,C0017287,Genetic Function,PRODUCES,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+1682,creation,C0441513,Therapeutic or Preventive Procedure,OCCURS_IN,replication,C0598312,Genetic Function,False,True
+1682,cda1,C1540100,Gene or Genome,OCCURS_IN,vlra-lineage lymphocytes,C0024264,Cell,False,True
+1682,cda2,C1421876,Gene or Genome,OCCURS_IN,vlrb-lineage lymphocytes,C0024264,Cell,False,True
+1683,lrr,C1517773,Amino Acid Sequence,INTERACTS_WITH,antigens,C0003320,Immunologic Factor,False,True
+1684,somatic recombination,C1158526,Genetic Function,CAUSES,lrr units,C1517773,Amino Acid Sequence,False,True
+1687,integration,C1158478,Genetic Function,PRODUCES,t-cell receptor,C0034790,"Amino Acid, Peptide, or Protein",False,True
+1689,immunoglobulin-like genes,C1512665,Amino Acid Sequence,OCCURS_IN,cartilaginous fishes,C0327606,Fish,False,True
+1693,transposase proteins,C0076934,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,trs,C0266427,Disease or Syndrome,False,True
+1702,endonuclease apurinic/apyrimidinic endonuclease-1,C0140145,"Amino Acid, Peptide, or Protein",CAUSES,homology-directed repair process,C1158513,Genetic Function,False,True
+1703,somatic hypermutation,C5206618,Organism Attribute,CAUSES,immunoglobulin diversification,C1817823,Biologic Function,False,True
+1705,rag genes,C0085218,Gene or Genome,CAUSES,rearrangement,C1511695,Genetic Function,False,True
+1706,igm antibody isotype,C0020861,"Amino Acid, Peptide, or Protein",IS_A,immunoglobulin,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1709,igw,C0021008,"Amino Acid, Peptide, or Protein",CONTAINS,immunoglobulin domains,C1512665,Amino Acid Sequence,False,True
+1711,ligands,C0023688,Chemical,INTERACTS_WITH,γ:δ t cells,C0039194,Cell,False,True
+1739,b-cell activation,C1155003,Cell Function,PRODUCES,igd,C0020843,"Amino Acid, Peptide, or Protein",False,True
+1748,mhc class i,C0017355,Gene or Genome,PRECEDES,t cells,C0039194,Cell,False,True
+1748,mhc class i,C0017355,Gene or Genome,PRECEDES,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1748,class ii genes,C0017349,Gene or Genome,PRECEDES,t cells,C0039194,Cell,False,True
+1748,class ii genes,C0017349,Gene or Genome,PRECEDES,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",False,True
+1751,v(d)j recombination,C1519877,Genetic Function,OCCURS_IN,immunoglobulin heavy chain locus,C0017351,Gene or Genome,False,True
+1760,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",PRODUCES,immunoglobulin heavy chain variable region gene,C4321381,"Amino Acid, Peptide, or Protein",False,True
+1762,immunoglobulin locus,C0021027,"Amino Acid, Peptide, or Protein",LOCATION_OF,gene segments,C0227622,Body Location or Region,False,True
+1766,dna sequences,C0162326,Nucleotide Sequence,AFFECTS,"rearrangement of v, d, and j gene segments",C1511695,Genetic Function,False,True
+1771,dna,C0012854,"Nucleic Acid, Nucle{oside, or Nucleotide",PART_OF,v(d)j recombination,C1519877,Genetic Function,False,True
+1780,rag-1,C3887674,"Amino Acid, Peptide, or Protein",ADJACENT_TO,rag2,C1419248,Gene or Genome,False,True
+1782,dimer,C0596448,Chemical Viewed Structurally,PERFORMS,dna synapsis,C0039062,Body Space or Junction,False,True
+1792,t-cell receptor gene,C0524889,Gene or Genome,SPATIALLY_RELATED_TO,immunoglobulin gene,C0017350,Gene or Genome,False,True
+1797,rag-2 deficient mice,C0025914,Mammal,AFFECTS,mature lymphocytes,C0024264,Cell,False,True
+1802,t cell receptor,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc,C0024518,Gene or Genome,False,True
+1805,t-cell receptor gene,C0524889,Gene or Genome,OCCURS_IN,t-cell differentiation,C1155013,Cell Function,False,True
+1810,constant region,C0021008,"Amino Acid, Peptide, or Protein",AFFECTS,antibody,C0003241,"Amino Acid, Peptide, or Protein",False,True
+1817,zinc-finger protein zfp318,C3490462,"Amino Acid, Peptide, or Protein",AFFECTS,igd,C0020843,"Amino Acid, Peptide, or Protein",False,True
+1834,agnathans,C0010596,Fish,CONTAINS,adaptive immune system,C0020962,Body System,False,True
+1834,adaptive immune system,C0020962,Body System,USES,somatic gene rearrangement,C0017287,Genetic Function,False,True
+1838,lymphocyte receptors,C0080097,"Amino Acid, Peptide, or Protein",PERFORMS,antigen recognition,C0678894,Organ or Tissue Function,False,True
+1884,proteasome,C0208355,"Amino Acid, Peptide, or Protein",PRODUCES,peptides,C0030956,"Amino Acid, Peptide, or Protein",False,True
+1887,proteasome,C0208355,"Amino Acid, Peptide, or Protein",PRODUCES,peptide ligands,C0023688,Chemical,False,True
+1890,pa28,C1166811,Cell Component,INTERACTS_WITH,proteasome,C0208355,"Amino Acid, Peptide, or Protein",False,True
+1891,19s cap,,Cell Component,INTERACTS_WITH,polyubiquitinated proteins,C1327385,Molecular Function,False,True
+1893,pa28,C1166811,Cell Component,INTERACTS_WITH,α subunits,C0599220,"Amino Acid, Peptide, or Protein",False,True
+1894,pa28,C1166811,Cell Component,PHYSICALLY_RELATED_TO,proteasome,C0208355,"Amino Acid, Peptide, or Protein",False,True
+1898,proteins,C0033684,"Amino Acid, Peptide, or Protein",OCCURS_IN,lumen,C0524461,Body Space or Junction,False,True
+1905,tap1,C0140599,"Amino Acid, Peptide, or Protein",PART_OF,peptide transporter,C4319820,"Amino Acid, Peptide, or Protein",False,True
+1905,tap2,C0165949,"Amino Acid, Peptide, or Protein",PART_OF,peptide transporter,C4319820,"Amino Acid, Peptide, or Protein",False,True
+1905,tap1,C0140599,"Amino Acid, Peptide, or Protein",PART_OF,heterodimer,C0124761,"Amino Acid, Peptide, or Protein",False,True
+1905,tap2,C0165949,"Amino Acid, Peptide, or Protein",PART_OF,heterodimer,C0124761,"Amino Acid, Peptide, or Protein",False,True
+1905,endoplasmic reticulum membrane,C0230770,Cell Component,LOCATION_OF,peptide transporter,C4319820,"Amino Acid, Peptide, or Protein",False,True
+1908,endoplasmic reticulum,C0014239,Cell Component,LOCATION_OF,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1915,viral pathogens,C1520005,Pathologic Function,DISRUPTS,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1923,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cd4 t cells,C5420769,Cell,False,True
+1926,peptides,C0030956,"Amino Acid, Peptide, or Protein",OCCURS_IN,endocytic vesicles,C0887883,Cell Component,False,True
+1929,chloroquine,C0008269,Organic Chemical,AFFECTS,endosomes,C0034850,Cell Component,False,True
+1932,ii,C0020717,Body System,IS_A,type ii membrane glycoprotein,C0025248,"Amino Acid, Peptide, or Protein",False,True
+1932,ii,C0020717,Body System,CONTAINS,peptide sequence,C0920679,Amino Acid Sequence,False,True
+1932,clip,C0175722,Medical Device,INTERACTS_WITH,mhc class ii α:β heterodimer,C0017349,Gene or Genome,False,True
+1936,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",CONTAINS,peptide,C0030956,"Amino Acid, Peptide, or Protein",False,True
+1941,hla-dm,C1415563,Gene or Genome,INTERACTS_WITH,mhc class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",False,True
+1942,hla-dm,C1415563,Gene or Genome,INTERACTS_WITH,mhc class ii complexes,C1325747,Cell Component,False,True
+1943,hla-do,C1840530,Gene or Genome,OCCURS_IN,thymic epithelial cells,C0229951,Cell,False,True
+1943,hla-do,C1840530,Gene or Genome,OCCURS_IN,b cells,C0004561,Cell,False,True
+1943,hla-do,C1840530,Gene or Genome,OCCURS_IN,dendritic cells,C0011306,Cell,False,True
+1945,hla-dm,C1415563,Gene or Genome,INTERACTS_WITH,mhc class ii molecule,C0019630,"Amino Acid, Peptide, or Protein",False,True
+1947,hla-dm,C1415563,Gene or Genome,INTERACTS_WITH,mhc molecule,C0019629,"Amino Acid, Peptide, or Protein",False,True
+1947,hla-do,C1840530,Gene or Genome,INTERACTS_WITH,hla-dm,C1415563,Gene or Genome,False,True
+1948,hla-do,C1840530,Gene or Genome,DISRUPTS,hla-dm,C1415563,Gene or Genome,False,True
+1948,ifn-γ,C0002199,"Amino Acid, Peptide, or Protein",AFFECTS,hla-dm,C1415563,Gene or Genome,False,True
+1968,chromosome 6,C0008669,Cell Component,LOCATION_OF,mhc,C0024518,Gene or Genome,False,True
+1968,chromosome 17,C0008659,Cell Component,LOCATION_OF,mhc,C0024518,Gene or Genome,False,True
+1972,viral infections,C0042769,Disease or Syndrome,CAUSES,interferons ifn-α,C0021747,"Amino Acid, Peptide, or Protein",False,True
+1982,mutation,C0026882,Genetic Function,PREVENTS,synthesis,C0220781,Biologic Function,False,True
+1986,polymorphisms,C0032529,Genetic Function,AFFECTS,amino acids,C0002520,"Amino Acid, Peptide, or Protein",False,True
+1997,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",AFFECTS,cytotoxic t cells,C0039195,Cell,False,True
+2001,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",AFFECTS,t cells,C0039194,Cell,False,True
+2002,t-cell receptors,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc molecules,C0024518,Gene or Genome,False,True
+2006,t cells,C0039194,Cell,INTERACTS_WITH,superantigens,C0206527,"Amino Acid, Peptide, or Protein",False,True
+2007,pathogens,C0450254,Organism,PRODUCES,superantigens,C0206527,"Amino Acid, Peptide, or Protein",False,True
+2012,superantigen,C0206527,"Amino Acid, Peptide, or Protein",AFFECTS,t cells,C0039194,Cell,False,True
+2013,stimulation,C1292856,Therapeutic or Preventive Procedure,CAUSES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+2013,cytokines,C0079189,"Amino Acid, Peptide, or Protein",DISRUPTS,adaptive immune response,C1749719,Organism Function,False,True
+2013,localized infection,C0016397,Disease or Syndrome,CAUSES,toxic shock syndrome,C0600327,Disease or Syndrome,False,True
+2014,mhc polymorphism,C0024518,Gene or Genome,AFFECTS,antigens,C0003320,Immunologic Factor,False,True
+2015,mutations,C0026882,Genetic Function,DISRUPTS,peptides,C0030956,"Amino Acid, Peptide, or Protein",False,True
+2016,hla-b53 allele,,Gene or Genome,ASSOCIATED_WITH,recovery from malaria,,Disease or Syndrome,False,True
+2022,mait cells,C3891065,Cell,INTERACTS_WITH,microbial metabolite,C0870883,Biologically Active Substance,False,True
+2022,nkt cells,C2350466,Cell,INTERACTS_WITH,lipid,C0023779,Organic Chemical,False,True
+2023,mhc,C0024518,Gene or Genome,CONTAINS,genes,C0017337,Gene or Genome,False,True
+2025,cd8 t cells,C0242629,Cell,INTERACTS_WITH,n-formylated bacterial peptides,C0030956,"Amino Acid, Peptide, or Protein",False,True
+2026,γ:δ t cells,C0039194,Cell,INTERACTS_WITH,t22,C0446428,Body Location or Region,False,True
+2030,β2-microglobulin,C0005149,"Amino Acid, Peptide, or Protein",AFFECTS,class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+2031,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,nk cells,C0022688,Cell,False,True
+2033,mic gene family,C1517488,Population Group,AFFECTS,nk cells,C0022688,Cell,False,True
+2033,mica,C0066503,Pharmacologic Substance,INTERACTS_WITH,nkg2d receptor,C2350498,"Amino Acid, Peptide, or Protein",False,True
+2034,ul16-binding proteins,C1423032,Gene or Genome,INTERACTS_WITH,nkg2d,C1425775,Gene or Genome,False,True
+2035,hla-e,C0062887,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,inhibitory receptor nkg2a:cd94,C1416682,Gene or Genome,False,True
+2037,hla-g,C0082920,"Amino Acid, Peptide, or Protein",PREVENTS,nk cells,C0022688,Cell,False,True
+2037,hla-g,C0082920,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lilrb1,C1416857,Gene or Genome,False,True
+2038,cd1 family,C0680022,Population Group,INTERACTS_WITH,nkt cells,C2350466,Cell,False,True
+2038,cd1 family,C0680022,Population Group,INTERACTS_WITH,microbial lipids,C0445623,Organism,False,True
+2040,cd1 molecules,C0054941,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,t cells,C0039194,Cell,False,True
+2040,cd1 molecules,C0054941,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,microbial glycolipids,C0445623,Organism,False,True
+2041,cd1c,C1413209,Gene or Genome,INTERACTS_WITH,microbial lipids,C0023779,Organic Chemical,False,True
+2041,cd1c,C1413209,Gene or Genome,INTERACTS_WITH,inkt cells,C2350467,Cell,False,True
+2042,cd1 molecule,C0054941,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,glycolipid antigens,C0017950,Organic Chemical,False,True
+2043,t cells,C0039194,Cell,INTERACTS_WITH,lipids,C0023779,Organic Chemical,False,True
+2044,α-galactoceramide,C0023688,Chemical,INTERACTS_WITH,cd1d molecules,C1413210,Gene or Genome,False,True
+2044,inkt cells,C2350467,Cell,INTERACTS_WITH,cd1d molecules,C1413210,Gene or Genome,False,True
+2045,cd1 proteins,C0054941,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,t cells,C0039194,Cell,False,True
+2045,cd1 proteins,C0054941,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,lipids,C0023779,Organic Chemical,False,True
+2048,cd1d,C1413210,Gene or Genome,INTERACTS_WITH,ligands,C0023688,Chemical,False,True
+2050,mr1,C1415592,Gene or Genome,INTERACTS_WITH,mait cells,C3891065,Cell,False,True
+2050,mr1,C1415592,Gene or Genome,INTERACTS_WITH,microbial folate metabolites,C0870883,Biologically Active Substance,False,True
+2051,mr1,C1415592,Gene or Genome,INTERACTS_WITH,β2-microglobulin,C0005149,"Amino Acid, Peptide, or Protein",False,True
+2052,b vitamins,C0042849,Organic Chemical,AFFECTS,mr1 protein,C1415592,Gene or Genome,False,True
+2052,folic acid,C0016410,Organic Chemical,AFFECTS,mr1 protein,C1415592,Gene or Genome,False,True
+2052,small molecule,C1328819,Organic Chemical,INTERACTS_WITH,mr1,C1415592,Gene or Genome,False,True
+2052,riboflavin metabolites,C0870883,Biologically Active Substance,INTERACTS_WITH,mr1,C1415592,Gene or Genome,False,True
+2052,riboflavin metabolites,C0870883,Biologically Active Substance,AFFECTS,mait cells,C3891065,Cell,False,True
+2052,infection,C0009450,Disease or Syndrome,AFFECTS,mait cells,C3891065,Cell,False,True
+2055,γ:δ t cells,C0039194,Cell,INTERACTS_WITH,ligand,C0023688,Chemical,False,True
+2058,cd1c,C1413209,Gene or Genome,INTERACTS_WITH,lipids,C0023779,Organic Chemical,False,True
+2058,cd1d,C1413210,Gene or Genome,INTERACTS_WITH,glycolipid antigens,C0017950,Organic Chemical,False,True
