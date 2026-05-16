@@ -1,0 +1,595 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+4174,tissues,C0040300,Tissue,LOCATION_OF,effector t cells,C3641722,Cell,False,True
+4176,neutrophils,C0027950,Cell,LOCATION_OF,e-selectin ligands,C0023688,Chemical,False,True
+4183,th1 cells,C0242632,Cell,AFFECTS,host response,C0020964,Organ or Tissue Function,False,True
+4183,th1 cells,C0242632,Cell,AFFECTS,macrophages,C0024432,Cell,False,True
+4185,t cells,C0039194,Cell,AFFECTS,disintegration,C1265875,Acquired Abnormality,False,True
+4185,il-12,C0123759,"Amino Acid, Peptide, or Protein",AFFECTS,disintegration,C1265875,Acquired Abnormality,False,True
+4186,il-12,C0123759,"Amino Acid, Peptide, or Protein",AFFECTS,th1 cd4+ t cells,C0039194,Cell,False,True
+4187,tumor necrosis factor-α,C1448177,"Amino Acid, Peptide, or Protein",AFFECTS,macrophage,C0024432,Cell,False,True
+4187,interferon-γ,C0021747,"Amino Acid, Peptide, or Protein",AFFECTS,macrophage,C0024432,Cell,False,True
+4187,macrophage,C0024432,Cell,AFFECTS,intracellular trypanosoma cruzi,C0041221,Eukaryote,False,True
+4194,th1 cells,C0242632,Cell,CAUSES,granulomas,C0018188,Pathologic Function,False,True
+4200,th2 cells,C0242633,Cell,MANAGES,intestinal helminths,C0018893,Eukaryote,False,True
+4200,th2 cells,C0242633,Cell,MANAGES,tissue injury,C0043240,Organism Function,False,True
+4204,il-33,C1667752,"Amino Acid, Peptide, or Protein",BRINGS_ABOUT,adaptive immunity,C0678209,Physiologic Function,False,True
+4207,basophils,C0004827,Cell,AFFECTS,chronic allergic dermatitis,C0011615,Disease or Syndrome,False,True
+4207,basophils,C0004827,Cell,AFFECTS,protective immunity,C0020965,Organ or Tissue Function,False,True
+4208,innate immune cell,C4330475,Cell,PERFORMS,th2 cytokine responses,C2247677,Cell Function,False,True
+4209,basophils,C0004827,Cell,AFFECTS,host immunity,C0020964,Organ or Tissue Function,False,True
+4243,granzyme pathways,C1704259,Molecular Function,PART_OF,programmed cell death,C0162638,Cell Function,False,True
+4248,smallpox virus infection,C0037356,Virus,PRECEDES,antiviral immunity,C0020964,Organ or Tissue Function,False,True
+4260,peripheral blood b cells,C1518999,Cell,EXHIBITS,cd27 cell surface antigen,C0003339,Immunologic Factor,False,True
+4286,s1pr1,C1414253,Gene or Genome,AFFECTS,resident memory cd8+ t cells,C0242629,Cell,False,True
+4287,cd4 t-cell,C5420769,Cell,AFFECTS,cd8 t-cell memory,C0242629,Cell,False,True
+4288,cd4 t cells,C5420769,Cell,AFFECTS,cd8 t cell memory generation,C0242629,Cell,False,True
+4289,cd40,C0054959,"Amino Acid, Peptide, or Protein",AFFECTS,cd8 t cell memory,C0242629,Cell,False,True
+4290,cd4 t cells,C5420769,Cell,AFFECTS,secondary expansion,C0027627,Neoplastic Process,False,True
+4290,cd4 t cells,C5420769,Cell,AFFECTS,memory,C0025260,Mental Process,False,True
+4291,cd4 t cell,C0039215,Cell,AFFECTS,cd8 t cell memory,C0242629,Cell,False,True
+4292,cd4 t cells,C5420769,Cell,AFFECTS,cd8 t cells,C0242629,Cell,False,True
+4295,memory lymphocytes,C0682638,Cell,CAUSES,responses,C0871261,Organism Attribute,False,True
+4297,fc receptors,C0034805,"Amino Acid, Peptide, or Protein",AFFECTS,b cell,C0004561,Cell,False,True
+4304,gut,C0017189,Body System,LOCATION_OF,immunoglobulin antibodies,C0021027,"Amino Acid, Peptide, or Protein",False,True
+4308,mucosal immune system,C0020962,Body System,CONTAINS,mucus-secreting epithelium,C1513729,Cell,False,True
+4310,mucosal response,C0282557,Organ or Tissue Function,FUNCTIONALLY_RELATED_TO,infection,C0009450,Disease or Syndrome,False,True
+4324,cells,C0007634,Cell,LOCATION_OF,mucosal tissues,C0026724,Tissue,False,True
+4325,lymphocytes,C0024264,Cell,LOCATION_OF,intestinal tract,C0021853,"Body Part, Organ, or Organ Component",False,True
+4325,lymphocytes,C0024264,Cell,LOCATION_OF,surface epithelium,C1182809,Body Location or Region,False,True
+4325,lymphocytes,C0024264,Cell,LOCATION_OF,lamina propria,C1179187,Tissue,False,True
+4328,epithelial cells,C0014597,Cell,PERFORMS,digestion,C0012238,Organism Function,False,True
+4328,epithelial cells,C0014597,Cell,PERFORMS,absorption,C0000854,Natural Phenomenon or Process,False,True
+4329,galt,C0268151,Disease or Syndrome,CONTAINS,peyer’s patches,C0031272,"Body Part, Organ, or Organ Component",False,True
+4329,peyer’s patches,C0031272,"Body Part, Organ, or Organ Component",LOCATION_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",False,True
+4329,lymphoid follicles,C0229654,"Body Part, Organ, or Organ Component",LOCATION_OF,intestine,C0021853,"Body Part, Organ, or Organ Component",False,True
+4329,tonsils,C0040421,"Body Part, Organ, or Organ Component",CONTAINS,lymphoid tissue,C0024296,Tissue,False,True
+4330,waldeyer’s ring,C0459892,"Body Part, Organ, or Organ Component",SURROUNDS,gut,C0017189,Body System,False,True
+4331,waldeyer’s ring,C0459892,"Body Part, Organ, or Organ Component",SURROUNDS,respiratory tract,C0035237,Body System,False,True
+4331,surface,C0934502,"Body Part, Organ, or Organ Component",CONTAINS,crypts,C0227427,Body Space or Junction,False,True
+4333,m cells,C0599757,Cell,CONTAINS,pockets,C0224517,Body Space or Junction,False,True
+4333,myeloid cells,C0011306,Cell,INTERACTS_WITH,m cells,C0599757,Cell,False,True
+4340,bacteria,C0004611,Bacterium,PRODUCES,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+4342,mucosal immune system,C0020962,Body System,CONTAINS,effector lymphocytes,C3641722,Cell,False,True
+4343,gut,C0017189,Body System,CONTAINS,lymphocytes,C0024264,Cell,False,True
+4343,lung,C0024109,"Body Part, Organ, or Organ Component",CONTAINS,lymphocytes,C0024264,Cell,False,True
+4343,gut,C0017189,Body System,CONTAINS,leukocytes,C0023516,Cell,False,True
+4344,lamina propria,C1179187,Tissue,CONTAINS,immune cells,C4330475,Cell,False,True
+4346,t cells,C0039194,Cell,INTERACTS_WITH,madcam-1,C1138490,"Amino Acid, Peptide, or Protein",False,True
+4366,macrophages,C0024432,Cell,PRODUCES,il-10,C0085295,"Amino Acid, Peptide{, or Protein",False,True
+4372,cytokine tgf-β,C0079189,"Amino Acid, Peptide, or Protein",MANAGES,class switching,C0206071,Genetic Function,False,True
+4374,pigr,C1418569,Gene or Genome,LOCATION_OF,basolateral surfaces,,Cell Component,False,True
+4376,iga,C0020835,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mucus,C0026727,Body Substance,False,True
+4391,intestinal epithelium,C0226890,Tissue,PART_OF,immune system,C0020962,Body System,False,True
+4392,intraepithelial lymphocytes,C1512944,Cell,IS_A,lymphocytes,C0024264,Cell,False,True
+4396,cd8 intraepithelial t cells,C0039195,Cell,INTERACTS_WITH,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+4396,cd8 intraepithelial t cells,C0039195,Cell,INTERACTS_WITH,mic-a,C0066256,Organic Chemical,False,True
+4396,cd8 intraepithelial t cells,C0039195,Cell,INTERACTS_WITH,mic-b,C0066256,Organic Chemical,False,True
+4397,α:β receptors,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc class ib molecules,C0024518,Gene or Genome,False,True
+4397,nkg2d,C1425775,Gene or Genome,INTERACTS_WITH,mic-a,C0066256,Organic Chemical,False,True
+4397,nkg2d,C1425775,Gene or Genome,INTERACTS_WITH,mic-b,C0066256,Organic Chemical,False,True
+4412,salmonella,C0036111,Bacterium,CAUSES,caspase 1 activation,C1159825,Molecular Function,False,True
+4412,macrophages,C0024432,Cell,PRODUCES,cxcl8,C1366571,Gene or Genome,False,True
+4413,salmonella enterica serovar typhimurium,C0036126,Bacterium,CAUSES,food poisoning,C0016479,Injury or Poisoning,False,True
+4416,cell-wall peptides,,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,nod1,C1826448,Gene or Genome,False,True
+4421,shigella flexneri,C0036957,Bacterium,CONNECTED_TO,m cells,C0599757,Cell,False,True
+4421,nod1,C1826448,Gene or Genome,CONNECTED_TO,ripk2,C1414387,Gene or Genome,False,True
+4421,activated epithelial cells,C0014597,Cell,PRODUCES,cxcl8,C1366571,Gene or Genome,False,True
+4424,pathogens,C0450254,Organism,CAUSES,adaptive immune responses,C1155229,Cell Function,False,True
+4432,mesenteric lymph node,C0229792,"Body Part, Organ, or Organ Component",LOCATION_OF,regulatory t cells,C0039198,Cell,False,True
+4433,intestine,C0021853,"Body Part, Organ, or Organ Component",LOCATION_OF,effector t cells,C3641722,Cell,False,True
+4437,normal intestine,C0021853,"Body Part, Organ, or Organ Component",CONTAINS,bacteria,C0004611,Bacterium,False,True
+4438,intestine,C0021853,"Body Part, Organ, or Organ Component",CONTAINS,organisms,C0029235,Organism,False,True
+4438,colon,C0009368,"Body Part, Organ, or Organ Component",CONTAINS,microbes,C0445623,Organism,False,True
+4439,commensal bacteria,C0029235,Organism,PRODUCES,short-chain fatty acids,C0015691,Organic Chemical,False,True
+4440,antibiotics,C0003232,Antibiotic,DISRUPTS,commensal gut bacteria,C0445623,Organism,False,True
+4443,bacteria,C0004611,Bacterium,PRODUCES,antigen-specific responses,C4531146,Cell or Molecular Dysfunction,False,True
+4445,clostridium difficile,C0079134,Bacterium,PRODUCES,toxins,C0040549,Biologically Active Substance,False,True
+4446,iga,C0020835,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,bacteria,C0004611,Bacterium,False,True
+4455,polysaccharide a,C0032594,Organic Chemical,CAUSES,treg cells,C0039198,Cell,False,True
+4455,clostridium species,C0009054,Bacterium,CAUSES,regulatory t cells,C0039198,Cell,False,True
+4456,segmented filamentous bacteria,C1014432,Bacterium,CAUSES,th17 cells,C2936411,Cell,False,True
+4456,clostridia,C0009054,Bacterium,CAUSES,tgf‑β,C3849193,"Amino Acid, Peptide, or Protein",False,True
+4457,immune responses,C0020964,Organ or Tissue Function,CAUSES,intestinal disease,C0021831,Disease or Syndrome,False,True
+4471,pathogens,C0450254,Organism,INTERACTS_WITH,microfold cells,C0599757,Cell,False,True
+4478,ccl20,C1308247,"Amino Acid, Peptide, or Protein",PREVENTS,dendritic cells,C0011306,Cell,False,True
+4480,iga,C0020835,"Amino Acid, Peptide, or Protein",PREVENTS,pathogens,C0450254,Organism,False,True
+4493,toxins,C0040549,Biologically Active Substance,CAUSES,diarrhea,C0011991,Sign or Symptom,False,True
+4497,microbiota,C1000792,Plant,INTERACTS_WITH,immune system,C0020962,Body System,False,True
+4511,cells,C0007634,Cell,PART_OF,immune system,C0020962,Body System,False,True
+4519,mucosal lymphoid tissues,C0026724,Tissue,INTERACTS_WITH,micro-organisms,C0445623,Organism,False,True
+4520,galt,C0268151,Disease or Syndrome,CAUSES,iga synthesis,C0220781,Biologic Function,False,True
+4533,th17 cells,C2936411,Cell,AFFECTS,polymeric ig receptor,C0071613,"Amino Acid, Peptide, or Protein",False,True
+4540,ccr10,C1332673,Gene or Genome,AFFECTS,memory iga responses,C0871261,Organism Attribute,False,True
+4547,small intestine,C0021852,"Body Part, Organ, or Organ Component",LOCATION_OF,iga antibody-secreting cell,C0085820,Cell,False,True
+4551,dendritic cells,C0011306,Cell,AFFECTS,mucosal immune responses,C0020964,Organ or Tissue Function,False,True
+4553,segmented filamentous bacteria antigens,C1014432,Bacterium,CAUSES,th17 cell differentiation,C0007589,Cell Function,False,True
+4560,lamina propria stromal cells,C0162597,Cell,AFFECTS,mucosal dendritic cells,C0011306,Cell,False,True
+4573,luminal secretions,C0036537,Body Substance,LOCATION_OF,igg,C0020852,"Amino Acid, Peptide, or Protein",False,True
+4573,dendritic cells,C0011306,Cell,LOCATION_OF,antigens,C0003320,Immunologic Factor,False,True
+4574,secretory iga,C0020838,"Amino Acid, Peptide, or Protein",IS_A,antibody,C0003241,"Amino Acid, Peptide, or Protein",False,True
+4576,foxp3,C1416467,Gene or Genome,MANAGES,immunoglobulin a selection,C0020835,"Amino Acid, Peptide, or Protein",False,True
+4602,pathogens,C0450254,Organism,CAUSES,inflammatory response,C1155266,Pathologic Function,False,True
+4602,pathogens,C0450254,Organism,CAUSES,protective immunity,C0020965,Organ or Tissue Function,False,True
+4606,atg16l1,C1825502,Gene or Genome,DISRUPTS,autophagy,C0004391,Cell Function,False,True
+4606,atg16l1,C1825502,Gene or Genome,DISRUPTS,antibacterial defense,C0279516,Antibiotic,False,True
+4626,cyclophosphamide,C0010583,Organic Chemical,DISRUPTS,oral tolerance,C0597140,Organism Attribute,False,True
+4632,short-chain-fatty acid irrigation,C0015691,Organic Chemical,TREATS,diversion colitis,C0267532,Disease or Syndrome,False,True
+4633,th17 cells,C2936411,Cell,CAUSES,iga responses,C0871261,Organism Attribute,False,True
+4641,intestinal microbiota,C2985398,Organism,AFFECTS,immune function,C1817756,Organ or Tissue Function,False,True
+4643,intestinal inflammation,C3889047,Pathologic Function,LOCATION_OF,paneth cells,C0227276,Cell,False,True
+4654,infectious agent,C0314732,Organism,CAUSES,innate immune response,C0020969,Organism Attribute,False,True
+4660,mutations,C0026882,Genetic Function,CAUSES,primary immunodeficiencies,C0021051,Disease or Syndrome,False,True
+4662,infections,C0851162,Disease or Syndrome,INDICATES,immunodeficiency,C0021051,Disease or Syndrome,False,True
+4673,il15,C0254610,"Amino Acid, Peptide, or Protein",AFFECTS,nk cells,C0022688,Cell,False,True
+4676,il7 signaling,C0021761,"Amino Acid, Peptide, or Protein",MANAGES,tcell development,C0815089,Cell Function,False,True
+4680,pnp deficiency,C0034135,Disease or Syndrome,CAUSES,toxic precursors,C0035682,"Amino Acid, Peptide, or Protein",False,True
+4680,pnp deficiency,C0034135,Disease or Syndrome,AFFECTS,t cells,C0039194,Cell,False,True
+4682,mutations,C0026882,Genetic Function,CAUSES,arrest,C0018790,Disease or Syndrome,False,True
+4685,mutations,C0026882,Genetic Function,DISRUPTS,signaling,C0037083,Cell Function,False,True
+4685,mutations,C0026882,Genetic Function,CAUSES,immunodeficiency,C0021051,Disease or Syndrome,False,True
+4686,was gene,C1421478,Gene or Genome,CAUSES,wiskott–aldrich syndrome,C0043194,Disease or Syndrome,False,True
+4688,foxn1,C1421504,Gene or Genome,CAUSES,scid,C0085110,Disease or Syndrome,False,True
+4689,deletion,C1442161,Cell or Molecular Dysfunction,CAUSES,digeorge syndrome,C0012236,Disease or Syndrome,False,True
+4689,deletion,C1442161,Cell or Molecular Dysfunction,CAUSES,haploinsufficiency,C2936267,Cell or Molecular Dysfunction,False,True
+4691,mutations,C0026882,Genetic Function,CAUSES,mhc class ii deficiency,C2931418,Disease or Syndrome,False,True
+4701,autosomal recessive deficiencies,C0441748,Genetic Function,CAUSES,congenital agammaglobulinemia,C0221026,Disease or Syndrome,False,True
+4702,immunoglobulin,C0021027,"Amino Acid, Peptide, or Protein",PREVENTS,infection,C0009450,Disease or Syndrome,False,True
+4703,t-cell activation,C1155065,Cell Function,CAUSES,antibody responses,C0003261,Biologic Function,False,True
+4710,mutations,C0026882,Genetic Function,CAUSES,cd40 ligand deficiency,C0162429,Disease or Syndrome,False,True
+4755,apoptosis,C0162638,Cell Function,CAUSES,neutropenia,C0023530,Disease or Syndrome,False,True
+4758,mutations,C0026882,Genetic Function,CAUSES,infections,C0851162,Disease or Syndrome,False,True
+4759,card9,C1424242,Gene or Genome,CAUSES,secretion,C0036536,Biologic Function,False,True
+4761,reactive oxygen species,C0162772,Biologically Active Substance,CAUSES,influx,C2752294,Cell Function,False,True
+4764,etanercept,C0717758,"Amino Acid, Peptide, or Protein",TREATS,rheumatoid arthritis,C0003873,Disease or Syndrome,False,True
+4772,bone marrow,C0332835,Tissue,TREATS,immunodeficiencies,C0021051,Disease or Syndrome,False,True
+4772,mature t cells,C0007634,Cell,CAUSES,graft-versus-host disease,C0018133,Disease or Syndrome,False,True
+4772,recipient t cells,C0007634,Cell,CAUSES,graft failure,C1262018,Pathologic Function,False,True
+4773,myeloablative treatment,C0085079,Therapeutic or Preventive Procedure,PRECEDES,transplantation,C0040732,Therapeutic or Preventive Procedure,False,True
+4775,secondary immunodeficiency,C0021051,Disease or Syndrome,CAUSES,infection,C0009450,Disease or Syndrome,False,True
+4775,secondary immunodeficiency,C0021051,Disease or Syndrome,CAUSES,death,C0011065,Organism Function,False,True
+4778,neutrophil deficiency,C0023530,Disease or Syndrome,CAUSES,susceptibility,C0012655,Clinical Attribute,False,True
+4800,ifnγ,C3539881,"Amino Acid, Peptide, or Protein",AFFECTS,phagocytes,C0031307,Cell,False,True
+4800,cd40l,C0167627,"Amino Acid, Peptide, or Protein",AFFECTS,phagocytes,C0031307,Cell,False,True
+4800,nk cells,C0022688,Cell,AFFECTS,macrophage activation,C0024426,Cell Function,False,True
+4802,mycobacterium leprae,C0026922,Bacterium,OCCURS_IN,macrophage vesicles,C0024432,Cell,False,True
+4805,antigenic variation,C0003319,Molecular Function,PREVENTS,antibody response,C0003261,Biologic Function,False,True
+4806,antigenic variation,C0003319,Molecular Function,PREVENTS,immune surveillance,C0021059,Organism Function,False,True
+4807,inflammation,C0021368,Pathologic Function,BRINGS_ABOUT,coma,C0009421,Disease or Syndrome,False,True
+4809,leishmania major,C0023276,Eukaryote,PREVENTS,il12,C0123759,"Amino Acid, Peptide, or Protein",False,True
+4809,leishmania major,C0023276,Eukaryote,PREVENTS,ifnγ,C3539881,"Amino Acid, Peptide, or Protein",False,True
+4809,leishmania major,C0023276,Eukaryote,PREVENTS,th1 cells,C0242632,Cell,False,True
+4811,virusspecific antibodies,C0206492,"Amino Acid, Peptide, or Protein",PREVENTS,viral entry,C1537068,Organism Function,False,True
+4813,point mutations,C0162735,Cell or Molecular Dysfunction,CAUSES,antigenic drift,C0917892,Genetic Function,False,True
+4817,hepatitis c virus,C0019196,Disease or Syndrome,CAUSES,liver cirrhosis,C0023890,Disease or Syndrome,False,True
+4817,e2,C1151883,Molecular Function,INTERACTS_WITH,cd81,C0084715,"Amino Acid, Peptide, or Protein",False,True
+4817,hepatitis c virus,C0019196,Disease or Syndrome,PREVENTS,cytolytic tcell responses,C1536403,Cell Function,False,True
+4817,hepatitis c virus,C0019196,Disease or Syndrome,DISRUPTS,dendritic cells,C0011306,Cell,False,True
+4818,dna viruses,C0012923,Virus,DISRUPTS,nk-cell,C0022688,Cell,False,True
+4818,dna viruses,C0012923,Virus,DISRUPTS,ctl responses,C0039195,Cell,False,True
+4823,lir1,C1416857,Gene or Genome,INTERACTS_WITH,ul18,C1419683,Gene or Genome,False,True
+4825,viral immunoevasins,C3820699,Organism Function,INTERACTS_WITH,peptide-loading complex,C1325635,Cell Component,False,True
+4846,hiv,C0019682,Virus,USES,viral envelope proteins,C0042711,"Amino Acid, Peptide, or Protein",False,True
+4846,hiv,C0019682,Virus,USES,viral reverse transcriptase enzyme,C0035379,"Amino Acid, Peptide, or Protein",False,True
+4848,hiv,C0019682,Virus,IS_A,retrovirus,C0035366,Virus,False,True
+4849,virion,C0042760,Cell Component,CONTAINS,viral enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+4850,gp120,C0019691,"Amino Acid, Peptide, or Protein",PART_OF,viral envelope,C1167398,Cell Component,False,True
+4851,gp120,C0019691,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ccr5,C1332700,Gene or Genome,False,True
+4851,gp120,C0019691,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cxcr4,C1332823,Gene or Genome,False,True
+4852,reverse transcriptase,C0035379,"Amino Acid, Peptide, or Protein",PRODUCES,cdna,C0006556,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+4853,viral nucleocapsid,C1167518,Cell Component,CONSISTS_OF,viral nucleocapsid core,C1167518,Cell Component,False,True
+4880,x4,C3854162,Virus,AFFECTS,progression,C0242656,Pathologic Function,False,True
+4882,mutant allele,C0002085,Gene or Genome,AFFECTS,hiv infection,C0019693,Disease or Syndrome,False,True
+4884,hiv,C0019682,Virus,PRODUCES,immune response,C0020964,Organ or Tissue Function,False,True
+4884,immune response,C0020964,Organ or Tissue Function,CONTAINS,virus,C0042776,Virus,False,True
+4885,cytotoxic t cells,C0039194,Cell,AFFECTS,infected cells,C0007634,Cell,False,True
+4886,chemokines,C0282554,"Amino Acid, Peptide, or Protein",PREVENTS,virus,C0042776,Virus,False,True
+4887,cd4 t cells,C5420769,Cell,AFFECTS,host response,C0020964,Organ or Tissue Function,False,True
+4890,antibodies,C0003241,"Amino Acid, Peptide, or Protein",PREVENTS,mucosal infection,C1698484,Disease or Syndrome,False,True
+4894,lymphoid tissue,C0024296,Tissue,CONTAINS,hiv infection,C0019693,Disease or Syndrome,False,True
+4895,cd4 t cells,C5420769,Cell,PRODUCES,virus,C0042776,Virus,False,True
+4913,haart,C0887947,Therapeutic or Preventive Procedure,PREVENTS,hiv replication,C0598312,Genetic Function,False,True
+4913,apobec,C1325696,Cell Component,CAUSES,mutation,C0026882,Genetic Function,False,True
+4918,hiv infection,C0019693,Disease or Syndrome,CAUSES,mutation,C0026882,Genetic Function,False,True
+4967,viral pathogens,C1520005,Pathologic Function,PERFORMS,evasion,C1654934,Organism Function,False,True
+4967,evasion,C1654934,Organism Function,AFFECTS,immune system,C0020962,Body System,False,True
+4978,human immunodeficiency virus,C0019682,Virus,AFFECTS,host cells,C0007634,Cell,False,True
+4978,immune response,C0020964,Organ or Tissue Function,PRODUCES,anti-hiv antibodies,C0019683,"Amino Acid, Peptide, or Protein",False,True
+4999,immunodeficiency,C0021051,Disease or Syndrome,ASSOCIATED_WITH,dna repair,C0012899,Genetic Function,False,True
+5004,interleukin-7r α,C0021761,"Amino Acid, Peptide, or Protein",DISRUPTS,t-cell development,C1515126,Cell Function,False,True
+5010,defective expression,C0017262,Genetic Function,CAUSES,severe combined immunodeficiency,C2711630,Disease or Syndrome,False,True
+5012,bone marrow transplantation,C0005961,Therapeutic or Preventive Procedure,PRECEDES,immunologic reconstitution,C4505207,Organism Function,False,True
+5017,intravenous immunoglobulin,C0085297,"Amino Acid, Peptide, or Protein",PREVENTS,infections,C0851162,Disease or Syndrome,False,True
+5017,intravenous immunoglobulin,C0085297,"Amino Acid, Peptide, or Protein",TREATS,infections,C0851162,Disease or Syndrome,False,True
+5022,nf-κb signaling,C0037083,Cell Function,CAUSES,x-linked anhidrotic ectodermal dysplasia,C0162359,Disease or Syndrome,False,True
+5025,dna deamination,C1158484,Genetic Function,CAUSES,antibody diversification,C0003259,Molecular Function,False,True
+5042,biogenesis,C0005495,Natural Phenomenon or Process,PROCESS_OF,cytotoxic granules,C3899478,"Amino Acid, Peptide, or Protein",False,True
+5042,exocytosis,C0015283,Cell Function,PROCESS_OF,cytotoxic granules,C3899478,"Amino Acid, Peptide, or Protein",False,True
+5044,x-linked lymphoproliferative syndrome,C0549463,Neoplastic Process,ASSOCIATED_WITH,infection,C0009450,Disease or Syndrome,False,True
+5046,x-linked lymphoproliferative disease,C0549463,Neoplastic Process,IS_A,progressive immunodeficiency,C0021051,Disease or Syndrome,False,True
+5047,xiap deficiency,C1845076,Disease or Syndrome,CAUSES,x-linked lymphoproliferative syndrome,C0549463,Neoplastic Process,False,True
+5077,secondary immunodeficiencies,C0021051,Disease or Syndrome,CAUSES,infection,C0009450,Disease or Syndrome,False,True
+5077,secondary immunodeficiencies,C0021051,Disease or Syndrome,CAUSES,death,C0011065,Organism Function,False,True
+5087,type iii secretion system effectors,C4019321,"Amino Acid, Peptide, or Protein",AFFECTS,innate immunity,C0020969,Organism Attribute,False,True
+5091,mycobacteria,C0026912,Bacterium,AFFECTS,macrophage recruitment,C0271510,Disease or Syndrome,False,True
+5092,salmonella typhimurium fimbrial,C0036126,Bacterium,EXHIBITS,phase variation,C5544526,Genetic Function,False,True
+5092,salmonella typhimurium fimbrial,C0036126,Bacterium,EXHIBITS,fima expression,C0017262,Genetic Function,False,True
+5095,protozoan,C0033739,Eukaryote,PRACTICES,immune evasion,C1654934,Organism Function,False,True
+5096,african trypanosomes,C0041228,Disease or Syndrome,PRACTICES,immune evasion,C1654934,Organism Function,False,True
+5101,recombination,C0034865,Genetic Function,OCCURS_IN,hemagglutinin gene,C0018909,"Amino Acid, Peptide, or Protein",False,True
+5102,virulence,C0042765,Biologic Function,PROPERTY_OF,hong kong h5n1 influenza a viruses,C1613950,Virus,False,True
+5105,dna viruses,C0012923,Virus,DISRUPTS,nk,C0022688,Cell,False,True
+5105,dna viruses,C0012923,Virus,DISRUPTS,ctl cell responses,C0039195,Cell,False,True
+5115,epstein–barr virus,C0014644,Virus,INTERACTS_WITH,b cells,C0004561,Cell,False,True
+5118,t cells,C0039194,Cell,INTERACTS_WITH,herpes simplex virus,C0206558,Virus,False,True
+5146,chemokine receptors,C0524914,"Amino Acid, Peptide, or Protein",IS_A,hiv-1 coreceptors,C3711103,"Amino Acid, Peptide, or Protein",False,True
+5161,immune response,C0020964,Organ or Tissue Function,OCCURS_IN,hiv-1 infection,C0019704,Virus,False,True
+5163,cd8+ lymphocytes,C0242629,Cell,MANAGES,viremia,C0042749,Disease or Syndrome,False,True
+5164,hiv,C0019682,Virus,EXHIBITS,latency,C0596824,Biologic Function,False,True
+5167,follicular dendritic cells,C0242245,Cell,OCCURS_IN,retroviral infection,C0340427,Disease or Syndrome,False,True
+5171,host,C1167395,Organism,AFFECTS,disease progression,C0242656,Pathologic Function,False,True
+5172,single nucleotide polymorphism,C0752046,Nucleotide Sequence,AFFECTS,gene transcription,C0040649,Genetic Function,False,True
+5173,kir3ds1,C1416654,Gene or Genome,INTERACTS_WITH,hla-b,C0019737,"Amino Acid, Peptide, or Protein",False,True
+5174,promoter alleles of il10,C0002085,Gene or Genome,AFFECTS,hiv-1 pathogenesis,C0699748,Pathologic Function,False,True
+5186,hiv,C0019682,Virus,EXHIBITS,tropism,C0242732,Physiologic Function,False,True
+5195,recombination,C0034865,Genetic Function,CAUSES,mutants,C0596988,Cell or Molecular Dysfunction,False,True
+5239,spink5,C1423506,Gene or Genome,CAUSES,netherton’s syndrome,C5574950,Disease or Syndrome,False,True
+5240,environmental allergens,C0282504,Disease or Syndrome,CAUSES,allergies,C0020517,Pathologic Function,False,True
+5241,2s albumin,C2350414,"Amino Acid, Peptide, or Protein",IS_A,allergen,C0002092,Immunologic Factor,False,True
+5247,gain-of-function mutation,C4727023,Cell or Molecular Dysfunction,CAUSES,increased signaling,C0037083,Cell Function,False,True
+5252,environmental factors,C0314657,Organism Attribute,INTERACTS_WITH,genetic susceptibility,C0314657,Organism Attribute,False,True
+5264,regulatory t cells,C0039198,Cell,MANAGES,allergic responses,C0012655,Clinical Attribute,False,True
+5265,anti-cd3,C0085379,"Amino Acid, Peptide, or Protein",PRODUCES,th2 cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+5267,allergens,C0002092,Immunologic Factor,CAUSES,immune response,C0020964,Organ or Tissue Function,False,True
+5269,allergens,C0002092,Immunologic Factor,INTERACTS_WITH,ige,C0020846,"Amino Acid, Peptide, or Protein",False,True
+5269,mucosal,C0026724,Tissue,LOCATION_OF,mast cells,C0024880,Cell,False,True
+5269,mast cells,C0024880,Cell,CAUSES,inflammatory reactions,C0021368,Pathologic Function,False,True
+5270,mast-cell activation,C1155065,Cell Function,AFFECTS,tissues,C0040300,Tissue,False,True
+5279,antigens,C0003320,Immunologic Factor,INTERACTS_WITH,ige,C0020846,"Amino Acid, Peptide, or Protein",False,True
+5279,allergen,C0002092,Immunologic Factor,CAUSES,degranulation,C5235637,Cell Function,False,True
+5279,mast-cell degranulation,C1622891,Cell Function,PRODUCES,inflammatory mediators,C0243042,Pharmacologic Substance,False,True
+5279,granule,C0010837,Cell Component,CONTAINS,histamine,C1258847,"Amino Acid, Peptide, or Protein",False,True
+5279,granule,C0010837,Cell Component,CONTAINS,serine esterases,C1258847,"Amino Acid, Peptide, or Protein",False,True
+5279,granule,C0010837,Cell Component,CONTAINS,proteases,C0030940,"Amino Acid, Peptide, or Protein",False,True
+5280,histamine,C0019588,Organic Chemical,CAUSES,itching,C0033774,Sign or Symptom,False,True
+5280,histamine,C0019588,Organic Chemical,CAUSES,sneezing,C0037383,Sign or Symptom,False,True
+5283,nonsteroidal anti-inflammatory drugs,C0003211,Pharmacologic Substance,PREVENTS,prostaglandin production,,Organic Chemical,False,True
+5283,nonsteroidal anti-inflammatory drugs,C0003211,Pharmacologic Substance,DISRUPTS,cyclooxygenases,C0033551,"Amino Acid, Peptide, or Protein",False,True
+5284,tnf-α,C1456820,"Amino Acid, Peptide, or Protein",CAUSES,expression of adhesion molecules,,Genetic Function,False,True
+5288,eosinophils,C0014467,Cell,CAUSES,inflammation,C0021368,Pathologic Function,False,True
+5288,eosinophils,C0014467,Cell,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5289,granules,,Biomedical or Dental Material,CONTAINS,arginine-rich basic proteins,C0390113,"Amino Acid, Peptide, or Protein",False,True
+5289,eosinophils,C0014467,Cell,CONTAINS,cell-surface receptors,C0034800,"Amino Acid, Peptide, or Protein",False,True
+5292,bone marrow,C0005953,Tissue,PRODUCES,eosinophils,C0014467,Cell,False,True
+5295,eosinophil degranulation,C1622844,Cell Function,CAUSES,mast cell degranulation,C5235637,Cell Function,False,True
+5295,eosinophil degranulation,C1622844,Cell Function,CAUSES,basophil degranulation,C5235637,Cell Function,False,True
+5299,constriction,C0009813,Therapeutic or Preventive Procedure,CAUSES,asthmatic response,C0004096,Disease or Syndrome,False,True
+5300,histamine,C0019588,Organic Chemical,CAUSES,vascular permeability,C0162337,Organ or Tissue Function,False,True
+5300,prostaglandins,C0033554,Organic Chemical,CAUSES,vascular permeability,C0162337,Organ or Tissue Function,False,True
+5301,mast cells,C0024880,Cell,CAUSES,late-phase reaction,C0001349,Pathologic Function,False,True
+5309,permeability,C0031164,Natural Phenomenon or Process,CAUSES,hives,C0042109,Disease or Syndrome,False,True
+5310,allergen,C0002092,Immunologic Factor,INTERACTS_WITH,mast cells,C0024880,Cell,False,True
+5310,mast cells,C0024880,Cell,CAUSES,inflammatory reaction,C0021368,Pathologic Function,False,True
+5311,contraction,C1140999,Pathologic Function,CAUSES,vomiting,C0042963,Sign or Symptom,False,True
+5311,gut,C0017189,Body System,CAUSES,diarrhea,C0011991,Sign or Symptom,False,True
+5312,asthma,C0004096,Disease or Syndrome,CAUSES,urticaria,C0042109,Disease or Syndrome,False,True
+5312,inhaled allergen,C0004048,Organism Function,INTERACTS_WITH,mast cells,C0024880,Cell,False,True
+5312,mast cells,C0024880,Cell,CAUSES,mucus,C0026727,Body Substance,False,True
+5312,ingested allergen,C0002092,Immunologic Factor,CAUSES,vomiting,C0042963,Sign or Symptom,False,True
+5312,ingested allergen,C0002092,Immunologic Factor,CAUSES,diarrhea,C0011991,Sign or Symptom,False,True
+5313,autoantibody,C0004358,"Amino Acid, Peptide, or Protein",CAUSES,mast-cell degranulation,C1622891,Cell Function,False,True
+5313,mast-cell degranulation,C1622891,Cell Function,CAUSES,urticaria,C0042109,Disease or Syndrome,False,True
+5313,omalizumab,C0966225,"Amino Acid, Peptide, or Protein",TREATS,hives,C0042109,Disease or Syndrome,False,True
+5315,α-adrenergic receptors,C0034783,"Amino Acid, Peptide, or Protein",PREVENTS,cardiovascular effects,C0007226,Body System,False,True
+5329,t-bet,C1420610,Gene or Genome,INTERACTS_WITH,promoter,C0086860,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+5331,rhinovirus infection,C0276447,Disease or Syndrome,CAUSES,hospitalizations,C0019993,Health Care Activity,False,True
+5337,antihistamines,C0019590,Organic Chemical,TREATS,allergic disease,C0020517,Pathologic Function,False,True
+5337,epinephrine,C0014563,Organic Chemical,TREATS,anaphylactic reactions,C4316895,Pathologic Function,False,True
+5339,antihistamines,C0019590,Organic Chemical,MANAGES,allergic rhinoconjunctivitis,C0009766,Disease or Syndrome,False,True
+5339,antileukotriene drugs,C0595726,Organic Chemical,MANAGES,asthma,C0004096,Disease or Syndrome,False,True
+5339,inhaled corticosteroids,C0001617,Organic Chemical,MANAGES,inflammation,C0021368,Pathologic Function,False,True
+5339,topical corticosteroids,C0304604,Pharmacologic Substance,MANAGES,eczema,C0013595,Disease or Syndrome,False,True
+5340,suppressive therapy,C4744451,Therapeutic or Preventive Procedure,PREVENTS,ige function,C0031843,Physiologic Function,False,True
+5340,omalizumab,C0966225,"Amino Acid, Peptide, or Protein",MANAGES,chronic urticaria,C0263338,Disease or Syndrome,False,True
+5340,omalizumab,C0966225,"Amino Acid, Peptide, or Protein",MANAGES,chronic asthma,C0877430,Disease or Syndrome,False,True
+5349,drug,C0013227,Pharmacologic Substance,INTERACTS_WITH,cell surface,C0699040,Cell Component,False,True
+5350,anti-drug igg antibodies,C3811629,"Amino Acid, Peptide, or Protein",CAUSES,destruction,C1261381,Therapeutic or Preventive Procedure,False,True
+5354,c5a,C1367710,Gene or Genome,INTERACTS_WITH,mast cell,C0024880,Cell,False,True
+5355,c5a,C1367710,Gene or Genome,CAUSES,inflammatory response,C1155266,Pathologic Function,False,True
+5355,c5a,C1367710,Gene or Genome,INTERACTS_WITH,c5a receptors,C0056196,"Amino Acid, Peptide, or Protein",False,True
+5356,antiserum,C0020960,"Amino Acid, Peptide, or Protein",TREATS,pneumococcal pneumonia,C0032300,Disease or Syndrome,False,True
+5356,antiserum,C0020960,"Amino Acid, Peptide, or Protein",TREATS,infection,C0009450,Disease or Syndrome,False,True
+5356,antivenin,C0003450,"Amino Acid, Peptide, or Protein",TREATS,bites,C0005658,Injury or Poisoning,False,True
+5357,injection,C0021485,Therapeutic or Preventive Procedure,PRECEDES,serum sickness,C0036830,Disease or Syndrome,False,True
+5359,ligation,C0023690,Therapeutic or Preventive Procedure,CAUSES,mast-cell degranulation,C1622891,Cell Function,False,True
+5359,anaphylatoxins c3a,C1332656,Gene or Genome,CAUSES,mast-cell degranulation,C1622891,Cell Function,False,True
+5359,c5a,C1367710,Gene or Genome,CAUSES,mast-cell degranulation,C1622891,Cell Function,False,True
+5359,mast-cell degranulation,C1622891,Cell Function,PRODUCES,histamine,C0019588,Organic Chemical,False,True
+5361,injection,C0021485,Therapeutic or Preventive Procedure,CAUSES,antibody response,C0871261,Organism Attribute,False,True
+5361,antibodies,C0003241,"Amino Acid, Peptide, or Protein",PRODUCES,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",False,True
+5361,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",CAUSES,fever,C0015967,Sign or Symptom,False,True
+5362,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",CAUSES,complement,C0009498,"Amino Acid, Peptide, or Protein",False,True
+5362,leukocytes,C0023516,Cell,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5365,inhaled allergens,C0002092,Immunologic Factor,CAUSES,igg response,C0020852,"Amino Acid, Peptide, or Protein",False,True
+5365,alveoli,C1515933,"Body Part, Organ, or Organ Component",LOCATION_OF,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",False,True
+5368,mantoux test,C1304836,Diagnostic Procedure,EVALUATION_OF,infection,C0009450,Disease or Syndrome,False,True
+5368,th1 cells,C0242632,Cell,CAUSES,response,C0871261,Organism Attribute,False,True
+5369,toxic chemicals,C0600688,Injury or Poisoning,CAUSES,contact dermatitis,C0011616,Disease or Syndrome,False,True
+5374,th1 cells,C0242632,Cell,AFFECTS,local blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+5378,langerhans cells,C0023005,Cell,AFFECTS,t cells,C0039194,Cell,False,True
+5379,cd8 t cells,C0242629,Cell,CAUSES,rash,C0015230,Sign or Symptom,False,True
+5381,th1 cells,C0242632,Cell,PRODUCES,inflammation,C0021368,Pathologic Function,False,True
+5385,poison ivy,C0162451,Disease or Syndrome,CAUSES,allergic contact dermatitis,C0162820,Disease or Syndrome,False,True
+5385,allergic contact dermatitis,C0162820,Disease or Syndrome,CAUSES,skin lesions,C0037284,Disease or Syndrome,False,True
+5399,peptides,C0030956,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,innate immune system,C0020962,Body System,False,True
+5399,epithelial cells,C0014597,Cell,CAUSES,mic-a,C1448848,"Amino Acid, Peptide, or Protein",False,True
+5399,cd8 t cells,C0242629,Cell,INTERACTS_WITH,epithelial cells,C0014597,Cell,False,True
+5418,high blood pressure,C0020538,Disease or Syndrome,CAUSES,death,C0011065,Organism Function,False,True
+5419,self proteins,C4042842,"Amino Acid, Peptide, or Protein",BRINGS_ABOUT,immune response,C0020964,Organ or Tissue Function,False,True
+5419,immune response,C0020964,Organ or Tissue Function,CONTAINS,ige,C0020846,"Amino Acid, Peptide, or Protein",False,True
+5420,blood vessel walls,C1180033,"Body Part, Organ, or Organ Component",LOCATION_OF,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",False,True
+5422,complement system,C0009498,"Amino Acid, Peptide, or Protein",BRINGS_ABOUT,anaphylatoxin c5a,C1367710,Gene or Genome,False,True
+5425,igg antibodies,C0003241,"Amino Acid, Peptide, or Protein",BRINGS_ABOUT,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",False,True
+5426,tuberculin test,C0041290,Diagnostic Procedure,EXHIBITS,delayed-type hypersensitivity reaction,C0020522,Pathologic Function,False,True
+5430,innate and adaptive immune responses,C1155229,Cell Function,OCCURS_IN,asthma,C0004096,Disease or Syndrome,False,True
+5436,class switching,C0206071,Genetic Function,PART_OF,sensitization,C1325847,Organism Function,False,True
+5440,innate lymphoid cells,C5401424,Cell,AFFECTS,sensitization,C1325847,Organism Function,False,True
+5444,b cells,C0004561,Cell,AFFECTS,contact hypersensitivity reactions,C1302878,Pathologic Function,False,True
+5447,basophils,C0004827,Cell,IS_A,antigen-presenting cells,C0003315,Cell,False,True
+5484,il-10,C0085295,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,regulatory t cells,C0039198,Cell,False,True
+5488,dendritic cells,C0011306,Cell,PRODUCES,ido,C1324422,Molecular Function,False,True
+5489,ige,C0020846,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,immune system,C0020962,Body System,False,True
+5494,tissues,C0040300,Tissue,LOCATION_OF,mast cells,C0024880,Cell,False,True
+5494,mast cells,C0024880,Cell,MANAGES,allergic reactions,C0020517,Pathologic Function,False,True
+5502,tryptase,C0147080,"Amino Acid, Peptide, or Protein",DIAGNOSES,anaphylaxis,C0002792,Pathologic Function,False,True
+5502,tryptase,C0147080,"Amino Acid, Peptide, or Protein",DIAGNOSES,mastocytosis,C0024899,Disease or Syndrome,False,True
+5506,basophils,C0004827,Cell,CAUSES,inflammation,C0021368,Pathologic Function,False,True
+5506,basophils,C0004827,Cell,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5527,allergen inhalation,C0004048,Organism Function,ASSOCIATED_WITH,rhinitis,C0035455,Disease or Syndrome,False,True
+5527,allergen inhalation,C0004048,Organism Function,ASSOCIATED_WITH,asthma,C0004096,Disease or Syndrome,False,True
+5533,il-4,C0021758,"Amino Acid, Peptide, or Protein",OCCURS_IN,allergic airway disease,C0024117,Disease or Syndrome,False,True
+5533,il-13,C0214743,"Amino Acid, Peptide, or Protein",OCCURS_IN,allergic airway disease,C0024117,Disease or Syndrome,False,True
+5535,interleukin-13,C0214743,"Amino Acid, Peptide, or Protein",AFFECTS,epithelial cells,C0014597,Cell,False,True
+5535,interleukin-13,C0214743,"Amino Acid, Peptide, or Protein",CAUSES,mucus overproduction,C2610947,Cell Function,False,True
+5541,innate lymphoid cells,C5401424,Cell,OCCURS_IN,human disease,C0162534,Disease or Syndrome,False,True
+5547,effector pathways,C0013681,"Body Part, Organ, or Organ Component",AFFECTS,ige-mediated allergic disease,C0020523,Pathologic Function,False,True
+5563,immune-complex formation,C3269238,Organism Function,CAUSES,systemic disease,C0442893,Disease or Syndrome,False,True
+5564,anti-thymocyte globulin{c0003442},C0003442,"Amino Acid, Peptide, or Protein",TREATS,bone marrow failure,C0030312,Disease or Syndrome,False,True
+5569,macrophages,C0024432,Cell,CAUSES,inflammatory response,C1155266,Pathologic Function,False,True
+5570,th1 cells,C0242632,Cell,AFFECTS,hypersensitivity reactions,C0020517,Pathologic Function,False,True
+5570,cd8 cytotoxic t cells,C0039195,Cell,AFFECTS,hypersensitivity reactions,C0020517,Pathologic Function,False,True
+5572,urushiol,C0077941,Organic Chemical,IS_A,hapten,C0018593,Immunologic Factor,False,True
+5576,tcr,C0034790,"Amino Acid, Peptide, or Protein",INDICATES,complementarity-determining region 3,C0887928,"Amino Acid, Peptide, or Protein",False,True
+5584,gene rearrangements,C0017287,Genetic Function,PRODUCES,lymphocytes,C0024264,Cell,False,True
+5584,adaptive immune responses,C1155229,Cell Function,CAUSES,transplant rejection,C0018129,Organ or Tissue Function,False,True
+5586,immune system,C0020962,Body System,USES,surrogate markers,C4053457,Family Group,False,True
+5594,autoimmune responses,C0443146,Pathologic Function,PRODUCES,autoreactive effector cells,C3641722,Cell,False,True
+5594,autoimmune responses,C0443146,Pathologic Function,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+5594,dysregulated reactions,C4708791,Pathologic Function,CAUSES,chronic syndromes,C0006109,Disease or Syndrome,False,True
+5598,innate immune system,C0020962,Body System,PRODUCES,danger signals,C0037083,Cell Function,False,True
+5601,checkpoint,C1155874,Cell Function,PREVENTS,antiself responses,C0871261,Organism Attribute,False,True
+5601,organ,C0178784,"Body Part, Organ, or Organ Component",LOCATION_OF,antigen,C0003320,Immunologic Factor,False,True
+5602,checkpoint,C1155874,Cell Function,PREVENTS,autoimmunity,C0004364,Disease or Syndrome,False,True
+5603,immune system,C0020962,Body System,PREVENTS,damage,C0010957,Injury or Poisoning,False,True
+5609,aire protein,C0668532,"Amino Acid, Peptide, or Protein",MANAGES,thymic medullary cells,C1710401,Cell,False,True
+5611,tlr‑9,C0670896,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cpg sequences,C1148805,Genetic Function,False,True
+5620,antigens,C0003320,Immunologic Factor,INTERACTS_WITH,t cells,C0039194,Cell,False,True
+5627,ligation,C0023690,Therapeutic or Preventive Procedure,CAUSES,apoptosis,C0162638,Cell Function,False,True
+5642,immune system,C0020962,Body System,PREVENTS,autoimmune disease,C0004364,Disease or Syndrome,False,True
+5642,regulatory t cells,C0039198,Cell,AFFECTS,autoimmune responses,C0443146,Pathologic Function,False,True
+5642,t cells,C0039194,Cell,AFFECTS,self-reactive lymphocytes,C4317010,Cell,False,True
+5644,cytotoxic t cells,C0039195,Cell,AFFECTS,self tissues,C0040300,Tissue,False,True
+5646,bacteria,C0004611,Bacterium,AFFECTS,dendritic cells,C0011306,Cell,False,True
+5647,infectious agents,C0314732,Organism,PRODUCES,epitope,C0003316,Immunologic Factor,False,True
+5650,immune attack,C1261512,Social Behavior,CAUSES,type 1 diabetes,C0011854,Disease or Syndrome,False,True
+5651,graves’ disease,C0018213,Disease or Syndrome,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+5651,hashimoto’s thyroiditis,C0677607,Disease or Syndrome,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+5652,autoimmune hemolytic anemia,C0002880,Disease or Syndrome,DISRUPTS,red blood cells,C0014792,Cell,False,True
+5658,t cells,C0039194,Cell,CAUSES,damage,C0010957,Injury or Poisoning,False,True
+5658,t cells,C0039194,Cell,CAUSES,local inflammation,C0021368,Pathologic Function,False,True
+5671,phagocytic myeloid cells,C0031307,Cell,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5674,chronic inflammation,C0021376,Pathologic Function,CAUSES,release,C0030685,Health Care Activity,False,True
+5674,tissue damage,C0010957,Injury or Poisoning,CAUSES,release,C0030685,Health Care Activity,False,True
+5674,tissue damage,C0010957,Injury or Poisoning,DISRUPTS,barrier,C1706912,Medical Device,False,True
+5675,circulating b cell,C3899623,Cell,INTERACTS_WITH,self antigens,C0004359,Immunologic Factor,False,True
+5675,antigen-specifc antibody,C4086919,"Amino Acid, Peptide, or Protein",CAUSES,inflammatory response,C0871261,Organism Attribute,False,True
+5677,autoantigens,C0004359,Immunologic Factor,AFFECTS,b cells,C0004561,Cell,False,True
+5678,autoantigens,C0004359,Immunologic Factor,INTERACTS_WITH,b cells,C0004561,Cell,False,True
+5680,autoantibody response,C0871261,Organism Attribute,CAUSES,epitope spreading,C0003316,Immunologic Factor,False,True
+5686,autoantibody-mediated cellular injury,C4552279,Injury or Poisoning,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5688,autoantibodies,C0004358,"Amino Acid, Peptide, or Protein",DISRUPTS,desmosomes,C0011703,Cell Component,False,True
+5690,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CAUSES,outer layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+5694,igg,C0020852,"Amino Acid, Peptide, or Protein",CAUSES,destruction,C1261381,Therapeutic or Preventive Procedure,False,True
+5694,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CAUSES,destruction,C1261381,Therapeutic or Preventive Procedure,False,True
+5695,neutropenia,C0023530,Disease or Syndrome,CAUSES,susceptibility,C0012655,Clinical Attribute,False,True
+5696,fixation,C0185023,Therapeutic or Preventive Procedure,CAUSES,inflammatory response,C1155266,Pathologic Function,False,True
+5698,autoantibody,C0004358,"Amino Acid, Peptide, or Protein",CAUSES,complement activation,C0009528,Molecular Function,False,True
+5698,complement activation,C0009528,Molecular Function,CAUSES,complement fragment c5a,C0009521,"Amino Acid, Peptide, or Protein",False,True
+5700,autoantibodies,C0004358,"Amino Acid, Peptide, or Protein",CAUSES,membrane‑attack complex,C0009545,"Amino Acid, Peptide, or Protein",False,True
+5701,autoantibodies,C0004358,"Amino Acid, Peptide, or Protein",CAUSES,thyroid hormones,C0040135,Hormone,False,True
+5705,acetylcholine,C0001041,Organic Chemical,CAUSES,muscle contraction,C0026820,Physiologic Function,False,True
+5709,autoantibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,basement membranes,C0004799,Tissue,False,True
+5709,autoantibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,fcγreceptors,C3641722,Cell,False,True
+5709,autoantibodies,C0003241,"Amino Acid, Peptide, or Protein",CAUSES,complement,C0009498,"Amino Acid, Peptide, or Protein",False,True
+5710,antibody response,C0003261,Biologic Function,PRODUCES,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",False,True
+5714,defective clearance,,,CAUSES,overproduction,C0001622,Disease or Syndrome,False,True
+5715,injection,C0021485,Therapeutic or Preventive Procedure,CAUSES,serum sickness,C0036830,Disease or Syndrome,False,True
+5718,ssrna,C3272452,"Nucleic Acid, Nucleoside, or Nucleotide",CAUSES,tlr‑7,C1336763,Gene or Genome,False,True
+5718,dsrna,C0035693,"Nucleic Acid, Nucleoside, or Nucleotide",CAUSES,tlr‑9,C1336763,Gene or Genome,False,True
+5718,ifn‑α,C3539881,"Amino Acid, Peptide, or Protein",CAUSES,baff production,C1420816,Gene or Genome,False,True
+5718,baff,C1420816,Gene or Genome,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+5731,t cells,C0206116,Cell,TRAVERSES,blood–brain barrier,C0005854,"Body Part, Organ, or Organ Component",False,True
+5733,rank ligand,C0667477,Chemical,AFFECTS,osteoclasts,C0029431,Cell,False,True
+5751,mutations,C0026882,Genetic Function,AFFECTS,genes,C0017337,Gene or Genome,False,True
+5752,underexpression,C5554855,Cell or Molecular Dysfunction,CAUSES,inflammatory bowel disease,C0003864,Disease or Syndrome,False,True
+5758,chromosome 2,C0008662,Cell Component,LOCATION_OF,ctla4 locus,C0002085,Gene or Genome,False,True
+5763,regulatory t cells,C0039198,Cell,USES,gene-regulatory elements,C0034987,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+5764,hla alleles,C0002085,Gene or Genome,AFFECTS,disease,C0012634,Disease or Syndrome,False,True
+5765,genes,C0017337,Gene or Genome,AFFECTS,autoimmunity,C0004364,Disease or Syndrome,False,True
+5766,genes,C0017337,Gene or Genome,AFFECTS,autoantigen,C0004359,Immunologic Factor,False,True
+5767,genes,C0017337,Gene or Genome,AFFECTS,self proteins,C4042842,"Amino Acid, Peptide, or Protein",False,True
+5768,mutations,C0026882,Genetic Function,AFFECTS,cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+5770,gene aire,C1412304,Gene or Genome,CAUSES,disease apeced,C0242635,Disease or Syndrome,False,True
+5771,foxp3,C1416467,Gene or Genome,CAUSES,ipex,C0342288,Disease or Syndrome,False,True
+5774,defective development,C0000768,Congenital Abnormality,CAUSES,autoimmunity,C0004364,Disease or Syndrome,False,True
+5780,mhc alleles,C0002085,Gene or Genome,CAUSES,disease susceptibility,C0012655,Clinical Attribute,False,True
+5782,hla‑dr2,C0019770,Immunologic Factor,PREVENTS,diabetes,C0011847,Disease or Syndrome,False,True
+5788,treg cells,C0039198,Cell,PREVENTS,effector cd4 t‑cell development,C0007634,Cell,False,True
+5790,genetic variants,C0042333,Natural Phenomenon or Process,DISRUPTS,innate immune responses,C0020969,Organism Attribute,False,True
+5791,crohn’s disease,C0010346,Disease or Syndrome,IS_A,inflammatory bowel disease,C0021390,Disease or Syndrome,False,True
+5791,inflammation,C0021368,Pathologic Function,AFFECTS,ileum,C0020885,"Body Part, Organ, or Organ Component",False,True
+5791,loss of function,C1561643,Disease or Syndrome,CAUSES,cd,C0018553,Neoplastic Process,False,True
+5791,gain of function,C0031843,Physiologic Function,CAUSES,blau syndrome,C1861303,Disease or Syndrome,False,True
+5797,vitamin d,C0014695,Organic Chemical,AFFECTS,cells,C0007634,Cell,False,True
+5802,inflammatory mediators,C0243042,Pharmacologic Substance,AFFECTS,lymphocytes,C0024264,Cell,False,True
+5802,infection,C0009450,Disease or Syndrome,CAUSES,tissue destruction,C1446300,Therapeutic or Preventive Procedure,False,True
+5802,tissue destruction,C1446300,Therapeutic or Preventive Procedure,CAUSES,self antigen,C0004359,Immunologic Factor,False,True
+5802,il-1,C0021755,"Amino Acid, Peptide, or Protein",AFFECTS,regulatory t cells,C0039198,Cell,False,True
+5802,il-6,C0021760,"Amino Acid, Peptide, or Protein",AFFECTS,regulatory t cells,C0039198,Cell,False,True
+5803,viral or bacterial infections,C0004623,Disease or Syndrome,CAUSES,inflammation,C0021368,Pathologic Function,False,True
+5803,viral or bacterial infections,C0004623,Disease or Syndrome,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5804,microbial ligands,C0023688,Chemical,AFFECTS,dendritic cells,C0011306,Cell,False,True
+5804,microbial ligands,C0023688,Chemical,AFFECTS,macrophages,C0024432,Cell,False,True
+5804,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,b cells,C0004561,Cell,False,True
+5808,lcmv infection,C0024267,Virus,AFFECTS,cd8 t cells,C0242629,Cell,False,True
+5808,cd8 t cells,C0242629,Cell,AFFECTS,islet cells,C0022131,"Body Part, Organ, or Organ Component",False,True
+5809,virus,C0042776,Virus,AFFECTS,t cells,C0039194,Cell,False,True
+5809,t cells,C0039194,Cell,INTERACTS_WITH,viral antigen,C0003342,Immunologic Factor,False,True
+5812,streptococcal cell wall,C0038402,Bacterium,AFFECTS,antibody response,C0003261,Biologic Function,False,True
+5813,lcmv,C0024267,Virus,AFFECTS,antiviral cytotoxic t‑cell response,C0677881,Therapeutic or Preventive Procedure,False,True
+5814,immune response,C0020964,Organ or Tissue Function,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",False,True
+5817,procainamide,C0033216,Organic Chemical,CAUSES,autoantibodies,C0004358,"Amino Acid, Peptide, or Protein",False,True
+5825,immune responses,C0020964,Organ or Tissue Function,CAUSES,rejection,C0037822,Disease or Syndrome,False,True
+5827,graft rejection,C0018129,Organ or Tissue Function,IS_A,immunological response,C0020964,Organ or Tissue Function,False,True
+5831,t cells,C0039194,Cell,CAUSES,second-set rejection,C0035015,Social Behavior,False,True
+5832,antibodies,C0003241,"Amino Acid, Peptide, or Protein",AFFECTS,second-set rejection,C0035015,Social Behavior,False,True
+5833,immune response,C0871261,Organism Attribute,CAUSES,transplant rejection,C0018129,Organ or Tissue Function,False,True
+5834,alloreactive immune response,C0020964,Organ or Tissue Function,AFFECTS,mhc molecule,C0019629,"Amino Acid, Peptide, or Protein",False,True
+5835,recognition,C0524637,Mental Process,CAUSES,graft rejection,C0018129,Organ or Tissue Function,False,True
+5836,immunosuppressive drugs,C0021081,Pharmacologic Substance,PREVENTS,rejection,C0035015,Social Behavior,False,True
+5837,peptides,C0030956,"Amino Acid, Peptide, or Protein",CAUSES,rejection,C0035015,Social Behavior,False,True
+5841,peptides,C0030956,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,endoplasmic reticulum,C0014239,Cell Component,False,True
+5841,peptides,C0030956,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,mhc class i molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+5841,antigenic peptide,C0597880,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,t cells,C0039194,Cell,False,True
+5845,organ grafts,C0181074,Biomedical or Dental Material,CONTAINS,antigen-presenting cells,C0003315,Cell,False,True
+5846,donor dendritic cells,C0011306,Cell,CONTAINS,complexes,C1704241,Chemical Viewed Structurally,False,True
+5846,complexes,C1704241,Chemical Viewed Structurally,PHYSICALLY_RELATED_TO,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+5846,effector t cells,C3641722,Cell,PHYSICALLY_RELATED_TO,organ,C0178784,"Body Part, Organ, or Organ Component",False,True
+5847,effector t cells,C3641722,Cell,INTERACTS_WITH,graft,C0181074,Biomedical or Dental Material,False,True
+5848,antigen-presenting cells,C0003315,Cell,INTERACTS_WITH,t cells,C0039194,Cell,False,True
+5849,t cells,C0039194,Cell,INTERACTS_WITH,graft mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",False,True
+5849,t cells,C0039194,Cell,INTERACTS_WITH,macrophages,C0024432,Cell,False,True
+5849,macrophages,C0024432,Cell,CAUSES,tissue injury,C4552279,Injury or Poisoning,False,True
+5849,macrophages,C0024432,Cell,CAUSES,fibrosis,C0016059,Pathologic Function,False,True
+5850,donor dendritic cell,C0003315,Cell,INTERACTS_WITH,t‑cell receptors,C0034800,"Amino Acid, Peptide, or Protein",False,True
+5850,hla class ii molecules,C0019630,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cd4 t cells,C5420769,Cell,False,True
+5852,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,vascular endothelium,C0014261,Tissue,False,True
+5852,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CAUSES,complement,C0009498,"Amino Acid, Peptide, or Protein",False,True
+5852,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CAUSES,clotting cascades,C1817996,Organism Function,False,True
+5852,clots,C0302148,Pathologic Function,CAUSES,hemorrhage,C0019080,Pathologic Function,False,True
+5853,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,endothelium,C0014257,Tissue,False,True
+5854,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,vascular endothelial cells,C1257792,Cell,False,True
+5854,antibodies,C0003241,"Amino Acid, Peptide, or Protein",CAUSES,blood clotting cascades,C0005778,Organ or Tissue Function,False,True
+5856,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,graft endothelial cells,C0225336,Cell,False,True
+5859,immunosuppressive therapy,C0021079,Therapeutic or Preventive Procedure,CAUSES,vascular injury,C0178324,Injury or Poisoning,False,True
+5861,alloantibodies,C0022144,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+5862,anti‑cd3 monoclonal antibody,C3831520,"Amino Acid, Peptide, or Protein",PREVENTS,signaling,C0037083,Cell Function,False,True
+5862,cyclosporin,C0010592,"Amino Acid, Peptide, or Protein",DISRUPTS,translocation,C0040715,Cell or Molecular Dysfunction,False,True
+5862,tacrolimus,C0085149,Organic Chemical,DISRUPTS,translocation,C0040715,Cell or Molecular Dysfunction,False,True
+5862,belatacept,,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,b7,C0507117,"Body Part, Organ, or Organ Component",False,True
+5862,belatacept,,"Amino Acid, Peptide, or Protein",PREVENTS,co‑stimulation,C1292856,Therapeutic or Preventive Procedure,False,True
+5862,basiliximab,C0676831,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,high‑affinity il‑2 receptor,,Molecular Function,False,True
+5862,basiliximab,C0676831,"Amino Acid, Peptide, or Protein",PREVENTS,il‑2 signaling,C0037083,Cell Function,False,True
+5862,sirolimus,C0072980,Organic Chemical,DISRUPTS,activation of the mtor cascade,,Cell Function,False,True
+5862,azathioprine,C0004482,Organic Chemical,DISRUPTS,replication,C0598312,Genetic Function,False,True
+5862,azathioprine,C0004482,Organic Chemical,DISRUPTS,proliferation,C0334094,Pathologic Function,False,True
+5862,mycophenolate,C0883242,Organic Chemical,DISRUPTS,replication,C0598312,Genetic Function,False,True
+5862,mycophenolate,C0883242,Organic Chemical,DISRUPTS,proliferation,C0334094,Pathologic Function,False,True
+5864,immunosuppression,C0021079,Therapeutic or Preventive Procedure,PREVENTS,graft rejection,C0018129,Organ or Tissue Function,False,True
+5868,graft‑versus‑host disease,C0018133,Disease or Syndrome,CAUSES,inflammatory disease,C1290884,Disease or Syndrome,False,True
+5871,cd4,C0003323,"Amino Acid, Peptide, or Protein",OCCURS_IN,secondary lymphoid tissues,C0024296,Tissue,False,True
+5873,donor t cells,C0039194,Cell,INTERACTS_WITH,leukemic cells,C1517806,Cell,False,True
+5877,regulatory t cells,C0039198,Cell,INTERACTS_WITH,antigen‑presenting cells,C0003315,Cell,False,True
+5878,fetus,C0015965,Embryonic Structure,IS_A,allograft,C0040739,Therapeutic or Preventive Procedure,False,True
+5879,fetus,C0015965,Embryonic Structure,CONTAINS,mhc,C0024518,Gene or Genome,False,True
+5879,fetus,C0015965,Embryonic Structure,CONTAINS,minor histocompatibility antigens,C0026189,Immunologic Factor,False,True
+5879,children,C0008059,Age Group,EXHIBITS,nonself proteins,C4042842,"Amino Acid, Peptide, or Protein",False,True
+5880,hla-g,C0082920,"Amino Acid, Peptide, or Protein",PREVENTS,nk cells,C0022688,Cell,False,True
+5882,trophoblast,C0041178,Embryonic Structure,PRODUCES,tgf-β,C0040690,"Amino Acid, Peptide, or Protein",False,True
+5882,trophoblast,C0041178,Embryonic Structure,PRODUCES,il-10,C0085295,"Amino Acid, Peptide, or Protein",False,True
+5890,transplantation,C0040732,Therapeutic or Preventive Procedure,CAUSES,syndromes of rejection,C0039082,Disease or Syndrome,False,True
+5893,adaptive immune system,C0020962,Body System,CAUSES,tissue damage,C0010957,Injury or Poisoning,False,True
+5907,ido,C1324422,Molecular Function,AFFECTS,t cells,C0039194,Cell,False,True
+5907,ido,C1324422,Molecular Function,AFFECTS,tryptophan,C0041249,"Amino Acid, Peptide, or Protein",False,True
+5909,trophoblast,C0041178,Embryonic Structure,AFFECTS,hla‑g,C0019721,"Amino Acid, Peptide, or Protein",False,True
+5910,trophoblast,C0041178,Embryonic Structure,PRODUCES,tgf‑β,C3849193,"Amino Acid, Peptide, or Protein",False,True
+5910,trophoblast,C0041178,Embryonic Structure,PRODUCES,il‑10,C0085295,"Amino Acid, Peptide, or Protein",False,True
+5913,barriers,C1706912,Medical Device,PREVENTS,naive lymphocytes,C1513872,Cell,False,True
+5925,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",LOCATION_OF,joints,C0022417,Body Space or Junction,False,True
+5925,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",LOCATION_OF,tissues,C0040300,Tissue,False,True
+5934,central deletion,C1817722,Cell Function,PART_OF,self tolerance,C0020963,Pathologic Function,False,True
+5959,developmental abnormality,C0000768,Congenital Abnormality,CAUSES,autoimmune disease,C0004364,Disease or Syndrome,False,True
+5965,cd4+ regulatory t cells,C1267822,Cell,MANAGES,immune responses,C0020964,Organ or Tissue Function,False,True
+5967,interleukin-2 gene,C0879590,Gene or Genome,CAUSES,autoimmunity,C0004364,Disease or Syndrome,False,True
+5971,multiple sclerosis,C0026769,Disease or Syndrome,DISRUPTS,myelin,C0026969,Tissue,False,True
+5971,multiple sclerosis,C0026769,Disease or Syndrome,OCCURS_IN,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",False,True
+5979,crosstalk,C0010357,Molecular Function,OCCURS_IN,type 1 diabetes,C0011854,Disease or Syndrome,False,True
+5989,anti-dna antibodies,C0282056,"Amino Acid, Peptide, or Protein",CAUSES,glomerular proliferation,C2755126,Cell Function,False,True
+5989,anti-dna antibodies,C0282056,"Amino Acid, Peptide, or Protein",CAUSES,proteinuria,,,False,True
+5990,autoantibodies,C0004358,"Amino Acid, Peptide, or Protein",CAUSES,destruction,C1261381,Therapeutic or Preventive Procedure,False,True
+5994,complement,,,CAUSES,inflammatory response,C1155266,Pathologic Function,False,True
+6007,fcgriib,C1414554,Gene or Genome,AFFECTS,plasma cell,C0032112,Cell,False,True
+6015,t-cell clones,C0039194,Cell,CAUSES,demyelination,C0011304,Pathologic Function,False,True
+6024,il23r,C1537403,Gene or Genome,ASSOCIATED_WITH,inflammatory bowel disease,C0021390,Disease or Syndrome,False,True
+6029,lyn,C0812307,Gene or Genome,PART_OF,biochemical pathway,C1704259,Molecular Function,False,True
+6029,cd22,C0054947,"Amino Acid, Peptide, or Protein",PART_OF,biochemical pathway,C1704259,Molecular Function,False,True
+6029,shp-1,C1335283,Gene or Genome,PART_OF,biochemical pathway,C1704259,Molecular Function,False,True
+6035,foxp3,C1416467,Gene or Genome,AFFECTS,t cell,C0039194,Cell,False,True
+6036,ctla4,C0111208,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,autoimmune disease,C0004364,Disease or Syndrome,False,True
+6038,mhc genes,C1334545,Gene or Genome,AFFECTS,autoimmune disease,C0004364,Disease or Syndrome,False,True
+6050,enterovirus,C0014378,Disease or Syndrome,INTERACTS_WITH,host,C1167395,Organism,False,True
+6061,t cells,C0039194,Cell,PERFORMS,immunological response,C0020964,Organ or Tissue Function,False,True
+6065,t cell allorecognition,C0678836,Cell Function,USES,molecular mimicry,C0242943,Molecular Function,False,True
+6095,biologics,C0005515,Biologically Active Substance,BRINGS_ABOUT,protective responses,C0871261,Organism Attribute,False,True
+6099,immune response,C0020964,Organ or Tissue Function,PERFORMS,attack tumors,C1261512,Social Behavior,False,True
+6101,prednisone,C0032952,Organic Chemical,IS_A,anti-inflammatory drugs,C0003211,Pharmacologic Substance,False,True
+6101,azathioprine,C0004482,Organic Chemical,IS_A,cytotoxic drugs,C0304497,Pharmacologic Substance,False,True
+6101,cyclophosphamide,C0010583,Organic Chemical,IS_A,cytotoxic drugs,C0304497,Pharmacologic Substance,False,True
+6101,cyclosporin a,C0010592,"Amino Acid, Peptide, or Protein",DISRUPTS,signaling pathways,C0037080,Molecular Function,False,True
+6101,fingolimod,C1699926,Organic Chemical,DISRUPTS,signaling,C0037083,Cell Function,False,True
+6102,infliximab,C0666743,"Amino Acid, Peptide, or Protein",TREATS,rheumatoid arthritis,C0003873,Disease or Syndrome,False,True
+6102,abatacept,C1619966,"Amino Acid, Peptide, or Protein",TREATS,rheumatoid arthritis,C0003873,Disease or Syndrome,False,True
+6103,corticosteroids,C0001617,Organic Chemical,AFFECTS,genes,C0017337,Gene or Genome,False,True
+6104,corticosteroids,C0001617,Organic Chemical,DERIVATIVE_OF,glucocorticoid family,C0017710,Organic Chemical,False,True
+6104,corticosteroids,C0001617,Organic Chemical,TRAVERSES,cell’s plasma,C0032112,Cell,False,True
+6106,nucleus,C0007610,Cell Component,CONTAINS,activated glucocorticoid receptors,C0034809,"Amino Acid, Peptide, or Protein",False,True
+6106,activated glucocorticoid receptors,C0034809,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+6107,corticosteroids,C0001617,Organic Chemical,AFFECTS,monocytes,C0026473,Cell,False,True
+6107,corticosteroids,C0001617,Organic Chemical,AFFECTS,macrophages,C0024432,Cell,False,True
+6108,inhaled corticosteroids,C0001617,Organic Chemical,TREATS,chronic asthma,C0877430,Disease or Syndrome,False,True
+6129,ivig,C0085297,"Amino Acid, Peptide, or Protein",TREATS,immune deficiencies,C0398686,Disease or Syndrome,False,True
+6129,ivig,C0085297,"Amino Acid, Peptide, or Protein",TREATS,acute infections,C0275518,Disease or Syndrome,False,True
+6129,fc receptors,C0034805,"Amino Acid, Peptide, or Protein",DISRUPTS,immune-cell activation,C1155000,Cell Function,False,True
+6130,anti-lymphocyte globulin,C0003372,Pharmacologic Substance,TREATS,acute graft rejection,C0018129,Organ or Tissue Function,False,True
+6130,anti-lymphocyte globulin,C0003372,Pharmacologic Substance,CAUSES,global immunosuppression,C0021079,Therapeutic or Preventive Procedure,False,True
+6131,alemtuzumab,C0383429,"Amino Acid, Peptide, or Protein",TREATS,chronic lymphocytic leukemia,C0023434,Neoplastic Process,False,True
+6134,antibody response,C0871261,Organism Attribute,CAUSES,allergic reactions,C0020517,Pathologic Function,False,True
+6140,alemtuzumab,C0383429,"Amino Acid, Peptide, or Protein",TREATS,leukemias,C0023418,Neoplastic Process,False,True
+6140,alemtuzumab,C0383429,"Amino Acid, Peptide, or Protein",PREVENTS,rejection,C0035015,Social Behavior,False,True
+6146,daclizumab,C0663182,"Amino Acid, Peptide, or Protein",TREATS,kidney transplant rejection,C0238217,Pathologic Function,False,True
+6146,basiliximab,C0676831,"Amino Acid, Peptide, or Protein",TREATS,kidney transplant rejection,C0238217,Pathologic Function,False,True
+6150,rituximab,C0393022,"Amino Acid, Peptide, or Protein",TREATS,b-cell lymphomas,C0079731,Neoplastic Process,False,True
+6150,rituximab,C0393022,"Amino Acid, Peptide, or Protein",CAUSES,lymphocyte apoptosis,C0162638,Cell Function,False,True
+6150,rituximab,C0393022,"Amino Acid, Peptide, or Protein",DISRUPTS,b cells,C0004561,Cell,False,True
+6150,rituximab,C0393022,"Amino Acid, Peptide, or Protein",TREATS,rheumatoid arthritis,C0003873,Disease or Syndrome,False,True
+6150,rituximab,C0393022,"Amino Acid, Peptide, or Protein",TREATS,type ii mixed cryoglobulinemia,C5680264,Disease or Syndrome,False,True
+6151,alemtuzumab,C0383429,"Amino Acid, Peptide, or Protein",CAUSES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",False,True
+6153,antibodies,C0003241,"Amino Acid, Peptide, or Protein",DISRUPTS,t lymphocytes,C0039194,Cell,False,True
+6153,anti‑cd4 antibodies,C3831519,"Amino Acid, Peptide, or Protein",DISRUPTS,t lymphocytes,C0039194,Cell,False,True
+6154,biologics,C0005515,Biologically Active Substance,TREATS,autoimmune diseases,C0004364,Disease or Syndrome,False,True
+6179,biologic agents,C0005515,Biologically Active Substance,TREATS,transplant rejection,C0018129,Organ or Tissue Function,False,True
+6179,biologic agents,C0005515,Biologically Active Substance,TREATS,autoimmune diseases,C0004364,Disease or Syndrome,False,True
+6179,monoclonal antibodies,C0003250,"Amino Acid, Peptide, or Protein",DISRUPTS,lymphocytes,C0024264,Cell,False,True
+6179,monoclonal antibodies,C0003250,"Amino Acid, Peptide, or Protein",PREVENTS,lymphocyte activation,C0024262,Cell Function,False,True
+6179,monoclonal antibodies,C0003250,"Amino Acid, Peptide, or Protein",PREVENTS,lymphocyte migration,C3156756,Cell Function,False,True
+6181,tumor rejection antigens,C0003320,Immunologic Factor,CAUSES,immune response,C0020964,Organ or Tissue Function,False,True
+6181,immune response,C0020964,Organ or Tissue Function,RESULT_OF,tumor rejection antigens,C0003320,Immunologic Factor,False,True
