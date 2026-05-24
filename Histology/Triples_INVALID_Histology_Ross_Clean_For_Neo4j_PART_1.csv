@@ -1,0 +1,804 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+9,fixation,C0185023,Therapeutic or Preventive Procedure,AFFECTS,tissue structure,C0040300,Tissue,False,True
+10,formalin,C0949307,Organic Chemical,IS_A,fixative,C0016184,"Indicator, Reagent, or Diagnostic Aid",False,True
+21,heavy metals,C0347988,"Element, Ion, or Isotope",CONNECTED_TO,phospholipids,C0031676,Organic Chemical,False,True
+21,osmium tetroxide,C0029385,Hazardous or Poisonous Substance,IS_A,fixative,C0016184,"Indicator, Reagent, or Diagnostic Aid",False,True
+21,fixative,C0016184,"Indicator, Reagent, or Diagnostic Aid",AFFECTS,membranes,C0025255,Tissue,False,True
+29,macromolecular complexes,C0751282,"Amino Acid, Peptide, or Protein",LOCATION_OF,tissue section,C2316368,Tissue,False,True
+29,nucleoproteins,C0028612,"Nucleic Acid, Nucleoside, or Nucleotide",CONSISTS_OF,nucleic acids,C0028612,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+29,nucleoproteins,C0028612,"Nucleic Acid, Nucleoside, or Nucleotide",CONSISTS_OF,protein,C0033684,"Amino Acid, Peptide, or Protein",False,True
+29,cytoskeletal proteins,C0010852,"Amino Acid, Peptide, or Protein",CONNECTED_TO,associated proteins,C2350424,"Amino Acid, Peptide, or Protein",False,True
+31,frozen sections,C0016741,Tissue,CONNECTED_TO,endoscopy,C0014245,Diagnostic Procedure,False,True
+31,frozen sections,C0016741,Tissue,USES,biopsy material,C0005558,Diagnostic Procedure,False,True
+33,proteins,C0033684,"Amino Acid, Peptide, or Protein",PART_OF,contractile filaments,C0025979,Cell Component,False,True
+45,basic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INTERACTS_WITH,anionic components,C1136365,Gene or Genome,False,True
+49,basic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INDICATES,macromolecules,C0178735,Chemical Viewed Structurally,False,True
+51,acidic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INTERACTS_WITH,cells,C0007634,Cell,False,True
+51,acidic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INTERACTS_WITH,tissues,C0040300,Tissue,False,True
+51,acidic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INTERACTS_WITH,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+53,acid fuchsin,C0252873,Organic Chemical,INTERACTS_WITH,cytoplasm,C0010834,Cell Component,False,True
+53,acid fuchsin,C0252873,Organic Chemical,INTERACTS_WITH,nuclei,C0007610,Cell Component,False,True
+54,hematoxylin,C0018964,Organic Chemical,INTERACTS_WITH,nuclei,C0007610,Cell Component,False,True
+54,acidic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INTERACTS_WITH,cytoplasm,C0010834,Cell Component,False,True
+54,acidic dyes,C0013343,"Indicator, Reagent, or Diagnostic Aid",INTERACTS_WITH,extracellular fibers,C0521119,Cell Component,False,True
+65,pas reaction,C0030125,Organic Chemical,USES,glycogen,C0017911,Organic Chemical,False,True
+65,pas reaction,C0030125,Organic Chemical,USES,mucus,C0026727,Body Substance,False,True
+65,pas reaction,C0030125,Organic Chemical,USES,basement membrane,C0004799,Tissue,False,True
+65,pas reaction,C0030125,Organic Chemical,USES,reticular fibers,C0035285,"Amino Acid, Peptide, or Protein",False,True
+65,feulgen reaction,C0440041,"Indicator, Reagent, or Diagnostic Aid",USES,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+71,hydrolytic enzyme,C0030940,"Amino Acid, Peptide, or Protein",PRODUCES,hydrolyzed substrate,C0033631,"Amino Acid, Peptide, or Protein",False,True
+72,lysosome,C0024369,Cell Component,IS_A,vacuolar component,C0042219,Cell Component,False,True
+72,acid phosphatase,C0001109,"Amino Acid, Peptide, or Protein",PRODUCES,lead phosphate,C0064721,Inorganic Chemical,False,True
+74,antigen,C0003320,Immunologic Factor,INTERACTS_WITH,antibody,C0003241,"Amino Acid, Peptide, or Protein",False,True
+82,epithelial cells,C0014597,Cell,LOCATION_OF,membrane atpase,C0300252,"Amino Acid, Peptide, or Protein",False,True
+83,plasma membrane,C0007603,Cell Component,LOCATION_OF,enzyme atpase,C0014442,"Amino Acid, Peptide, or Protein",False,True
+83,plasma membrane,C0007603,Cell Component,LOCATION_OF,sodium pumps,C0182537,Medical Device,False,True
+86,actin,C0001271,"Amino Acid, Peptide, or Protein",DERIVATIVE_OF,muscle cell,C0596981,Cell,False,True
+105,fluorescent probes,C0016320,"Indicator, Reagent, or Diagnostic Aid",USES,screening procedures,C0220908,Diagnostic Procedure,False,True
+110,silver grains,C0037125,Pharmacologic Substance,LOCATION_OF,nuclei,C0007610,Cell Component,False,True
+115,microscope lens,C0181839,Medical Device,PRODUCES,images,C0005891,Mental Process,False,True
+121,examination,C0031809,Health Care Activity,USES,light microscope,C0491970,Medical Device,False,True
+123,sections,C0007876,Therapeutic or Preventive Procedure,PART_OF,tissue,C0040300,Tissue,False,True
+126,chemicals,C0220806,Chemical,INGREDIENT_OF,process,C1184743,"Body Part, Organ, or Organ Component",False,True
+126,reagents,C0034760,"Indicator, Reagent, or Diagnostic Aid",INGREDIENT_OF,process,C1184743,"Body Part, Organ, or Organ Component",False,True
+127,light microscope,C0491970,Medical Device,IS_A,microscopes,C0181839,Medical Device,False,True
+127,tem,C0040975,Organic Chemical,IS_A,microscopes,C0181839,Medical Device,False,True
+127,sem,C0262878,Medical Device,IS_A,microscopes,C0181839,Medical Device,False,True
+130,phase contrast microscope,C0687394,Medical Device,PERFORMS,examination,C0031809,Health Care Activity,False,True
+139,syphilis,C0039128,Disease or Syndrome,IS_A,sexually transmitted disease,C0036916,Disease or Syndrome,False,True
+140,fluorescence microscope,C0687404,Medical Device,USES,ultraviolet light,C0041625,Natural Phenomenon or Process,False,True
+143,confocal scanning microscope,C0491970,Medical Device,CONSISTS_OF,light optical microscope,C0491970,Medical Device,False,True
+143,confocal scanning microscope,C0491970,Medical Device,CONSISTS_OF,scanning system,C0183115,Medical Device,False,True
+151,uv microscope,C0181839,Medical Device,MEASURES,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+151,uv microscope,C0181839,Medical Device,MEASURES,rna,C0035668,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+154,crystal,C0025611,Organic Chemical,EXHIBITS,birefringence,C0005597,Natural Phenomenon or Process,False,True
+154,striated muscle,C0242692,Tissue,EXHIBITS,birefringence,C0005597,Natural Phenomenon or Process,False,True
+157,tem,C0040975,Organic Chemical,USES,beam of electrons,C0013852,"Element, Ion, or Isotope",False,True
+162,glutaraldehyde,C0017814,Biomedical or Dental Material,INGREDIENT_OF,fixation,C0185023,Therapeutic or Preventive Procedure,False,True
+162,osmium tetroxide,C0029385,Hazardous or Poisonous Substance,INGREDIENT_OF,fixation,C0185023,Therapeutic or Preventive Procedure,False,True
+163,osmium tetroxide,C0029385,Hazardous or Poisonous Substance,INTERACTS_WITH,lipids,C0023779,Organic Chemical,False,True
+163,osmium tetroxide,C0029385,Hazardous or Poisonous Substance,INTERACTS_WITH,phospholipids,C0031676,Organic Chemical,False,True
+168,heavy metals,C0347988,"Element, Ion, or Isotope",INGREDIENT_OF,staining,C0007876,Therapeutic or Preventive Procedure,False,True
+168,osmium tetroxide,C0029385,Hazardous or Poisonous Substance,INTERACTS_WITH,phospholipid components,C0031676,Organic Chemical,False,True
+183,fingertip,C0729895,Body Location or Region,INTERACTS_WITH,skin,C0444099,Body Substance,False,True
+188,dna molecule,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",PRODUCES,bump,C0155218,Disease or Syndrome,False,True
+192,domains,C1518792,Amino Acid Sequence,PART_OF,cell,C0007634,Cell,False,True
+193,muscle cells,C0596981,Cell,CONTAINS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+195,cytoplasm,C0010834,Cell Component,CONTAINS,organelles,C0029219,Cell Component,False,True
+195,cytoplasm,C0010834,Cell Component,CONTAINS,inclusions,C0007637,Cell Component,False,True
+195,cytoplasmic matrix,C1383501,Cell Component,CONSISTS_OF,solutes,C0597488,Chemical Viewed Structurally,False,True
+196,epithelial cells,C0014597,Cell,LOCATION_OF,kidney,C0022646,"Body Part, Organ, or Organ Component",False,True
+196,satellite cells,C0205868,Cell,SURROUNDS,ganglion cell,C0228071,Cell,False,True
+197,nucleus,C0007610,Cell Component,CONTAINS,genome,C0017428,Gene or Genome,False,True
+199,organelles,C0029219,Cell Component,CONTAINS,membrane systems,C1167315,Cell Component,False,True
+200,organelles,C0029219,Cell Component,CONTAINS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+202,rough-surfaced endoplasmic reticulum,C0230779,Cell Component,PERFORMS,protein synthesis,C0597295,Molecular Function,False,True
+202,smooth-surfaced endoplasmic reticulum,C0230789,Cell Component,PERFORMS,lipid synthesis,C0023779,Organic Chemical,False,True
+202,golgi apparatus,C0018042,Cell Component,PERFORMS,sorting,C0031843,Physiologic Function,False,True
+202,endosomes,C0034850,Cell Component,PERFORMS,sorting,C0031843,Physiologic Function,False,True
+202,lysosomes,C0024369,Cell Component,CONTAINS,digestive enzymes,C0544420,"Amino Acid, Peptide, or Protein",False,True
+202,lysosomes,C0024369,Cell Component,RESULT_OF,targeted delivery,C0599894,Cell Function,False,True
+202,peroxisomes,C0752063,Cell Component,PERFORMS,h2o2 degradation,C0020281,Pharmacologic Substance,False,True
+203,centrioles,C0007708,Cell Component,PRODUCES,basal bodies,C3536735,Cell Component,False,True
+203,ribosomes,C0035553,Cell Component,PERFORMS,protein synthesis,C0597295,Molecular Function,False,True
+208,plasma membrane,C0007603,Cell Component,CONTAINS,integral membrane proteins,C0021699,"Amino Acid, Peptide, or Protein",False,True
+208,plasma membrane,C0007603,Cell Component,CONTAINS,peripheral membrane proteins,C1167320,Cell Component,False,True
+209,membrane,C0025255,Tissue,CONTAINS,phospholipid,C0031676,Organic Chemical,False,True
+209,membrane,C0025255,Tissue,CONTAINS,cholesterol,C0008377,Organic Chemical,False,True
+209,lipid molecules,C0031676,Organic Chemical,PART_OF,lipid bilayer,C0023768,Cell Component,False,True
+210,proteins,C0033684,"Amino Acid, Peptide, or Protein",PART_OF,plasma membranes,C0007603,Cell Component,False,True
+210,proteins,C0033684,"Amino Acid, Peptide, or Protein",PART_OF,lipid bilayer,C0023768,Cell Component,False,True
+211,rer,C0230779,Cell Component,INTERACTS_WITH,ribosomes,C0035553,"Amino Acid, Peptide, or Protein",False,True
+211,ribosomes,C0035553,"Amino Acid, Peptide, or Protein",PRODUCES,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+211,biogenesis,C0005495,Natural Phenomenon or Process,PROCESS_OF,lysosomes,C0024369,Cell Component,False,True
+212,glycoproteins,C0017968,"Amino Acid, Peptide, or Protein",PART_OF,glycocalyx,C0061622,Cell Component,False,True
+212,glycoproteins,C0017968,"Amino Acid, Peptide, or Protein",CONTAINS,dipeptidases,C0012511,"Amino Acid, Peptide, or Protein",False,True
+212,glycoproteins,C0017968,"Amino Acid, Peptide, or Protein",CONTAINS,disaccharidases,C0012610,"Amino Acid, Peptide, or Protein",False,True
+215,lipid rafts,C1167250,Cell Component,CONTAINS,cholesterol,C0008377,Organic Chemical,False,True
+215,lipid rafts,C1167250,Cell Component,CONTAINS,glycosphingolipids,C0017978,Organic Chemical,False,True
+215,lipid rafts,C1167250,Cell Component,CONTAINS,integral membrane proteins,C0021699,"Amino Acid, Peptide, or Protein",False,True
+215,lipid rafts,C1167250,Cell Component,CONTAINS,peripheral membrane proteins,C1167320,Cell Component,False,True
+220,pumps,C0182537,Medical Device,IS_A,membrane proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+220,channels,C0022009,"Amino Acid, Peptide, or Protein",IS_A,membrane proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+220,receptors,C0597357,"Amino Acid, Peptide, or Protein",IS_A,membrane proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+220,linkers,,,IS_A,membrane proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+221,plasma membrane,C0007603,Cell Component,IS_A,lipid bilayer,C0023768,Cell Component,False,True
+221,phospholipids,C0031676,Organic Chemical,PART_OF,membrane,C0025255,Tissue,False,True
+221,lipid raft,C1167250,Cell Component,CONTAINS,integral membrane proteins,C1167320,Cell Component,False,True
+222,pumps,C0182537,Medical Device,PERFORMS,transport,C0005528,Cell Function,False,True
+223,sphingomyelin,C0037906,Organic Chemical,PART_OF,lipid rafts,C1167250,Cell Component,False,True
+223,cholesterol,C0008377,Organic Chemical,PART_OF,lipid rafts,C1167250,Cell Component,False,True
+223,vaca,C0077966,Therapeutic or Preventive Procedure,INTERACTS_WITH,protein receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+225,integral membrane proteins,C0021699,"Amino Acid, Peptide, or Protein",LOCATION_OF,lipid bilayer,C0023768,Cell Component,False,True
+230,detachment,C0541879,Mental Process,CAUSES,blebbing,C4235041,Cell Function,False,True
+230,cytoskeletal poisons,C0010853,Cell Component,CAUSES,membrane blebbing,C4235040,Cell Function,False,True
+230,phalloidin,C0031312,"Amino Acid, Peptide, or Protein",CAUSES,membrane blebbing,C4235040,Cell Function,False,True
+230,cytochalasin-b,C0010739,Pharmacologic Substance,CAUSES,membrane blebbing,C4235040,Cell Function,False,True
+233,channel proteins,C0599635,"Amino Acid, Peptide, or Protein",CONTAINS,pore domain,C1514562,Amino Acid Sequence,False,True
+237,vesicular transport,C1325417,Cell Function,CAUSES,vesicles,C0333262,Anatomical Abnormality,False,True
+238,budding,C1155616,Cell Function,CAUSES,vesicles,C0333262,Anatomical Abnormality,False,True
+239,endocytosis,C0014139,Cell Function,IS_A,vesicular transport,C1325417,Cell Function,False,True
+239,exocytosis,C0015283,Cell Function,IS_A,vesicular transport,C1325417,Cell Function,False,True
+241,endocytosis,C0014139,Cell Function,OCCURS_IN,cell,C0007634,Cell,False,True
+241,exocytosis,C0015283,Cell Function,OCCURS_IN,cell,C0007634,Cell,False,True
+241,endocytosis,C0014139,Cell Function,ASSOCIATED_WITH,formation,C0220781,Biologic Function,False,True
+241,endocytosis,C0014139,Cell Function,ASSOCIATED_WITH,budding,C1155616,Cell Function,False,True
+243,clathrin,C0008905,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,plasma membrane,C0007603,Cell Component,False,True
+246,phagocytosis,C0031308,Cell Function,IS_A,ingestion,C0232478,Biologic Function,False,True
+248,interaction,C0032930,Clinical Attribute,CAUSES,rearrangement,C1511695,Genetic Function,False,True
+248,pseudopodia,C0033827,Cell Component,SURROUNDS,particle,C0597177,Chemical Viewed Structurally,False,True
+251,plasma membrane,C0007603,Cell Component,LOCATION_OF,transport vesicles,C0887882,Cell Component,False,True
+252,cargo receptors,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,molecules,C1704241,Chemical Viewed Structurally,False,True
+252,clathrin,C0008905,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,adaptin,C1179085,Cell Component,False,True
+252,lumen,C0015352,Body Space or Junction,PART_OF,vesicle,C0333262,Anatomical Abnormality,False,True
+254,signaling stimulus,C0037083,Cell Function,CAUSES,ca2,C0666743,"Amino Acid, Peptide, or Protein",False,True
+260,rough endoplasmic reticulum (rer),C0230779,Cell Component,LOCATION_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+260,golgi apparatus,C0018042,Cell Component,LOCATION_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+264,tubular portions,C0151747,Disease or Syndrome,CONTAINS,integral membrane proteins,C0021699,"Amino Acid, Peptide, or Protein",False,True
+267,early endosomal membrane,C1179907,Cell Component,CONTAINS,receptor,C0597357,"Amino Acid, Peptide, or Protein",False,True
+269,endosomes,C0034850,Cell Component,CONTAINS,lysosomal enzymes,C0391845,"Amino Acid, Peptide, or Protein",False,True
+272,peripheral cytoplasm,C1621884,Cell Component,LOCATION_OF,early endosomes,C0034850,Cell Component,False,True
+273,rough endoplasmic reticulum (rer),C0230779,Cell Component,LOCATION_OF,lysosomal enzymes,C0391845,"Amino Acid, Peptide, or Protein",False,True
+277,cytoplasm,C0010834,Cell Component,LOCATION_OF,early endosomes,C0034850,Cell Component,False,True
+277,plasma membrane,C0007603,Cell Component,LOCATION_OF,receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+285,lysosomes,C0024369,Cell Component,CONTAINS,hydrolytic enzymes,C0030940,"Amino Acid, Peptide, or Protein",False,True
+286,cell surface,C0699040,Cell Component,LOCATION_OF,receptor,C0597357,"Amino Acid, Peptide, or Protein",False,True
+286,lysosomes,C0024369,Cell Component,LOCATION_OF,ligand,C0023688,Chemical,False,True
+287,cell,C0007634,Cell,LOCATION_OF,lysosomes,C0024369,Cell Component,False,True
+290,lysosomal membrane,C0230812,Cell Component,CONTAINS,cholesterol,C0008377,Organic Chemical,False,True
+290,lysosomal membrane,C0230812,Cell Component,CONTAINS,lysobisphosphatidic acid,C0053738,Organic Chemical,False,True
+292,h membrane,C0025255,Tissue,CONTAINS,lysosomal proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+293,lysosomes,C0024369,Cell Component,CONTAINS,proton (h ) pumps,C0018440,"Amino Acid, Peptide, or Protein",False,True
+293,lysosomal membrane,C0230812,Cell Component,CONTAINS,transport proteins,C0007292,"Amino Acid, Peptide, or Protein",False,True
+306,azurophilic granules,C0333829,Cell Component,IS_A,lysosomes,C0024369,Cell Component,False,True
+310,autophagy,C0004391,Cell Function,IS_A,cellular pathway,C2936269,Cell Function,False,True
+321,autophagosomes,C3887595,Cell Component,CONTAINS,mitochondria,C0026237,Cell Component,False,True
+323,cells,C0007634,Cell,USES,proteasome-mediated degradation,C3824143,Molecular Function,False,True
+326,19s regulatory particles,C1518774,Cell Component,INTERACTS_WITH,polyubiquitin tags,C0084133,"Amino Acid, Peptide, or Protein",False,True
+327,pathologic conditions,C0752135,Pathologic Function,ASSOCIATED_WITH,malfunction of proteasome-mediated degradation,C3824143,Molecular Function,False,True
+327,overexpressed proteins,C1514559,Genetic Function,CAUSES,degradation,C0243125,Organism Function,False,True
+328,cell,C0007634,Cell,CONSISTS_OF,rough endoplasmic reticulum,C0230779,Cell Component,False,True
+328,cell,C0007634,Cell,CONSISTS_OF,ribosomes,C0035553,Cell Component,False,True
+330,ribosomal docking proteins,C0035552,"Amino Acid, Peptide, or Protein",CONNECTED_TO,membrane,C0025255,Tissue,False,True
+330,ribosomes,C0035553,Cell Component,CONNECTED_TO,membrane,C0025255,Tissue,False,True
+330,rer,C0230779,Cell Component,CONNECTED_TO,outer membrane,C1167331,Cell Component,False,True
+330,ribosomes,C0035553,Cell Component,PRODUCES,polyribosomes,C0032592,Cell Component,False,True
+332,transcription,C0040649,Genetic Function,OCCURS_IN,nucleus,C0007610,Cell Component,False,True
+332,transcription,C0040649,Genetic Function,PRODUCES,pre-mrna,C0026661,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+333,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",AFFECTS,ubiquitin,C0041538,"Amino Acid, Peptide, or Protein",False,True
+334,cytoplasm,C0010834,Cell Component,LOCATION_OF,mrna,C0035696,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+335,membrane,C0025255,Tissue,LOCATION_OF,polyribosomes,C0032592,Cell Component,False,True
+336,polysome,C0032592,Cell Component,CONNECTED_TO,rer,C0230779,Cell Component,False,True
+351,coatomers,C0887887,Cell Component,CONNECTED_TO,rer,C0230779,Cell Component,False,True
+351,coatomers,C0887887,Cell Component,CONNECTED_TO,golgi apparatus,C0018042,Cell Component,False,True
+352,protein coat,C0528008,"Amino Acid, Peptide, or Protein",SURROUNDS,vesicles,C0333262,Anatomical Abnormality,False,True
+361,ribosomes,C0035553,Cell Component,CONTAINS,rna,C0035668,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+367,ser,C0036720,"Amino Acid, Peptide, or Protein",PERFORMS,detoxification,C0025516,Organism Function,False,True
+372,membranous cisternae,C0025255,Tissue,PART_OF,golgi apparatus,C0018042,Cell Component,False,True
+374,golgi apparatus,C0018042,Cell Component,PERFORMS,post-translational modification,C0033666,Molecular Function,False,True
+374,golgi apparatus,C0018042,Cell Component,PERFORMS,packaging,C0013194,Medical Device,False,True
+375,transport vesicle,C0887882,Cell Component,CARRIES_OUT,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+375,post-translational modification,C0033666,Molecular Function,OCCURS_IN,golgi stacks,C0230765,Cell Component,False,True
+376,vesicles,C0333262,Anatomical Abnormality,PART_OF,tgn,C0887838,Cell Component,False,True
+376,tgn,C0887838,Cell Component,PERFORMS,budding,C1155616,Cell Function,False,True
+377,proteolytic cleavage,C1513411,Amino Acid Sequence,OCCURS_IN,cisternae,C1166837,Cell Component,False,True
+378,golgi apparatus,C0018042,Cell Component,PERFORMS,protein secretion,C1159339,Cell Function,False,True
+390,transport vesicle,C0887882,Cell Component,LOCATION_OF,protein,C0033684,"Amino Acid, Peptide, or Protein",False,True
+391,cells,C0007634,Cell,LOCATION_OF,mitochondria,C0026237,Cell Component,False,True
+392,division,C0152060,Therapeutic or Preventive Procedure,PRODUCES,mitochondria,C0026237,Cell Component,False,True
+393,sperm,C0037868,Cell,LOCATION_OF,mitochondria,C0026237,Cell Component,False,True
+393,mitochondria,C0026237,Cell Component,ADJACENT_TO,basolateral plasma-membrane infoldings,C1167208,Genetic Function,False,True
+395,mitochondria,C0026237,Cell Component,CONTAINS,genome,C0017428,Gene or Genome,False,True
+396,mitochondria,C0026237,Cell Component,PRODUCES,ribosomes,C0035553,Cell Component,False,True
+399,mitochondria,C0026237,Cell Component,CONTAINS,membranes,C0025255,Tissue,False,True
+405,enzymes,C0014442,"Amino Acid, Peptide, or Protein",CONNECTED_TO,inner membrane,C3549061,Cell Component,False,True
+406,intermembrane space,C1179889,Cell Component,CONTAINS,enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+407,mitochondrial matrix,C1510421,Cell Component,CONTAINS,enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+408,mitochondria,C0026237,Cell Component,CONTAINS,granules,C3853573,Biomedical or Dental Material,False,True
+409,mitochondria,C0026237,Cell Component,CONTAINS,enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+409,enzymes,C0014442,"Amino Acid, Peptide, or Protein",PRODUCES,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+410,proton pumps,C0018440,"Amino Acid, Peptide, or Protein",PART_OF,inner mitochondrial membrane,C0230840,Cell Component,False,True
+411,atp synthase complex,C0104569,"Amino Acid, Peptide, or Protein",PART_OF,inner mitochondrial membrane,C0230840,Cell Component,False,True
+413,mutation,C0026882,Genetic Function,CAUSES,merrf,C0162672,Disease or Syndrome,False,True
+418,peroxisomes,C0752063,Cell Component,CONTAINS,oxidative enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+419,peroxisomes,C0752063,Cell Component,CONTAINS,catalase,C0007367,"Amino Acid, Peptide, or Protein",False,True
+419,peroxisomes,C0752063,Cell Component,CONTAINS,peroxidases,C0031179,"Amino Acid, Peptide, or Protein",False,True
+419,oxidative enzymes,C0014442,"Amino Acid, Peptide, or Protein",PRODUCES,hydrogen peroxide,C0020281,Pharmacologic Substance,False,True
+419,peroxisomes,C0752063,Cell Component,CONTAINS,d-amino acid oxidases,C1413903,Gene or Genome,False,True
+420,oxidative enzymes,C0014442,"Amino Acid, Peptide, or Protein",PERFORMS,detoxification processes,C0025516,Organism Function,False,True
+420,peroxisomes,C0752063,Cell Component,CONTAINS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+422,mutation,C0026882,Genetic Function,CAUSES,disorder,C0012634,Disease or Syndrome,False,True
+426,microtubules,C0026046,Cell Component,CONNECTED_TO,chromosomes,C0008633,Cell Component,False,True
+427,dimers,C0596448,Chemical Viewed Structurally,CONNECTED_TO,linear structure,C0013443,"Body Part, Organ, or Organ Component",False,True
+429,tubulin rings,C1260969,Medical Device,PART_OF,mtoc,C0242607,Cell Component,False,True
+429,tubulin dimers,C0041348,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,gtp,C0018353,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+429,microtubules,C0026046,Cell Component,CONNECTED_TO,organelles,C0029219,Cell Component,False,True
+430,tubulin dimers,C0041348,"Amino Acid, Peptide, or Protein",PART_OF,microtubules,C0026046,Cell Component,False,True
+432,microtubule,C0026046,Cell Component,CONTAINS,tubulin dimers,C0041348,"Amino Acid, Peptide, or Protein",False,True
+438,cytoplasm,C0010834,Cell Component,LOCATION_OF,microtubules,C0026046,Cell Component,False,True
+439,microtubules,C0026046,Cell Component,PERFORMS,vesicular transport,C1325417,Cell Function,False,True
+442,molecular motor proteins,C1720835,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,microtubules,C0026046,Cell Component,False,True
+445,microtubules,C0026046,Cell Component,FUNCTIONALLY_RELATED_TO,molecular motor proteins,C1720835,"Amino Acid, Peptide, or Protein",False,True
+447,dyneins,C0013352,"Amino Acid, Peptide, or Protein",FUNCTIONALLY_RELATED_TO,chromosomes,C0008633,Cell Component,False,True
+447,kinesins,C0085139,"Amino Acid, Peptide, or Protein",FUNCTIONALLY_RELATED_TO,polar microtubules,C1622967,Cell Component,False,True
+448,cell types,C0007634,Cell,LOCATION_OF,actin filaments,C0025979,Cell Component,False,True
+451,eg5,C1416693,Gene or Genome,ASSOCIATED_WITH,mitotic spindle microtubules,C3896280,Cell Component,False,True
+452,phallacidin,C0070513,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin filaments,C0025979,Cell Component,False,True
+454,gelsolin,C0061187,"Amino Acid, Peptide, or Protein",CAUSES,severing,C1306232,Therapeutic or Preventive Procedure,False,True
+455,actin-capping proteins,C0101367,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin filament,C0025979,Cell Component,False,True
+455,tropomodulin,C0147029,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin myofilaments,C1179121,Cell Component,False,True
+456,actin cross-linking proteins,C1422134,Gene or Genome,CONNECTED_TO,actin filaments,C0025979,Cell Component,False,True
+458,myosin i,C0086669,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,organelles,C0029219,Cell Component,False,True
+464,tropomodulin,C0147029,"Amino Acid, Peptide, or Protein",CONNECTED_TO,actin,C0001271,"Amino Acid, Peptide, or Protein",False,True
+465,intermediate filaments,C0021770,Cell Component,CONSISTS_OF,subunits,C0599220,"Amino Acid, Peptide, or Protein",False,True
+468,helical monomers,C0596973,Chemical Viewed Structurally,INGREDIENT_OF,intermediate filaments,C0021770,Cell Component,False,True
+480,proteins,C0815043,"Amino Acid, Peptide, or Protein",PART_OF,cytoskeleton,C0010853,Cell Component,False,True
+480,proteins,C0815043,"Amino Acid, Peptide, or Protein",PART_OF,cells,C0007634,Cell,False,True
+480,binding sites,C0005456,Receptor,INTERACTS_WITH,actin filaments,C0025979,Cell Component,False,True
+481,keratin mutations,C4727712,Cell or Molecular Dysfunction,CAUSES,keratoderma disorders,C0022579,Congenital Abnormality,False,True
+485,vimentin,C0042666,"Amino Acid, Peptide, or Protein",IS_A,intermediate filament protein,C0021770,Cell Component,False,True
+487,mtoc,C0242607,Cell Component,CONTAINS,centrioles,C0007708,Cell Component,False,True
+487,mtoc,C0242607,Cell Component,CONTAINS,pericentriolar matrix,C1166881,Cell Component,False,True
+493,mtoc,C0242607,Cell Component,CONTAINS,-tubulin rings,C1260969,Medical Device,False,True
+497,colchicine,C0009262,Organic Chemical,INTERACTS_WITH,tubulin molecules,C1511969,Cell Component,False,True
+497,vinblastine,C0042670,Organic Chemical,INTERACTS_WITH,microtubules,C0026046,Cell Component,False,True
+497,vincristine,C0042679,Organic Chemical,INTERACTS_WITH,microtubules,C0026046,Cell Component,False,True
+497,vinblastine,C0042670,Organic Chemical,DISRUPTS,mitotic spindle,C0026258,Cell Component,False,True
+497,vincristine,C0042679,Organic Chemical,DISRUPTS,mitotic spindle,C0026258,Cell Component,False,True
+499,chemical substances,C0220806,Chemical,PREVENTS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+500,mutations,C0026882,Genetic Function,ASSOCIATED_WITH,alexander disease,C0270726,Disease or Syndrome,False,True
+504,centrioles,C0007708,Cell Component,PERFORMS,positioning of the mitotic spindle,,Cell Function,False,True
+510,centrosome duplication,C1658773,Cell Function,FUNCTIONALLY_RELATED_TO,ciliogenesis,C4329131,Cell Function,False,True
+511,basal bodies,C3536735,Cell Component,PART_OF,ciliogenesis,C4329131,Cell Function,False,True
+513,cilia,C0008778,Cell Component,OCCURS_IN,g1 phase,C0079395,Cell Function,False,True
+513,centrosome duplication,C1658773,Cell Function,FUNCTIONALLY_RELATED_TO,primary cilium formation,C4329131,Cell Function,False,True
+515,centrioles,C0007708,Cell Component,LOCATION_OF,nucleus,C0007610,Cell Component,False,True
+515,contractile protein,C0009915,"Amino Acid, Peptide, or Protein",CONNECTED_TO,nuclear envelope,C0028584,Cell Component,False,True
+519,basal bodies,C3536735,Cell Component,FUNCTIONALLY_RELATED_TO,centrioles,C0007708,Cell Component,False,True
+520,axoneme,C0230750,Cell Component,CONSISTS_OF,microtubules,C0026046,Cell Component,False,True
+520,axonemal microtubule doublets,C1180298,Cell Component,CONNECTED_TO,a microtubules,C0227089,"Body Part, Organ, or Organ Component",False,True
+520,axonemal microtubule doublets,C1180298,Cell Component,CONNECTED_TO,b microtubules,C0026046,Cell Component,False,True
+521,inclusions,C0007637,Cell Component,CONTAINS,products of metabolic activity,C1524026,Cell Function,False,True
+523,lipofuscin,C0023789,Organic Chemical,RESULT_OF,cellular senescence,C0007581,Cell Function,False,True
+524,centrioles,C0007708,Cell Component,PRODUCES,bipolar mitotic spindle,C0026258,Cell Component,False,True
+532,physiologic processes,C0031845,Physiologic Function,OCCURS_IN,cytoplasmic matrix,C1383501,Cell Component,False,True
+532,cytoplasmic reactions,C0010834,Cell Component,OCCURS_IN,network,C0150775,Population Group,False,True
+536,eukaryotic cells,C0015161,Cell,LOCATION_OF,genome,C0017428,Gene or Genome,False,True
+538,chromatin,C0008546,"Amino Acid, Peptide, or Protein",CONTAINS,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+539,nucleolus,C0007609,Cell Component,CONTAINS,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+539,nucleolus,C0007609,Cell Component,CONTAINS,rna,C0035668,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+539,nucleolus,C0007609,Cell Component,CONTAINS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+539,rrna synthesis,C1622445,Genetic Function,OCCURS_IN,nucleolus,C0007609,Cell Component,False,True
+540,outer membrane,C1167331,Cell Component,CONNECTED_TO,rough-surfaced endoplasmic reticulum,C0230779,Cell Component,False,True
+544,chromatin complex,C4327173,Cell Component,CONSISTS_OF,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+544,chromatin complex,C4327173,Cell Component,CONSISTS_OF,structural proteins,C0582263,"Amino Acid, Peptide, or Protein",False,True
+544,folding,C0185026,Therapeutic or Preventive Procedure,PRODUCES,chromosomes,C0008633,Cell Component,False,True
+544,chromatin proteins,C0008546,"Amino Acid, Peptide, or Protein",CONTAINS,histones,C0019652,"Amino Acid, Peptide, or Protein",False,True
+547,heterochromatin,C0019397,Cell Component,IS_A,chromatin,C0008546,"Amino Acid, Peptide, or Protein",False,True
+547,euchromatin,C0059882,Cell Component,IS_A,chromatin,C0008546,"Amino Acid, Peptide, or Protein",False,True
+548,periphery,C1622967,Cell Component,LOCATION_OF,marginal chromatin,C1512990,Cell Component,False,True
+548,nucleus,C0007610,Cell Component,LOCATION_OF,karyosomes,C1517655,Cell Component,False,True
+548,nucleolar-associated chromatin,C1518450,Cell Component,CONNECTED_TO,nucleolus,C0007609,Cell Component,False,True
+549,heterochromatin,C0019397,Cell Component,INTERACTS_WITH,hematoxylin,C0018964,Organic Chemical,False,True
+550,nucleoplasm,C0682537,Cell Component,LOCATION_OF,euchromatin,C0059882,Cell Component,False,True
+551,euchromatin,C0059882,Cell Component,INDICATES,active chromatin,C0008546,"Amino Acid, Peptide, or Protein",False,True
+552,macromolecular complexes,C0751282,"Amino Acid, Peptide, or Protein",CONSISTS_OF,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+553,euchromatin,C0059882,Cell Component,LOCATION_OF,nucleosomes,C0028623,"Amino Acid, Peptide, or Protein",False,True
+553,heterochromatin,C0019397,Cell Component,LOCATION_OF,nucleosomes,C0028623,"Amino Acid, Peptide, or Protein",False,True
+553,chromosomes,C0008633,Cell Component,LOCATION_OF,nucleosomes,C0028623,"Amino Acid, Peptide, or Protein",False,True
+553,dna,C0012854,"Nucleic Acid, Nucleoside, or Nucleotide",CONNECTED_TO,nucleosomes,C0028623,"Amino Acid, Peptide, or Protein",False,True
+554,nucleosomes,C0028623,"Amino Acid, Peptide, or Protein",PART_OF,chromatin fibril,C1516507,Cell Component,False,True
+556,chromatin loop domains,C1516509,Cell Component,PRODUCES,chromosomes,C0008633,Cell Component,False,True
+556,chromosome,C0008633,Cell Component,CONSISTS_OF,chromatids,C0008545,Cell Component,False,True
+557,nucleus,C0007610,Cell Component,LOCATION_OF,chromatin,C0008546,"Amino Acid, Peptide, or Protein",False,True
+557,nucleus,C0007610,Cell Component,LOCATION_OF,euchromatin,C0059882,Cell Component,False,True
+562,molecular probes,C0026381,"Indicator, Reagent, or Diagnostic Aid",DIAGNOSES,disorders,C0028432,Disease or Syndrome,False,True
+563,barr body,C0036867,Cell Component,INDICATES,sex,C0009253,Organism Function,False,True
+568,nucleolus,C0007609,Cell Component,SURROUNDS,rrna genes,C0035899,Gene or Genome,False,True
+568,fibrillar centers,C1167079,Cell Component,CONTAINS,dna loops,C1516509,Cell Component,False,True
+569,fibrillar material,C1518451,Cell Component,CONTAINS,ribosomal genes,C0035899,Gene or Genome,False,True
+571,network,C0150775,Population Group,IS_A,nucleolonema,C0230580,Cell Component,False,True
+571,granular material,C1518452,Cell Component,CONTAINS,rrna,C0035701,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+571,fibrillar material,C1518451,Cell Component,CONTAINS,rrna,C0035701,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+572,nucleolonema,C0230580,Cell Component,LOCATION_OF,rrna,C0035701,"Nucleic Acid, Nucle{oside, or Nucleotide",False,True
+572,nucleolonema,C0230580,Cell Component,LOCATION_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+573,nucleus,C0007610,Cell Component,LOCATION_OF,ribosomal subunits,C1956015,Cell Component,False,True
+581,membranes,C0025255,Tissue,PART_OF,nuclear envelope,C0028584,Cell Component,False,True
+582,nuclear envelope,C0028584,Cell Component,CONTAINS,chromatin,C0008546,"Amino Acid, Peptide, or Protein",False,True
+582,outer nuclear membrane,C1167072,Cell Component,CONNECTED_TO,rer membrane,C1325633,Cell Component,False,True
+583,lamin receptors,C0064634,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,chromosomes,C0008633,Cell Component,False,True
+583,lamina-associated proteins,C1825913,Gene or Genome,INTERACTS_WITH,chromosomes,C0008633,Cell Component,False,True
+587,cell,C0007634,Cell,USES,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+587,functional p53,C0079419,Gene or Genome,CAUSES,apoptosis,C0032930,Clinical Attribute,False,True
+589,outer membrane,C1167331,Cell Component,CONNECTED_TO,rer membranes,C0025255,Tissue,False,True
+589,perinuclear space,C0230540,Cell Component,CONNECTED_TO,rer lumen,C0524461,Body Space or Junction,False,True
+589,outer membrane,C1167331,Cell Component,CONTAINS,ribosomes,C0035553,Cell Component,False,True
+589,detergent,C0011740,Chemical Viewed Functionally,DISRUPTS,nuclear envelope,C0028584,Cell Component,False,True
+604,enzymes,C0014442,"Amino Acid, Peptide, or Protein",CAUSES,phosphorylation,C0031715,Molecular Function,False,True
+607,nucleus,C0007610,Cell Component,CONTAINS,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+607,nucleoplasm,C0682537,Cell Component,CONTAINS,inclusions,C0007637,Cell Component,False,True
+612,pore,C1325742,Cell Component,CONTAINS,protein subunits,C0599220,"Amino Acid, Peptide, or Protein",False,True
+612,protein subunits,C0599220,"Amino Acid, Peptide, or Protein",PART_OF,nuclear pore complex,C0028587,Cell Component,False,True
+613,injury,C3263722,Injury or Poisoning,AFFECTS,cells,C0007634,Cell,False,True
+619,cell cycle,C0007586,Cell Function,CONTAINS,interphase,C0021798,Cell Function,False,True
+620,g1 phase,C0079395,Cell Function,PART_OF,cell cycle,C0007586,Cell Function,False,True
+624,checkpoint,C1155874,Cell Function,PART_OF,cell cycle,C0007586,Cell Function,False,True
+626,replicon,C0035142,"Nucleic Acid, Nucleoside, or Nucleotide",PART_OF,chromosome replication,C0175967,Genetic Function,False,True
+628,checkpoint,C1155874,Cell Function,PREVENTS,m phase,C0007591,Cell Function,False,True
+629,mitosis,C0026255,Cell Function,OCCURS_IN,m phase,C0007591,Cell Function,False,True
+630,spindle-assembly checkpoint,C2754376,Cell Function,PREVENTS,premature entry,C0151526,Pathologic Function,False,True
+638,proteins,C0033684,"Amino Acid, Peptide, or Protein",CAUSES,cell cycle,C0007586,Cell Function,False,True
+647,cell division,C0007590,Cell Function,PRODUCES,daughter cells,C1953343,Cell,False,True
+652,c0027103,C0027103,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,c0025979,C0025979,Cell Component,False,True
+653,c0025186,C0025186,Cell Function,PRODUCES,c0017471,C0017471,Cell,False,True
+654,c0008633,C0008633,Cell Component,IS_A,c3538308,C3538308,"Amino Acid, Peptide, or Protein",False,True
+660,crossing-over,C0010366,Genetic Function,IS_A,genetic exchange,C1749881,Genetic Function,False,True
+664,meiotic divisions,C4690158,Cell Function,PRODUCES,spermatids,C0037857,Cell,False,True
+664,spermatid,C0037857,Cell,PRODUCES,spermatozoon,C0037868,Cell,False,True
+664,meiotic divisions,C4690158,Cell Function,PRODUCES,ovum,C0029974,Cell,False,True
+664,meiotic divisions,C4690158,Cell Function,PRODUCES,polar bodies,C2331651,Cell,False,True
+666,meiosis,C0025186,Cell Function,CONSISTS_OF,mitotic divisions,C4327110,Cell Function,False,True
+667,reductional division,C0152060,Therapeutic or Preventive Procedure,AFFECTS,chromosome number,C1953343,Cell,False,True
+672,synaptonemal complex,C0039066,Cell Component,INTERACTS_WITH,chromosomes,C0008633,Cell Component,False,True
+673,crossing-over,C0010366,Genetic Function,USES,transposition,C0040674,Therapeutic or Preventive Procedure,False,True
+674,chiasmata,C0029126,"Body Part, Organ, or Organ Component",INDICATES,crossing-over,C0010366,Genetic Function,False,True
+676,spindle micro-tubules,C0026046,Cell Component,INTERACTS_WITH,chromosomes,C0008633,Cell Component,False,True
+676,chromosomes,C0008633,Cell Component,PERFORMS,movement,C0026649,Organism Function,False,True
+690,dna fragmentation,C0376669,Molecular Function,OCCURS_IN,nucleus,C0007610,Cell Component,False,True
+690,nuclear endonucleases,C0014230,"Amino Acid, Peptide, or Protein",CAUSES,dna fragmentation,C0376669,Molecular Function,False,True
+691,cytoplasm,C0010834,Cell Component,LOCATION_OF,ribosomes,C0035553,Cell Component,False,True
+692,cytoplasm,C0010834,Cell Component,LOCATION_OF,cytochrome c,C0010749,"Amino Acid, Peptide, or Protein",False,True
+695,tnf receptor,C0077503,"Amino Acid, Peptide, or Protein",CAUSES,apoptosis,C0162638,Cell Function,False,True
+695,uv,C0041625,Natural Phenomenon or Process,CAUSES,apoptosis,C0162638,Cell Function,False,True
+695,oncogenes,C0029016,Gene or Genome,CAUSES,apoptosis,C0162638,Cell Function,False,True
+695,p53,C0079419,Gene or Genome,CAUSES,apoptosis,C0162638,Cell Function,False,True
+696,naip,C1176239,"Amino Acid, Peptide, or Protein",PREVENTS,premature apoptosis,C1819913,Cell Function,False,True
+700,breakdown,C0699900,Organism Function,CAUSES,influx,C2752294,Cell Function,False,True
+702,apoptosis,C0162638,Cell Function,CAUSES,dna fragmentation,C0376669,Molecular Function,False,True
+703,autophagosome,C3887595,Cell Component,CAUSES,digestion,C0012238,Organism Function,False,True
+704,chromosome separation,C1658145,Genetic Function,CAUSES,apoptotic pathway,C3269143,Molecular Function,False,True
+706,infection,C0009450,Disease or Syndrome,CAUSES,pyroptosis,C2610960,Cell Function,False,True
+706,caspase-1,C0534519,"Amino Acid, Peptide, or Protein",CAUSES,inflammatory cytokines,C1332683,Gene or Genome,False,True
+706,inflammatory cytokines,C1332683,Gene or Genome,CAUSES,inflammatory reactions,C0021368,Pathologic Function,False,True
+707,necrostatin-1,C1702824,Organic Chemical,DISRUPTS,necroptosis,C2610958,Cell Function,False,True
+712,tissues,C0040300,Tissue,CONSISTS_OF,cells,C0007634,Cell,False,True
+713,cells,C0007634,Cell,PERFORMS,function,C0031843,Physiologic Function,False,True
+714,cells,C0007634,Cell,USES,intercellular junctions,C0021721,Body Space or Junction,False,True
+717,epithelium,C0014609,Tissue,SURROUNDS,body surfaces,C0489451,Body Location or Region,False,True
+717,epithelium,C0014609,Tissue,PRODUCES,glands,C1285092,"Body Part, Organ, or Organ Component",False,True
+717,muscle tissue,C0026845,Tissue,CONSISTS_OF,contractile cells,C0026820,Physiologic Function,False,True
+717,muscle tissue,C0026845,Tissue,PERFORMS,movement,C0026649,Organism Function,False,True
+720,myoepithelium,C1180274,Tissue,PERFORMS,muscle tissue,C0026845,Tissue,False,True
+720,epithelium,C0014609,Tissue,LOCATION_OF,myoepithelium,C1180274,Tissue,False,True
+723,cell-to-cell junctions,C0007582,Cell Function,PRODUCES,barrier,C1706912,Medical Device,False,True
+727,connective tissue,C0009780,Tissue,CONTAINS,extracellular matrix,C0015350,Tissue,False,True
+728,extracellular matrix,C0015350,Tissue,CONTAINS,collagen fibers,C0225325,Tissue,False,True
+728,fibroblasts,C0016030,Cell,PRODUCES,extracellular matrix,C0015350,Tissue,False,True
+758,cavity,C0011334,Disease or Syndrome,CONTAINS,epithelium,C0225337,Tissue,False,True
+771,junctional complex,C0230612,Cell Component,CONNECTED_TO,cells,C0007634,Cell,False,True
+771,cells,C0007634,Cell,PERFORMS,fluid transport,C0005528,Cell Function,False,True
+774,epithelium,C0014609,Tissue,PRODUCES,selective barrier,C1706912,Medical Device,False,True
+779,squamous epitheli{l},C0221909,Tissue,CONSISTS_OF,cells,C0007634,Cell,False,True
+780,apical cell surface domain,C0699040,Cell Component,CONTAINS,cilia,C0008778,Cell Component,False,True
+781,pseudostratified epithelium,C1514590,Tissue,IS_A,epithelium,C0014609,Tissue,False,True
+781,transitional epithelium,C0225339,Tissue,IS_A,epithelium,C0014609,Tissue,False,True
+782,pseudostratified,,Tissue,IS_A,epithelium,C0014609,Tissue,False,True
+782,transitional,,Tissue,IS_A,epithelium,C0014609,Tissue,False,True
+783,basement membrane,C0004799,Tissue,LOCATION_OF,cells,C0007634,Cell,False,True
+784,lower urinary tract,C0729866,Body System,LOCATION_OF,transitional epithelium,C0225339,Tissue,False,True
+784,urothelium,C0227598,Tissue,IS_A,stratified epithelium,C0682575,Tissue,False,True
+786,vascular system,C0489903,Body System,LOCATION_OF,endothelium,C0014257,Tissue,False,True
+786,body cavities,C0333343,Body Space or Junction,LOCATION_OF,mesothelium,C0086610,Tissue,False,True
+787,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",LOCATION_OF,endothelium,C0014257,Tissue,False,True
+788,ventricles,C0018827,"Body Part, Organ, or Organ Component",LOCATION_OF,endocardium,C0014124,Tissue,False,True
+788,atria,C0524422,"Body Part, Organ, or Organ Component",LOCATION_OF,endocardium,C0014124,Tissue,False,True
+792,epithelium,C0014609,Tissue,EXHIBITS,secretion,C0036536,Biologic Function,False,True
+792,stomach,C0038351,"Body Part, Organ, or Organ Component",CONTAINS,columnar epithelium,C0225337,Tissue,False,True
+792,intestines,C0021853,"Body Part, Organ, or Organ Component",CONTAINS,columnar epithelium,C0225337,Tissue,False,True
+792,kidney,C0022646,"Body Part, Organ, or Organ Component",CONTAINS,proximal convoluted tubules,C0022677,"Body Part, Organ, or Organ Component",False,True
+792,skin,C0444099,Body Substance,CONTAINS,squamous epithelium,C0221909,Tissue,False,True
+792,urinary bladder,C0005682,"Body Part, Organ, or Organ Component",CONTAINS,transitional epithelium,C0225339,Tissue,False,True
+798,trachea,C0040578,"Body Part, Organ, or Organ Component",CONTAINS,respiratory epithelium,C0225385,Tissue,False,True
+798,bronchi,C0006255,"Body Part, Organ, or Organ Component",CONTAINS,respiratory epithelium,C0225385,Tissue,False,True
+798,squamous metaplasia,C0025570,Cell or Molecular Dysfunction,ASSOCIATED_WITH,schistosomiasis,C0036323,Disease or Syndrome,False,True
+799,junctional complexes,C1704241,Chemical Viewed Structurally,PART_OF,epithelial cells,C0014597,Cell,False,True
+811,epididymis,C0014533,"Body Part, Organ, or Organ Component",LOCATION_OF,stereocilia,C0230626,Cell Component,False,True
+811,ductus deferens,C0042360,"Body Part, Organ, or Organ Component",LOCATION_OF,stereocilia,C0230626,Cell Component,False,True
+811,inner ear,C0022889,"Body Part, Organ, or Organ Component",LOCATION_OF,stereocilia,C0230626,Cell Component,False,True
+812,microvilli,C0026049,Cell Component,CONTAINS,actin filaments,C0025979,Cell Component,False,True
+812,microvilli,C0026049,Cell Component,CONTAINS,myosin i,C0086669,"Amino Acid, Peptide, or Protein",False,True
+812,terminal web,C4236779,Cell Component,CONTAINS,myosin ii,C0027103,"Amino Acid, Peptide, or Protein",False,True
+815,stereocilia,C0230626,Cell Component,CONTAINS,ezrin,C0059973,"Amino Acid, Peptide, or Protein",False,True
+817,espin,C1421921,Gene or Genome,INTERACTS_WITH,actin filaments,C0025979,Cell Component,False,True
+823,basal body,C3536735,Cell Component,LOCATION_OF,apical region,C1166646,Cell Component,False,True
+823,ciliary apparatus,C0005423,"Body Part, Organ, or Organ Component",PART_OF,cell,C0007634,Cell,False,True
+825,apical domain,C1514562,Amino Acid Sequence,PART_OF,epithelial cells,C0014597,Cell,False,True
+825,microtubule-associated motor proteins,C0026045,"Amino Acid, Peptide, or Protein",PART_OF,motile cilia,C3158395,Cell Component,False,True
+836,motile cilia,C3158395,Cell Component,CONTAINS,axoneme,C0230750,Cell Component,False,True
+837,axoneme,C0230750,Cell Component,CONTAINS,microtubules,C0026046,Cell Component,False,True
+840,motor protein,C1179106,"Amino Acid, Peptide, or Protein",USES,hydrolysis,C0020291,Natural Phenomenon or Process,False,True
+840,nexin,C0132332,"Amino Acid, Peptide, or Protein",CONNECTED_TO,microtubule,C0026046,Cell Component,False,True
+841,basal bodies,C3536735,Cell Component,CONNECTED_TO,cilia,C0008778,Cell Component,False,True
+841,apical cell cytoplasm,C4236779,Cell Component,LOCATION_OF,basal bodies,C3536735,Cell Component,False,True
+842,basal body,C3536735,Cell Component,IS_A,centriole,C0007708,Cell Component,False,True
+842,basal body,C3536735,Cell Component,PERFORMS,mtoc,C0242607,Cell Component,False,True
+842,mtoc,C0242607,Cell Component,CONSISTS_OF,microtubule triplets,C1513286,Cell Component,False,True
+842,paired microtubules,C0026046,Cell Component,CONNECTED_TO,triplet microtubules,C1513286,Cell Component,False,True
+844,basal body,C3536735,Cell Component,CONNECTED_TO,apical plasma membrane,C1167182,Cell Component,False,True
+845,dynein arms,C0013352,"Amino Acid, Peptide, or Protein",CONNECTED_TO,b microtubule,C0026046,Cell Component,False,True
+848,dynein arms,C0013352,"Amino Acid, Peptide, or Protein",PERFORMS,atpase activity,C5672936,Molecular Function,False,True
+849,hydrolysis,C0020291,Natural Phenomenon or Process,PRODUCES,movement,C0026649,Organism Function,False,True
+850,kinesin,C0085139,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,central pair of microtubules,C3821138,Cell Component,False,True
+853,primary cilia,C3156332,Cell Component,CONTAINS,microtubules,C0026046,Cell Component,False,True
+856,primary cilia,C3156332,Cell Component,DEVELOPMENTAL_FORM_OF,motile cilia,C3158395,Cell Component,False,True
+857,primary cilia,C3156332,Cell Component,PERFORMS,signal receptors,C1514762,Molecular Function,False,True
+858,fluid flow,C0596578,Natural Phenomenon or Process,CAUSES,bend,C0011119,Disease or Syndrome,False,True
+858,bend,C0011119,Disease or Syndrome,CAUSES,influx,C2752294,Cell Function,False,True
+858,mutations,C0026882,Genetic Function,AFFECTS,primary cilia,C3156332,Cell Component,False,True
+859,influx,C2752294,Cell Function,CAUSES,signaling cascades,C1621636,Molecular Function,False,True
+870,ift,C1155944,Cell Function,USES,intraflagellar transport proteins,C1155944,Cell Function,False,True
+870,ift,C1155944,Cell Function,USES,kinesin ii,C0167367,"Amino Acid, Peptide, or Protein",False,True
+870,ift,C1155944,Cell Function,USES,cytoplasmic dynein,C1180334,"Amino Acid, Peptide, or Protein",False,True
+870,mutations,C0026882,Genetic Function,CAUSES,ciliary dysfunctions,C1275684,Disease or Syndrome,False,True
+875,occluding junctions,C0242358,Body Space or Junction,PREVENTS,lipids,C0023779,Organic Chemical,False,True
+875,occluding junctions,C0242358,Body Space or Junction,PREVENTS,specialized membrane proteins,C0025252,"Amino Acid, Peptide, or Protein",False,True
+880,anchoring junctions,C0887872,Cell Component,CONNECTED_TO,cytoskeleton,C0010853,Cell Component,False,True
+880,anchoring junctions,C0887872,Cell Component,INTERACTS_WITH,actin,C0001271,"Amino Acid, Peptide, or Protein",False,True
+880,anchoring junctions,C0887872,Cell Component,INTERACTS_WITH,intermediate filaments,C0021770,Cell Component,False,True
+880,lateral cell surface,C0699040,Cell Component,CONTAINS,anchoring junctions,C0887872,Cell Component,False,True
+882,zonula occludens,C0242358,Body Space or Junction,PART_OF,junctional complex,C0230612,Cell Component,False,True
+887,zo-1,C1420744,Gene or Genome,INTERACTS_WITH,cell cytoskeleton,C0010853,Cell Component,False,True
+889,zonula occludens strands,C0242358,Body Space or Junction,CONTAINS,transmembrane proteins,C0021699,"Amino Acid, Peptide, or Protein",False,True
+890,claudins,C2718006,"Amino Acid, Peptide, or Protein",IS_A,family of proteins,C1335532,"Amino Acid, Peptide, or Protein",False,True
+892,occludin,C0250400,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin cytoskeleton,C0025979,Cell Component,False,True
+892,claudins,C2718006,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin cytoskeleton,C0025979,Cell Component,False,True
+892,zo-1,C1420744,Gene or Genome,IS_A,tumor suppressor,C0079427,Gene or Genome,False,True
+895,paracellular pathway,C2936269,Cell Function,OCCURS_IN,zonula occludens,C0242358,Body Space or Junction,False,True
+897,zo-1,C1420744,Gene or Genome,INTERACTS_WITH,actin filaments,C0025979,Cell Component,False,True
+901,transcellular pathway,C0597601,Cell Function,LOCATION_OF,plasma membrane,C0007603,Cell Component,False,True
+901,paracellular pathway,C2936269,Cell Function,LOCATION_OF,zonula occludens,C0242358,Body Space or Junction,False,True
+903,zonula occludens,C1505203,"Amino Acid, Peptide, or Protein",MANAGES,movement,C0026649,Organism Function,False,True
+916,genes,C0017337,Gene or Genome,IS_A,immunoglobulin gene superfamily,C1334163,Gene or Genome,False,True
+917,zonula adherens,C1505203,"Amino Acid, Peptide, or Protein",PERFORMS,lateral adhesion,C0001511,Pathologic Function,False,True
+918,cadherins,C0006631,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin filaments,C0025979,Cell Component,False,True
+918,extracellular components,C1166607,Cell Component,INTERACTS_WITH,ca2 ions,C0022023,"Element, Ion, or Isotope",False,True
+918,removal,C0015252,Therapeutic or Preventive Procedure,CAUSES,dissociation,C0086168,Mental or Behavioral Dysfunction,False,True
+922,fascia adherens,C0015641,"Body Part, Organ, or Organ Component",CONTAINS,zo-1 protein,C1420744,Gene or Genome,False,True
+926,lateral cell surface,C0699040,Cell Component,LOCATION_OF,macula adherens,C0227662,"Body Part, Organ, or Organ Component",False,True
+927,desmogleins,C0113216,"Amino Acid, Peptide, or Protein",CONNECTED_TO,plasma membranes,C0007603,Cell Component,False,True
+927,desmocollins,C0113214,"Amino Acid, Peptide, or Protein",CONNECTED_TO,plasma membranes,C0007603,Cell Component,False,True
+928,dense material,C3546235,Cell Component,CONTAINS,actin filaments,C0025979,Cell Component,False,True
+937,connexins,C0110611,"Amino Acid, Peptide, or Protein",PRODUCES,gap junctions,C0206117,Body Space or Junction,False,True
+938,subunits,C0599220,"Amino Acid, Peptide, or Protein",PART_OF,gap junctions,C0206117,Body Space or Junction,False,True
+939,gap junction,C0206117,Body Space or Junction,CONNECTED_TO,plasma membranes,C0007603,Cell Component,False,True
+939,connexons,C0230609,Cell Component,CONNECTED_TO,extracellular space,C0015352,Body Space or Junction,False,True
+945,mutation,C0026882,Genetic Function,ASSOCIATED_WITH,congenital deafness,C0339789,Congenital Abnormality,False,True
+950,connexin-26 proteins,C4283927,"Amino Acid, Peptide, or Protein",PART_OF,gap junctions,C0206117,Body Space or Junction,False,True
+950,anions,C0003075,"Element, Ion, or Isotope",TRAVERSES,membrane,C0025255,Tissue,False,True
+951,basement membrane,C0004799,Tissue,ADJACENT_TO,basal domain,C1514562,Amino Acid Sequence,False,True
+951,basement membrane,C0004799,Tissue,ADJACENT_TO,stroma,C0927195,"Body Part, Organ, or Organ Component",False,True
+952,cell-to-extracellular matrix junctions,C0887870,Cell Component,CONNECTED_TO,cell,C0007634,Cell,False,True
+952,cell-to-extracellular matrix junctions,C0887870,Cell Component,CONNECTED_TO,extracellular matrix,C0015350,Tissue,False,True
+955,infoldings,C1514664,Genetic Function,OCCURS_IN,absorptive cells,C2347023,Cell,False,True
+955,interdigitations,C1522445,Cell,OCCURS_IN,absorptive cells,C2347023,Cell,False,True
+957,basal lamina,C0085872,Tissue,CONNECTED_TO,epithelial cells,C0014597,Cell,False,True
+957,basal lamina,C0085872,Tissue,CONNECTED_TO,connective tissue,C0009780,Tissue,False,True
+959,basement membrane,C0004799,Tissue,CONTAINS,collagen fibrils,C0225328,Cell Component,False,True
+960,layer,C0934502,"Body Part, Organ, or Organ Component",CONTAINS,laminins,C0022984,"Amino Acid, Peptide, or Protein",False,True
+960,layer,C0934502,"Body Part, Organ, or Organ Component",CONTAINS,type iv collagen molecule,C0009333,"Amino Acid, Peptide, or Protein",False,True
+961,lamina lucida,C1167355,Tissue,RESULT_OF,fixation,C0185023,Therapeutic or Preventive Procedure,False,True
+973,type iv collagen,C0009333,"Amino Acid, Peptide, or Protein",FUNCTIONALLY_RELATED_TO,basal lamina,C0085872,Tissue,False,True
+973,type xv collagen,C1167368,Cell Component,FUNCTIONALLY_RELATED_TO,external lamina,C0085872,Tissue,False,True
+973,basal laminae,C0085872,Tissue,LOCATION_OF,type xviii collagen,C0753860,"Amino Acid, Peptide, or Protein",False,True
+973,type vii collagen,C0009337,"Amino Acid, Peptide, or Protein",CONNECTED_TO,basal lamina,C0085872,Tissue,False,True
+974,laminins,C0022984,"Amino Acid, Peptide, or Protein",FUNCTIONALLY_RELATED_TO,basal lamina,C0085872,Tissue,False,True
+974,laminins,C0022984,"Amino Acid, Peptide, or Protein",FUNCTIONALLY_RELATED_TO,epithelium,C0014609,Tissue,False,True
+982,type iv collagen,C0009333,"Amino Acid, Peptide, or Protein",PHYSICALLY_RELATED_TO,laminin polymers,C0032521,Chemical Viewed Structurally,False,True
+985,basal lamina,C0085872,Tissue,INTERACTS_WITH,pas,C0030125,Organic Chemical,False,True
+985,basal lamina,C0085872,Tissue,INTERACTS_WITH,silver,C0037125,Pharmacologic Substance,False,True
+987,mutation,C0026882,Genetic Function,CAUSES,dystrophic epidermolysis bullosa,C0079294,Disease or Syndrome,False,True
+988,lamina densa,C0085872,Tissue,CONNECTED_TO,elastic fibers,C0230899,Tissue,False,True
+988,mutation,C0026882,Genetic Function,CAUSES,marfan’s syndrome,C0024796,Disease or Syndrome,False,True
+988,mutation,C0026882,Genetic Function,CAUSES,connective tissue disorders,C0009782,Disease or Syndrome,False,True
+989,lamina densa,C0085872,Tissue,INTERACTS_WITH,reticular lamina,C1179467,Tissue,False,True
+992,type iv collagen suprastructure,C0009333,"Amino Acid, Peptide, or Protein",CONNECTED_TO,laminin polymers,C0032521,Chemical Viewed Structurally,False,True
+1008,hemidesmosomes,C0230616,Cell Component,LOCATION_OF,basal cell,C0596155,Cell,False,True
+1009,hemidesmosome,C0230616,Cell Component,EXHIBITS,intracellular attachment plaque,C0011389,Disease or Syndrome,False,True
+1010,bp 230,C0005824,Health Care Activity,CAUSES,bullous pemphigoid,C0030805,Disease or Syndrome,False,True
+1013,integrin,C0021701,"Amino Acid, Peptide, or Protein",IS_A,cell matrix receptors,C0034800,"Amino Acid, Peptide, or Protein",False,True
+1016,laminin-5,C0171955,"Amino Acid, Peptide, or Protein",CONNECTED_TO,basal cell membrane,C0007603,Cell Component,False,True
+1016,type xvii collagen molecules,C0753860,"Amino Acid, Peptide, or Protein",CONNECTED_TO,basal lamina,C0085872,Tissue,False,True
+1016,vii collagen,C0009337,"Amino Acid, Peptide, or Protein",CONNECTED_TO,reticular fibers,C0035285,"Amino Acid, Peptide, or Protein",False,True
+1026,apocrine secretion,C5673086,Cell Function,PRODUCES,lipid droplets,C0230704,Cell Component,False,True
+1029,secretory component,C0036538,"Amino Acid, Peptide, or Protein",CONSISTS_OF,single cells,C5554878,Cell,False,True
+1029,goblet cells,C0506994,Cell,LOCATION_OF,intestines,C0021853,"Body Part, Organ, or Organ Component",False,True
+1029,goblet cells,C0506994,Cell,LOCATION_OF,respiratory tract,C0035237,Body System,False,True
+1031,surface cell,C0699040,Cell Component,IS_A,secretory cell,C1519221,Cell,False,True
+1032,goblet cell,C0506994,Cell,IS_A,unicellular gland,C0015282,"Body Part, Organ, or Organ Component",False,True
+1032,unicellular gland,C0015282,"Body Part, Organ, or Organ Component",IS_A,exocrine type gland,C0015282,"Body Part, Organ, or Organ Component",False,True
+1034,epithelial cells,C0014597,Cell,IS_A,mucus-secreting cells,C1513729,Cell,False,True
+1034,cells lining gastric pits,C0007600,Cell,IS_A,mucus-secreting cells,C1513729,Cell,False,True
+1034,cells of the gastric pit,C0007634,Cell,PART_OF,tubular glands,C0151747,Disease or Syndrome,False,True
+1035,gland,C1285092,"Body Part, Organ, or Organ Component",CONTAINS,secretory cells,C1519221,Cell,False,True
+1036,serous glands,C1285092,"Body Part, Organ, or Organ Component",PRODUCES,secretion,C0036536,Biologic Function,False,True
+1040,acini,C0596030,Cell,CONTAINS,serous cells,C0007634,Cell,False,True
+1041,duct,C0687028,"Body Part, Organ, or Organ Component",CONTAINS,mucin,C0026682,"Amino Acid, Peptide, or Protein",False,True
+1042,secretory cells,C1519221,Cell,PRODUCES,mucous secretion,C2610947,Cell Function,False,True
+1056,surface epithelium,C1182809,Body Location or Region,PART_OF,mesothelial cells,C0225335,Cell,False,True
+1061,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",CONSISTS_OF,simple squamous epithelium,C0836133,Tissue,False,True
+1063,pancreatic ducts,C0030288,"Body Part, Organ, or Organ Component",CONTAINS,cuboidal epithelium,C0682577,Tissue,False,True
+1065,simple cuboidal epithelium,C0836134,Tissue,CONSISTS_OF,cuboidal cells,C0935440,Cell,False,True
+1065,connective tissue,C0009780,Tissue,LOCATION_OF,epithelial cells,C0014597,Cell,False,True
+1066,epithelial cells,C0014597,Cell,ADJACENT_TO,lumen,C0524461,Body Space or Junction,False,True
+1066,epithelial cells,C0014597,Cell,ADJACENT_TO,connective tissue,C0009780,Tissue,False,True
+1066,terminal bars,C0041296,Disease or Syndrome,ADJACENT_TO,epithelial cells,C0014597,Cell,False,True
+1067,epithelial cells,C0014597,Cell,ADJACENT_TO,airway,C0178987,Medical Device,False,True
+1067,epithelial cells,C0014597,Cell,ADJACENT_TO,basement membrane,C0004799,Tissue,False,True
+1069,groove,C1184482,Body Space or Junction,PART_OF,cell,C0007634,Cell,False,True
+1079,simple columnar epithelium,C0225337,Tissue,CONSISTS_OF,single layer,C0934502,"Body Part, Organ, or Organ Component",False,True
+1079,single layer,C0934502,"Body Part, Organ, or Organ Component",CONTAINS,absorptive cells,C2347023,Organism Function,False,True
+1079,single layer,C0934502,"Body Part, Organ, or Organ Component",CONTAINS,mucus-secreting cells,C1513729,Cell,False,True
+1083,connective tissue,C0009780,Tissue,CONTAINS,cells,C0007634,Cell,False,True
+1084,gland epithelium,C0014609,Tissue,IS_A,simple columnar epithelium,C0225337,Tissue,False,True
+1090,epithelioid tissues,C0014609,Tissue,IS_A,tissues,C0040300,Tissue,False,True
+1092,esophagus,C0014876,"Body Part, Organ, or Organ Component",LOCATION_OF,lining epithelium,C0014609,Tissue,False,True
+1092,epithelium,C0014609,Tissue,CONSISTS_OF,cell layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+1093,sweat gland,C0038989,"Body Part, Organ, or Organ Component",LOCATION_OF,duct,C0687028,"Body Part, Organ, or Organ Component",False,True
+1094,duct,C0687028,"Body Part, Organ, or Organ Component",CONSISTS_OF,stratified cuboidal epithelium,C0682577,Tissue,False,True
+1099,transitional epithelium,C0225339,Tissue,IS_A,stratified epithelium,C0682575,Tissue,False,True
+1101,connective tissue,C0009780,Tissue,CONTAINS,lymphocytes,C0024264,Cell,False,True
+1105,capillaries,C0006901,"Body Part, Organ, or Organ Component",LOCATION_OF,endocrine tissues,C0014136,Body System,False,True
+1110,fibroblast,C0016030,Cell,PRODUCES,extracellular fibers,C0521119,Cell Component,False,True
+1110,lymphocytes,C0024264,Cell,OCCURS_IN,extracellular matrix,C0015350,Tissue,False,True
+1116,mesenchyme,C0162415,Embryonic Structure,CONTAINS,cells,C0007634,Cell,False,True
+1116,ground substance,C1253945,Body Substance,LOCATION_OF,extracellular space,C0206117,Body Space or Junction,False,True
+1117,mesenchymal tissue,C4277702,Tissue,PRODUCES,cells,C0007634,Cell,False,True
+1117,extracellular component,C1166607,Cell Component,CONTAINS,reticular fibers,C0035285,"Amino Acid, Peptide, or Protein",False,True
+1118,wharton’s jelly,C0230987,Embryonic Structure,CONSISTS_OF,ground substance,C1253945,Body Substance,False,True
+1136,fiber,C0225326,Organic Chemical,CONSISTS_OF,protein,C0033684,"Amino Acid, Peptide, or Protein",False,True
+1139,collagen fibers,C0225325,Tissue,CONSISTS_OF,collagen fibrils,C0225328,Cell Component,False,True
+1143,collagen fibrils,C0225328,Cell Component,PART_OF,bundles,C3658308,Therapeutic or Preventive Procedure,False,True
+1146,collagen,C0009325,"Amino Acid, Peptide, or Protein",IS_A,glycoprotein,C0017968,"Amino Acid, Peptide, or Protein",False,True
+1148,fibril,C0225328,Cell Component,CONTAINS,collagen,C0009325,"Amino Acid, Peptide, or Protein",False,True
+1150,type i collagen,C0041455,"Amino Acid, Peptide, or Protein",IS_A,heterotrimeric,C0752348,"Amino Acid, Peptide, or Protein",False,True
+1153,fibrillar collagens,C0969669,"Amino Acid, Peptide, or Protein",CONTAINS,type i collagen,C0041455,"Amino Acid, Peptide, or Protein",False,True
+1153,fibrillar collagens,C0969669,"Amino Acid, Peptide, or Protein",CONTAINS,type ii collagen,C0009331,"Amino Acid, Peptide, or Protein",False,True
+1155,collagens,C0009325,"Amino Acid, Peptide, or Protein",CONTAINS,collagen types viii,C0009338,"Amino Acid, Peptide, or Protein",False,True
+1156,focal adhesions,C0887870,Cell Component,CONTAINS,xiii,C0015528,"Amino Acid, Peptide, or Protein",False,True
+1156,hemidesmosomes,C0230616,Cell Component,CONTAINS,xvii,C0753860,"Amino Acid, Peptide, or Protein",False,True
+1157,basement membrane,C0004799,Tissue,CONTAINS,collagen types xv,C1167368,Cell Component,False,True
+1157,basement membrane,C0004799,Tissue,CONTAINS,xviii,C0753860,"Amino Acid, Peptide, or Protein",False,True
+1158,basement membrane,C0004799,Tissue,CONTAINS,type iv collagen,C0009333,"Amino Acid, Peptide, or Protein",False,True
+1158,type vi collagen,C0009336,"Amino Acid, Peptide, or Protein",PRODUCES,beaded filaments,C3821365,Cell Component,False,True
+1158,type vii collagen,C0009337,"Amino Acid, Peptide, or Protein",PRODUCES,anchoring fibrils,C0225328,Cell Component,False,True
+1158,anchoring fibrils,C0225328,Cell Component,CONNECTED_TO,basement membrane,C0004799,Tissue,False,True
+1158,anchoring fibrils,C0225328,Cell Component,CONNECTED_TO,ecm,C0015350,Tissue,False,True
+1162,fbrillar collagen,C0969669,"Amino Acid, Peptide, or Protein",PRODUCES,procollagen,C0033235,"Amino Acid, Peptide, or Protein",False,True
+1162,enzymatic activity,C0243102,Molecular Function,PRODUCES,collagen molecule,C0009325,"Amino Acid, Peptide, or Protein",False,True
+1164,transmembrane collagen,C1523419,Cell Component,INTERACTS_WITH,integrins,C0021701,"Amino Acid, Peptide, or Protein",False,True
+1168,rer,C0230779,Cell Component,LOCATION_OF,collagen chains,C0969670,"Amino Acid, Peptide, or Protein",False,True
+1172,hydroxylation,C0020365,Natural Phenomenon or Process,AFFECTS,proline,C0033382,"Amino Acid, Peptide, or Protein",False,True
+1182,cell,C0007634,Cell,LOCATION_OF,hsp47,C1413153,Gene or Genome,False,True
+1183,golgi apparatus,C0018042,Cell Component,LOCATION_OF,procollagen molecules,C0033235,"Amino Acid, Peptide, or Protein",False,True
+1183,secretory vesicles,C0886515,Cell Component,CONTAINS,procollagen molecules,C0033235,"Amino Acid, Peptide, or Protein",False,True
+1183,cell surface,C0699040,Cell Component,LOCATION_OF,procollagen molecules,C0033235,"Amino Acid, Peptide, or Protein",False,True
+1185,cell membrane,C0007603,Cell Component,LOCATION_OF,procollagen peptidase,C0033237,"Amino Acid, Peptide, or Protein",False,True
+1186,cell,C0007634,Cell,MANAGES,fibrils,C0225328,Cell Component,False,True
+1186,cell,C0007634,Cell,MANAGES,secretory vesicles,C0886515,Cell Component,False,True
+1192,type i collagen fibril,C0041455,"Amino Acid, Peptide, or Protein",CONTAINS,collagen,C0009325,"Amino Acid, Peptide, or Protein",False,True
+1192,core of the fibril,,,CONTAINS,collagen,C0009325,"Amino Acid, Peptide, or Protein",False,True
+1195,type i collagen fibrils,C0041455,"Amino Acid, Peptide, or Protein",CONTAINS,collagen v,C0312913,"Amino Acid, Peptide, or Protein",False,True
+1216,elastic fibers,C0230899,Tissue,AFFECTS,tissues,C0040300,Tissue,False,True
+1217,elastic fibers,C0230899,Tissue,PREVENTS,tearing,C0039409,Body Substance,False,True
+1220,cells,C0007634,Cell,PRODUCES,elastic fibers,C0230899,Tissue,False,True
+1220,elastic fibers,C0230899,Tissue,CONSISTS_OF,elastin,C0013765,"Amino Acid, Peptide, or Protein",False,True
+1222,elastin,C0013765,"Amino Acid, Peptide, or Protein",CONTAINS,desmosine,C0011702,"Amino Acid, Peptide, or Protein",False,True
+1222,elastin,C0013765,"Amino Acid, Peptide, or Protein",CONTAINS,isodesmosine,C0022165,"Amino Acid, Peptide, or Protein",False,True
+1223,fibrillin-1,C0244756,"Amino Acid, Peptide, or Protein",PRODUCES,microfibrils,C0752265,Cell Component,False,True
+1224,fibrillin-1,C0244756,"Amino Acid, Peptide, or Protein",ASSOCIATED_WITH,marfan’s syndrome,C0024796,Disease or Syndrome,False,True
+1225,fibrillin microfibrils,C1517171,Tissue,LOCATION_OF,elastic fiber,C0230899,Tissue,False,True
+1225,fibrillin microfibrils,C1517171,Tissue,ASSOCIATED_WITH,growth process,C1450136,Cell Function,False,True
+1227,sunlight,C0038817,Natural Phenomenon or Process,AFFECTS,collagen,C0009325,"Amino Acid, Peptide, or Protein",False,True
+1227,tissue inhibitors,C0003015,Pharmacologic Substance,AFFECTS,enzymes,C0014442,"Amino Acid, Peptide, or Protein",False,True
+1232,fibroblasts,C0016030,Cell,PRODUCES,elastic fibers,C0230899,Tissue,False,True
+1232,smooth muscle cells,C1135918,Cell,PRODUCES,elastic fibers,C0230899,Tissue,False,True
+1234,extracellular matrix,C0015350,Tissue,CONTAINS,collagen,C0009325,"Amino Acid, Peptide, or Protein",False,True
+1234,extracellular matrix,C0015350,Tissue,CONTAINS,elastic fibers,C0230899,Tissue,False,True
+1239,ecm,C0015350,Tissue,AFFECTS,embryonic development,C0013936,Organ or Tissue Function,False,True
+1239,ecm,C0015350,Tissue,AFFECTS,cell differentiation,C0007589,Cell Function,False,True
+1240,ground substance,C1253945,Body Substance,PART_OF,extracellular matrix,C0015350,Tissue,False,True
+1243,gags,C0181001,Medical Device,PART_OF,ground substance,C1253945,Body Substance,False,True
+1244,ground substance,C1253945,Body Substance,LOCATION_OF,gags,C0181001,Medical Device,False,True
+1244,cells,C0007634,Cell,LOCATION_OF,gags,C0181001,Medical Device,False,True
+1245,extracellular matrix,C0015350,Tissue,LOCATION_OF,hyaluronan,C0020196,Organic Chemical,False,True
+1246,enzymes,C0014442,"Amino Acid, Peptide, or Protein",PRODUCES,hyaluronan,C0020196,Organic Chemical,False,True
+1247,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,hyaluronan,C0020196,Organic Chemical,False,True
+1247,ground substance,C1253945,Body Substance,CONTAINS,giant macromolecules,C0178735,Chemical Viewed Structurally,False,True
+1251,gags,C0181001,Medical Device,PART_OF,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",False,True
+1251,core proteins,C2350415,"Amino Acid, Peptide, or Protein",PART_OF,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",False,True
+1255,syndecan,C0075691,"Amino Acid, Peptide, or Protein",CONNECTS,cells,C0007634,Cell,False,True
+1255,ground substance,C1253945,Body Substance,CONTAINS,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",False,True
+1267,tissue,C0040300,Tissue,LOCATION_OF,cells,C0007634,Cell,False,True
+1268,connective tissue,C0009780,Tissue,CONTAINS,fibroblast,C0016030,Cell,False,True
+1270,fibroblasts,C0016030,Cell,ADJACENT_TO,collagen fibers,C0225325,Tissue,False,True
+1273,myofibroblast,C0225360,Cell,IS_A,fibroblasts,C0016030,Cell,False,True
+1274,extracellular matrix,C0015350,Tissue,LOCATION_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",False,True
+1275,fibronectin,,"Amino Acid, Peptide, or Protein",PERFORMS,cell adhesion,C0007577,Cell Function,False,True
+1275,fibronectin,,"Amino Acid, Peptide, or Protein",PERFORMS,migration,C0600210,Social Behavior,False,True
+1275,extracellular matrix,C0015350,Tissue,LOCATION_OF,fibronectin,,"Amino Acid, Peptide, or Protein",False,True
+1280,upper right,C1261074,"Body Part, Organ, or Organ Component",LOCATION_OF,nucleus,C0007610,Cell Component,False,True
+1280,cytoplasm,C0010834,Cell Component,CONTAINS,rer,C0230779,Cell Component,False,True
+1280,membranes,C0025255,Tissue,ADJACENT_TO,rer,C0230779,Cell Component,False,True
+1282,macrophage,C0024432,Cell,CONTAINS,golgi apparatus,C0018042,Cell Component,False,True
+1282,macrophage,C0024432,Cell,CONTAINS,rer,C0230779,Cell Component,False,True
+1282,macrophage,C0024432,Cell,CONTAINS,ser,C0036720,"Amino Acid, Peptide, or Protein",False,True
+1282,macrophage,C0024432,Cell,CONTAINS,mitochondria,C0026237,Cell Component,False,True
+1282,macrophage,C0024432,Cell,CONTAINS,secretory vesicles,C0886515,Cell Component,False,True
+1282,macrophage,C0024432,Cell,CONTAINS,lysosomes,C0024369,Cell Component,False,True
+1284,arrowheads,C1080898,Plant,INDICATES,collagen fibrils,C0225328,Cell Component,False,True
+1285,macrophage,C0024432,Cell,CONTAINS,endocytotic vesicles,C0887883,Cell Component,False,True
+1285,macrophage,C0024432,Cell,CONTAINS,phagolysosomes,C0031309,Cell Component,False,True
+1285,macrophages,C0024432,Cell,TRAVERSES,connective tissue,C0009780,Tissue,False,True
+1286,major histocompatibility complex ii (mhc ii) molecules,C0024518,Gene or Genome,INTERACTS_WITH,helper cd4 t lymphocytes,C0018894,Cell,False,True
+1288,bone marrow,C0005953,Tissue,LOCATION_OF,mast cells,C0024880,Cell,False,True
+1288,connective tissue,C0009780,Tissue,LOCATION_OF,mast cells,C0024880,Cell,False,True
+1289,mast cell granules,C1325690,Cell Component,CONTAINS,heparin,C0019134,Organic Chemical,False,True
+1289,cell surface,C0699040,Cell Component,CONTAINS,microvilli,C0026049,Cell Component,False,True
+1291,myofibroblasts,C0225360,Cell,CAUSES,shortening,C0441636,Therapeutic or Preventive Procedure,False,True
+1291,myofibroblasts,C0225360,Cell,PRODUCES,collagen fibers,C0225325,Tissue,False,True
+1291,myofibroblasts,C0225360,Cell,CAUSES,wound closure,C1112446,Therapeutic or Preventive Procedure,False,True
+1292,growth factors,C0018284,"Amino Acid, Peptide, or Protein",CAUSES,differentiation,C0007589,Cell Function,False,True
+1293,neutrophils,C0027950,Cell,SURROUNDS,blood vessel,C0005847,"Body Part, Organ, or Organ Component",False,True
+1306,heparin,C0019134,Organic Chemical,IS_A,anticoagulant,C0003280,Pharmacologic Substance,False,True
+1306,granules,C3853573,Biomedical or Dental Material,PART_OF,mast cells,C0024880,Cell,False,True
+1306,granules,C3853573,Biomedical or Dental Material,PART_OF,basophils,C0004827,Cell,False,True
+1306,heparin,C0019134,Organic Chemical,PREVENTS,coagulation factors,C0005789,"Amino Acid, Peptide, or Protein",False,True
+1306,heparin,C0019134,Organic Chemical,TREATS,thrombosis,C0040053,Pathologic Function,False,True
+1307,tryptase,C0147080,"Amino Acid, Peptide, or Protein",INDICATES,mast cell activation,C0007589,Cell Function,False,True
+1307,chymase,C0055673,"Amino Acid, Peptide, or Protein",PRODUCES,angiotensin ii,C0003009,"Amino Acid, Peptide, or Protein",False,True
+1315,basophils,C0004827,Cell,PRODUCES,ecf,C0247098,Therapeutic or Preventive Procedure,False,True
+1315,basophils,C0004827,Cell,PRODUCES,ncf,C5551046,Gene or Genome,False,True
+1316,adipocyte,C0206131,Cell,IS_A,connective tissue cell,C0009780,Tissue,False,True
+1316,adipocyte,C0206131,Cell,CONTAINS,neutral fat,C0392693,Organic Chemical,False,True
+1317,connective tissue,C0009780,Tissue,LOCATION_OF,adipocytes,C0206131,Cell,False,True
+1317,adipocytes,C0206131,Cell,CONTAINS,fat,C0001527,Tissue,False,True
+1319,bone marrow,C0005953,Tissue,CONTAINS,stem cells,C0038250,Cell,False,True
+1322,bone marrow stromal cells,C1640380,Cell,PRODUCES,chondrocytes,C0225369,Cell,False,True
+1322,bone marrow stromal cells,C1640380,Cell,PRODUCES,osteoblasts,C0029418,Cell,False,True
+1322,bone marrow stromal cells,C1640380,Cell,PRODUCES,adipocytes,C0206131,Cell,False,True
+1322,connective tissue,C0009780,Tissue,LOCATION_OF,mesenchymal stem cells,C1257975,Cell,False,True
+1324,pericytes,C0598800,Cell,IS_A,mesenchymal stem cells,C1257975,Cell,False,True
+1335,t lymphocytes,C0039194,Cell,EXHIBITS,cd2,C0108773,Chemical,False,True
+1335,t lymphocytes,C0039194,Cell,EXHIBITS,cd3,C0108779,Chemical,False,True
+1335,t lymphocytes,C0039194,Cell,EXHIBITS,cd5,C1413227,Gene or Genome,False,True
+1335,t lymphocytes,C0039194,Cell,EXHIBITS,cd7,C0034790,"Amino Acid, Peptide, or Protein",False,True
+1335,t lymphocytes,C0039194,Cell,PERFORMS,cell-mediated immunity,C0020966,Organism Function,False,True
+1336,b lymphocytes,C0004561,Cell,CONTAINS,cd9,C0054970,"Amino Acid, Peptide, or Protein",False,True
+1336,b lymphocytes,C0004561,Cell,CONTAINS,cd19,C0108748,"Amino Acid, Peptide, or Protein",False,True
+1336,b lymphocytes,C0004561,Cell,CONTAINS,cd20,C0054946,"Amino Acid, Peptide, or Protein",False,True
+1336,b lymphocytes,C0004561,Cell,CONTAINS,immunoglobulins igm,C0020861,"Amino Acid, Peptide, or Protein",False,True
+1337,nk lymphocytes,C0024264,Cell,CONTAINS,cd16,C0108747,"Amino Acid, Peptide, or Protein",False,True
+1337,nk lymphocytes,C0024264,Cell,CONTAINS,cd56,C0108754,"Amino Acid, Peptide, or Protein",False,True
+1338,b lymphocytes,C0004561,Cell,PRODUCES,plasma cells,C0032112,Cell,False,True
+1343,eosinophils,C0014467,Cell,LOCATION_OF,connective tissue,C0009780,Tissue,False,True
+1343,monocytes,C0026473,Cell,LOCATION_OF,connective tissue,C0009780,Tissue,False,True
+1343,neutrophils,C0027950,Cell,LOCATION_OF,connective tissue,C0009780,Tissue,False,True
+1344,monocytes,C0026473,Cell,PRODUCES,macrophages,C0024432,Cell,False,True
+1355,fibroblasts,C0016030,Cell,CONNECTED_TO,tendon cells,C0007634,Cell,False,True
+1361,collagen,C0009325,"Amino Acid, Peptide, or Protein",PART_OF,tendon fascicle,C1185741,Tissue,False,True
+1367,elastic ligaments,C0023685,Tissue,CONNECTED_TO,cervical vertebrae,C0728985,"Body Part, Organ, or Organ Component",False,True
+1377,smooth muscle cells,C1135918,Cell,PRODUCES,collagen,C0009325,"Amino Acid, Peptide{, or Protein",False,True
+1380,cartilage,C0007301,Tissue,IS_A,connective tissue,C0009780,Tissue,False,True
+1381,cartilage,C0007301,Tissue,IS_A,avascular tissue,C0027668,Neoplastic Process,False,True
+1381,cartilage,C0007301,Tissue,CONSISTS_OF,chondrocytes,C0225369,Cell,False,True
+1381,chondrocytes,C0225369,Cell,PRODUCES,extracellular matrix,C0015350,Tissue,False,True
+1384,hyaline cartilage,C0225362,Tissue,CONSISTS_OF,type ii collagen fibers,C0009331,"Amino Acid, Peptide, or Protein",False,True
+1384,hyaline cartilage,C0225362,Tissue,CONSISTS_OF,gags,C0181001,Medical Device,False,True
+1384,hyaline cartilage,C0225362,Tissue,CONSISTS_OF,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",False,True
+1396,proteoglycan monomer,C0033692,"Amino Acid, Peptide, or Protein",CONSISTS_OF,glycosaminoglycans,C0017973,Organic Chemical,False,True
+1396,core protein,C0042706,"Amino Acid, Peptide, or Protein",CONTAINS,hyaluronan-binding region,C0243982,"Amino Acid, Peptide, or Protein",False,True
+1399,chondrocytes,C0225369,Cell,PERFORMS,synthetic activity,C1150651,Molecular Function,False,True
+1401,metalloproteinases,C0025543,"Amino Acid, Peptide, or Protein",DISRUPTS,cartilage matrix,C0225371,Tissue,False,True
+1404,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",CONTAINS,bound sulfate groups,C0038720,Inorganic Chemical,False,True
+1407,cytoplasm,C0010834,Cell Component,EXHIBITS,basophilia,C0702266,Disease or Syndrome,False,True
+1409,capsular matrix,,,CONTAINS,sulfated proteoglycans,C0062503,"Amino Acid, Peptide, or Protein",False,True
+1411,dark particles,C0597177,Chemical Viewed Structurally,CONTAINS,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",False,True
+1411,dark particles,C0597177,Chemical Viewed Structurally,LOCATION_OF,capsule,C0006935,Biomedical or Dental Material,False,True
+1411,golgi apparatus,C0018042,Cell Component,INDICATES,cartilage matrix,C0225371,Tissue,False,True
+1417,perichondrium,C0225361,Tissue,PRODUCES,cartilage cells,C3161470,Cell,False,True
+1428,chondrocytes,C0225369,Cell,PRODUCES,cells,C0007634,Cell,False,True
+1430,elastic cartilage,C0682559,Tissue,CONTAINS,elastin,C0013765,"Amino Acid, Peptide, or Protein",False,True
+1431,elastic cartilage matrix,C0682559,Tissue,CONTAINS,network,C0150775,Population Group,False,True
+1431,elastic cartilage matrix,C0682559,Tissue,CONTAINS,elastic fibers,C0230899,Tissue,False,True
+1431,elastic cartilage matrix,C0682559,Tissue,CONTAINS,sheets,C0183235,Medical Device,False,True
+1433,fibrocartilage,C0684077,Tissue,CONSISTS_OF,chondrocytes,C0225369,Cell,False,True
+1436,extracellular matrix,C0015350,Tissue,CONTAINS,type i collagen fibrils,C0009331,"Amino Acid, Peptide, or Protein",False,True
+1436,extracellular matrix,C0015350,Tissue,CONTAINS,type ii collagen fibrils,C0009331,"Amino Acid, Peptide, or Protein",False,True
+1437,cells,C0007634,Cell,PRODUCES,extracellular matrix molecules,C0015350,Tissue,False,True
+1437,extracellular matrix,C0015350,Tissue,CONTAINS,type i collagen,C0041455,"Amino Acid, Peptide, or Protein",False,True
+1437,extracellular matrix,C0015350,Tissue,CONTAINS,type ii collagen,C0009331,"Amino Acid, Peptide, or Protein",False,True
+1437,versican,C0078193,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,hyaluronan,C0020196,Organic Chemical,False,True
+1440,cartilage fibrocartilage,C0684077,Tissue,IS_A,cartilage,C0007301,Tissue,False,True
+1442,chondroblasts,C0225368,Cell,PRODUCES,cartilage matrix,C0225371,Tissue,False,True
+1442,mesenchymal tissue,C4277702,Tissue,PRODUCES,perichondrium,C0225361,Tissue,False,True
+1444,fibrocartilage,C0684077,Tissue,CONTAINS,fibroblasts,C0016030,Cell,False,True
+1444,fibrocartilage,C0684077,Tissue,CONTAINS,chondrocytes,C0225369,Cell,False,True
+1448,chondroblasts,C0225368,Cell,PERFORMS,cartilage matrix production,C3658250,"Amino Acid, Peptide, or Protein",False,True
+1458,chondrocytes,C0225369,Cell,USES,diffusion,C0012222,Natural Phenomenon or Process,False,True
+1462,hyaline cartilage,C0225362,Tissue,CONTAINS,type ii collagen,C0009331,"Amino Acid, Peptide, or Protein",False,True
+1464,chondrocytes,C0225369,Cell,PRODUCES,matrix,,,False,True
+1465,cartilage matrix,C0225371,Tissue,CONTAINS,collagenous fibrils,C1179626,Tissue,False,True
+1467,cartilage matrix,C0225371,Tissue,CONTAINS,sulfated glycosaminoglycans,C0119860,Organic Chemical,False,True
+1476,ligaments,C0023685,Tissue,CONNECTED_TO,cartilages,C0007301,Tissue,False,True
+1476,sulfated glycosaminoglycans,C0119860,Organic Chemical,CAUSES,hematoxylin,C0018964,Organic Chemical,False,True
+1476,cartilage matrix,C0225371,Tissue,CONTAINS,calcium salts,C0357197,Pharmacologic Substance,False,True
+1476,hypertrophy,C0020564,Pathologic Function,ASSOCIATED_WITH,calcification,C0006660,Organ or Tissue Function,False,True
+1477,synovial fluid,C0039097,Body Substance,CONTAINS,glycosaminoglycans,C0017973,Organic Chemical,False,True
+1480,metaphysis,C0222671,"Body Part, Organ, or Organ Component",PART_OF,bone,C0005931,Tissue,False,True
+1486,adipose tissue,C0001527,Tissue,CONTAINS,elastic fibers,C0230899,Tissue,False,True
+1487,perichondrium,C0225361,Therapeutic or Preventive Procedure,PRODUCES,plate,C0005971,Medical Device,False,True
+1488,connective tissue,C0009780,Tissue,CONTAINS,mucous glands,C0024467,Biologically Active Substance,False,True
+1489,chondrocytes,C0225369,Cell,CONTAINS,lipid,C0023779,Organic Chemical,False,True
+1493,connective tissue,C0009780,Tissue,CONTAINS,fibroblasts,C0016030,Cell,False,True
+1498,bone,C0005931,Tissue,IS_A,connective tissue,C0009780,Tissue,False,True
+1499,mineralization,C0006660,Organ or Tissue Function,PRODUCES,hard tissue,C1721013,"Amino Acid, Peptide, or Protein",False,True
+1500,bone,C0005931,Tissue,CONTAINS,calcium,C0006675,Pharmacologic Substance,False,True
+1500,bone,C0005931,Tissue,CONTAINS,phosphate,C0031603,Inorganic Chemical,False,True
+1501,bone matrix,C0005962,Tissue,CONTAINS,type i collagen,C0041455,"Amino Acid, Peptide, or Protein",False,True
+1503,ground substance,C1253945,Body Substance,PRODUCES,bone tissue,C0391978,Tissue,False,True
+1506,bmp-7,C0083867,"Amino Acid, Peptide, or Protein",CAUSES,bone growth,C0971859,Organ or Tissue Function,False,True
+1506,bone morphogenic proteins,C0450131,"Amino Acid, Peptide, or Protein",CAUSES,differentiation,C0007589,Cell Function,False,True
+1508,bone matrix,C0005962,Tissue,CONTAINS,bone cell,C0029432,Cell,False,True
+1510,osteoprogenitor cells,C0038250,Cell,PRODUCES,osteoblasts,C0029418,Cell,False,True
+1511,osteoblasts,C0029418,Cell,PRODUCES,extracellular matrix,C0015350,Tissue,False,True
+1515,bones,C0262950,"Body Part, Organ, or Organ Component",PART_OF,skeletal system,C0037253,Body System,False,True
+1516,bone,C0005931,Tissue,CONSISTS_OF,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+1516,bone,C0005931,Tissue,CONSISTS_OF,nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+1520,bones,C0262950,"Body Part, Organ, or Organ Component",CONTAINS,spongy bone,C0222660,Tissue,False,True
+1520,bones,C0262950,"Body Part, Organ, or Organ Component",CONTAINS,compact bone,C0222661,Tissue,False,True
+1522,flat bones,C0222649,"Body Part, Organ, or Organ Component",CONSISTS_OF,compact bone,C0222661,Tissue,False,True
+1522,flat bones,C0222649,"Body Part, Organ, or Organ Component",CONSISTS_OF,spongy bone,C0222660,Tissue,False,True
+1525,medullary cavity,C0222662,Body Space or Junction,PART_OF,bone,C0005931,Tissue,False,True
+1526,short bones,C0222648,"Body Part, Organ, or Organ Component",CONTAINS,marrow space,C0376152,"Body Part, Organ, or Organ Component",False,True
+1527,diaphysis,C0242696,"Body Part, Organ, or Organ Component",CONTAINS,marrow cavity,C0222662,Body Space or Junction,False,True
+1527,epiphyses,C0014570,"Body Part, Organ, or Organ Component",CONSISTS_OF,spongy bone,C0222660,Tissue,False,True
+1531,periosteum,C0031110,Tissue,CONTAINS,osteoprogenitor cells,C0038250,Cell,False,True
+1535,endosteum,C0222658,Tissue,PART_OF,bone cavities,C0011334,Disease or Syndrome,False,True
+1535,endosteum,C0222658,Tissue,CONTAINS,osteoprogenitor cells,C0038250,Cell,False,True
+1556,haversian canals,C4082189,"Body Part, Organ, or Organ Component",CONTAINS,arteriole,C0042520,"Body Part, Organ, or Organ Component",False,True
+1556,haversian canals,C4082189,"Body Part, Organ, or Organ Component",CONTAINS,venule,C0006901,"Body Part, Organ, or Organ Component",False,True
+1556,haversian canals,C4082189,"Body Part, Organ, or Organ Component",CONTAINS,capillary,C0006901,"Body Part, Organ, or Organ Component",False,True
+1563,haversian canals,C4082189,"Body Part, Organ, or Organ Component",CONTAINS,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+1563,haversian canals,C4082189,"Body Part, Organ, or Organ Component",CONTAINS,connective tissue,C0009780,Tissue,False,True
+1576,mechanical stimuli,C0810556,Medical Device,AFFECTS,osteoblasts,C0029418,Cell,False,True
+1577,osteoblast processes,C0029418,Cell,INTERACTS_WITH,osteoblasts,C0029418,Cell,False,True
+1577,osteoblast processes,C0029418,Cell,INTERACTS_WITH,osteocytes,C0029432,Cell,False,True
+1577,gap junctions,C0206117,Body Space or Junction,CONNECTED_TO,osteoblast processes,C0029418,Cell,False,True
+1577,gap junctions,C0206117,Body Space or Junction,CONNECTED_TO,osteocytes,C0029432,Cell,False,True
+1578,gap junctions,C0206117,Body Space or Junction,CONNECTED_TO,osteocyte processes,C0029432,Cell,False,True
+1580,osteoblasts,C0029418,Cell,ADJACENT_TO,bone,C0005931,Tissue,False,True
+1580,osteoid,C0682561,Body Substance,CONTAINS,osteocyte,C0029432,Cell,False,True
+1580,canaliculi,C0009170,Organic Chemical,CONTAINS,osteocyte processes,C0029432,Cell,False,True
+1581,osteoblast,C0029418,Cell,PRODUCES,matrix vesicles,C0333262,Anatomical Abnormality,False,True
+1582,osteoblast,C0029418,Cell,PRODUCES,bone matrix,C0005962,Tissue,False,True
+1583,osteocyte,C0029432,Cell,MANAGES,bone matrix,C0005962,Tissue,False,True
+1584,osteoclast activity,C0029431,Cell,PERFORMS,resorption of bone matrix,,,False,True
+1584,osteoblast activity,C0029418,Cell,PERFORMS,repair,C2985494,Organism Function,False,True
+1584,osteoblast activity,C0029418,Cell,PERFORMS,remodeling,C0085268,Organ or Tissue Function,False,True
+1585,gap junctions,C0206117,Body Space or Junction,CONNECTED_TO,bone-lining cells,C0007634,Cell,False,True
+1585,osteocyte,C0029432,Cell,PRODUCES,nitric oxide,C0028128,Pharmacologic Substance,False,True
+1596,osteoclast formation,C0029431,Cell,PHYSICALLY_RELATED_TO,stromal cells,C0162597,Cell,False,True
+1596,osteoprotegerin,C0538161,"Amino Acid, Peptide, or Protein",PREVENTS,rank–rankl signaling pathway,C0037080,Molecular Function,False,True
+1606,actin-binding proteins,C0001239,"Amino Acid, Peptide, or Protein",SURROUNDS,actin filaments,C0025979,Cell Component,False,True
+1606,plasma membrane,C0007603,Cell Component,CONTAINS,extracellular matrix adhesion molecules,C5379982,Tissue,False,True
+1607,transport vesicles,C0887882,Cell Component,CONTAINS,trap,C0184047,Medical Device,False,True
+1610,carbonic anhydrase ii,C0007034,"Amino Acid, Peptide, or Protein",PRODUCES,carbonic acid,C0007027,Inorganic Chemical,False,True
+1610,basolateral membrane,C0596156,Cell Component,CONTAINS,protein exchangers,C0181145,Medical Device,False,True
+1626,calcium deficiency,C0392519,Disease or Syndrome,CAUSES,rickets,C0035579,Disease or Syndrome,False,True
+1626,vitamin a deficiency,C0042842,Disease or Syndrome,DISRUPTS,endochondral growth,C2753812,Biologic Function,False,True
+1626,vitamin a excess,C0020488,Disease or Syndrome,CAUSES,fragility,C0302113,Cell or Molecular Dysfunction,False,True
+1647,epiphyseal cartilage,C0018283,"Body Part, Organ, or Organ Component",AFFECTS,growth,C0018270,Organism Function,False,True
+1650,vegf,C0078058,"Amino Acid, Peptide, or Protein",CAUSES,replacement,C0035139,Therapeutic or Preventive Procedure,False,True
+1652,cartilage cells,C3161470,Cell,PERFORMS,division,C0152060,Therapeutic or Preventive Procedure,False,True
+1661,cartilage,C0007301,Tissue,PERFORMS,growth process,C1450136,Cell Function,False,True
+1663,epiphyseal plate,C0018283,"Body Part, Organ, or Organ Component",PRODUCES,cartilage matrix,C0225371,Tissue,False,True
