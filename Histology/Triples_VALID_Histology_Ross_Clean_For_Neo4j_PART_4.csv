@@ -1,0 +1,499 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+5021,secretion,C0036536,Biologic Function,PRODUCES,pancreatic fluids,C0030296,Body Substance,True,True
+5024,mitochondria,C0026237,Cell Component,PART_OF,cells,C0007634,Cell,True,True
+5034,uromodulin,C0077918,"Amino Acid, Peptide, or Protein",AFFECTS,nacl reabsorption,C2610986,Physiologic Function,True,True
+5034,uromodulin,C0077918,"Amino Acid, Peptide, or Protein",AFFECTS,cell adhesion,C0007577,Cell Function,True,True
+5034,uromodulin,C0077918,"Amino Acid, Peptide, or Protein",AFFECTS,signal transduction,C0037083,Cell Function,True,True
+5042,aldosterone,C0002006,Organic Chemical,AFFECTS,blood pressure,C0005823,Organism Function,True,True
+5043,simple epithelium,C0682574,Tissue,PART_OF,collecting tubules,C0022674,"Body Part, Organ, or Organ Component",True,True
+5043,cuboidal cells,C0935440,Cell,PART_OF,medullary ducts,C0687028,"Body Part, Organ, or Organ Component",True,True
+5043,mitochondria,C0026237,Cell Component,PART_OF,cell,C0007634,Cell,True,True
+5047,connective tissue,C0009780,Tissue,SURROUNDS,blood,C0005767,Body Substance,True,True
+5048,fibroblasts,C0016030,Cell,PRODUCES,collagen,C0009325,"Amino Acid, Peptide, or Protein",True,True
+5048,fibroblasts,C0016030,Cell,PRODUCES,glycosaminoglycans,C0017973,Organic Chemical,True,True
+5069,renal artery,C0035065,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+5072,interlobular arteries,C1512856,"Body Part, Organ, or Organ Component",BRANCH_OF,arcuate arteries,C0226496,"Body Part, Organ, or Organ Component",True,True
+5072,interlobular arteries,C1512856,"Body Part, Organ, or Organ Component",TRAVERSES,cortical labyrinth,C0022889,"Body Part, Organ, or Organ Component",True,True
+5073,capillaries,C0006901,"Body Part, Organ, or Organ Component",BRANCH_OF,afferent arterioles,C0003847,"Body Part, Organ, or Organ Component",True,True
+5076,afferent arterioles,C0003847,"Body Part, Organ, or Organ Component",BRANCH_OF,interlobular arteries,C1512856,"Body Part, Organ, or Organ Component",True,True
+5077,arteries,C0003842,"Body Part, Organ, or Organ Component",ADJACENT_TO,veins,C0226715,"Body Part, Organ, or Organ Component",True,True
+5077,peritubular cortical capillaries,C0006901,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,interlobular veins,C1512857,"Body Part, Organ, or Organ Component",True,True
+5077,interlobular veins,C1512857,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,arcuate veins,C0226715,"Body Part, Organ, or Organ Component",True,True
+5077,interlobular veins,C1512857,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,renal vein,C0035092,"Body Part, Organ, or Organ Component",True,True
+5091,mucous membrane,C0026724,Tissue,CONSISTS_OF,transitional epithelium,C0225339,Tissue,True,True
+5103,bladder,C0005682,"Body Part, Organ, or Organ Component",CONTAINS,urine,C0042036,Body Substance,True,True
+5109,corpus spongiosum,C1522442,"Body Part, Organ, or Organ Component",SURROUNDS,penile urethra,C0458451,"Body Part, Organ, or Organ Component",True,True
+5111,small urethral glands,C0227724,"Body Part, Organ, or Organ Component",CONNECTED_TO,urethral lumen,C0227732,Body Space or Junction,True,True
+5111,ducts,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,external urethral orifice,C1261212,Body Space or Junction,True,True
+5115,medulla,C0025148,"Body Part, Organ, or Organ Component",CONSISTS_OF,renal pyramids,C0227629,"Body Part, Organ, or Organ Component",True,True
+5117,minor calyces,C0227676,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,major calyces,C0227675,"Body Part, Organ, or Organ Component",True,True
+5117,major calyces,C0227675,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,renal pelvis,C0227666,"Body Part, Organ, or Organ Component",True,True
+5117,renal pelvis,C0227666,"Body Part, Organ, or Organ Component",CONTAINS,urine,C0042036,Body Substance,True,True
+5119,parietal epithelium,C0014609,Tissue,PART_OF,bowman's capsule,C0524448,"Body Part, Organ, or Organ Component",True,True
+5121,nephron,C0027713,"Body Part, Organ, or Organ Component",PART_OF,kidney,C0022646,"Body Part, Organ, or Organ Component",True,True
+5121,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",PART_OF,nephron,C0027713,"Body Part, Organ, or Organ Component",True,True
+5121,renal tubule,C0022674,"Body Part, Organ, or Organ Component",PART_OF,nephron,C0027713,"Body Part, Organ, or Organ Component",True,True
+5121,glomerulus,C0022663,"Body Part, Organ, or Organ Component",PART_OF,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",True,True
+5123,proximal convoluted tubules,C0022677,"Body Part, Organ, or Organ Component",SURROUNDS,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",True,True
+5123,distal convoluted tubules,C0022677,"Body Part, Organ, or Organ Component",SURROUNDS,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",True,True
+5128,mesangial cells,C0227651,Cell,PART_OF,mesangium,C0017655,"Body Part, Organ, or Organ Component",True,True
+5128,extracellular matrix,C0015350,Tissue,PART_OF,mesangium,C0017655,"Body Part, Organ, or Organ Component",True,True
+5128,mesangial cells,C0227651,Cell,PART_OF,juxtaglomerular apparatus,C0022445,"Body Part, Organ, or Organ Component",True,True
+5128,juxtaglomerular cells,C0227650,Cell,PRODUCES,renin,C0035094,"Amino Acid, Peptide, or Protein",True,True
+5133,mesangial cells,C0227651,Cell,PART_OF,glomerulus,C0022663,"Body Part, Organ, or Organ Component",True,True
+5137,proximal convoluted tubule,C0022677,"Body Part, Organ, or Organ Component",PART_OF,cortical labyrinth,C0022889,"Body Part, Organ, or Organ Component",True,True
+5138,macula densa,C0227662,"Body Part, Organ, or Organ Component",ADJACENT_TO,afferent arteriole,C0003847,"Body Part, Organ, or Organ Component",True,True
+5146,arcuate vessels,C0005847,"Body Part, Organ, or Organ Component",ADJACENT_TO,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+5146,renal corpuscles,C0227635,"Body Part, Organ, or Organ Component",PART_OF,renal column,C0736346,"Body Part, Organ, or Organ Component",True,True
+5148,calyx,C0022651,"Body Part, Organ, or Organ Component",CONTAINS,urine,C0042036,Body Substance,True,True
+5160,epithelium,C0014609,Tissue,PART_OF,mucosa,C0026724,Tissue,True,True
+5160,connective tissue,C0009780,Tissue,PART_OF,mucosa,C0026724,Tissue,True,True
+5160,smooth muscle,C1267092,Tissue,PART_OF,muscularis,C0225358,"Body Part, Organ, or Organ Component",True,True
+5162,transitional epithelium,C0225339,Tissue,PART_OF,mucosa,C0026724,Tissue,True,True
+5165,connective tissue,C0009780,Tissue,PART_OF,bladder wall,C0458421,"Body Part, Organ, or Organ Component",True,True
+5166,collagen fibers,C0225325,Tissue,PART_OF,connective tissue,C0009780,Tissue,True,True
+5175,cells,C0007634,Cell,PRODUCES,hormones,C0019932,Hormone,True,True
+5177,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",PRODUCES,thyroid hormones,C0040135,Hormone,True,True
+5179,cell surface receptors,C0034800,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,peptide hormones,C0019929,"Amino Acid, Peptide, or Protein",True,True
+5179,cell surface receptors,C0034800,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,catecholamines,C0007412,Pharmacologic Substance,True,True
+5180,intracellular receptors,C1870051,"Amino Acid, Peptide, or Protein",CONSISTS_OF,multi-protein complexes,C0751283,"Amino Acid, Peptide, or Protein",True,True
+5190,pituitary gland,C0032005,"Body Part, Organ, or Organ Component",CONNECTED_TO,hypothalamus,C0020663,"Body Part, Organ, or Organ Component",True,True
+5193,epithelial tissue,C0014609,Tissue,PART_OF,pituitary gland,C0032005,"Body Part, Organ, or Organ Component",True,True
+5197,sheath,C0227952,"Body Part, Organ, or Organ Component",SURROUNDS,infundibulum,C0175325,"Body Part, Organ, or Organ Component",True,True
+5198,posterior lobe of pituitary gland,C0227976,"Body Part, Organ, or Organ Component",CONSISTS_OF,pars nervosa,C0032009,"Body Part, Organ, or Organ Component",True,True
+5199,infundibulum,C0175325,"Body Part, Organ, or Organ Component",CONNECTED_TO,median eminence,C0025056,"Body Part, Organ, or Organ Component",True,True
+5204,hypophyseal portal veins,C1512568,"Body Part, Organ, or Organ Component",CONNECTED_TO,capillary beds of median eminence,C0489802,"Body Part, Organ, or Organ Component",True,True
+5206,short portal veins,C0032718,"Body Part, Organ, or Organ Component",CONNECTED_TO,pars nervosa,C0032009,"Body Part, Organ, or Organ Component",True,True
+5207,nerves,C0027740,"Body Part, Organ, or Organ Component",PART_OF,posterior lobe of pituitary gland,C0227976,"Body Part, Organ, or Organ Component",True,True
+5211,cells,C0007634,Cell,PRODUCES,pituitary hormones,C0032015,"Amino Acid, Peptide, or Protein",True,True
+5218,dopamine,C0013030,Organic Chemical,AFFECTS,prl secretion,C0036536,Biologic Function,True,True
+5218,thyrotropin-releasing hormone,C0040162,"Amino Acid, Peptide, or Protein",AFFECTS,prl synthesis,C0036536,Biologic Function,True,True
+5218,thyrotropin-releasing hormone,C0040162,"Amino Acid, Peptide, or Protein",AFFECTS,prl secretion,C0036536,Biologic Function,True,True
+5218,vasoactive inhibitory peptide,C0042395,"Amino Acid, Peptide, or Protein",AFFECTS,prl synthesis,C0036536,Biologic Function,True,True
+5218,vasoactive inhibitory peptide,C0042395,"Amino Acid, Peptide, or Protein",AFFECTS,prl secretion,C0036536,Biologic Function,True,True
+5221,hypothalamus,C0020663,"Body Part, Organ, or Organ Component",PRODUCES,corticotropin-releasing hormone,C0010132,"Amino Acid, Peptide, or Protein",True,True
+5222,gonadotropes,C1708248,Cell,PRODUCES,luteinizing hormone,C0023607,"Amino Acid, Peptide, or Protein",True,True
+5233,posterior lobe of,C0227976,"Body Part, Organ, or Organ Component",CONSISTS_OF,pars nervosa,C0032009,"Body Part, Organ, or Organ Component",True,True
+5233,posterior lobe of,C0227976,"Body Part, Organ, or Organ Component",CONSISTS_OF,infundibulum,C0175325,"Body Part, Organ, or Organ Component",True,True
+5248,oxytocin,C0030095,"Amino Acid, Peptide, or Protein",AFFECTS,contraction,C1140999,Pathologic Function,True,True
+5249,oxytocin,C0030095,"Amino Acid, Peptide, or Protein",AFFECTS,smooth muscle contraction,C1155937,Organ or Tissue Function,True,True
+5251,analogs,C0243071,Chemical Viewed Structurally,AFFECTS,uterine contractions,C0042130,Organ or Tissue Function,True,True
+5251,nasal preparations,C3653410,Pharmacologic Substance,AFFECTS,lactation,C0006147,Organism Function,True,True
+5252,pituicyte,C0229545,Cell,PART_OF,posterior lobe of,C0227976,"Body Part, Organ, or Organ Component",True,True
+5256,hypothalamus,C0020663,"Body Part, Organ, or Organ Component",PRODUCES,oxytocin,C0030095,"Amino Acid, Peptide, or Protein",True,True
+5256,hypothalamus,C0020663,"Body Part, Organ, or Organ Component",PRODUCES,adh,C0001942,"Amino Acid, Peptide, or Protein",True,True
+5264,pinealocytes,C1519090,Cell,PART_OF,pineal gland,C0031939,"Body Part, Organ, or Organ Component",True,True
+5278,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",ADJACENT_TO,larynx,C0023078,"Body Part, Organ, or Organ Component",True,True
+5278,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+5279,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",CONSISTS_OF,lateral lobes,C0796494,"Body Part, Organ, or Organ Component",True,True
+5279,thyroid follicles,C0221971,"Body Part, Organ, or Organ Component",PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+5282,thyroid follicle,C0229577,"Body Part, Organ, or Organ Component",PART_OF,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",True,True
+5285,follicular cells,C1181052,Cell,PRODUCES,t4,C0040165,"Amino Acid, Peptide, or Protein",True,True
+5285,follicular cells,C1181052,Cell,PRODUCES,t3,C0041014,"Amino Acid, Peptide, or Protein",True,True
+5288,parafollicular cells,C0229579,Cell,PRODUCES,calcitonin,C0006668,"Amino Acid, Peptide, or Protein",True,True
+5290,fenestrated capillaries,C1179615,"Body Part, Organ, or Organ Component",SURROUNDS,follicles,C0221971,"Body Part, Organ, or Organ Component",True,True
+5292,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",PRODUCES,hormones,C0019932,Hormone,True,True
+5292,follicular cells,C1181052,Cell,PRODUCES,thyroxine,C0040165,"Amino Acid, Peptide, or Protein",True,True
+5292,follicular cells,C1181052,Cell,PRODUCES,triiodothyronine,C0041014,"Amino Acid, Peptide, or Protein",True,True
+5298,thyroid follicle,C0229577,"Body Part, Organ, or Organ Component",LOCATION_OF,synthesis,C0220781,Biologic Function,True,True
+5301,goiter,C0018021,Disease or Syndrome,MANIFESTATION_OF,thyroid disease,C0040128,Disease or Syndrome,True,True
+5301,tsh,C0040160,"Amino Acid, Peptide, or Protein",CAUSES,hypertrophy,C0020564,Pathologic Function,True,True
+5318,thyroid hormones,C0040135,Hormone,AFFECTS,gene expression,C0017262,Genetic Function,True,True
+5324,epithelial cells,C0014597,Cell,PART_OF,parathyroid gland,C0030518,"Body Part, Organ, or Organ Component",True,True
+5329,lobes,C0796494,"Body Part, Organ, or Organ Component",PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+5340,adrenal glands,C0001625,"Body Part, Organ, or Organ Component",PRODUCES,steroid hormones,C0301818,Organic Chemical,True,True
+5341,connective tissue capsule,C0009780,Tissue,PART_OF,adrenal glands,C0001625,"Body Part, Organ, or Organ Component",True,True
+5341,medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+5342,parenchymal cells,C0682552,Cell,PART_OF,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+5344,vessels,C0005847,"Body Part, Organ, or Organ Component",CONSISTS_OF,capsular capillaries,C0006901,"Body Part, Organ, or Organ Component",True,True
+5347,medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,adrenal gland,C0001625,"Body Part, Organ, or Organ Component",True,True
+5347,central vein,C1116449,"Body Part, Organ, or Organ Component",PART_OF,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+5347,smooth muscle,C1267092,Tissue,PART_OF,adrenal vein,C0226717,"Body Part, Organ, or Organ Component",True,True
+5348,smooth muscle cells,C1135918,Cell,PART_OF,tunica media,C0162867,Tissue,True,True
+5352,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",PART_OF,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",True,True
+5352,chromaffin cells,C0376604,Cell,PRODUCES,high-molecular-weight secretory products,C0019536,"Amino Acid, Peptide, or Protein",True,True
+5359,blood capillaries,C0006901,"Body Part, Organ, or Organ Component",BRANCH_OF,cortical arterioles,C0003847,"Body Part, Organ, or Organ Component",True,True
+5367,chromaffn cells,C0376604,Cell,PART_OF,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",True,True
+5377,epinephrine,C0014563,Organic Chemical,AFFECTS,glycogenolysis,C0596624,Molecular Function,True,True
+5377,norepinephrine,C0028351,Organic Chemical,AFFECTS,glycogenolysis,C0596624,Molecular Function,True,True
+5377,catecholamines,C0007412,Pharmacologic Substance,CAUSES,dilation,C0012359,Pathologic Function,True,True
+5379,zona glomerulosa,C0043518,"Body Part, Organ, or Organ Component",PART_OF,adrenal cortex,C0001613,"Body Part, Organ, or Organ Component",True,True
+5379,zona fasciculata,C0043517,"Body Part, Organ, or Organ Component",PART_OF,adrenal cortex,C0001613,"Body Part, Organ, or Organ Component",True,True
+5379,zona reticularis,C0043520,"Body Part, Organ, or Organ Component",PART_OF,adrenal cortex,C0001613,"Body Part, Organ, or Organ Component",True,True
+5381,zona glomerulosa,C0043518,"Body Part, Organ, or Organ Component",PRODUCES,aldosterone,C0002006,Organic Chemical,True,True
+5382,zona glomerulosa,C0043518,"Body Part, Organ, or Organ Component",PRODUCES,mineralocorticoids,C0026160,Organic Chemical,True,True
+5382,aldosterone,C0002006,Organic Chemical,AFFECTS,resorption,C2985494,Organism Function,True,True
+5382,aldosterone,C0002006,Organic Chemical,AFFECTS,excretion,C0221102,Physiologic Function,True,True
+5385,drugs,C0013227,Pharmacologic Substance,TREATS,chronic essential hypertension,C0085580,Disease or Syndrome,True,True
+5387,zona fasciculata,C0043517,"Body Part, Organ, or Organ Component",PRODUCES,glucocorticoids,C0017710,Organic Chemical,True,True
+5387,glucocorticoids,C0017710,Organic Chemical,AFFECTS,fatty acid metabolism,C0596563,Molecular Function,True,True
+5389,glucocorticoids,C0017710,Organic Chemical,AFFECTS,inflammatory responses,C1155266,Pathologic Function,True,True
+5389,glucocorticoids,C0017710,Organic Chemical,AFFECTS,wound healing,C0043240,Organism Function,True,True
+5389,zona fasciculata,C0043517,"Body Part, Organ, or Organ Component",PRODUCES,gonadocorticoids,C0001617,Organic Chemical,True,True
+5390,acth,C0001655,"Amino Acid, Peptide, or Protein",AFFECTS,secretion,C0036536,Biologic Function,True,True
+5391,acth,C0001655,"Amino Acid, Peptide, or Protein",AFFECTS,steroid synthesis,C0597513,Molecular Function,True,True
+5391,acth,C0001655,"Amino Acid, Peptide, or Protein",AFFECTS,blood flow,C0005775,Physiologic Function,True,True
+5399,cells,C0007634,Cell,PRODUCES,dehydroepiandrosterone,C0011185,Organic Chemical,True,True
+5399,cells,C0007634,Cell,PRODUCES,glucocorticoids,C0017710,Organic Chemical,True,True
+5425,capillaries,C0006901,"Body Part, Organ, or Organ Component",ADJACENT_TO,cords,C0037925,"Body Part, Organ, or Organ Component",True,True
+5438,postganglionic nerve fibers,C0501416,"Body Part, Organ, or Organ Component",CONNECTED_TO,pineal gland,C0031939,"Body Part, Organ, or Organ Component",True,True
+5442,capillaries,C0006901,"Body Part, Organ, or Organ Component",BRANCH_OF,arteries,C0003842,"Body Part, Organ, or Organ Component",True,True
+5442,capillaries,C0006901,"Body Part, Organ, or Organ Component",SURROUNDS,lobules,C0921005,"Body Part, Organ, or Organ Component",True,True
+5443,fibroblasts,C0016030,Cell,PART_OF,trabecula,C0222660,Tissue,True,True
+5445,parathyroid glands,C0030518,"Body Part, Organ, or Organ Component",PRODUCES,hormone,C0019932,Hormone,True,True
+5445,neck,C0027530,Body Location or Region,LOCATION_OF,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",True,True
+5445,follicle,C0018120,"Body Part, Organ, or Organ Component",PART_OF,thyroid gland,C0040132,"Body Part, Organ, or Organ Component",True,True
+5448,parenchyma,C0933845,"Body Part, Organ, or Organ Component",PART_OF,parathyroid glands,C0030518,"Body Part, Organ, or Organ Component",True,True
+5453,adenohypophysis,C0032008,"Body Part, Organ, or Organ Component",PRODUCES,acth,C0001655,"Amino Acid, Peptide, or Protein",True,True
+5457,vessels,C0005847,"Body Part, Organ, or Organ Component",BRANCH_OF,arteries,C0003842,"Body Part, Organ, or Organ Component",True,True
+5465,cells,C0007634,Cell,PRODUCES,epinephrine,C0014563,Organic Chemical,True,True
+5465,cells,C0007634,Cell,PRODUCES,norepinephrine,C0028351,Organic Chemical,True,True
+5467,cells,C0007634,Cell,PART_OF,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",True,True
+5469,tunica intima,C0162864,"Body Part, Organ, or Organ Component",PART_OF,vessel,C0005847,"Body Part, Organ, or Organ Component",True,True
+5480,spermatic cords,C0037855,"Body Part, Organ, or Organ Component",CONNECTED_TO,testes,C0021358,"Body Part, Organ, or Organ Component",True,True
+5480,spermatic cords,C0037855,"Body Part, Organ, or Organ Component",CONNECTED_TO,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",True,True
+5484,sry gene,C0949635,Gene or Genome,PRODUCES,testis-determining factor,C0084533,"Amino Acid, Peptide, or Protein",True,True
+5492,leydig,C0023602,Cell,PRODUCES,testosterone,C0039601,Organic Chemical,True,True
+5497,testicular artery,C0226409,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+5499,developing gonad,C1160264,Organ or Tissue Function,PRODUCES,hormone,C0019932,Hormone,True,True
+5501,leydig cell,C0023602,Cell,PRODUCES,testosterone,C0039601,Organic Chemical,True,True
+5501,pituitary gland,C0032005,"Body Part, Organ, or Organ Component",PRODUCES,luteinizing hormone,C0023607,"Amino Acid, Peptide, or Protein",True,True
+5505,mediastinum testis,C0228002,"Body Part, Organ, or Organ Component",PART_OF,testis,C0039597,"Body Part, Organ, or Organ Component",True,True
+5506,lobule,C0921005,"Body Part, Organ, or Organ Component",CONSISTS_OF,seminiferous tubules,C0036630,"Body Part, Organ, or Organ Component",True,True
+5507,straight tubule,C1516697,"Body Part, Organ, or Organ Component",CONNECTED_TO,rete testis,C0035278,"Body Part, Organ, or Organ Component",True,True
+5510,vitamins,C0042890,Organic Chemical,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,coenzymes,C0009235,Organic Chemical,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,microelements,C0242850,"Nucleic Acid, Nucleoside, or Nucleotide",AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,vitamin a,C0042839,Organic Chemical,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,b12,C0042845,Organic Chemical,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,c,C0009170,Organic Chemical,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,zinc,C0043481,Pharmacologic Substance,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,selenium,C0036581,Pharmacologic Substance,AFFECTS,sperm formation,C0220781,Biologic Function,True,True
+5510,toxic agents,C0010868,Biologically Active Substance,AFFECTS,spermatogenesis,C0037864,Cell Function,True,True
+5510,electromagnetic radiation,C0013838,Natural Phenomenon or Process,AFFECTS,sperm motility,C0007608,Cell Function,True,True
+5510,microwave radiation,C0026051,Natural Phenomenon or Process,AFFECTS,sperm motility,C0007608,Cell Function,True,True
+5522,leydig cells,C0023602,Cell,PRODUCES,testosterone,C0039601,Organic Chemical,True,True
+5526,inner aspect,C0226927,"Body Part, Organ, or Organ Component",PART_OF,tunica albuginea,C1522466,"Body Part, Organ, or Organ Component",True,True
+5530,pituitary gonadotropins,C0018066,Pharmacologic Substance,AFFECTS,spermatogenesis,C0037864,Cell Function,True,True
+5537,stem cells,C0038250,Cell,PART_OF,seminiferous epithelium,C0036629,Tissue,True,True
+5556,acrosomal vesicle,C0001216,Cell Component,ADJACENT_TO,nucleus,C0007610,Cell Component,True,True
+5557,flagellum,C0016192,Cell Component,LOCATION_OF,lumen,C0524461,Body Space or Junction,True,True
+5557,nucleus,C0007610,Cell Component,ADJACENT_TO,plasma membrane,C0007603,Cell Component,True,True
+5558,connecting piece,C3269179,Cell Component,PART_OF,sperm,C0037868,Cell,True,True
+5560,spermatids,C0037857,Cell,LOCATION_OF,lumen,C0524461,Body Space or Junction,True,True
+5582,sertoli cells,C0036770,Cell,PART_OF,seminiferous epithelium,C0036629,Tissue,True,True
+5587,basal cytoplasm,C0010834,Cell Component,PART_OF,sertoli cell,C0036770,Cell,True,True
+5600,acrosome,C0001216,Cell Component,PART_OF,spermatid,C0037857,Cell,True,True
+5600,endoplasmic reticulum,C0014239,Cell Component,ADJACENT_TO,microfilament bundles,C0025979,Cell Component,True,True
+5602,sertoli cells,C0036770,Cell,PRODUCES,androgen-binding protein,C0001239,"Amino Acid, Peptide, or Protein",True,True
+5606,sertoli cells,C0036770,Cell,PRODUCES,endocrine substances,C0391835,Hormone,True,True
+5606,sertoli cells,C0036770,Cell,PRODUCES,growth factors,C0018284,"Amino Acid, Peptide, or Protein",True,True
+5606,sertoli cells,C0036770,Cell,PRODUCES,mlerian-inhibiting factor,C0066928,"Amino Acid, Peptide, or Protein",True,True
+5606,sertoli cells,C0036770,Cell,PRODUCES,stem cell factor,C0143630,"Amino Acid, Peptide, or Protein",True,True
+5606,sertoli cells,C0036770,Cell,PRODUCES,glial cell line-derived neurotrophic factor,C0207072,"Amino Acid, Peptide, or Protein",True,True
+5618,smooth muscle cells,C1135918,Cell,PART_OF,layer,C0934502,"Body Part, Organ, or Organ Component",True,True
+5618,cells,C0007634,Cell,PART_OF,ductule,C0005400,"Body Part, Organ, or Organ Component",True,True
+5618,ciliary action,C0231830,Organ or Tissue Function,AFFECTS,transport,C0005528,Cell Function,True,True
+5618,contraction,C1140999,Pathologic Function,AFFECTS,transport,C0005528,Cell Function,True,True
+5620,epididymis,C0014533,"Body Part, Organ, or Organ Component",CONSISTS_OF,duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+5620,tail,C0039259,"Body Part, Organ, or Organ Component",PART_OF,epididymis,C0014533,"Body Part, Organ, or Organ Component",True,True
+5621,hormonal regulation,C0920552,Organism Function,AFFECTS,reproductive function,C0232896,Physiologic Function,True,True
+5623,stem cells,C0038250,Cell,PART_OF,duct epithelium,C1512086,Tissue,True,True
+5628,smooth muscle coat,C1267092,Tissue,PART_OF,duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+5632,connective tissue,C0009780,Tissue,PART_OF,stroma,C0178784,"Body Part, Organ, or Organ Component",True,True
+5635,ductus deferens,C0042360,"Body Part, Organ, or Organ Component",CONNECTED_TO,tail,C0039259,"Body Part, Organ, or Organ Component",True,True
+5636,stereocilia,C0230626,Cell Component,PART_OF,principal cells,C0007634,Cell,True,True
+5638,columnar epithelium,C0225337,Tissue,PART_OF,ductus deferens,C0042360,"Body Part, Organ, or Organ Component",True,True
+5638,long microvilli,C0026049,Cell Component,PART_OF,tall columnar cells,C0225338,Cell,True,True
+5639,mucosal folds,C0026724,Tissue,PART_OF,ductus deferens,C0042360,"Body Part, Organ, or Organ Component",True,True
+5640,basal cell,C0596155,Cell,PART_OF,basal portion,C0228427,"Body Part, Organ, or Organ Component",True,True
+5642,seminal vesicles,C0036628,"Body Part, Organ, or Organ Component",PRODUCES,fructose,C0016745,Organic Chemical,True,True
+5643,seminal vesicles,C0036628,"Body Part, Organ, or Organ Component",ADJACENT_TO,urinary bladder,C0005682,"Body Part, Organ, or Organ Component",True,True
+5649,gland,C1285092,"Body Part, Organ, or Organ Component",SURROUNDS,urethra,C0041967,"Body Part, Organ, or Organ Component",True,True
+5649,ducts,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,prostatic sinuses,C0738013,Body Space or Junction,True,True
+5651,peripheral zone,C0227976,"Body Part, Organ, or Organ Component",PART_OF,prostate gland,C0033572,"Body Part, Organ, or Organ Component",True,True
+5652,transitional zone,C1515955,"Body Part, Organ, or Organ Component",SURROUNDS,prostatic urethra,C0458450,"Body Part, Organ, or Organ Component",True,True
+5654,anterior fibromuscular stroma,C1183910,"Body Part, Organ, or Organ Component",PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+5657,dihydrotestosterone,C0038148,Organic Chemical,AFFECTS,growth,C0018270,Organism Function,True,True
+5660,prostate gland,C0033572,"Body Part, Organ, or Organ Component",PRODUCES,prostatic acid phosphatase,C0312402,"Amino Acid, Peptide, or Protein",True,True
+5660,prostate gland,C0033572,"Body Part, Organ, or Organ Component",PRODUCES,fibrinolysin,C0016016,"Amino Acid, Peptide, or Protein",True,True
+5660,prostate gland,C0033572,"Body Part, Organ, or Organ Component",PRODUCES,citric acid,C0055819,Organic Chemical,True,True
+5660,prostate gland,C0033572,"Body Part, Organ, or Organ Component",PRODUCES,prostate-specific antigen,C0138741,"Amino Acid, Peptide, or Protein",True,True
+5661,epithelial cells,C0014597,Cell,PRODUCES,prostate-specific antigen,C0138741,"Amino Acid, Peptide, or Protein",True,True
+5661,epithelial cells,C0014597,Cell,PRODUCES,prostatic acid phosphatase,C0312402,"Amino Acid, Peptide, or Protein",True,True
+5661,epithelial cells,C0014597,Cell,PRODUCES,fibrinolysin,C0016016,"Amino Acid, Peptide, or Protein",True,True
+5661,epithelial cells,C0014597,Cell,PRODUCES,citric acid,C0055819,Organic Chemical,True,True
+5662,transformed prostatic epithelium,C1179826,Tissue,PRODUCES,prostate-specific antigen,C0138741,"Amino Acid, Peptide, or Protein",True,True
+5665,bulbourethral glands,C0006366,"Body Part, Organ, or Organ Component",PRODUCES,preseminal fluid,C0036614,Body Substance,True,True
+5666,duct,C0687028,"Body Part, Organ, or Organ Component",TRAVERSES,urogenital diaphragm,C0230289,"Body Part, Organ, or Organ Component",True,True
+5666,duct,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,penile urethra,C0458451,"Body Part, Organ, or Organ Component",True,True
+5673,corpora cavernosa,C0227937,"Body Part, Organ, or Organ Component",PART_OF,penis,C0030851,"Body Part, Organ, or Organ Component",True,True
+5673,erectile tissue,C1709494,Tissue,PART_OF,penis,C0030851,"Body Part, Organ, or Organ Component",True,True
+5674,epithelium,C0014609,Tissue,PART_OF,bulbourethral gland,C0006366,"Body Part, Organ, or Organ Component",True,True
+5675,smooth muscle,C1267092,Tissue,SURROUNDS,vascular spaces,C0225983,Body Space or Junction,True,True
+5707,seminiferous tubules,C0036630,"Body Part, Organ, or Organ Component",CONNECTED_TO,rete testis,C0035278,"Body Part, Organ, or Organ Component",True,True
+5711,epididymal epithelial cells,C0014597,Cell,PRODUCES,glycoproteins,C0017968,"Amino Acid, Peptide, or Protein",True,True
+5713,efferent ductules,C0039597,"Body Part, Organ, or Organ Component",CONNECTED_TO,rete testis,C0035278,"Body Part, Organ, or Organ Component",True,True
+5713,efferent ductules,C0039597,"Body Part, Organ, or Organ Component",CONNECTED_TO,ductus epididymis,C0458632,"Body Part, Organ, or Organ Component",True,True
+5722,thin layer,C0934502,"Body Part, Organ, or Organ Component",SURROUNDS,duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+5726,vessels,C0005847,"Body Part, Organ, or Organ Component",TRAVERSES,outer longitudinal smooth muscle layer,C4239921,"Body Part, Organ, or Organ Component",True,True
+5730,plexus,C1184808,"Body Part, Organ, or Organ Component",BRANCH_OF,spermatic veins,C0226718,"Body Part, Organ, or Organ Component",True,True
+5731,plexus,C1184808,"Body Part, Organ, or Organ Component",PART_OF,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",True,True
+5739,seminal vesicles,C0036628,"Body Part, Organ, or Organ Component",PRODUCES,prostaglandins,C0033554,Organic Chemical,True,True
+5745,alveoli,C1515933,"Body Part, Organ, or Organ Component",CONNECTED_TO,lumen,C0524461,Body Space or Junction,True,True
+5746,lower extremity,C0023216,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,ductus deferens,C0042360,"Body Part, Organ, or Organ Component",True,True
+5747,lamina propria,C1179187,Tissue,PART_OF,mucosa,C0026724,Tissue,True,True
+5747,lamina propria,C1179187,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+5755,uterine cavity,C0227844,Body Space or Junction,CONTAINS,endometrium lining,C0014180,"Body Part, Organ, or Organ Component",True,True
+5758,ovaries,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,hormones,C0019932,Hormone,True,True
+5759,ovary,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,steroid hormones,C0301818,Organic Chemical,True,True
+5760,ovaries,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,steroids,C0038317,Organic Chemical,True,True
+5761,ovaries,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,estrogens,C0014939,Organic Chemical,True,True
+5767,medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,ovary,C0029939,"Body Part, Organ, or Organ Component",True,True
+5781,oocyte,C0029045,Cell,PRODUCES,proteins,C0033684,"Amino Acid, Peptide, or Protein",True,True
+5785,connective tissue cells,C0009781,Cell,PART_OF,theca layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+5796,cortical stroma,C0737271,Tissue,LOCATION_OF,primary follicle,C1326796,Organ or Tissue Function,True,True
+5808,prostaglandins,C0033554,Organic Chemical,CAUSES,contraction,C1140999,Pathologic Function,True,True
+5826,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",LOCATION_OF,cortex,C0001614,Disease or Syndrome,True,True
+5826,hormones,C0019932,Hormone,AFFECTS,growth,C0018270,Organism Function,True,True
+5826,hormones,C0019932,Hormone,AFFECTS,secretory activity,C1327616,Cell Function,True,True
+5831,capacitation,C0037841,Cell Function,AFFECTS,affinity,C1510827,Natural Phenomenon or Process,True,True
+5855,ovary,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,paracrine luteotropins,C0023607,"Amino Acid, Peptide, or Protein",True,True
+5869,interstitial cells,C0023602,Cell,PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+5870,hilum,C0929176,"Body Part, Organ, or Organ Component",LOCATION_OF,ovarian hilar cells,C0346179,Neoplastic Process,True,True
+5872,ovarian arteries,C0226411,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+5874,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",SURROUNDS,atretic follicles,C1135971,"Body Part, Organ, or Organ Component",True,True
+5874,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",SURROUNDS,corpora lutea,C0010092,"Body Part, Organ, or Organ Component",True,True
+5878,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+5878,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",PRODUCES,estrogens,C0014939,Organic Chemical,True,True
+5882,isthmus,C1517082,"Body Part, Organ, or Organ Component",PART_OF,uterine tube,C0015560,"Body Part, Organ, or Organ Component",True,True
+5884,uterine tube wall,C0015560,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+5886,serosa,C0036760,Tissue,PART_OF,uterine tube,C0015560,"Body Part, Organ, or Organ Component",True,True
+5886,peritoneum,C0031153,Tissue,PART_OF,uterine tube,C0015560,"Body Part, Organ, or Organ Component",True,True
+5888,mucosa,C0026724,Tissue,PART_OF,uterine tube,C0015560,"Body Part, Organ, or Organ Component",True,True
+5891,lumen,C0524461,Body Space or Junction,PART_OF,uterine tube,C0015560,"Body Part, Organ, or Organ Component",True,True
+5891,inner layer,C2753460,Cell Component,PART_OF,muscularis,C0225358,"Body Part, Organ, or Organ Component",True,True
+5891,outer layer,C2753461,Cell Component,PART_OF,muscularis,C0225358,"Body Part, Organ, or Organ Component",True,True
+5901,myometrium,C0027088,"Body Part, Organ, or Organ Component",CONNECTED_TO,uterine tube,C0015560,"Body Part, Organ, or Organ Component",True,True
+5901,myometrium,C0027088,"Body Part, Organ, or Organ Component",CONNECTED_TO,vagina,C0042232,"Body Part, Organ, or Organ Component",True,True
+5902,perimetrium,C0227824,"Body Part, Organ, or Organ Component",CONNECTED_TO,pelvic peritoneum,C0030797,"Body Part, Organ, or Organ Component",True,True
+5902,perimetrium,C0227824,"Body Part, Organ, or Organ Component",CONNECTED_TO,abdominal peritoneum,C0817432,"Body Part, Organ, or Organ Component",True,True
+5917,arcuate arteries,C0226496,"Body Part, Organ, or Organ Component",BRANCH_OF,uterine artery,C0226378,"Body Part, Organ, or Organ Component",True,True
+5917,radial arteries,C0162857,"Body Part, Organ, or Organ Component",BRANCH_OF,arcuate arteries,C0226496,"Body Part, Organ, or Organ Component",True,True
+5917,spiral artery,C1519470,"Body Part, Organ, or Organ Component",BRANCH_OF,radial artery,C0162857,"Body Part, Organ, or Organ Component",True,True
+5917,arterioles,C0003847,"Body Part, Organ, or Organ Component",BRANCH_OF,spiral arteries,C0003842,"Body Part, Organ, or Organ Component",True,True
+5920,functional layer,C0221925,"Body Part, Organ, or Organ Component",PART_OF,endometrium,C0014180,"Body Part, Organ, or Organ Component",True,True
+5923,estrogens,C0014939,Organic Chemical,AFFECTS,proliferative phase,C0016434,Physiologic Function,True,True
+5926,progesterone,C0033308,Organic Chemical,AFFECTS,secretory phase,C0024153,Physiologic Function,True,True
+5931,corpus luteum,C0010092,"Body Part, Organ, or Organ Component",PRODUCES,hormones,C0019932,Hormone,True,True
+5933,biopsies,C0005558,Diagnostic Procedure,DIAGNOSES,anovulatory cycles,C0429468,Disease or Syndrome,True,True
+5955,gland cells,C0007634,Cell,PRODUCES,mucus,C0026727,Body Substance,True,True
+5967,mesenchyme,C0162415,Embryonic Structure,PART_OF,secondary chorionic villi,C0008508,Embryonic Structure,True,True
+5967,cytotrophoblast,C0230960,Embryonic Structure,PART_OF,secondary chorionic villi,C0008508,Embryonic Structure,True,True
+5967,syncytiotrophoblast,C1135936,Embryonic Structure,PART_OF,secondary chorionic villi,C0008508,Embryonic Structure,True,True
+5971,trophoblastic shell,C1511639,Embryonic Structure,SURROUNDS,syncytiotrophoblast,C1135936,Embryonic Structure,True,True
+5981,basal plate,C1511061,Embryonic Structure,PART_OF,placenta,C0032043,Embryonic Structure,True,True
+6012,vagina,C0042232,"Body Part, Organ, or Organ Component",CONNECTED_TO,internal reproductive organs,C0017420,"Body Part, Organ, or Organ Component",True,True
+6013,vagina,C0042232,"Body Part, Organ, or Organ Component",CONNECTED_TO,cervix,C0007874,"Body Part, Organ, or Organ Component",True,True
+6013,vagina,C0042232,"Body Part, Organ, or Organ Component",CONNECTED_TO,vestibule,C0042606,Body Space or Junction,True,True
+6016,outer layer,C2753461,Cell Component,CONTAINS,blood,C0005767,Body Substance,True,True
+6018,cervical glands,C0227836,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+6018,vestibular glands,C0458842,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+6020,epithelial cells,C0014597,Cell,PRODUCES,glycogen,C0017911,Organic Chemical,True,True
+6021,lymphocytes,C0024264,Cell,LOCATION_OF,vaginal lumen,C0738255,Body Space or Junction,True,True
+6021,leukocytes,C0023516,Cell,LOCATION_OF,vaginal lumen,C0738255,Body Space or Junction,True,True
+6026,adipose tissue,C0001527,Tissue,PART_OF,mons pubis,C0230190,"Body Part, Organ, or Organ Component",True,True
+6033,vestibule,C0042606,Body Space or Junction,CONTAINS,squamous epithelium,C0221909,Tissue,True,True
+6046,cooper’s ligaments,C0222624,"Body Part, Organ, or Organ Component",CONNECTED_TO,dermis,C0011646,Tissue,True,True
+6047,lactiferous duct,C0222613,"Body Part, Organ, or Organ Component",CONNECTED_TO,nipple,C0028109,"Body Part, Organ, or Organ Component",True,True
+6050,terminal duct lobular unit,C1515275,Cell,PART_OF,mammary gland,C0929301,"Body Part, Organ, or Organ Component",True,True
+6051,secretory alveoli,C1515933,"Body Part, Organ, or Organ Component",PRODUCES,milk,C0026131,Body Substance,True,True
+6052,myoepithelial cells,C0225356,Cell,PART_OF,epithelium,C0014609,Tissue,True,True
+6059,involution,C0333953,Organism Function,PRECEDES,menstruation,C0025344,Organism Function,True,True
+6070,lymphocytes,C0024264,Cell,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+6070,plasma cells,C0032112,Cell,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+6072,adenohypophysis,C0032008,"Body Part, Organ, or Organ Component",PRODUCES,prolactin,C0033371,"Amino Acid, Peptide, or Protein",True,True
+6090,nerves,C0027740,"Body Part, Organ, or Organ Component",CONNECTED_TO,breast,C0006141,"Body Part, Organ, or Organ Component",True,True
+6092,ovaries,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,estrogen,C0014939,Organic Chemical,True,True
+6092,ovaries,C0029939,"Body Part, Organ, or Organ Component",PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+6117,lutein cells,C0024156,Cell,PRODUCES,progesterone,C0033308,Organic Chemical,True,True
+6117,lutein cells,C0024156,Cell,PRODUCES,estrogen,C0014939,Organic Chemical,True,True
+6126,uterus,C0042149,"Body Part, Organ, or Organ Component",CONNECTED_TO,uterine tubes,C0015560,"Body Part, Organ, or Organ Component",True,True
+6126,infundibulum,C0175325,"Body Part, Organ, or Organ Component",CONNECTED_TO,ampulla,C0015560,"Body Part, Organ, or Organ Component",True,True
+6126,ampulla,C0015560,"Body Part, Organ, or Organ Component",LOCATION_OF,fertilization,C0015914,Organism Function,True,True
+6136,stratum functionale,C0175256,"Body Part, Organ, or Organ Component",PART_OF,endometrium,C0014180,"Body Part, Organ, or Organ Component",True,True
+6138,glands,C1285092,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+6146,myometrium,C0027088,"Body Part, Organ, or Organ Component",PART_OF,cervix,C0007874,"Body Part, Organ, or Organ Component",True,True
+6146,cervical canal,C0007874,"Body Part, Organ, or Organ Component",CONNECTED_TO,vagina,C0042232,"Body Part, Organ, or Organ Component",True,True
+6146,cervical canal,C0007874,"Body Part, Organ, or Organ Component",CONNECTED_TO,uterine cavity,C0227844,Body Space or Junction,True,True
+6152,columnar epithelium,C0225337,Tissue,PART_OF,mucosa,C0026724,Tissue,True,True
+6161,umbilical cord,C0041633,Embryonic Structure,INTERCONNECTS,placenta,C0032043,Embryonic Structure,True,True
+6173,intervillous space,C0230968,Body Space or Junction,CONTAINS,maternal blood,C0005767,Body Substance,True,True
+6177,mesenchymal core,C0162415,Embryonic Structure,PART_OF,villi,C0008508,Embryonic Structure,True,True
+6206,alveoli,C1515933,"Body Part, Organ, or Organ Component",CONNECTED_TO,duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+6218,eyeball,C0015392,"Body Part, Organ, or Organ Component",CONSISTS_OF,structural layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+6221,corneoscleral coat,C1511522,"Body Part, Organ, or Organ Component",CONSISTS_OF,cornea,C0010031,"Body Part, Organ, or Organ Component",True,True
+6221,corneoscleral coat,C1511522,"Body Part, Organ, or Organ Component",CONSISTS_OF,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6222,cornea,C0010031,"Body Part, Organ, or Organ Component",CONNECTED_TO,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6223,uvea,C0042160,"Body Part, Organ, or Organ Component",CONSISTS_OF,choroid,C0008520,"Body Part, Organ, or Organ Component",True,True
+6224,choroid,C0008520,"Body Part, Organ, or Organ Component",CONNECTED_TO,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6226,pupil,C0034121,"Body Part, Organ, or Organ Component",PART_OF,iris,C0022077,"Body Part, Organ, or Organ Component",True,True
+6227,retina,C0035298,"Body Part, Organ, or Organ Component",CONSISTS_OF,neural retina,C1518263,"Body Part, Organ, or Organ Component",True,True
+6227,retina,C0035298,"Body Part, Organ, or Organ Component",CONSISTS_OF,pigment epithelium,C1519082,"Body Part, Organ, or Organ Component",True,True
+6232,anterior chamber,C0003151,"Body Part, Organ, or Organ Component",PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6232,posterior chamber,C0229094,Body Space or Junction,PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6232,vitreous chamber,C0229095,"Body Part, Organ, or Organ Component",PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6233,photosensitive region,C1519067,Body Location or Region,LOCATION_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6240,cornea,C0010031,"Body Part, Organ, or Organ Component",PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6249,hyaloid artery,C0229097,"Body Part, Organ, or Organ Component",TRAVERSES,vitreous body,C0042905,"Body Part, Organ, or Organ Component",True,True
+6255,layers,C0934502,"Body Part, Organ, or Organ Component",ADJACENT_TO,membranes,C0025255,Tissue,True,True
+6258,basal layer,C0221925,Tissue,PART_OF,corneal epithelium,C0459875,Tissue,True,True
+6260,free nerve endings,C0228107,Cell Component,PART_OF,corneal epithelium,C0459875,Tissue,True,True
+6280,descemet’s membrane,C0011665,"Body Part, Organ, or Organ Component",PRODUCES,inhibitory factors,C0003438,"Amino Acid, Peptide, or Protein",True,True
+6285,tenon's capsule,C2586323,"Body Part, Organ, or Organ Component",PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6286,suprachoroid lamina,C1288331,"Body Part, Organ, or Organ Component",ADJACENT_TO,choroid,C0008520,"Body Part, Organ, or Organ Component",True,True
+6287,tendons,C0039508,"Body Part, Organ, or Organ Component",CONNECTED_TO,substantia propria,C2586323,"Body Part, Organ, or Organ Component",True,True
+6291,ciliary processes,C1261761,"Body Part, Organ, or Organ Component",PRODUCES,aqueous humor,C0003662,Body Substance,True,True
+6293,iris,C0022077,"Body Part, Organ, or Organ Component",CONNECTED_TO,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6300,zonular fibers,C1261095,"Body Part, Organ, or Organ Component",CONNECTED_TO,ciliary processes,C1261761,"Body Part, Organ, or Organ Component",True,True
+6300,ciliary epithelium,C0459736,"Body Part, Organ, or Organ Component",PRODUCES,aqueous humor,C0003662,Body Substance,True,True
+6303,mydriatic agents,C0026964,Pharmacologic Substance,CAUSES,dilation,C0012359,Pathologic Function,True,True
+6306,layers of ciliary body,C0934502,"Body Part, Organ, or Organ Component",CONSISTS_OF,stroma,C0927195,"Body Part, Organ, or Organ Component",True,True
+6306,outer layer of smooth muscle,C2753461,Cell Component,PART_OF,ciliary body,C0008779,"Body Part, Organ, or Organ Component",True,True
+6308,smooth muscle fibers,C1135918,Cell,PART_OF,ciliary muscle,C0559230,"Body Part, Organ, or Organ Component",True,True
+6316,zonular fibers,C1261095,"Body Part, Organ, or Organ Component",CONNECTED_TO,lens,C0023317,"Body Part, Organ, or Organ Component",True,True
+6317,ciliary processes,C1261761,"Body Part, Organ, or Organ Component",PART_OF,ciliary body,C0008779,"Body Part, Organ, or Organ Component",True,True
+6317,ciliary processes,C1261761,"Body Part, Organ, or Organ Component",CONNECTED_TO,vascular layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+6318,iris,C0022077,"Body Part, Organ, or Organ Component",CONSISTS_OF,connective tissue stroma,C0927195,"Body Part, Organ, or Organ Component",True,True
+6320,zonular fibers,C1261095,"Body Part, Organ, or Organ Component",CONNECTED_TO,lens capsule,C0229232,"Body Part, Organ, or Organ Component",True,True
+6323,choroid,C0008520,"Body Part, Organ, or Organ Component",PART_OF,vascular coat,C0005847,"Body Part, Organ, or Organ Component",True,True
+6324,choroid,C0008520,"Body Part, Organ, or Organ Component",ADJACENT_TO,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6324,choroid,C0008520,"Body Part, Organ, or Organ Component",ADJACENT_TO,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6326,choroid,C0008520,"Body Part, Organ, or Organ Component",CONNECTED_TO,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6326,epichoroid lymph spaces,C0024202,Body Substance,PART_OF,suprachoroid lamina,C1288331,"Body Part, Organ, or Organ Component",True,True
+6326,nerves,C0027740,"Body Part, Organ, or Organ Component",PART_OF,suprachoroid lamina,C1288331,"Body Part, Organ, or Organ Component",True,True
+6330,retina,C0035298,"Body Part, Organ, or Organ Component",PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6332,rpe,C0035322,"Body Part, Organ, or Organ Component",CONNECTED_TO,choriocapillary layer,C0934502,"Body Part, Organ, or Organ Component",True,True
+6336,macula lutea,C0227662,"Body Part, Organ, or Organ Component",SURROUNDS,fovea,C0016622,"Body Part, Organ, or Organ Component",True,True
+6338,retina,C0035298,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+6342,outer layer,C2753461,Cell Component,PART_OF,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6344,ophthalmoscopic eye examination,C0029090,Diagnostic Procedure,DIAGNOSES,retinal detachment,C0035305,Disease or Syndrome,True,True
+6353,basal lamina,C0085872,Tissue,PART_OF,inner limiting membrane,C1512783,Tissue,True,True
+6359,capillaries,C0006901,"Body Part, Organ, or Organ Component",PART_OF,choroid layer,C0459754,"Body Part, Organ, or Organ Component",True,True
+6368,outer membrane outer segment,C1167331,Cell Component,PART_OF,cones,C0206428,Cell,True,True
+6369,layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6370,inner layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6372,outer segment,C0035798,Cell Component,PART_OF,photoreceptor,C0031760,Cell,True,True
+6372,microvilli,C0026049,Cell Component,PART_OF,pigment epithelial cells,C0014597,Cell,True,True
+6387,opsin,C0035499,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,transducin,C0040663,"Amino Acid, Peptide, or Protein",True,True
+6388,inner segment,C2350297,Cell Component,PART_OF,photoreceptor cells,C0031760,Cell,True,True
+6399,cone nuclei,C0007610,Cell Component,ADJACENT_TO,outer segments,C0035798,Cell Component,True,True
+6399,cytoplasm,C0010834,Cell Component,SURROUNDS,rod nuclei,C0007610,Cell Component,True,True
+6399,cytoplasm,C0010834,Cell Component,SURROUNDS,cone nuclei,C0007610,Cell Component,True,True
+6415,inner limiting membrane,C1512783,Tissue,CONSISTS_OF,basal lamina,C0085872,Tissue,True,True
+6416,inner limiting membrane,C1512783,Tissue,PART_OF,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6421,central retinal artery,C0035301,"Body Part, Organ, or Organ Component",TRAVERSES,optic nerve,C0029130,"Body Part, Organ, or Organ Component",True,True
+6421,central retinal vein,C0035327,"Body Part, Organ, or Organ Component",TRAVERSES,optic nerve,C0029130,"Body Part, Organ, or Organ Component",True,True
+6429,reading glasses,C0015421,Medical Device,TREATS,presbyopia,C0033075,Disease or Syndrome,True,True
+6429,magnifying lens,C0441072,Medical Device,TREATS,presbyopia,C0033075,Disease or Syndrome,True,True
+6432,vitreous body,C0042905,"Body Part, Organ, or Organ Component",CONNECTED_TO,inner limiting membrane,C1512783,Tissue,True,True
+6433,nuclei,C0007610,Cell Component,PART_OF,lens fibers,C0229224,"Body Part, Organ, or Organ Component",True,True
+6435,accessory structures,C0000905,"Body Part, Organ, or Organ Component",PART_OF,eye,C0015392,"Body Part, Organ, or Organ Component",True,True
+6438,redness,C0041834,Disease or Syndrome,MANIFESTATION_OF,conjunctivitis,C0009763,Disease or Syndrome,True,True
+6440,tarsal plate,C0459586,"Body Part, Organ, or Organ Component",PART_OF,eyelid,C0015426,"Body Part, Organ, or Organ Component",True,True
+6446,sebaceous glands,C0036505,"Body Part, Organ, or Organ Component",CONNECTED_TO,follicles,C0221971,"Body Part, Organ, or Organ Component",True,True
+6451,lacrimal gland,C0022907,"Body Part, Organ, or Organ Component",PRODUCES,tears,C0039409,Body Substance,True,True
+6452,lacrimal glands,C0022907,"Body Part, Organ, or Organ Component",PRODUCES,tears,C0039409,Body Substance,True,True
+6452,accessory lacrimal glands,C0266586,"Body Part, Organ, or Organ Component",PRODUCES,tears,C0039409,Body Substance,True,True
+6466,uvea,C0042160,"Body Part, Organ, or Organ Component",CONSISTS_OF,ciliary body,C0008779,"Body Part, Organ, or Organ Component",True,True
+6466,uvea,C0042160,"Body Part, Organ, or Organ Component",CONSISTS_OF,iris,C0022077,"Body Part, Organ, or Organ Component",True,True
+6467,iris,C0022077,"Body Part, Organ, or Organ Component",PART_OF,uvea,C0042160,"Body Part, Organ, or Organ Component",True,True
+6468,optic nerve,C0029130,"Body Part, Organ, or Organ Component",CONNECTED_TO,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6469,iris,C0022077,"Body Part, Organ, or Organ Component",ADJACENT_TO,anterior chamber,C0003151,"Body Part, Organ, or Organ Component",True,True
+6469,iris,C0022077,"Body Part, Organ, or Organ Component",ADJACENT_TO,posterior chamber,C0229094,Body Space or Junction,True,True
+6472,retinal pigment epithelium,C0934502,"Body Part, Organ, or Organ Component",SURROUNDS,neural retina,C1518263,"Body Part, Organ, or Organ Component",True,True
+6472,synaptic connections,C1178983,Body Space or Junction,PART_OF,outer plexiform layer,C0229217,"Body Part, Organ, or Organ Component",True,True
+6472,synaptic connections,C1178983,Body Space or Junction,PART_OF,inner plexiform layer,C1512785,"Body Part, Organ, or Organ Component",True,True
+6472,axons,C0004461,Cell Component,PART_OF,optic nerve,C0029130,"Body Part, Organ, or Organ Component",True,True
+6475,lamina cribrosa,C0010316,"Body Part, Organ, or Organ Component",PART_OF,sclera,C0036410,"Body Part, Organ, or Organ Component",True,True
+6475,central artery,C1516384,"Body Part, Organ, or Organ Component",PART_OF,optic nerve,C0029130,"Body Part, Organ, or Organ Component",True,True
+6475,vein,C0042449,"Body Part, Organ, or Organ Component",PART_OF,optic nerve,C0029130,"Body Part, Organ, or Organ Component",True,True
+6478,retinal pigment epithelium,C0035322,"Body Part, Organ, or Organ Component",PART_OF,retina,C0035298,"Body Part, Organ, or Organ Component",True,True
+6499,ciliary epithelium,C0459736,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+6503,lens,C0023317,"Body Part, Organ, or Organ Component",CONNECTED_TO,zonular fibers,C1261095,"Body Part, Organ, or Organ Component",True,True
+6511,nuclei,C0007610,Cell Component,PART_OF,keratocytes,C1275629,Cell,True,True
+6514,collagen fibrils,C0225328,Cell Component,PART_OF,stroma,C0927195,"Body Part, Organ, or Organ Component",True,True
+6527,auricle,C0013453,"Body Part, Organ, or Organ Component",PART_OF,ear,C0013443,"Body Part, Organ, or Organ Component",True,True
+6534,middle ear,C0013455,Body Space or Junction,CONTAINS,ossicles,C0013450,"Body Part, Organ, or Organ Component",True,True
+6535,tympanic cavity,C0242255,Body Space or Junction,LOCATION_OF,middle ear,C0013455,Body Space or Junction,True,True
+6541,auditory ossicles,C0013450,"Body Part, Organ, or Organ Component",LOCATION_OF,tympanic cavity,C0242255,Body Space or Junction,True,True
+6543,auditory ossicles,C0013450,"Body Part, Organ, or Organ Component",CONNECTED_TO,tympanic membrane,C0041445,"Body Part, Organ, or Organ Component",True,True
+6543,auditory ossicles,C0013450,"Body Part, Organ, or Organ Component",CONNECTED_TO,oval window,C0029922,Body Space or Junction,True,True
+6545,incus,C0013450,"Body Part, Organ, or Organ Component",CONNECTED_TO,stapes,C0038152,"Body Part, Organ, or Organ Component",True,True
+6548,contraction,C1140999,Pathologic Function,AFFECTS,tension,C0233494,Mental or Behavioral Dysfunction,True,True
+6549,tympanic membrane,C0041445,"Body Part, Organ, or Organ Component",PART_OF,lateral wall of the cavity,C0456482,"Body Part, Organ, or Organ Component",True,True
+6549,facial nerve,C0015462,"Body Part, Organ, or Organ Component",ADJACENT_TO,oval window,C0029922,Body Space or Junction,True,True
+6553,auditory tube,C0015183,"Body Part, Organ, or Organ Component",CONNECTED_TO,middle ear,C0013455,Body Space or Junction,True,True
+6553,auditory tube,C0015183,"Body Part, Organ, or Organ Component",CONNECTED_TO,nasopharynx,C0027442,"Body Part, Organ, or Organ Component",True,True
+6559,labyrinthine compartments,C0022889,"Body Part, Organ, or Organ Component",PART_OF,internal ear,C0022889,"Body Part, Organ, or Organ Component",True,True
+6567,incus,C0021181,"Body Part, Organ, or Organ Component",PART_OF,auditory ossicles,C0013450,"Body Part, Organ, or Organ Component",True,True
+6567,stapes,C0038152,"Body Part, Organ, or Organ Component",PART_OF,auditory ossicles,C0013450,"Body Part, Organ, or Organ Component",True,True
+6569,bony labyrinth,C0458699,"Body Part, Organ, or Organ Component",LOCATION_OF,vestibule,C0042606,Body Space or Junction,True,True
+6571,vestibule,C0042606,Body Space or Junction,LOCATION_OF,orifices,C0444567,Body Space or Junction,True,True
+6572,cochlea,C0009195,"Body Part, Organ, or Organ Component",CONNECTED_TO,vestibule,C0042606,Body Space or Junction,True,True
+6575,membranous labyrinth,C0458700,"Body Part, Organ, or Organ Component",CONTAINS,endolymph,C0014166,Body Substance,True,True
+6576,membranous labyrinth,C0458700,"Body Part, Organ, or Organ Component",CONSISTS_OF,ducts,C0687028,"Body Part, Organ, or Organ Component",True,True
+6576,ducts,C0687028,"Body Part, Organ, or Organ Component",CONTAINS,endolymph,C0014166,Body Substance,True,True
+6579,antibiotics,C0003232,Antibiotic,CAUSES,sensorineural hearing loss,C0018784,Disease or Syndrome,True,True
+6579,diuretics,C0012798,Pharmacologic Substance,CAUSES,sensorineural hearing loss,C0018784,Disease or Syndrome,True,True
+6579,sensorineural hearing loss,C0018784,Disease or Syndrome,AFFECTS,speech,C0037817,Organism Function,True,True
+6580,bony labyrinth,C0458699,"Body Part, Organ, or Organ Component",CONTAINS,perilymph,C0031059,Body Substance,True,True
+6582,utricle,C0042158,"Body Part, Organ, or Organ Component",CONNECTED_TO,semicircular ducts,C1323109,"Body Part, Organ, or Organ Component",True,True
+6583,saccule,C0036029,"Body Part, Organ, or Organ Component",CONNECTED_TO,cochlear duct,C1323110,"Body Part, Organ, or Organ Component",True,True
+6584,sensory cells,C0034837,Cell Component,PART_OF,membranous labyrinth,C0458700,"Body Part, Organ, or Organ Component",True,True
+6588,endolymph,C0014166,Body Substance,PART_OF,cochlear duct,C1323110,"Body Part, Organ, or Organ Component",True,True
+6590,saccule,C0036029,"Body Part, Organ, or Organ Component",LOCATION_OF,vestibule,C0042606,Body Space or Junction,True,True
+6590,utricle,C0042158,"Body Part, Organ, or Organ Component",LOCATION_OF,vestibule,C0042606,Body Space or Junction,True,True
+6590,macula,C0227662,"Body Part, Organ, or Organ Component",PART_OF,saccule,C0036029,"Body Part, Organ, or Organ Component",True,True
+6590,macula,C0227662,"Body Part, Organ, or Organ Component",PART_OF,utricle,C0042158,"Body Part, Organ, or Organ Component",True,True
+6590,cristae ampullaris,C0229465,"Body Part, Organ, or Organ Component",PART_OF,semicircular ducts,C1323109,"Body Part, Organ, or Organ Component",True,True
+6590,spiral organ,C0029207,"Body Part, Organ, or Organ Component",PART_OF,cochlear duct,C1323110,"Body Part, Organ, or Organ Component",True,True
+6592,hair cells,C0018496,Cell,PART_OF,cochlear labyrinth,C0931689,"Body Part, Organ, or Organ Component",True,True
+6594,stereocilia,C0230626,Cell Component,PART_OF,hair cells,C0018496,Cell,True,True
+6602,sensory receptors,C0034837,Cell Component,PART_OF,membranous labyrinth,C0458700,"Body Part, Organ, or Organ Component",True,True
+6608,internal acoustic meatus,C0222711,Body Space or Junction,LOCATION_OF,acoustic neuroma,C0027859,Neoplastic Process,True,True
+6608,diseases of the internal ear,C0012634,Disease or Syndrome,AFFECTS,hearing,C0018767,Physiologic Function,True,True
+6608,diseases of the internal ear,C0012634,Disease or Syndrome,AFFECTS,equilibrium,C0014653,Organism Function,True,True
+6618,cochlear duct,C1323110,"Body Part, Organ, or Organ Component",PART_OF,cochlear canal,C0009195,"Body Part, Organ, or Organ Component",True,True
+6618,scala media,C1323110,"Body Part, Organ, or Organ Component",PART_OF,cochlear canal,C0009195,"Body Part, Organ, or Organ Component",True,True
+6618,scala vestibuli,C0229511,"Body Part, Organ, or Organ Component",PART_OF,cochlear canal,C0009195,"Body Part, Organ, or Organ Component",True,True
+6618,scala tympani,C0036264,"Body Part, Organ, or Organ Component",PART_OF,cochlear canal,C0009195,"Body Part, Organ, or Organ Component",True,True
+6619,scala vestibuli,C0229511,"Body Part, Organ, or Organ Component",ADJACENT_TO,scala media,C1323110,"Body Part, Organ, or Organ Component",True,True
+6619,scala tympani,C0036264,"Body Part, Organ, or Organ Component",ADJACENT_TO,scala media,C1323110,"Body Part, Organ, or Organ Component",True,True
+6619,scala media,C1323110,"Body Part, Organ, or Organ Component",CONTAINS,endolymph,C0014166,Body Substance,True,True
+6622,cochlear duct,C1323110,"Body Part, Organ, or Organ Component",PART_OF,bony cochlea,C0009195,"Body Part, Organ, or Organ Component",True,True
+6622,osseous spiral lamina,C0262950,"Body Part, Organ, or Organ Component",PART_OF,cochlea,C0009195,"Body Part, Organ, or Organ Component",True,True
+6622,scala vestibuli,C0229511,"Body Part, Organ, or Organ Component",CONTAINS,perilymph,C0031059,Body Substance,True,True
+6622,scala tympani,C0036264,"Body Part, Organ, or Organ Component",CONTAINS,perilymph,C0031059,Body Substance,True,True
+6625,osseous spiral lamina,C0262950,"Body Part, Organ, or Organ Component",PART_OF,cochlear canal,C0009195,"Body Part, Organ, or Organ Component",True,True
+6625,cochlear canal,C0009195,"Body Part, Organ, or Organ Component",CONTAINS,endolymph,C0014166,Body Substance,True,True
+6627,scala vestibuli,C0229511,"Body Part, Organ, or Organ Component",CONNECTED_TO,scala tympani,C0036264,"Body Part, Organ, or Organ Component",True,True
+6628,modiolus,C0229503,"Body Part, Organ, or Organ Component",CONNECTED_TO,scala media,C1323110,"Body Part, Organ, or Organ Component",True,True
+6629,osseous spiral lamina,C0262950,"Body Part, Organ, or Organ Component",CONNECTED_TO,scala media,C1323110,"Body Part, Organ, or Organ Component",True,True
+6631,stria vascularis,C0038445,"Body Part, Organ, or Organ Component",ADJACENT_TO,scala media,C1323110,"Body Part, Organ, or Organ Component",True,True
+6632,endolymph,C0014166,Body Substance,PART_OF,scala media,C1323110,"Body Part, Organ, or Organ Component",True,True
+6633,basilar membrane,C0004816,"Body Part, Organ, or Organ Component",PART_OF,cochlea,C0009195,"Body Part, Organ, or Organ Component",True,True
+6633,spiral organ,C0029207,"Body Part, Organ, or Organ Component",ADJACENT_TO,basilar membrane,C0004816,"Body Part, Organ, or Organ Component",True,True
+6645,tectorial membrane,C0039432,"Body Part, Organ, or Organ Component",CONNECTED_TO,modiolus,C0229503,"Body Part, Organ, or Organ Component",True,True
+6645,tectorial membrane,C0039432,"Body Part, Organ, or Organ Component",CONNECTED_TO,organ of corti,C0178784,"Body Part, Organ, or Organ Component",True,True
+6669,labyrinthine artery,C0226237,"Body Part, Organ, or Organ Component",BRANCH_OF,basilar artery,C0004811,"Body Part, Organ, or Organ Component",True,True
+6672,bony labyrinth,C0458699,"Body Part, Organ, or Organ Component",CONSISTS_OF,cochlea,C0009195,"Body Part, Organ, or Organ Component",True,True
+6672,bony labyrinth,C0458699,"Body Part, Organ, or Organ Component",CONSISTS_OF,semicircular canals,C0036622,"Body Part, Organ, or Organ Component",True,True
+6683,organ of corti,C0178784,"Body Part, Organ, or Organ Component",PART_OF,cochlea,C0009195,"Body Part, Organ, or Organ Component",True,True
+6683,basilar membrane,C0004816,"Body Part, Organ, or Organ Component",CONNECTED_TO,spiral ligament,C0229477,"Body Part, Organ, or Organ Component",True,True
+6683,vestibular membrane,C0229480,"Body Part, Organ, or Organ Component",CONNECTED_TO,spiral ligament,C0229477,"Body Part, Organ, or Organ Component",True,True
+6683,cochlear duct,C1323110,"Body Part, Organ, or Organ Component",CONTAINS,endolymph,C0014166,Body Substance,True,True
+6683,spiral ligament,C0229477,"Body Part, Organ, or Organ Component",PRODUCES,endolymph,C0014166,Body Substance,True,True
+6684,cell bodies,C0599444,Cell Component,PART_OF,spiral ganglion,C0037959,"Body Part, Organ, or Organ Component",True,True
+6686,nuclei,C0007610,Cell Component,PART_OF,outer hair cells,C0206513,Cell,True,True
+6686,nuclei,C0007610,Cell Component,PART_OF,outer phalangeal cells,C0022891,Cell,True,True

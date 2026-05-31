@@ -1,0 +1,406 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+3352,red pulp,C0229687,"Body Part, Organ, or Organ Component",CONSISTS_OF,cords,C0037925,"Body Part, Organ, or Organ Component",True,True
+3357,central artery,C1516384,"Body Part, Organ, or Organ Component",BRANCH_OF,splenic artery,C0037996,"Body Part, Organ, or Organ Component",True,True
+3360,red pulp,C0229687,"Body Part, Organ, or Organ Component",CONSISTS_OF,splenic cords,C0037925,"Body Part, Organ, or Organ Component",True,True
+3365,sheathed capillaries,C0006901,"Body Part, Organ, or Organ Component",CONNECTED_TO,reticular meshwork,C0040573,"Body Part, Organ, or Organ Component",True,True
+3372,penicillar arterioles,C0003847,"Body Part, Organ, or Organ Component",CONNECTED_TO,reticular meshwork,C0040573,"Body Part, Organ, or Organ Component",True,True
+3373,splenic vein,C0038001,"Body Part, Organ, or Organ Component",CONNECTED_TO,hepatic portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+3376,white pulp,C0229686,"Body Part, Organ, or Organ Component",PART_OF,spleen,C0037993,"Body Part, Organ, or Organ Component",True,True
+3378,macrophages,C0024432,Cell,PART_OF,red pulp,C0229687,"Body Part, Organ, or Organ Component",True,True
+3378,lysosomes,C0024369,Cell Component,PART_OF,macrophages,C0024432,Cell,True,True
+3383,crypts,C0227427,Body Space or Junction,CONTAINS,lymphatic nodules,C0024296,Tissue,True,True
+3385,mucosa,C0026724,Tissue,LOCATION_OF,nodules,C0028259,Acquired Abnormality,True,True
+3398,plasma cells,C0039194,Cell,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+3410,red pulp,C0229687,"Body Part, Organ, or Organ Component",CONSISTS_OF,venous sinuses,C0010271,"Body Part, Organ, or Organ Component",True,True
+3415,central artery,C1516384,"Body Part, Organ, or Organ Component",LOCATION_OF,nodule,C0028259,Acquired Abnormality,True,True
+3425,basement membrane,C0004799,Tissue,PART_OF,vessel wall,C0005847,"Body Part, Organ, or Organ Component",True,True
+3431,medulla,C0025148,"Body Part, Organ, or Organ Component",TRAVERSES,lobules,C0921005,"Body Part, Organ, or Organ Component",True,True
+3439,dermis,C0011646,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+3440,adipose tissue,C0001527,Tissue,PART_OF,lobules,C0921005,"Body Part, Organ, or Organ Component",True,True
+3440,hypodermis,C0278403,Tissue,ADJACENT_TO,dermis,C0011646,Tissue,True,True
+3447,nicotine patches,C0994894,Medical Device,TREATS,nicotine withdrawal symptoms,C0087169,Sign or Symptom,True,True
+3451,epidermis,C0014520,Tissue,CONSISTS_OF,squamous epithelium,C0221909,Tissue,True,True
+3452,papillary layer,C0682598,"Body Part, Organ, or Organ Component",ADJACENT_TO,epidermis,C0014520,Tissue,True,True
+3478,surgical removal,C0015252,Therapeutic or Preventive Procedure,TREATS,tumor,C0027651,Neoplastic Process,True,True
+3491,arrector pili muscles,C0221975,"Body Part, Organ, or Organ Component",CONNECTED_TO,hair follicles,C0221971,"Body Part, Organ, or Organ Component",True,True
+3491,arrector pili muscles,C0221975,"Body Part, Organ, or Organ Component",CONNECTED_TO,dermis,,"Body Part, Organ, or Organ Component",True,True
+3495,keratinocyte,C0022567,Cell,PART_OF,epidermis,C0014520,Tissue,True,True
+3495,keratinocytes,C0022567,Cell,PRODUCES,keratins,C0010803,"Amino Acid, Peptide, or Protein",True,True
+3516,melanocytes,C0025201,Cell,PRODUCES,melanin,C0025196,Organic Chemical,True,True
+3517,epidermal melanocytes,C0025201,Cell,PRODUCES,melanin,C0025196,Organic Chemical,True,True
+3528,malignant transformation,C0287850,"Amino Acid, Peptide, or Protein",CAUSES,histiocytosis x,C0019621,Neoplastic Process,True,True
+3533,sensory receptors,C0034837,Cell Component,PART_OF,sensory nerves,C0501385,"Body Part, Organ, or Organ Component",True,True
+3549,sebaceous glands,C0036505,"Body Part, Organ, or Organ Component",PRODUCES,sebum,C0036511,Body Substance,True,True
+3549,sweat glands,C0038989,"Body Part, Organ, or Organ Component",PRODUCES,sweat,C0038984,Body Substance,True,True
+3558,internal root sheath,C0221964,"Body Part, Organ, or Organ Component",SURROUNDS,hair,C0018494,"Body Part, Organ, or Organ Component",True,True
+3563,sebaceous glands,C0036505,"Body Part, Organ, or Organ Component",ADJACENT_TO,hair follicle,C0221971,"Body Part, Organ, or Organ Component",True,True
+3567,arrector pili muscle,C0221975,"Body Part, Organ, or Organ Component",CONNECTED_TO,follicular bulge,C1571705,"Body Part, Organ, or Organ Component",True,True
+3568,medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,hair shaft,C0221961,"Body Part, Organ, or Organ Component",True,True
+3570,basal cells,C0596155,Cell,PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+3576,eccrine sweat glands,C0013492,"Body Part, Organ, or Organ Component",LOCATION_OF,entire body surface,C0489451,Body Location or Region,True,True
+3576,apocrine sweat glands,C0930083,"Body Part, Organ, or Organ Component",LOCATION_OF,axilla,C0004454,Body Location or Region,True,True
+3594,apocrine sweat gland,C0930083,"Body Part, Organ, or Organ Component",CONNECTED_TO,follicle,C0018120,"Body Part, Organ, or Organ Component",True,True
+3599,apocrine sweat gland,C0930083,"Body Part, Organ, or Organ Component",ADJACENT_TO,hair follicle,C0221971,"Body Part, Organ, or Organ Component",True,True
+3608,male pheromones,C0031516,Biologically Active Substance,AFFECTS,menstruation cycle,C0025329,Organism Function,True,True
+3613,stem cells,C0038250,Cell,PRODUCES,keratin,C0010803,"Amino Acid, Peptide, or Protein",True,True
+3618,destruction,C1261381,Therapeutic or Preventive Procedure,PREVENTS,reepithelialization,C1317977,Cell or Molecular Dysfunction,True,True
+3623,ducts,C0687028,"Body Part, Organ, or Organ Component",PART_OF,sweat glands,C0038989,"Body Part, Organ, or Organ Component",True,True
+3625,hypodermis,C0278403,Tissue,LOCATION_OF,blood vessels,C0085166,Disease or Syndrome,True,True
+3625,hypodermis,C0278403,Tissue,LOCATION_OF,adipose tissue,C0004135,Disease or Syndrome,True,True
+3630,keratinocytes,C0022567,Cell,PRODUCES,protein keratin,C0022564,"Amino Acid, Peptide, or Protein",True,True
+3645,epithelium,C0014609,Tissue,PART_OF,apocrine sweat gland,C0930083,"Body Part, Organ, or Organ Component",True,True
+3651,glandular unit,C1285092,"Body Part, Organ, or Organ Component",PART_OF,eccrine sweat gland,C0013492,"Body Part, Organ, or Organ Component",True,True
+3662,meissner’s corpuscles,C0205831,"Body Part, Organ, or Organ Component",ADJACENT_TO,epidermis,C0014520,Tissue,True,True
+3663,nerve bundles,C0549154,"Body Part, Organ, or Organ Component",ADJACENT_TO,pacinian corpuscles,C0030173,"Body Part, Organ, or Organ Component",True,True
+3666,neural portion,C0027757,Tissue,PART_OF,pacinian corpuscle,C0030173,"Body Part, Organ, or Organ Component",True,True
+3667,meissner’s corpuscles,C0205831,"Body Part, Organ, or Organ Component",ADJACENT_TO,tips of the fingers,C0016129,"Body Part, Organ, or Organ Component",True,True
+3667,tips of the toes,C0040357,"Body Part, Organ, or Organ Component",ADJACENT_TO,meissner’s corpuscles,C0205831,"Body Part, Organ, or Organ Component",True,True
+3668,fibrous capsule,C0227496,"Body Part, Organ, or Organ Component",SURROUNDS,meissner's corpuscle,C0205831,"Body Part, Organ, or Organ Component",True,True
+3669,meissner’s corpuscle,C0205831,"Body Part, Organ, or Organ Component",ADJACENT_TO,undersurface of the epidermis,C1519776,Body Location or Region,True,True
+3673,hair follicle,C0221971,"Body Part, Organ, or Organ Component",CONSISTS_OF,bulb,C0025148,"Body Part, Organ, or Organ Component",True,True
+3673,cell layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,hair,C0018494,"Body Part, Organ, or Organ Component",True,True
+3674,inner root sheath,C0221965,"Body Part, Organ, or Organ Component",PART_OF,root sheath,C0221964,"Body Part, Organ, or Organ Component",True,True
+3674,outer root sheath,C0221964,"Body Part, Organ, or Organ Component",CONNECTED_TO,epidermis,C0014520,Tissue,True,True
+3676,sheath,C0227952,"Body Part, Organ, or Organ Component",PART_OF,hair follicle,C0221971,"Body Part, Organ, or Organ Component",True,True
+3676,connective tissue,C0009780,Tissue,PART_OF,sheath,C0227952,"Body Part, Organ, or Organ Component",True,True
+3678,hyponychium,C0221998,"Body Part, Organ, or Organ Component",CONNECTED_TO,stratum corneum,C0221921,Tissue,True,True
+3678,eponychium,C0221994,"Body Part, Organ, or Organ Component",CONNECTED_TO,stratum corneum,C0221921,Tissue,True,True
+3679,epithelium,C0014609,Tissue,PART_OF,nail bed,C0221997,"Body Part, Organ, or Organ Component",True,True
+3679,dermis,C0011646,Tissue,PART_OF,nail bed,C0221997,"Body Part, Organ, or Organ Component",True,True
+3679,root,C0040452,"Body Part, Organ, or Organ Component",PART_OF,nail,C0027342,"Body Part, Organ, or Organ Component",True,True
+3680,stratum lucidum,C0221922,Tissue,PART_OF,epidermis,C0014520,Tissue,True,True
+3695,parotid gland,C0030580,"Body Part, Organ, or Organ Component",LOCATION_OF,infratemporal region,C0230008,Body Location or Region,True,True
+3696,submandibular gland,C0038556,"Body Part, Organ, or Organ Component",LOCATION_OF,submandibular triangle,C0230070,Body Location or Region,True,True
+3697,sublingual gland,C0038553,"Body Part, Organ, or Organ Component",LOCATION_OF,oral cavity,C0226896,Body Space or Junction,True,True
+3704,raphe,C0504074,Body Space or Junction,PART_OF,hard palate,C0226901,"Body Part, Organ, or Organ Component",True,True
+3704,muscle,C0026845,Tissue,PART_OF,soft palate,C0030219,"Body Part, Organ, or Organ Component",True,True
+3707,reticular layer,C0682599,"Body Part, Organ, or Organ Component",CONNECTED_TO,periosteum,C0031110,Tissue,True,True
+3708,cheeks,C0007966,Body Location or Region,LOCATION_OF,lining mucosa,C0026724,Tissue,True,True
+3726,connective tissue,C0009780,Tissue,PART_OF,fungiform papilla,C0226968,"Body Part, Organ, or Organ Component",True,True
+3726,ducts,C0687028,"Body Part, Organ, or Organ Component",PART_OF,serous glands,C1285092,"Body Part, Organ, or Organ Component",True,True
+3729,neuroepithelial (sensory) cells,C1449624,Cell,PART_OF,taste bud,C0039337,"Body Part, Organ, or Organ Component",True,True
+3729,basal lamina,C0085872,Tissue,PART_OF,epithelium,C0014609,Tissue,True,True
+3732,basal portion,C0228427,"Body Part, Organ, or Organ Component",PART_OF,taste bud,C0039337,"Body Part, Organ, or Organ Component",True,True
+3746,h,C0011892,Organic Chemical,AFFECTS,voltage-sensitive ca2 channels,C1153440,Molecular Function,True,True
+3747,depolarization,C3714805,Cell Function,AFFECTS,voltage-sensitive na channels,C1153465,Molecular Function,True,True
+3747,depolarization,C3714805,Cell Function,AFFECTS,voltage-sensitive ca2 channels,C1153440,Molecular Function,True,True
+3768,teeth,C0040426,"Body Part, Organ, or Organ Component",CONSISTS_OF,enamel,C0011350,Body Substance,True,True
+3783,ameloblasts,C0002449,Cell,PRODUCES,enamel,C0011350,Body Substance,True,True
+3783,odontoblasts,C0028875,Cell,PRODUCES,dentin,C0011429,Body Substance,True,True
+3786,amelogenesis,C0002451,Organ or Tissue Function,PRODUCES,dental enamel,C0011350,Body Substance,True,True
+3804,elastic fibers,C0230899,Tissue,PART_OF,periodontal ligament,C0031093,"Body Part, Organ, or Organ Component",True,True
+3805,dentin,C0011429,Body Substance,PART_OF,tooth substance,C1179502,Body Substance,True,True
+3812,odontoblasts,C0028875,Cell,PRODUCES,collagen,C0009325,"Amino Acid, Peptide, or Protein",True,True
+3814,dentin,C0011429,Body Substance,PART_OF,tooth,C0040426,"Body Part, Organ, or Organ Component",True,True
+3815,dental papilla,C0011387,"Body Part, Organ, or Organ Component",PRODUCES,dentin,C0011429,Body Substance,True,True
+3818,secretory-stage ameloblasts,C1519220,Cell,PRODUCES,enamel,C0011350,Body Substance,True,True
+3831,tooth,C0040426,"Body Part, Organ, or Organ Component",CONNECTED_TO,bone,C0005931,Tissue,True,True
+3834,gingiva,C0017562,Tissue,PART_OF,mucous membrane,C0026724,Tissue,True,True
+3839,gingival sulcus,C0447436,Body Space or Junction,CONTAINS,crevicular epithelium,C0014609,Tissue,True,True
+3856,serous-secreting cells,C1513729,Cell,PART_OF,acinus,C0935597,"Body Part, Organ, or Organ Component",True,True
+3856,mucus-secreting cells,C1513729,Cell,PART_OF,acinus,C0935597,"Body Part, Organ, or Organ Component",True,True
+3866,immature secretory vesicles,C0886515,Cell Component,ADJACENT_TO,golgi apparatus,C0018042,Cell Component,True,True
+3868,intercalated ducts,C1512817,"Body Part, Organ, or Organ Component",PART_OF,serous glands,C1285092,"Body Part, Organ, or Organ Component",True,True
+3882,facial nerve,C0015462,"Body Part, Organ, or Organ Component",TRAVERSES,parotid gland,C0030580,"Body Part, Organ, or Organ Component",True,True
+3888,salivary glands,C0036098,"Body Part, Organ, or Organ Component",PRODUCES,saliva,C0036087,Body Substance,True,True
+3889,basal portion,C0228427,"Body Part, Organ, or Organ Component",PART_OF,acinus,C0935597,"Body Part, Organ, or Organ Component",True,True
+3895,bacterial action,C0004611,Bacterium,CAUSES,tooth decay,C0011334,Disease or Syndrome,True,True
+3897,plasma cells,C0032112,Cell,PRODUCES,iga,C0020835,"Amino Acid, Peptide, or Protein",True,True
+3898,serous acini,C0687028,"Body Part, Organ, or Organ Component",PART_OF,parotid gland,C0030580,"Body Part, Organ, or Organ Component",True,True
+3898,ducts,C0687028,"Body Part, Organ, or Organ Component",PART_OF,parotid gland,C0030580,"Body Part, Organ, or Organ Component",True,True
+3898,serous components,C1136365,Gene or Genome,PART_OF,submandibular glands,C0038556,"Body Part, Organ, or Organ Component",True,True
+3898,mucus-secreting acini,C1513729,Cell,PART_OF,submandibular glands,C0038556,"Body Part, Organ, or Organ Component",True,True
+3898,columnar epithelium,C0225337,Tissue,PART_OF,ducts,C0687028,"Body Part, Organ, or Organ Component",True,True
+3898,interlobular ducts,C0227515,"Body Part, Organ, or Organ Component",PART_OF,sublingual gland,C0038553,"Body Part, Organ, or Organ Component",True,True
+3900,salivary gland cells,C0036098,"Body Part, Organ, or Organ Component",PRODUCES,pigr protein,C0071613,"Amino Acid, Peptide, or Protein",True,True
+3906,palate,C0700374,"Body Part, Organ, or Organ Component",LOCATION_OF,minor salivary gland tumors,C0345613,Neoplastic Process,True,True
+3921,tongue,C0040408,"Body Part, Organ, or Organ Component",LOCATION_OF,oral cavity,C0226896,Body Space or Junction,True,True
+3921,mucous membrane,C0026724,Tissue,CONSISTS_OF,squamous epithelium,C0221909,Tissue,True,True
+3921,striated muscle,C0242692,Tissue,PART_OF,tongue,C0040408,"Body Part, Organ, or Organ Component",True,True
+3923,fungiform papillae,C0226968,"Body Part, Organ, or Organ Component",ADJACENT_TO,filiform papillae,C0545782,"Body Part, Organ, or Organ Component",True,True
+3924,ventral surface,C4329077,Cell Component,PART_OF,tongue,C0040408,"Body Part, Organ, or Organ Component",True,True
+3935,microvilli,C0026049,Cell Component,PART_OF,cells,C0007634,Cell,True,True
+3937,duct,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,papilla,C0226964,"Body Part, Organ, or Organ Component",True,True
+3941,ducts,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,striated duct,C1514993,Body Space or Junction,True,True
+3946,adipose cells,C0206131,Cell,PART_OF,parotid gland,C0030580,"Body Part, Organ, or Organ Component",True,True
+3950,columnar epithelium,C0225337,Tissue,PART_OF,duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+3950,plasma cells,C0032112,Cell,PART_OF,connective tissue,C0009780,Tissue,True,True
+3950,plasma cells,C0032112,Cell,PRODUCES,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",True,True
+3966,villi,C0227266,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+3966,liver,C0023884,"Body Part, Organ, or Organ Component",CONNECTED_TO,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+3966,pancreas,C0030274,"Body Part, Organ, or Organ Component",CONNECTED_TO,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+3971,plicae circulares,C0227265,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+3983,submucosa,C0225344,Tissue,CONSISTS_OF,connective tissue layer,C0009780,Tissue,True,True
+3983,submucosa,C0225344,Tissue,CONTAINS,blood,C0005767,Body Substance,True,True
+3986,muscularis externa,C0225358,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+3989,striated muscle,C0242692,Tissue,PART_OF,muscularis externa,C0225358,"Body Part, Organ, or Organ Component",True,True
+4002,mucosa,C0026724,Tissue,PART_OF,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+4002,muscularis mucosae,C0225357,"Body Part, Organ, or Organ Component",PART_OF,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+4003,nerve fibers,C0027749,Cell Component,PART_OF,submucosal plexus,C0038564,"Body Part, Organ, or Organ Component",True,True
+4003,ganglion cells,C0228071,Cell,PART_OF,submucosal plexus,C0038564,"Body Part, Organ, or Organ Component",True,True
+4005,mucosa,C0026724,Tissue,CONSISTS_OF,squamous epithelium,C0221909,Tissue,True,True
+4005,mucosa,C0026724,Tissue,CONSISTS_OF,lamina propria,C1179187,Tissue,True,True
+4005,ducts,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,lumen,C0524461,Body Space or Junction,True,True
+4010,mucosal and submucosal glands,,Tissue,PRODUCES,mucus,C0026727,Body Substance,True,True
+4011,glands,C1285092,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+4012,esophageal gland,C0227178,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+4012,submucosa,C0225344,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+4015,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+4025,cardiac region,C0007144,Body Location or Region,LOCATION_OF,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",True,True
+4027,gastric glands,C0017130,"Body Part, Organ, or Organ Component",CONNECTED_TO,gastric pits,C0227203,Body Space or Junction,True,True
+4031,gastric pits,C0227203,Body Space or Junction,CONTAINS,mucus,C0026727,Body Substance,True,True
+4032,parietal cells,C0030559,Cell,PART_OF,gastric gland,C0017130,"Body Part, Organ, or Organ Component",True,True
+4032,chief cells,C1516470,Cell,PART_OF,gastric gland,C0017130,"Body Part, Organ, or Organ Component",True,True
+4038,fundic glands,C0017130,"Body Part, Organ, or Organ Component",PRODUCES,gastric juice,C0017133,Body Substance,True,True
+4040,chief cells,C1516470,Cell,PRODUCES,pepsinogen,C0030913,"Amino Acid, Peptide, or Protein",True,True
+4042,parietal cells,C0030559,Cell,PRODUCES,intrinsic factor,C0021918,"Amino Acid, Peptide, or Protein",True,True
+4043,enteroendocrine cells,C0524979,Cell,PRODUCES,gastrin,C0017151,"Amino Acid, Peptide, or Protein",True,True
+4045,chief cells,C1516470,Cell,PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+4045,parietal cells,C0030559,Cell,PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+4045,enteroendocrine cells,C0524979,Cell,PART_OF,gland,C1285092,"Body Part, Organ, or Organ Component",True,True
+4066,autoantibodies,C0004358,"Amino Acid, Peptide, or Protein",CAUSES,intrinsic factor deficiency,C1394891,Disease or Syndrome,True,True
+4075,enteroendocrine cells,C0524979,Cell,PRODUCES,gastrointestinal hormones,C0017182,Hormone,True,True
+4076,epithelial cells,C0014597,Cell,ADJACENT_TO,enteroendocrine cell,C0524979,Cell,True,True
+4083,enteroendocrine cells,C0524979,Cell,PRODUCES,gastrointestinal peptide hormones,C0017182,Hormone,True,True
+4089,glands,C1285092,"Body Part, Organ, or Organ Component",CONNECTED_TO,deep gastric pits,C0227203,Body Space or Junction,True,True
+4093,cells,C0007634,Cell,PART_OF,fundic glands,C0017130,"Body Part, Organ, or Organ Component",True,True
+4094,cells,C0007634,Cell,PART_OF,gland epithelium,C0014609,Tissue,True,True
+4096,lamina propria,C1179187,Tissue,PART_OF,stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+4096,fibroblasts,C0016030,Cell,PART_OF,stroma,C0927195,"Body Part, Organ, or Organ Component",True,True
+4096,smooth muscle cells,C1135918,Cell,PART_OF,stroma,C0927195,"Body Part, Organ, or Organ Component",True,True
+4097,mucus-secreting cells,C1513729,Cell,PART_OF,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",True,True
+4100,connective tissue,C0009780,Tissue,PART_OF,submucosa,C0225344,Tissue,True,True
+4100,adipose tissue,C0001527,Tissue,PART_OF,submucosa,C0225344,Tissue,True,True
+4100,nerve fibers,C0027749,Cell Component,PART_OF,submucosa,C0225344,Tissue,True,True
+4100,ganglion cells,C0228071,Cell,PART_OF,submucosa,C0225344,Tissue,True,True
+4101,secretory cells,C1519221,Cell,PART_OF,pyloric glands,C0227239,"Body Part, Organ, or Organ Component",True,True
+4102,muscularis externa,C0225358,"Body Part, Organ, or Organ Component",PART_OF,stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+4102,smooth muscle,C1267092,Tissue,PART_OF,muscularis externa,C0225358,"Body Part, Organ, or Organ Component",True,True
+4103,lamina propria,C1179187,Tissue,SURROUNDS,gastric pits,C0227203,Body Space or Junction,True,True
+4105,duodenum,C0013303,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+4106,jejunum,C0022378,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+4109,microvilli,C0026049,Cell Component,PART_OF,enterocytes,C0682610,Cell,True,True
+4125,intestine,C0021853,"Body Part, Organ, or Organ Component",LOCATION_OF,nodules,C0028259,Acquired Abnormality,True,True
+4126,muscularis mucosae,C0225357,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+4126,muscularis mucosae,C0225357,"Body Part, Organ, or Organ Component",CONNECTED_TO,lamina propria,C1179187,Tissue,True,True
+4135,intestinal villi,C0227266,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+4142,enterocytes,C0682610,Cell,PRODUCES,enzymes,C0014442,"Amino Acid, Peptide, or Protein",True,True
+4150,goblet cells,C0506994,Cell,PRODUCES,mucus,C0026727,Body Substance,True,True
+4152,microvilli,C0026049,Cell Component,PART_OF,goblet cells,C0506994,Cell,True,True
+4156,enteroendocrine cells,C0524979,Cell,PRODUCES,peptide hormones,C0597192,"Amino Acid, Peptide, or Protein",True,True
+4175,duct,C0227028,"Body Part, Organ, or Organ Component",PART_OF,brunner’s gland,C0006323,"Body Part, Organ, or Organ Component",True,True
+4175,duct,C0227028,"Body Part, Organ, or Organ Component",CONNECTED_TO,lumen,C0524461,Body Space or Junction,True,True
+4182,teniae coli,C0227365,"Body Part, Organ, or Organ Component",PART_OF,muscularis externa,C0225358,"Body Part, Organ, or Organ Component",True,True
+4183,satellite cell,C0205868,Cell,ADJACENT_TO,neuron cell bodies,C0027882,Cell,True,True
+4184,haustra coli,C0227361,"Body Part, Organ, or Organ Component",PART_OF,colon,C0009368,"Body Part, Organ, or Organ Component",True,True
+4192,epithelial cells,C0014597,Cell,CONSISTS_OF,goblet cells,C0506994,Cell,True,True
+4213,appendix,C0003617,"Body Part, Organ, or Organ Component",LOCATION_OF,inflammation,C0021368,Pathologic Function,True,True
+4213,appendix,C0003617,"Body Part, Organ, or Organ Component",LOCATION_OF,carcinoid,C0007095,Neoplastic Process,True,True
+4220,perineal skin,C0222176,"Body Part, Organ, or Organ Component",SURROUNDS,anal orifice,C0003461,"Body Part, Organ, or Organ Component",True,True
+4222,secretion,C0036536,Biologic Function,PRODUCES,sex attractant,C0036863,Biologically Active Substance,True,True
+4223,striated muscle,C0242692,Tissue,PART_OF,internal anal sphincter,C0224394,"Body Part, Organ, or Organ Component",True,True
+4238,mucosal glands,C0026724,Tissue,PRODUCES,mucinogen,C0026682,"Amino Acid, Peptide, or Protein",True,True
+4238,mucosal glands,C0026724,Tissue,PRODUCES,digestive enzymes,C0544420,"Amino Acid, Peptide, or Protein",True,True
+4244,nucleus,C0007610,Cell Component,ADJACENT_TO,cytoplasm,C0010834,Cell Component,True,True
+4245,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+4247,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",ADJACENT_TO,cardiac orifice,C1185952,Body Space or Junction,True,True
+4252,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",PRODUCES,mucinogen,C0026682,"Amino Acid, Peptide, or Protein",True,True
+4252,pyloric glands,C0034196,"Body Part, Organ, or Organ Component",PRODUCES,mucinogen,C0026682,"Amino Acid, Peptide, or Protein",True,True
+4254,stomach,C0038351,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+4258,cardiac glands,C0524600,"Body Part, Organ, or Organ Component",CONSISTS_OF,mucous gland cells,C0225354,"Body Part, Organ, or Organ Component",True,True
+4281,smooth muscle,C1267092,Tissue,PART_OF,pyloric sphincter,C0227238,"Body Part, Organ, or Organ Component",True,True
+4292,brunner’s glands,C0006323,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+4296,lumen,C0524461,Body Space or Junction,CONTAINS,duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+4299,lamina propria,C1179187,Tissue,PART_OF,villus,C0227266,"Body Part, Organ, or Organ Component",True,True
+4316,intestinal glands,C0226892,"Body Part, Organ, or Organ Component",ADJACENT_TO,villi,C0227266,"Body Part, Organ, or Organ Component",True,True
+4319,intestinal glands,C0226892,"Body Part, Organ, or Organ Component",ADJACENT_TO,muscularis mucosae,C0225357,"Body Part, Organ, or Organ Component",True,True
+4322,intestinal glands,C0226892,"Body Part, Organ, or Organ Component",ADJACENT_TO,lymphocytes,C0024264,Cell,True,True
+4326,columnar epithelium,C0225337,Tissue,PART_OF,glands,C1285092,"Body Part, Organ, or Organ Component",True,True
+4328,layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,colon,C0009368,"Body Part, Organ, or Organ Component",True,True
+4336,lumen,C0226896,Body Space or Junction,PART_OF,glands,C1285092,"Body Part, Organ, or Organ Component",True,True
+4340,appendix,C0003617,"Body Part, Organ, or Organ Component",PART_OF,cecum,C0007531,"Body Part, Organ, or Organ Component",True,True
+4344,cap region,C0015450,Body Location or Region,ADJACENT_TO,lumen,C0524461,Body Space or Junction,True,True
+4349,muscularis mucosae,C0225357,"Body Part, Organ, or Organ Component",ADJACENT_TO,glands,C1285092,"Body Part, Organ, or Organ Component",True,True
+4353,internal anal sphincter muscle,C0224394,"Body Part, Organ, or Organ Component",PART_OF,muscularis externa,C0225358,"Body Part, Organ, or Organ Component",True,True
+4354,epithelium,C0014609,Tissue,PART_OF,intestinal glands,C0226892,"Body Part, Organ, or Organ Component",True,True
+4359,blood vessels,C0005847,"Body Part, Organ, or Organ Component",PART_OF,parenchyma,C0933845,"Body Part, Organ, or Organ Component",True,True
+4365,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,plasma proteins,C0032120,"Amino Acid, Peptide, or Protein",True,True
+4371,lipoproteins,C0023820,"Amino Acid, Peptide, or Protein",CONSISTS_OF,proteins,C0033684,"Amino Acid, Peptide, or Protein",True,True
+4371,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,ldls,C0023823,Organic Chemical,True,True
+4371,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,vldls,C0023825,"Amino Acid, Peptide, or Protein",True,True
+4381,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,ketone bodies,C0022631,Organic Chemical,True,True
+4381,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,urea,C0041942,Organic Chemical,True,True
+4387,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,growth hormone–releasing hormone,C0037668,"Amino Acid, Peptide, or Protein",True,True
+4395,hepatic portal vein,C0032718,"Body Part, Organ, or Organ Component",CONNECTED_TO,c0023884,C0023884,"Body Part, Organ, or Organ Component",True,True
+4397,hepatic artery,C0019145,"Body Part, Organ, or Organ Component",BRANCH_OF,c0007569,C0007569,"Body Part, Organ, or Organ Component",True,True
+4399,hepatic veins,C0019155,"Body Part, Organ, or Organ Component",CONNECTED_TO,c0042458,C0042458,"Body Part, Organ, or Organ Component",True,True
+4416,liver acinus,C0227519,"Body Part, Organ, or Organ Component",PART_OF,hepatic parenchyma,C0736268,"Body Part, Organ, or Organ Component",True,True
+4429,interlobular vessels,C1550227,"Body Part, Organ, or Organ Component",CONNECTED_TO,sinusoids,C0682624,Body Space or Junction,True,True
+4429,distributing vessels,C0005847,"Body Part, Organ, or Organ Component",BRANCH_OF,larger interlobular vessels,,"Body Part, Organ, or Organ Component",True,True
+4429,sublobular veins,,"Body Part, Organ, or Organ Component",PART_OF,hepatic veins,C0019155,"Body Part, Organ, or Organ Component",True,True
+4430,hepatic artery,C0019145,"Body Part, Organ, or Organ Component",CONNECTED_TO,sinusoids,C0682624,Body Space or Junction,True,True
+4430,capillaries,C0006901,"Body Part, Organ, or Organ Component",CONNECTED_TO,interlobular veins,C1512857,"Body Part, Organ, or Organ Component",True,True
+4436,kupffer cells,C0022801,Cell,PART_OF,vessel lining,C0005847,"Body Part, Organ, or Organ Component",True,True
+4445,hepatocyte,C0227525,Cell,PRODUCES,proteins,C0033684,"Amino Acid, Peptide, or Protein",True,True
+4445,hepatocyte,C0227525,Cell,PRODUCES,lipoproteins,C0023820,"Amino Acid, Peptide, or Protein",True,True
+4447,perisinusoidal space,C0227530,Body Space or Junction,LOCATION_OF,microvilli,C0026049,Cell Component,True,True
+4448,hepatic stellate cells,C2340138,Cell,PRODUCES,collagen,C0009325,"Amino Acid, Peptide, or Protein",True,True
+4485,hepatocytes,C0227525,Cell,PRODUCES,bile,C0005388,Body Substance,True,True
+4485,microvilli,C0026049,Cell Component,PART_OF,hepatocytes,C0227525,Cell,True,True
+4492,bile ductule,C0005400,"Body Part, Organ, or Organ Component",PART_OF,biliary tree,C0005423,"Body Part, Organ, or Organ Component",True,True
+4498,cystic duct,C0010672,"Body Part, Organ, or Organ Component",CONNECTED_TO,common hepatic duct,C0019149,"Body Part, Organ, or Organ Component",True,True
+4498,cystic duct,C0010672,"Body Part, Organ, or Organ Component",CONNECTED_TO,gallbladder,C0016976,"Body Part, Organ, or Organ Component",True,True
+4503,hepatocytes,C0227525,Cell,PRODUCES,bile salts,C0005404,Organic Chemical,True,True
+4509,gallbladder,C0016976,"Body Part, Organ, or Organ Component",CONTAINS,bile,C0005388,Body Substance,True,True
+4516,lamina propria,C1179187,Tissue,LOCATION_OF,mucin-secreting glands,C0334368,Neoplastic Process,True,True
+4516,gallbladder,C0016976,"Body Part, Organ, or Organ Component",LOCATION_OF,mucin-secreting glands,C0334368,Neoplastic Process,True,True
+4523,bacteria,C0004611,Bacterium,CAUSES,chronic inflammation,C0021376,Pathologic Function,True,True
+4528,pancreatic duct,C0030288,"Body Part, Organ, or Organ Component",TRAVERSES,pancreas,C0030274,"Body Part, Organ, or Organ Component",True,True
+4528,pancreatic duct,C0030288,"Body Part, Organ, or Organ Component",CONNECTED_TO,bile duct,C0005400,"Body Part, Organ, or Organ Component",True,True
+4534,exocrine,C0015282,"Body Part, Organ, or Organ Component",PRODUCES,enzymes,C0534101,"Amino Acid, Peptide, or Protein",True,True
+4552,accessory pancreatic duct,C0227573,"Body Part, Organ, or Organ Component",LOCATION_OF,head of pancreas,C0018670,Body Location or Region,True,True
+4552,interlobular ducts,C0227515,"Body Part, Organ, or Organ Component",CONNECTED_TO,pancreatic duct,C0030288,"Body Part, Organ, or Organ Component",True,True
+4570,minor islet cells,C0007634,Cell,PART_OF,islet tissue,C0040300,Tissue,True,True
+4573,hormones,C0019932,Hormone,AFFECTS,metabolic functions,C0025519,Organism Function,True,True
+4575,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,uptake,C0243144,Physiologic Function,True,True
+4575,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glycolysis,C0017952,Molecular Function,True,True
+4577,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,glycerol synthesis,C1156366,Molecular Function,True,True
+4577,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,lipase activity,C1149836,Molecular Function,True,True
+4577,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,protein catabolism,C0597297,Molecular Function,True,True
+4581,glucagon,C0017687,"Amino Acid, Peptide, or Protein",AFFECTS,gluconeogenesis,C0017715,Molecular Function,True,True
+4582,somatostatin,C0037659,"Amino Acid, Peptide, or Protein",AFFECTS,glucagon secretion,C2610739,Cell Function,True,True
+4599,insulin,C0021641,"Amino Acid, Peptide, or Protein",AFFECTS,exocrine secretion,C0683144,Cell Function,True,True
+4599,vasoactive intestinal peptide,C0042395,"Amino Acid, Peptide, or Protein",AFFECTS,exocrine secretion,C0683144,Cell Function,True,True
+4599,cck,C0008328,"Amino Acid, Peptide, or Protein",AFFECTS,exocrine secretion,C0683144,Cell Function,True,True
+4600,glucagon,C0017687,"Amino Acid, Peptide, or Protein",AFFECTS,exocrine secretion,C0683144,Cell Function,True,True
+4600,pancreatic polypeptide,C0030298,"Amino Acid, Peptide, or Protein",AFFECTS,exocrine secretion,C0683144,Cell Function,True,True
+4600,somatostatin,C0037659,"Amino Acid, Peptide, or Protein",AFFECTS,exocrine secretion,C0683144,Cell Function,True,True
+4601,b cells,C0004561,Cell,PRODUCES,insulin,C0021641,"Amino Acid, Peptide, or Protein",True,True
+4608,hepatic venules,C0042520,"Body Part, Organ, or Organ Component",BRANCH_OF,hepatic vein,C0019155,"Body Part, Organ, or Organ Component",True,True
+4608,central veins,C1116449,"Body Part, Organ, or Organ Component",BRANCH_OF,hepatic vein,C0019155,"Body Part, Organ, or Organ Component",True,True
+4612,portal canal,C0682621,"Body Part, Organ, or Organ Component",PART_OF,lobule,C0921005,"Body Part, Organ, or Organ Component",True,True
+4614,bile duct,C0005400,"Body Part, Organ, or Organ Component",PART_OF,portal lobule,C0682620,"Body Part, Organ, or Organ Component",True,True
+4628,mucosa,C0026724,Tissue,CONSISTS_OF,tall simple columnar absorptive epithelium,C0014609,Tissue,True,True
+4628,lamina propria,C1179187,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+4642,acini,C0596030,Cell,CONSISTS_OF,serous cells,C0007634,Cell,True,True
+4646,cells,C0007634,Cell,PART_OF,intercalated duct,C1512817,"Body Part, Organ, or Organ Component",True,True
+4653,lung,C0024109,"Body Part, Organ, or Organ Component",LOCATION_OF,respiration,C0035203,Physiologic Function,True,True
+4655,nasopharynx,C0027442,"Body Part, Organ, or Organ Component",ADJACENT_TO,nasal cavities,C0027423,Body Space or Junction,True,True
+4657,trachea,C0040578,"Body Part, Organ, or Organ Component",CONNECTED_TO,larynx,C0023078,"Body Part, Organ, or Organ Component",True,True
+4658,bronchi,C0006255,"Body Part, Organ, or Organ Component",PART_OF,lung,C0024109,"Body Part, Organ, or Organ Component",True,True
+4660,bronchioles,C0006270,"Body Part, Organ, or Organ Component",BRANCH_OF,bronchi,C0006255,"Body Part, Organ, or Organ Component",True,True
+4660,internal bronchi,C0006255,"Body Part, Organ, or Organ Component",PART_OF,bronchial tree,C0819141,"Body Part, Organ, or Organ Component",True,True
+4660,bronchioles,C0006270,"Body Part, Organ, or Organ Component",PART_OF,bronchial tree,C0819141,"Body Part, Organ, or Organ Component",True,True
+4662,pulmonary capillaries,C0507816,"Body Part, Organ, or Organ Component",CONNECTED_TO,alveoli,C1515933,"Body Part, Organ, or Organ Component",True,True
+4667,nasal vestibule,C0225427,Body Space or Junction,CONTAINS,vibrissae,C0042640,"Body Part, Organ, or Organ Component",True,True
+4679,lamina propria,C1179187,Tissue,ADJACENT_TO,periosteum,C0031110,Tissue,True,True
+4687,cilia,C0008778,Cell Component,PART_OF,olfactory receptor cells,C1518565,Cell,True,True
+4692,brush cells,C1180392,Cell,PART_OF,olfactory epithelium,C0599332,Tissue,True,True
+4692,nerve fibers,C0027749,Cell Component,PART_OF,trigeminal nerve,C0040996,"Body Part, Organ, or Organ Component",True,True
+4695,olfactory receptors,C0164313,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,enzyme adenylyl cyclase,C0001492,"Amino Acid, Peptide, or Protein",True,True
+4695,axons,C0004461,Cell Component,PART_OF,olfactory receptor cells,C1518565,Cell,True,True
+4698,short ducts,C0687028,"Body Part, Organ, or Organ Component",CONNECTED_TO,glands,C0225396,"Body Part, Organ, or Organ Component",True,True
+4703,pharynx,C0031354,"Body Part, Organ, or Organ Component",CONNECTED_TO,nasal,C0028429,"Body Part, Organ, or Organ Component",True,True
+4703,pharynx,C0031354,"Body Part, Organ, or Organ Component",CONNECTED_TO,larynx,C0023078,"Body Part, Organ, or Organ Component",True,True
+4703,pharynx,C0031354,"Body Part, Organ, or Organ Component",CONNECTED_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+4704,larynx,C0023078,"Body Part, Organ, or Organ Component",CONNECTED_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+4706,vocal folds,C0042930,"Body Part, Organ, or Organ Component",PART_OF,larynx,C0023078,"Body Part, Organ, or Organ Component",True,True
+4709,viruses,C0042776,Virus,CAUSES,acute laryngitis,C0001327,Disease or Syndrome,True,True
+4710,epithelium,C0836131,Tissue,PART_OF,larynx,C0023078,"Body Part, Organ, or Organ Component",True,True
+4713,vestibule,C0042606,Body Space or Junction,PART_OF,larynx,C0023078,"Body Part, Organ, or Organ Component",True,True
+4714,vocal fold,C0042930,"Body Part, Organ, or Organ Component",CONSISTS_OF,vocal ligament,C0225526,"Body Part, Organ, or Organ Component",True,True
+4714,vocal fold,C0042930,"Body Part, Organ, or Organ Component",CONSISTS_OF,vocalis muscle,C0224181,"Body Part, Organ, or Organ Component",True,True
+4714,mucosa,C0026724,Tissue,LOCATION_OF,lymph nodules,C0028259,Acquired Abnormality,True,True
+4715,trachea,C0040578,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+4715,cartilaginous layer,C0007301,Tissue,CONSISTS_OF,c-shaped hyaline cartilages,C0225362,Tissue,True,True
+4715,adventitia,C0225342,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+4722,tracheal epithelium,C1179002,Tissue,CONTAINS,mucous cells,C0026727,Body Substance,True,True
+4732,basement membrane,C0004799,Tissue,PART_OF,lamina propria,C1179187,Tissue,True,True
+4733,lymphatic tissue,C0024296,Tissue,DEVELOPMENTAL_FORM_OF,bronchus-associated lymphatic tissue,C1179418,Tissue,True,True
+4743,tracheal cartilages,C0225588,"Body Part, Organ, or Organ Component",PART_OF,tracheal wall,C0502413,"Body Part, Organ, or Organ Component",True,True
+4746,adventitia,C0225342,Tissue,ADJACENT_TO,cartilage rings,C0007301,Tissue,True,True
+4753,smooth muscle,C1267092,Tissue,PART_OF,layer,C0934502,"Body Part, Organ, or Organ Component",True,True
+4754,smooth muscle,C1267092,Tissue,PART_OF,muscularis,C0225358,"Body Part, Organ, or Organ Component",True,True
+4760,bronchioles,C0006270,"Body Part, Organ, or Organ Component",BRANCH_OF,segmental bronchi,C0444439,"Body Part, Organ, or Organ Component",True,True
+4765,cuboidal epithelium,C0682577,Tissue,PART_OF,small bronchioles,C0006270,"Body Part, Organ, or Organ Component",True,True
+4765,cuboidal epithelium,C0682577,Tissue,PART_OF,terminal bronchiole,C0225666,"Body Part, Organ, or Organ Component",True,True
+4767,alveoli,C1515933,"Body Part, Organ, or Organ Component",SURROUNDS,terminal bronchiole,C0225666,"Body Part, Organ, or Organ Component",True,True
+4768,clara cells,C0225668,Cell,PRODUCES,surface-active agent,C0023820,"Amino Acid, Peptide, or Protein",True,True
+4768,clara cells,C0225668,Cell,PRODUCES,clara cell secretory protein,C0042147,"Amino Acid, Peptide, or Protein",True,True
+4771,respiratory bronchioles,C1261270,"Body Part, Organ, or Organ Component",PART_OF,bronchial tree,C0819141,"Body Part, Organ, or Organ Component",True,True
+4778,alveolar sac,C0225691,"Body Part, Organ, or Organ Component",BRANCH_OF,alveolar duct,C0391892,"Body Part, Organ, or Organ Component",True,True
+4784,type ii alveolar cells,C0225700,Cell,PRODUCES,surfactant layer,C0034085,Organic Chemical,True,True
+4795,short microvilli,C0026049,Cell Component,PART_OF,type ii alveolar cell,C0225700,Cell,True,True
+4802,rer,C0230779,Cell Component,PRODUCES,surfactant,C0034085,Organic Chemical,True,True
+4808,exocrine glands,C0015282,"Body Part, Organ, or Organ Component",PRODUCES,mucus,C0026727,Body Substance,True,True
+4812,lung,C0024109,"Body Part, Organ, or Organ Component",LOCATION_OF,emphysema,C0013990,Pathologic Function,True,True
+4812,cigarette smoking,C0239059,Hazardous or Poisonous Substance,CAUSES,emphysema,C0013990,Pathologic Function,True,True
+4812,lung neutrophils,C0027950,Cell,PRODUCES,elastase,C0030306,"Amino Acid, Peptide, or Protein",True,True
+4812,macrophages,C0024432,Cell,PRODUCES,elastase,C0030306,"Amino Acid, Peptide, or Protein",True,True
+4824,nuclei,C0007610,Cell Component,PART_OF,olfactory nerves,C0028938,"Body Part, Organ, or Organ Component",True,True
+4828,vocal ligament,C0225526,"Body Part, Organ, or Organ Component",PART_OF,vocal fold,C0042930,"Body Part, Organ, or Organ Component",True,True
+4838,c-shaped hyaline cartilages,C0225362,Tissue,PART_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+4838,trachealis muscle,C0225595,"Body Part, Organ, or Organ Component",PART_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+4838,lobar bronchi,C0006255,"Body Part, Organ, or Organ Component",BRANCH_OF,primary bronchi,C0024496,"Body Part, Organ, or Organ Component",True,True
+4848,smooth muscle,C1267092,Tissue,PART_OF,bronchiolar wall,C1184207,"Body Part, Organ, or Organ Component",True,True
+4850,blood vessels,C0005847,"Body Part, Organ, or Organ Component",ADJACENT_TO,bronchiole,C0006270,"Body Part, Organ, or Organ Component",True,True
+4852,cartilage,C0007301,Tissue,PART_OF,bronchiolar wall,C1184207,"Body Part, Organ, or Organ Component",True,True
+4853,connective tissue,C0009780,Tissue,SURROUNDS,smooth muscle,C1267092,Tissue,True,True
+4856,alveolar sac,C0225691,"Body Part, Organ, or Organ Component",CONSISTS_OF,alveoli,C1515933,"Body Part, Organ, or Organ Component",True,True
+4856,alveolar duct,C0391892,"Body Part, Organ, or Organ Component",CONSISTS_OF,alveoli,C1515933,"Body Part, Organ, or Organ Component",True,True
+4859,alveolar duct,C0391892,"Body Part, Organ, or Organ Component",BRANCH_OF,respiratory bronchioles,C1261270,"Body Part, Organ, or Organ Component",True,True
+4859,alveolar duct,C0391892,"Body Part, Organ, or Organ Component",CONNECTED_TO,alveolar sacs,C0225691,"Body Part, Organ, or Organ Component",True,True
+4859,type ii alveolar cells,C0225700,Cell,PRODUCES,surfactant,C0034085,Organic Chemical,True,True
+4873,paired ureters,C0041951,"Body Part, Organ, or Organ Component",CONNECTED_TO,kidneys,C0022646,"Body Part, Organ, or Organ Component",True,True
+4873,paired ureters,C0041951,"Body Part, Organ, or Organ Component",CONNECTED_TO,urinary bladder,C0005682,"Body Part, Organ, or Organ Component",True,True
+4876,kidneys,C0022646,"Body Part, Organ, or Organ Component",PRODUCES,urine,C0042036,Body Substance,True,True
+4880,kidneys,C0022646,"Body Part, Organ, or Organ Component",PRODUCES,erythropoietin,C0014822,"Amino Acid, Peptide, or Protein",True,True
+4882,juxtaglomerular cells,C0227650,Cell,PRODUCES,renin,C0035094,"Amino Acid, Peptide, or Protein",True,True
+4891,nephron,C0027713,"Body Part, Organ, or Organ Component",PART_OF,kidney,C0022646,"Body Part, Organ, or Organ Component",True,True
+4896,medullary ray,C1183963,"Body Part, Organ, or Organ Component",CONSISTS_OF,straight tubules,C1516697,"Body Part, Organ, or Organ Component",True,True
+4896,medullary ray,C1183963,"Body Part, Organ, or Organ Component",CONSISTS_OF,collecting ducts,C0687028,"Body Part, Organ, or Organ Component",True,True
+4899,straight tubules,C0022674,"Body Part, Organ, or Organ Component",TRAVERSES,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+4899,collecting ducts,C0687028,"Body Part, Organ, or Organ Component",TRAVERSES,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+4899,capillary network,C0836189,"Body Part, Organ, or Organ Component",ADJACENT_TO,tubules,C0022674,"Body Part, Organ, or Organ Component",True,True
+4901,cortical tissue,C0040300,Tissue,PART_OF,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+4902,renal columns,C0736346,"Body Part, Organ, or Organ Component",PART_OF,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+4903,minor calyces,C0227676,"Body Part, Organ, or Organ Component",BRANCH_OF,major calyces,C0022651,"Body Part, Organ, or Organ Component",True,True
+4903,major calyces,C0022651,"Body Part, Organ, or Organ Component",PART_OF,renal pelvis,C0227666,"Body Part, Organ, or Organ Component",True,True
+4905,cortical tissue,C0040300,Tissue,PART_OF,lobe,C0796494,"Body Part, Organ, or Organ Component",True,True
+4905,convexity,C4329648,"Body Part, Organ, or Organ Component",PART_OF,organ,C0178784,"Body Part, Organ, or Organ Component",True,True
+4906,lobule,C0921005,"Body Part, Organ, or Organ Component",CONSISTS_OF,collecting duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+4906,lobule,C0921005,"Body Part, Organ, or Organ Component",CONSISTS_OF,nephrons,C0027713,"Body Part, Organ, or Organ Component",True,True
+4907,lobule,C0921005,"Body Part, Organ, or Organ Component",PART_OF,lobe,C0796494,"Body Part, Organ, or Organ Component",True,True
+4913,nephrons,C0027713,"Body Part, Organ, or Organ Component",PRODUCES,urine,C0042036,Body Substance,True,True
+4913,nephrons,C0027713,"Body Part, Organ, or Organ Component",CONNECTED_TO,collecting tubules,C0022674,"Body Part, Organ, or Organ Component",True,True
+4915,nephron,C0027713,"Body Part, Organ, or Organ Component",CONSISTS_OF,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",True,True
+4916,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",PART_OF,nephron,C0027713,"Body Part, Organ, or Organ Component",True,True
+4916,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",CONSISTS_OF,glomerulus,C0022663,"Body Part, Organ, or Organ Component",True,True
+4916,renal corpuscle,C0227635,"Body Part, Organ, or Organ Component",CONSISTS_OF,capillaries,C0006901,"Body Part, Organ, or Organ Component",True,True
+4916,bowman's capsule,C0524448,"Body Part, Organ, or Organ Component",PART_OF,nephron,C0027713,"Body Part, Organ, or Organ Component",True,True
+4918,uriniferous tubule,C0736401,"Body Part, Organ, or Organ Component",CONSISTS_OF,nephron,C0027713,"Body Part, Organ, or Organ Component",True,True
+4924,medulla,C0025148,"Body Part, Organ, or Organ Component",LOCATION_OF,thin descending limb,C4287894,Therapeutic or Preventive Procedure,True,True
+4925,thin descending limb,C0736425,"Body Part, Organ, or Organ Component",CONNECTED_TO,thin ascending limb,C0015385,"Body Part, Organ, or Organ Component",True,True
+4926,thin ascending limb,C0015385,"Body Part, Organ, or Organ Component",CONNECTED_TO,distal straight tubule,C1516697,"Body Part, Organ, or Organ Component",True,True
+4926,vascular pole,C0005847,"Body Part, Organ, or Organ Component",CONNECTED_TO,distal straight tubule,C1516697,"Body Part, Organ, or Organ Component",True,True
+4927,distal convoluted tubule,C0022676,"Body Part, Organ, or Organ Component",CONNECTED_TO,collecting duct,C0687028,"Body Part, Organ, or Organ Component",True,True
+4943,urinary space,C0227643,Body Space or Junction,LOCATION_OF,glomerular ultrafiltrate,C0232809,Organ or Tissue Function,True,True
+4944,hematuria,C0018965,Disease or Syndrome,MANIFESTATION_OF,hereditary glomerulonephritis,C0027706,Disease or Syndrome,True,True
+4944,proteinuria,,Disease or Syndrome,MANIFESTATION_OF,hereditary glomerulonephritis,C0027706,Disease or Syndrome,True,True
+4944,renal failure,C0035078,Disease or Syndrome,MANIFESTATION_OF,hereditary glomerulonephritis,C0027706,Disease or Syndrome,True,True
+4945,cytoplasm,C0010834,Cell Component,PART_OF,endothelial cell,C0225336,Cell,True,True
+4948,actin cytoskeleton,C0025979,Cell Component,PART_OF,podocytes,C1328818,Cell,True,True
+4951,glycocalyx,C0061622,Cell Component,PART_OF,endothelial surface layer,C0014257,Tissue,True,True
+4951,peripheral membrane proteins,C1167320,Cell Component,PART_OF,glycocalyx,C0061622,Cell Component,True,True
+4955,lamina rara interna,C1517719,Tissue,ADJACENT_TO,capillary endothelium,C0006904,Tissue,True,True
+4966,simple squamous epithelium,C0836133,Tissue,PART_OF,parietal layer,C0225969,"Body Part, Organ, or Organ Component",True,True
+4967,parietal layer,C0225969,"Body Part, Organ, or Organ Component",ADJACENT_TO,cuboidal epithelium,C0682577,Tissue,True,True
+4967,proliferation,C0334094,Pathologic Function,MANIFESTATION_OF,glomerulonephritis,C0017658,Disease or Syndrome,True,True
+4967,urinary space,C0227643,Body Space or Junction,ADJACENT_TO,lumen,C0524461,Body Space or Junction,True,True
+4968,mesangial cells,C0227651,Cell,PART_OF,mesangium,C0017655,"Body Part, Organ, or Organ Component",True,True
+4972,mesangial cells,C0227651,Cell,PRODUCES,interleukin 1,C0021755,"Amino Acid, Peptide, or Protein",True,True
+4972,mesangial cells,C0227651,Cell,PRODUCES,pge2,C0012472,Organic Chemical,True,True
+4972,mesangial cells,C0227651,Cell,PRODUCES,platelet-derived growth factor,C0032200,"Amino Acid, Peptide, or Protein",True,True
+4994,lung,C0024109,"Body Part, Organ, or Organ Component",PRODUCES,angiotensin ii,C0003009,"Amino Acid, Peptide, or Protein",True,True
+5006,microvilli,C0026049,Cell Component,PART_OF,brush border,C1318418,Cell Component,True,True
+5014,na,C0037473,Biologically Active Substance,AFFECTS,glucose resorption,C3158808,Cell Function,True,True
