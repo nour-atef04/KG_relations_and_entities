@@ -1,0 +1,691 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+3,neck,C0027530,Body Location or Region,LOCATION_OF,lingual artery,C0226104,"Body Part, Organ, or Organ Component",True,True
+8,thorax,C0817096,Body Location or Region,LOCATION_OF,nerves,C0027740,"Body Part, Organ, or Organ Component",True,True
+8,thorax,C0817096,Body Location or Region,LOCATION_OF,bones,C0262950,"Body Part, Organ, or Organ Component",True,True
+8,thorax,C0817096,Body Location or Region,LOCATION_OF,muscles,C0026845,Tissue,True,True
+8,thorax,C0817096,Body Location or Region,LOCATION_OF,organs,C0178784,"Body Part, Organ, or Organ Component",True,True
+61,spect,C0040399,Diagnostic Procedure,DIAGNOSES,coronary artery disease,C0010054,Disease or Syndrome,True,True
+61,spect,C0040399,Diagnostic Procedure,DIAGNOSES,bone fractures,C0016658,Injury or Poisoning,True,True
+82,axial skeleton,C0222645,"Body Part, Organ, or Organ Component",CONSISTS_OF,bones,C0262950,"Body Part, Organ, or Organ Component",True,True
+82,appendicular skeleton,C0222646,"Body Part, Organ, or Organ Component",CONSISTS_OF,bones,C0262950,"Body Part, Organ, or Organ Component",True,True
+85,fibrocartilage,C0684077,Tissue,CONTAINS,ground substance,C1253945,Body Substance,True,True
+88,compact bone,C0222661,Tissue,SURROUNDS,spongy bone,C0222660,Tissue,True,True
+94,nutrient artery,C0278431,"Body Part, Organ, or Organ Component",BRANCH_OF,artery,C0003842,"Body Part, Organ, or Organ Component",True,True
+101,synovial membrane,C0039099,"Body Part, Organ, or Organ Component",PRODUCES,synovial fluid,C0039097,Body Substance,True,True
+101,tendon sheaths,C0224856,"Body Part, Organ, or Organ Component",SURROUNDS,tendons,C0039508,"Body Part, Organ, or Organ Component",True,True
+102,fibrous membrane,C1185706,Tissue,SURROUNDS,joint,C0022417,Body Space or Junction,True,True
+103,synovial joints,C0224507,Body Space or Junction,CONTAINS,articular discs,C0224498,"Body Part, Organ, or Organ Component",True,True
+103,synovial joints,C0224507,Body Space or Junction,CONTAINS,fat pads,C0935625,Tissue,True,True
+103,synovial joints,C0224507,Body Space or Junction,CONTAINS,tendons,C0039508,"Body Part, Organ, or Organ Component",True,True
+119,ligamentum flavum,C0206327,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral laminae,C0549207,"Body Part, Organ, or Organ Component",True,True
+119,interosseous membrane,C1178954,"Body Part, Organ, or Organ Component",CONNECTED_TO,radius,C0034627,"Body Part, Organ, or Organ Component",True,True
+119,interosseous membrane,C1178954,"Body Part, Organ, or Organ Component",CONNECTED_TO,ulna,C0041600,"Body Part, Organ, or Organ Component",True,True
+126,superficial (subcutaneous) fascia,C0278403,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+127,deep fascia,C1511746,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+127,outer layer,C1518991,"Body Part, Organ, or Organ Component",CONNECTED_TO,superficial (subcutaneous) fascia,C0278403,Tissue,True,True
+133,tunica intima,C0162864,"Body Part, Organ, or Organ Component",PART_OF,blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+136,tunica media,C0162867,Tissue,PART_OF,muscular arteries,C0226002,"Body Part, Organ, or Organ Component",True,True
+145,veins,C0042449,"Body Part, Organ, or Organ Component",ADJACENT_TO,arteries,C0003842,"Body Part, Organ, or Organ Component",True,True
+148,vessels,C0005847,"Body Part, Organ, or Organ Component",CONNECTED_TO,veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+159,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",CONNECTED_TO,veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+166,cerebral hemispheres,C0228174,"Body Part, Organ, or Organ Component",PART_OF,brain,C0006104,"Body Part, Organ, or Organ Component",True,True
+166,cerebellum,C0007765,"Body Part, Organ, or Organ Component",PART_OF,brain,C0006104,"Body Part, Organ, or Organ Component",True,True
+166,brainstem,C0006121,"Body Part, Organ, or Organ Component",PART_OF,brain,C0006104,"Body Part, Organ, or Organ Component",True,True
+166,gray matter,C0018220,Tissue,PART_OF,cerebral hemispheres,C0228174,"Body Part, Organ, or Organ Component",True,True
+166,white matter,C0682708,Tissue,PART_OF,cerebral hemispheres,C0228174,"Body Part, Organ, or Organ Component",True,True
+166,ventricles,C0018827,"Body Part, Organ, or Organ Component",PART_OF,cerebral hemispheres,C0228174,"Body Part, Organ, or Organ Component",True,True
+166,ventricles,C0018827,"Body Part, Organ, or Organ Component",CONTAINS,csf,C0007806,Body Substance,True,True
+167,diencephalon,C0012144,"Body Part, Organ, or Organ Component",PART_OF,brainstem,C0006121,"Body Part, Organ, or Organ Component",True,True
+167,midbrain,C0025462,"Body Part, Organ, or Organ Component",PART_OF,brainstem,C0006121,"Body Part, Organ, or Organ Component",True,True
+167,pons,C0032639,"Body Part, Organ, or Organ Component",PART_OF,brainstem,C0006121,"Body Part, Organ, or Organ Component",True,True
+167,medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,brainstem,C0006121,"Body Part, Organ, or Organ Component",True,True
+175,subarachnoid space,C0038527,Body Space or Junction,CONTAINS,csf,C0007806,Body Substance,True,True
+188,neural tube,C0231024,Embryonic Structure,LOCATION_OF,medial processes,C0025361,Mental Process,True,True
+191,somatic sensory and somatic motor fibers,C3496508,"Body Part, Organ, or Organ Component",PART_OF,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+195,somatic motor fibers,C3496508,"Body Part, Organ, or Organ Component",CONNECTED_TO,skeletal muscles,C0242692,Tissue,True,True
+196,somatic sensory fibers,C3496507,"Body Part, Organ, or Organ Component",PART_OF,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",True,True
+198,somatic motor nerves,C0501394,"Body Part, Organ, or Organ Component",PART_OF,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",True,True
+224,trunk,C0225442,"Body Part, Organ, or Organ Component",CONNECTED_TO,anterior rami,C0037941,"Body Part, Organ, or Organ Component",True,True
+225,preganglionic fibers,C0004385,"Body Part, Organ, or Organ Component",TRAVERSES,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+227,gray ramus communicans,C0501391,"Body Part, Organ, or Organ Component",CONNECTED_TO,sympathetic trunk,C0228972,"Body Part, Organ, or Organ Component",True,True
+227,gray ramus communicans,C0501391,"Body Part, Organ, or Organ Component",CONNECTED_TO,ganglion,C0017067,"Body Part, Organ, or Organ Component",True,True
+227,gray ramus communicans,C0501391,"Body Part, Organ, or Organ Component",CONNECTED_TO,anterior ramus,C0228810,"Body Part, Organ, or Organ Component",True,True
+230,postganglionic fibers,C0004384,"Body Part, Organ, or Organ Component",CONNECTED_TO,gray rami communicantes,C0228978,"Body Part, Organ, or Organ Component",True,True
+230,postganglionic fibers,C0004384,"Body Part, Organ, or Organ Component",CONNECTED_TO,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+234,postganglionic fibers,C0004384,"Body Part, Organ, or Organ Component",TRAVERSES,blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+238,preganglionic sympathetic fibers,C0206254,"Body Part, Organ, or Organ Component",TRAVERSES,sympathetic trunk,C0228972,"Body Part, Organ, or Organ Component",True,True
+238,preganglionic sympathetic fibers,C0206254,"Body Part, Organ, or Organ Component",TRAVERSES,paravertebral ganglia,C0228973,"Body Part, Organ, or Organ Component",True,True
+239,ganglia,C0017067,"Body Part, Organ, or Organ Component",PART_OF,prevertebral plexus,C1184808,"Body Part, Organ, or Organ Component",True,True
+240,preganglionic fibers,C0004385,"Body Part, Organ, or Organ Component",TRAVERSES,adrenal gland,C0001625,"Body Part, Organ, or Organ Component",True,True
+240,cells,C0007634,Cell,PRODUCES,adrenaline,C0014563,Organic Chemical,True,True
+240,cells,C0007634,Cell,PRODUCES,noradrenaline,C0028351,Organic Chemical,True,True
+262,visceral nerve plexuses,C0501403,"Body Part, Organ, or Organ Component",CONNECTED_TO,viscera,C0042779,"Body Part, Organ, or Organ Component",True,True
+272,abdomen,C0000726,Body Location or Region,LOCATION_OF,computed tomography scan,C0860888,Diagnostic Procedure,True,True
+273,sagittal plane,C0935598,Body Location or Region,LOCATION_OF,t2-weighted mr image,C5556594,Diagnostic Procedure,True,True
+321,sympathetic nerves,C0459521,"Body Part, Organ, or Organ Component",TRAVERSES,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+323,sympathetic nerves,C0459521,"Body Part, Organ, or Organ Component",TRAVERSES,pelvic viscera,C0230273,"Body Part, Organ, or Organ Component",True,True
+364,joint replacement,C0185317,Therapeutic or Preventive Procedure,TREATS,degenerative joint disease,C0029408,Disease or Syndrome,True,True
+372,psoas fascia,C0736775,"Body Part, Organ, or Organ Component",SURROUNDS,muscle,C0026845,Tissue,True,True
+389,legs,C1140621,"Body Part, Organ, or Organ Component",LOCATION_OF,varicose veins,C0042345,Disease or Syndrome,True,True
+389,superficial veins,C0226513,"Body Part, Organ, or Organ Component",LOCATION_OF,varicose veins,C0042345,Disease or Syndrome,True,True
+417,primary curvature,C1184511,"Body Part, Organ, or Organ Component",PART_OF,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+428,vertebral body,C0223084,"Body Part, Organ, or Organ Component",PART_OF,vertebra,C0549207,"Body Part, Organ, or Organ Component",True,True
+428,vertebral arch,C0223076,"Body Part, Organ, or Organ Component",PART_OF,vertebra,C0549207,"Body Part, Organ, or Organ Component",True,True
+431,vertebral canal,C0037922,Body Space or Junction,CONTAINS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+431,vertebral canal,C0037922,Body Space or Junction,CONTAINS,blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+431,vertebral canal,C0037922,Body Space or Junction,CONTAINS,connective tissue,C0009780,Tissue,True,True
+431,vertebral canal,C0037922,Body Space or Junction,CONTAINS,fat,C0001527,Tissue,True,True
+431,vertebral canal,C0037922,Body Space or Junction,CONTAINS,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+439,intrinsic muscles,C0448353,"Body Part, Organ, or Organ Component",CONNECTED_TO,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+440,bony canal,C0086881,Body Space or Junction,CONTAINS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+443,meninges,C0025285,"Body Part, Organ, or Organ Component",SURROUNDS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+444,pia mater,C0031869,"Body Part, Organ, or Organ Component",ADJACENT_TO,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+445,subarachnoid space,C0038527,Body Space or Junction,CONTAINS,cerebrospinal fluid,C0007806,Body Substance,True,True
+446,dura mater,C0013313,"Body Part, Organ, or Organ Component",ADJACENT_TO,arachnoid mater,C0003707,"Body Part, Organ, or Organ Component",True,True
+452,paired vertebral arteries,C0042559,"Body Part, Organ, or Organ Component",TRAVERSES,foramina,C0448011,"Body Part, Organ, or Organ Component",True,True
+458,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",BRANCH_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+458,vertebral canal,C0037922,Body Space or Junction,CONTAINS,nerve roots,C0228084,"Body Part, Organ, or Organ Component",True,True
+462,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",True,True
+463,bone loss,C0029453,Disease or Syndrome,AFFECTS,function,C0031843,Physiologic Function,True,True
+463,herniation,C0019270,Anatomical Abnormality,AFFECTS,function,C0031843,Physiologic Function,True,True
+469,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",True,True
+469,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,transverse processes,C0223078,"Body Part, Organ, or Organ Component",True,True
+472,coccygeal vertebrae,C0223616,"Body Part, Organ, or Organ Component",PART_OF,coccyx,C0009194,"Body Part, Organ, or Organ Component",True,True
+474,vertebral arch,C0223076,"Body Part, Organ, or Organ Component",CONNECTED_TO,bone,C0005931,Tissue,True,True
+475,vertebral body,C0223084,"Body Part, Organ, or Organ Component",CONNECTED_TO,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",True,True
+475,vertebral body,C0223084,"Body Part, Organ, or Organ Component",CONNECTED_TO,ligaments,C0023685,Tissue,True,True
+480,roof,C0700374,"Body Part, Organ, or Organ Component",PART_OF,vertebral arch,C0223076,"Body Part, Organ, or Organ Component",True,True
+492,lateral mass,C0222722,"Body Part, Organ, or Organ Component",CONNECTED_TO,occipital condyle,C0037303,"Body Part, Organ, or Organ Component",True,True
+492,lateral mass,C0222722,"Body Part, Organ, or Organ Component",CONNECTED_TO,superior articular process,C0022417,Body Space or Junction,True,True
+498,alar ligaments,C0225002,"Body Part, Organ, or Organ Component",CONNECTED_TO,occipital condyles,C0222722,"Body Part, Organ, or Organ Component",True,True
+499,thoracic vertebrae,C0039987,"Body Part, Organ, or Organ Component",CONNECTED_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+499,vertebral body,C0223084,"Body Part, Organ, or Organ Component",CONNECTED_TO,rib,C0035561,"Body Part, Organ, or Organ Component",True,True
+500,transverse process,C0223078,"Body Part, Organ, or Organ Component",CONNECTED_TO,tubercle,C1184740,"Body Part, Organ, or Organ Component",True,True
+501,iliolumbar ligaments,C0582833,"Body Part, Organ, or Organ Component",CONNECTED_TO,transverse processes,C0223078,"Body Part, Organ, or Organ Component",True,True
+501,iliolumbar ligaments,C0582833,"Body Part, Organ, or Organ Component",CONNECTED_TO,pelvic bones,C3887652,"Body Part, Organ, or Organ Component",True,True
+503,sacrum,C0036033,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebra lv,C0549207,"Body Part, Organ, or Organ Component",True,True
+503,sacrum,C0036033,"Body Part, Organ, or Organ Component",CONNECTED_TO,coccyx,C0009194,"Body Part, Organ, or Organ Component",True,True
+503,sacrum,C0036033,"Body Part, Organ, or Organ Component",CONNECTED_TO,pelvic bones,C3887652,"Body Part, Organ, or Organ Component",True,True
+504,posterior sacral foramina,C0223610,Body Space or Junction,PART_OF,sacrum,C0036033,"Body Part, Organ, or Organ Component",True,True
+512,synovial joints,C0224507,Body Space or Junction,ADJACENT_TO,articular processes,C0022417,Body Space or Junction,True,True
+513,symphysis,C0224520,Body Space or Junction,CONTAINS,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",True,True
+518,outer anulus fibrosus,C0223087,"Body Part, Organ, or Organ Component",PART_OF,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",True,True
+519,fibrocartilage,C0684077,Tissue,PART_OF,anulus fibrosus,C0223087,"Body Part, Organ, or Organ Component",True,True
+520,nucleus pulposus,C1185714,"Body Part, Organ, or Organ Component",PART_OF,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",True,True
+527,longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",CONNECTED_TO,skull,C0037303,"Body Part, Organ, or Organ Component",True,True
+527,longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",True,True
+527,longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",CONNECTED_TO,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",True,True
+528,longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral canal,C0037922,Body Space or Junction,True,True
+528,posterior longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",True,True
+528,posterior longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral canal,C0037922,Body Space or Junction,True,True
+528,posterior longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",CONNECTED_TO,skull,C0037303,"Body Part, Organ, or Organ Component",True,True
+529,ligamentum flavum,C0206327,"Body Part, Organ, or Organ Component",CONNECTED_TO,lamina,C0920995,"Body Part, Organ, or Organ Component",True,True
+530,supraspinous ligament,C0225001,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebra cvii,C0549207,"Body Part, Organ, or Organ Component",True,True
+530,supraspinous ligament,C0225001,"Body Part, Organ, or Organ Component",CONNECTED_TO,skull,C0037303,"Body Part, Organ, or Organ Component",True,True
+536,interspinous ligaments,C0225000,"Body Part, Organ, or Organ Component",CONNECTED_TO,supraspinous ligament,C0225001,"Body Part, Organ, or Organ Component",True,True
+536,interspinous ligaments,C0225000,"Body Part, Organ, or Organ Component",CONNECTED_TO,ligamenta flava,C0206327,"Body Part, Organ, or Organ Component",True,True
+545,trapezius muscle,C0224361,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+553,rhomboid minor,C0224364,"Body Part, Organ, or Organ Component",ADJACENT_TO,rhomboid major,C0224363,"Body Part, Organ, or Organ Component",True,True
+556,dorsal scapular nerve,C0228846,"Body Part, Organ, or Organ Component",BRANCH_OF,brachial plexus,C0006090,"Body Part, Organ, or Organ Component",True,True
+558,serratus posterior muscles,C0224349,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+558,serratus posterior muscles,C0224349,"Body Part, Organ, or Organ Component",CONNECTED_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+579,longissimus,C0224306,"Body Part, Organ, or Organ Component",PART_OF,erector spinae,C0224301,"Body Part, Organ, or Organ Component",True,True
+582,transversospinales muscles,C0224301,"Body Part, Organ, or Organ Component",CONSISTS_OF,semispinalis,C0224315,"Body Part, Organ, or Organ Component",True,True
+582,transversospinales muscles,C0224301,"Body Part, Organ, or Organ Component",CONSISTS_OF,multifidus,C0224319,"Body Part, Organ, or Organ Component",True,True
+583,semispinalis muscles,C0224316,"Body Part, Organ, or Organ Component",PART_OF,transversospinales,C1182923,"Body Part, Organ, or Organ Component",True,True
+589,levatores costarum muscles,C1744586,"Body Part, Organ, or Organ Component",CONNECTED_TO,rib,C0035561,"Body Part, Organ, or Organ Component",True,True
+590,intertransversarii,C0448362,"Body Part, Organ, or Organ Component",ADJACENT_TO,transverse processes,C0223078,"Body Part, Organ, or Organ Component",True,True
+598,suboccipital triangle,C4763207,Body Space or Junction,CONTAINS,vertebral artery,C0042559,"Body Part, Organ, or Organ Component",True,True
+598,suboccipital triangle,C4763207,Body Space or Junction,CONTAINS,veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+604,posterior rootlets of spinal nerves,C0037941,"Body Part, Organ, or Organ Component",CONNECTED_TO,cord,C1550235,"Body Part, Organ, or Organ Component",True,True
+605,small central canal,C0459414,"Body Part, Organ, or Organ Component",PART_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+605,gray matter,C0682708,Tissue,PART_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+605,white matter,C0682708,Tissue,PART_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+616,vertebral plexus,C0228996,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+619,arachnoid mater,C0003707,"Body Part, Organ, or Organ Component",ADJACENT_TO,dura mater,C0013313,"Body Part, Organ, or Organ Component",True,True
+621,subarachnoid space,C0038527,Body Space or Junction,CONTAINS,blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+623,pia mater,C0031869,"Body Part, Organ, or Organ Component",CONNECTED_TO,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+625,denticulate ligament,C0228125,"Body Part, Organ, or Organ Component",CONNECTED_TO,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+627,spinal cord,C0037925,"Body Part, Organ, or Organ Component",LOCATION_OF,subarachnoid space,C0038527,Body Space or Junction,True,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,intervertebral foramina,C0223085,Body Space or Junction,True,True
+630,vertebral plexus,C0228996,"Body Part, Organ, or Organ Component",CONSISTS_OF,veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+633,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",CONNECTED_TO,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+634,spinal ganglion,C0017070,"Body Part, Organ, or Organ Component",LOCATION_OF,intervertebral foramen,C0223085,Body Space or Junction,True,True
+635,cell bodies,C0599444,Cell Component,LOCATION_OF,intervertebral foramen,C0223085,Body Space or Junction,True,True
+637,spinal segment,C0457846,"Body Part, Organ, or Organ Component",PART_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+638,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",LOCATION_OF,intervertebral foramen,C0223085,Body Space or Junction,True,True
+655,head,C0018670,Body Location or Region,LOCATION_OF,occipital protuberance,C1283612,"Body Part, Organ, or Organ Component",True,True
+663,ligamentum nuchae,C0225006,"Body Part, Organ, or Organ Component",CONNECTED_TO,occipital protuberance,C1283612,"Body Part, Organ, or Organ Component",True,True
+691,sacral vertebra,C1261045,"Body Part, Organ, or Organ Component",LOCATION_OF,subarachnoid space,C0038527,Body Space or Junction,True,True
+721,iliolumbar ligament,C0582833,"Body Part, Organ, or Organ Component",CONNECTED_TO,iliac crest,C0223651,"Body Part, Organ, or Organ Component",True,True
+819,osteoporosis,C0029456,Disease or Syndrome,OCCURS_IN,women,C0043210,Population Group,True,True
+819,osteoporosis,C0029456,Disease or Syndrome,OCCURS_IN,men,C0025266,Population Group,True,True
+821,osteoporosis,C0029456,Disease or Syndrome,COMPLICATES,crush vertebral body fractures,C0080179,Injury or Poisoning,True,True
+821,osteoporosis,C0029456,Disease or Syndrome,COMPLICATES,distal fractures,C0745051,Injury or Poisoning,True,True
+821,osteoporosis,C0029456,Disease or Syndrome,COMPLICATES,hip fractures,C0019557,Injury or Poisoning,True,True
+837,anterior column,C0227428,"Body Part, Organ, or Organ Component",CONSISTS_OF,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",True,True
+837,anterior column,C0227428,"Body Part, Organ, or Organ Component",CONSISTS_OF,longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",True,True
+837,middle column,C0599459,"Body Part, Organ, or Organ Component",CONSISTS_OF,vertebral body,C0223084,"Body Part, Organ, or Organ Component",True,True
+837,middle column,C0599459,"Body Part, Organ, or Organ Component",CONSISTS_OF,posterior longitudinal ligament,C0206330,"Body Part, Organ, or Organ Component",True,True
+837,posterior column,C0228576,"Body Part, Organ, or Organ Component",CONSISTS_OF,ligamenta flava,C0206327,"Body Part, Organ, or Organ Component",True,True
+837,posterior column,C0228576,"Body Part, Organ, or Organ Component",CONSISTS_OF,interspinous ligaments,C0225000,"Body Part, Organ, or Organ Component",True,True
+837,posterior column,C0228576,"Body Part, Organ, or Organ Component",CONSISTS_OF,supraspinous ligaments,C0225001,"Body Part, Organ, or Organ Component",True,True
+837,posterior column,C0228576,"Body Part, Organ, or Organ Component",CONSISTS_OF,ligamentum nuchae,C0225006,"Body Part, Organ, or Organ Component",True,True
+849,surgical procedure,C0184661,Therapeutic or Preventive Procedure,TREATS,disc protrusion,C0021818,Disease or Syndrome,True,True
+881,diagnosis,C0011900,Diagnostic Procedure,DIAGNOSES,cauda equina syndrome,C0392548,Disease or Syndrome,True,True
+881,surgical decompression,C0376530,Therapeutic or Preventive Procedure,TREATS,cauda equina syndrome,C0392548,Disease or Syndrome,True,True
+897,legs,C1140621,"Body Part, Organ, or Organ Component",LOCATION_OF,sensation,C0036658,Organ or Tissue Function,True,True
+898,paraplegia,C0030486,Disease or Syndrome,ASSOCIATED_WITH,back pain,C0004604,Sign or Symptom,True,True
+903,left upper limb,C0230330,"Body Part, Organ, or Organ Component",LOCATION_OF,blood flow,C0005775,Physiologic Function,True,True
+908,left sacrum,C0036033,Body Location or Region,LOCATION_OF,lesion,,Neoplastic Process,True,True
+909,gluteal region,C0282082,Body Location or Region,LOCATION_OF,sensation,C0036658,Organ or Tissue Function,True,True
+938,trachea,C0040578,"Body Part, Organ, or Organ Component",LOCATION_OF,thorax,C0817096,Body Location or Region,True,True
+938,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",LOCATION_OF,thorax,C0817096,Body Location or Region,True,True
+938,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",LOCATION_OF,thorax,C0817096,Body Location or Region,True,True
+940,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",CONSISTS_OF,thoracic vertebrae,C0039987,"Body Part, Organ, or Organ Component",True,True
+940,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",CONSISTS_OF,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",True,True
+941,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",CONSISTS_OF,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+942,sternum,C0038293,"Body Part, Organ, or Organ Component",CONSISTS_OF,manubrium of sternum,C0024764,"Body Part, Organ, or Organ Component",True,True
+942,sternum,C0038293,"Body Part, Organ, or Organ Component",CONSISTS_OF,body of sternum,C0222771,"Body Part, Organ, or Organ Component",True,True
+942,sternum,C0038293,"Body Part, Organ, or Organ Component",CONSISTS_OF,xiphoid process,C0043356,"Body Part, Organ, or Organ Component",True,True
+943,manubrium of sternum,C0024764,"Body Part, Organ, or Organ Component",CONNECTED_TO,body of sternum,C0222771,"Body Part, Organ, or Organ Component",True,True
+945,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,thoracic vertebrae,C0039987,"Body Part, Organ, or Organ Component",True,True
+945,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+945,rib head,,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebra,C0549207,"Body Part, Organ, or Organ Component",True,True
+945,rib head,,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebra above,,"Body Part, Organ, or Organ Component",True,True
+952,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebra ti,C0549207,"Body Part, Organ, or Organ Component",True,True
+952,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,manubrium,C0024764,"Body Part, Organ, or Organ Component",True,True
+957,cartilaginous ends,C0007301,Tissue,PART_OF,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+961,muscle fibers,C0242697,Cell,PART_OF,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+961,central tendon,C0230162,"Body Part, Organ, or Organ Component",PART_OF,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+970,pleural cavity,C0178802,Body Space or Junction,CONTAINS,pleura,C0032225,Tissue,True,True
+976,trachea,C0040578,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+981,blood vessels,C0005847,"Body Part, Organ, or Organ Component",ADJACENT_TO,rib i,C0035561,"Body Part, Organ, or Organ Component",True,True
+988,breasts,C0006141,"Body Part, Organ, or Organ Component",LOCATION_OF,pectoral region,C0230111,Body Location or Region,True,True
+991,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",CONNECTED_TO,parasternal nodes,C0229755,"Body Part, Organ, or Organ Component",True,True
+1007,sympathetic fibers,C0001646,Tissue,PART_OF,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+1012,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",BRANCH_OF,cervical plexus,C0007854,"Body Part, Organ, or Organ Component",True,True
+1018,pectoral region,C0230111,Body Location or Region,ADJACENT_TO,anterior thoracic wall,C0230132,Body Location or Region,True,True
+1020,breasts,C0006141,"Body Part, Organ, or Organ Component",CONSISTS_OF,mammary glands,C0929301,"Body Part, Organ, or Organ Component",True,True
+1020,breasts,C0006141,"Body Part, Organ, or Organ Component",CONSISTS_OF,skin,C0444099,Body Substance,True,True
+1021,mammary glands,C0929301,"Body Part, Organ, or Organ Component",CONSISTS_OF,ducts,C0687028,"Body Part, Organ, or Organ Component",True,True
+1022,stroma,C0927195,"Body Part, Organ, or Organ Component",SURROUNDS,ducts,C0687028,"Body Part, Organ, or Organ Component",True,True
+1022,stroma,C0927195,"Body Part, Organ, or Organ Component",SURROUNDS,lobules,C0921005,"Body Part, Organ, or Organ Component",True,True
+1022,suspensory ligaments of breast,C0222624,"Body Part, Organ, or Organ Component",CONNECTED_TO,dermis,C0011646,Tissue,True,True
+1026,vessels,C0005847,"Body Part, Organ, or Organ Component",BRANCH_OF,axillary artery,C0004455,"Body Part, Organ, or Organ Component",True,True
+1032,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",CONNECTED_TO,intercostal nodes,C0229761,"Body Part, Organ, or Organ Component",True,True
+1033,axillary nodes,C0729594,"Body Part, Organ, or Organ Component",CONNECTED_TO,subclavian trunks,C0229908,"Body Part, Organ, or Organ Component",True,True
+1033,parasternal nodes,C0229755,"Body Part, Organ, or Organ Component",CONNECTED_TO,bronchomediastinal trunks,C0458288,"Body Part, Organ, or Organ Component",True,True
+1033,intercostal nodes,C0229761,"Body Part, Organ, or Organ Component",CONNECTED_TO,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",True,True
+1033,intercostal nodes,C0229761,"Body Part, Organ, or Organ Component",CONNECTED_TO,bronchomediastinal trunks,C0458288,"Body Part, Organ, or Organ Component",True,True
+1034,breast cancer,C0006142,Neoplastic Process,OCCURS_IN,men,C0025266,Population Group,True,True
+1038,flat tendon,C0039508,"Body Part, Organ, or Organ Component",CONNECTED_TO,intertubercular sulcus,C0559884,Body Space or Junction,True,True
+1051,thoracic vertebra,C0039987,"Body Part, Organ, or Organ Component",CONNECTED_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+1052,facets,C0222679,Body Location or Region,CONNECTED_TO,heads,C0018670,Body Location or Region,True,True
+1052,superior costal facet,C0503776,Body Location or Region,CONNECTED_TO,head,C0018670,Body Location or Region,True,True
+1052,inferior costal facet,C0503776,Body Location or Region,CONNECTED_TO,head,C0018670,Body Location or Region,True,True
+1056,vertebra tx,C0549207,"Body Part, Organ, or Organ Component",CONNECTED_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+1058,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,costal cartilage,C0222787,Tissue,True,True
+1062,rib,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,costal cartilage,C0222787,Tissue,True,True
+1062,rib,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+1062,tubercle,C1184740,"Body Part, Organ, or Organ Component",PART_OF,rib,C0035561,"Body Part, Organ, or Organ Component",True,True
+1063,head,C0018670,Body Location or Region,CONNECTED_TO,inferior costal facet,C0503776,Body Location or Region,True,True
+1076,sternum,C0038293,"Body Part, Organ, or Organ Component",CONSISTS_OF,manubrium,C0024764,"Body Part, Organ, or Organ Component",True,True
+1077,manubrium,C0024764,"Body Part, Organ, or Organ Component",PART_OF,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1083,sternebrae,C0502419,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1085,sternum,C0038293,"Body Part, Organ, or Organ Component",CONNECTED_TO,xiphoid process,C0043356,"Body Part, Organ, or Organ Component",True,True
+1087,rib,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebrae,C0549207,"Body Part, Organ, or Organ Component",True,True
+1090,intra-articular ligament,C0023686,"Body Part, Organ, or Organ Component",CONNECTED_TO,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",True,True
+1092,costotransverse ligament,C0225018,"Body Part, Organ, or Organ Component",ADJACENT_TO,joint,C0022417,Body Space or Junction,True,True
+1093,lateral costotransverse ligament,C0225020,"Body Part, Organ, or Organ Component",ADJACENT_TO,joint,C0022417,Body Space or Junction,True,True
+1093,lateral costotransverse ligament,C0225020,"Body Part, Organ, or Organ Component",CONNECTED_TO,tubercle,C1184740,"Body Part, Organ, or Organ Component",True,True
+1094,superior costotransverse ligament,C0225019,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebra,C0549207,"Body Part, Organ, or Organ Component",True,True
+1098,ligament,C0023685,"Body Part, Organ, or Organ Component",CONNECTED_TO,costal cartilage,C0222787,Tissue,True,True
+1098,ligament,C0023685,"Body Part, Organ, or Organ Component",CONNECTED_TO,manubrium,C0024764,"Body Part, Organ, or Organ Component",True,True
+1098,ligament,C0023685,"Body Part, Organ, or Organ Component",CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1114,internal intercostal muscles,C1744536,"Body Part, Organ, or Organ Component",ADJACENT_TO,external intercostal muscles,C0021724,"Body Part, Organ, or Organ Component",True,True
+1114,internal intercostal muscles,C1744536,"Body Part, Organ, or Organ Component",ADJACENT_TO,innermost intercostal muscles,C0021724,"Body Part, Organ, or Organ Component",True,True
+1126,posterior intercostal arteries,C0226292,"Body Part, Organ, or Organ Component",BRANCH_OF,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",True,True
+1128,anterior intercostal arteries,C0459917,"Body Part, Organ, or Organ Component",BRANCH_OF,internal thoracic arteries,C0226276,"Body Part, Organ, or Organ Component",True,True
+1129,internal thoracic artery,C0226276,"Body Part, Organ, or Organ Component",BRANCH_OF,subclavian artery,C0038530,"Body Part, Organ, or Organ Component",True,True
+1129,superior epigastric artery,C0226288,"Body Part, Organ, or Organ Component",BRANCH_OF,internal thoracic artery,C0226276,"Body Part, Organ, or Organ Component",True,True
+1129,musculophrenic artery,C0226289,"Body Part, Organ, or Organ Component",BRANCH_OF,internal thoracic artery,C0226276,"Body Part, Organ, or Organ Component",True,True
+1130,anterior intercostal arteries,C0459917,"Body Part, Organ, or Organ Component",BRANCH_OF,musculophrenic artery,C0226289,"Body Part, Organ, or Organ Component",True,True
+1133,anterior intercostal arteries,C0459917,"Body Part, Organ, or Organ Component",CONNECTED_TO,posterior intercostal artery,C0226292,"Body Part, Organ, or Organ Component",True,True
+1135,vessels,C0005847,"Body Part, Organ, or Organ Component",CONNECTED_TO,intercostal nerves,C1285089,"Body Part, Organ, or Organ Component",True,True
+1137,intercostal veins,C0226641,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+1137,intercostal veins,C0226641,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,internal thoracic veins,C0226633,"Body Part, Organ, or Organ Component",True,True
+1138,left superior intercostal vein,C0226637,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,left brachiocephalic vein,C0501122,"Body Part, Organ, or Organ Component",True,True
+1139,right superior intercostal vein,C0226636,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1140,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",True,True
+1140,diaphragmatic nodes,C0229762,"Body Part, Organ, or Organ Component",ADJACENT_TO,xiphoid,C0043356,"Body Part, Organ, or Organ Component",True,True
+1141,parasternal nodes,C0229755,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,bronchomediastinal trunks,C0458288,"Body Part, Organ, or Organ Component",True,True
+1143,superficial regions of the thoracic wall,,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,axillary lymph nodes,C0729594,"Body Part, Organ, or Organ Component",True,True
+1143,superficial regions of the thoracic wall,,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,parasternal nodes,C0229755,"Body Part, Organ, or Organ Component",True,True
+1158,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",TRAVERSES,central tendon,C0230162,"Body Part, Organ, or Organ Component",True,True
+1159,esophagus,C0014876,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+1160,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+1162,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+1165,vessels,C0005847,"Body Part, Organ, or Organ Component",BRANCH_OF,internal thoracic arteries,C0226276,"Body Part, Organ, or Organ Component",True,True
+1165,superior phrenic arteries,C0226295,"Body Part, Organ, or Organ Component",BRANCH_OF,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",True,True
+1165,inferior phrenic arteries,C0003842,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+1166,veins,C0042449,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,brachiocephalic veins,C0006095,"Body Part, Organ, or Organ Component",True,True
+1166,veins,C0042449,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,abdominal veins,C0226725,"Body Part, Organ, or Organ Component",True,True
+1172,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1180,pleura,C0032225,Tissue,CONSISTS_OF,mesothelium,C0086610,Tissue,True,True
+1183,visceral pleura,C0225776,"Body Part, Organ, or Organ Component",CONNECTED_TO,lung,C0024109,"Body Part, Organ, or Organ Component",True,True
+1184,pleural cavity,C0178802,Body Space or Junction,CONTAINS,serous fluid,C0682554,Body Substance,True,True
+1184,visceral pleura,C0225776,"Body Part, Organ, or Organ Component",ADJACENT_TO,parietal pleura,C0225777,"Body Part, Organ, or Organ Component",True,True
+1190,suprapleural membrane,C0225800,"Body Part, Organ, or Organ Component",CONNECTED_TO,rib,C0035561,"Body Part, Organ, or Organ Component",True,True
+1191,mediastinal pleura,C0225789,"Body Part, Organ, or Organ Component",CONNECTED_TO,visceral pleura,C0225776,"Body Part, Organ, or Organ Component",True,True
+1196,diaphragm,C0011980,"Body Part, Organ, or Organ Component",ADJACENT_TO,costal pleura,C0225790,"Body Part, Organ, or Organ Component",True,True
+1197,parietal pleura,C0225777,"Body Part, Organ, or Organ Component",CONNECTED_TO,visceral pleura,C0225776,"Body Part, Organ, or Organ Component",True,True
+1197,lung,C0024109,"Body Part, Organ, or Organ Component",CONNECTED_TO,visceral pleura,C0225776,"Body Part, Organ, or Organ Component",True,True
+1200,mediastinal pleura,C0225789,"Body Part, Organ, or Organ Component",ADJACENT_TO,costal pleura,C0225790,"Body Part, Organ, or Organ Component",True,True
+1201,diaphragmatic pleura,C0225791,"Body Part, Organ, or Organ Component",ADJACENT_TO,costal pleura,C0225790,"Body Part, Organ, or Organ Component",True,True
+1210,mediastinal surface,C0025066,Body Location or Region,ADJACENT_TO,mediastinum,C0230148,Body Location or Region,True,True
+1213,root,C0040452,"Body Part, Organ, or Organ Component",PART_OF,lung,C0024109,"Body Part, Organ, or Organ Component",True,True
+1215,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",ADJACENT_TO,roots of lungs,C0024109,"Body Part, Organ, or Organ Component",True,True
+1215,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",ADJACENT_TO,roots of lungs,C0024109,"Body Part, Organ, or Organ Component",True,True
+1218,lobar bronchus,C0225653,"Body Part, Organ, or Organ Component",BRANCH_OF,main bronchus,C0006255,"Body Part, Organ, or Organ Component",True,True
+1225,middle lobe,C4281590,"Body Part, Organ, or Organ Component",ADJACENT_TO,lateral wall,C0456482,"Body Part, Organ, or Organ Component",True,True
+1227,right lung,C0225706,"Body Part, Organ, or Organ Component",ADJACENT_TO,mediastinum,C0025066,Body Location or Region,True,True
+1234,heart,C0018787,"Body Part, Organ, or Organ Component",ADJACENT_TO,left pleural cavity,C0225787,Body Space or Junction,True,True
+1235,lingula,C0225740,"Body Part, Organ, or Organ Component",ADJACENT_TO,heart bulge,C0018787,"Body Part, Organ, or Organ Component",True,True
+1236,left lung,C0225730,"Body Part, Organ, or Organ Component",ADJACENT_TO,mediastinum,C0025066,Body Location or Region,True,True
+1238,mediastinum,C0025066,Body Location or Region,LOCATION_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1238,left main bronchus,C0225630,"Body Part, Organ, or Organ Component",BRANCH_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1238,carina,C0225594,"Body Part, Organ, or Organ Component",PART_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1241,segmental bronchi,C0444439,"Body Part, Organ, or Organ Component",BRANCH_OF,lobar bronchi,C0225653,"Body Part, Organ, or Organ Component",True,True
+1242,bronchioles,C0006270,"Body Part, Organ, or Organ Component",BRANCH_OF,segmental bronchi,C0444439,"Body Part, Organ, or Organ Component",True,True
+1244,tributaries,C1180121,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,pulmonary vein,C0034090,"Body Part, Organ, or Organ Component",True,True
+1248,right pulmonary artery,C0226069,"Body Part, Organ, or Organ Component",BRANCH_OF,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",True,True
+1248,left pulmonary artery,C0226069,"Body Part, Organ, or Organ Component",BRANCH_OF,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",True,True
+1251,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",ADJACENT_TO,tracheal bifurcation,C3146289,Body Space or Junction,True,True
+1251,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",ADJACENT_TO,right main bronchus,C0225608,"Body Part, Organ, or Organ Component",True,True
+1251,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",ADJACENT_TO,ascending aorta,C0003956,"Body Part, Organ, or Organ Component",True,True
+1251,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",ADJACENT_TO,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",True,True
+1251,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",ADJACENT_TO,upper right pulmonary vein,C0226671,"Body Part, Organ, or Organ Component",True,True
+1253,left pulmonary artery,C0226069,"Body Part, Organ, or Organ Component",ADJACENT_TO,descending aorta,C0011666,"Body Part, Organ, or Organ Component",True,True
+1253,left pulmonary artery,C0226069,"Body Part, Organ, or Organ Component",ADJACENT_TO,superior pulmonary vein,C0923285,"Body Part, Organ, or Organ Component",True,True
+1254,veins,C0042449,"Body Part, Organ, or Organ Component",CONNECTED_TO,left atrium,C0225860,"Body Part, Organ, or Organ Component",True,True
+1254,veins,C0042449,"Body Part, Organ, or Organ Component",TRAVERSES,root,C0040452,"Body Part, Organ, or Organ Component",True,True
+1259,bronchi,C0006255,"Body Part, Organ, or Organ Component",ADJACENT_TO,bronchial arteries,C0006257,"Body Part, Organ, or Organ Component",True,True
+1264,posterior mediastinum,C0230150,Body Location or Region,LOCATION_OF,tracheobronchial nodes,C0229751,"Body Part, Organ, or Organ Component",True,True
+1266,mediastinum,C0025066,Body Location or Region,ADJACENT_TO,pleural cavities,C0178802,Body Space or Junction,True,True
+1275,sternopericardial ligaments,C0225976,"Body Part, Organ, or Organ Component",CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1275,sternopericardial ligaments,C0225976,"Body Part, Organ, or Organ Component",CONNECTED_TO,fibrous pericardium,C0225974,Tissue,True,True
+1277,pericardium,C0031050,"Body Part, Organ, or Organ Component",SURROUNDS,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1277,pericardium,C0031050,"Body Part, Organ, or Organ Component",SURROUNDS,roots of great vessels,,"Body Part, Organ, or Organ Component",True,True
+1277,pericardium,C0031050,"Body Part, Organ, or Organ Component",CONSISTS_OF,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",True,True
+1284,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",SURROUNDS,arteries,C0003842,"Body Part, Organ, or Organ Component",True,True
+1284,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",SURROUNDS,aorta,C0003483,"Body Part, Organ, or Organ Component",True,True
+1284,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",SURROUNDS,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",True,True
+1284,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",SURROUNDS,veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+1284,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",SURROUNDS,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",True,True
+1284,serous pericardium,C0225975,"Body Part, Organ, or Organ Component",SURROUNDS,pulmonary veins,C0034090,"Body Part, Organ, or Organ Component",True,True
+1299,diaphragmatic surface,C0011980,"Body Part, Organ, or Organ Component",CONSISTS_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",True,True
+1299,diaphragmatic surface,C0011980,"Body Part, Organ, or Organ Component",CONSISTS_OF,right ventricle,C0225883,"Body Part, Organ, or Organ Component",True,True
+1304,inferior margin,C0226040,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1304,inferior margin,C0226040,"Body Part, Organ, or Organ Component",CONSISTS_OF,right ventricle,C0225883,"Body Part, Organ, or Organ Component",True,True
+1304,inferior margin,C0226040,"Body Part, Organ, or Organ Component",CONSISTS_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",True,True
+1308,coronary sulcus,C0018787,"Body Part, Organ, or Organ Component",SURROUNDS,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1309,anterior interventricular sulcus,C0225874,Body Space or Junction,CONTAINS,anterior interventricular artery,C0507632,"Body Part, Organ, or Organ Component",True,True
+1309,anterior interventricular sulcus,C0225874,Body Space or Junction,CONTAINS,great cardiac vein,C0226659,"Body Part, Organ, or Organ Component",True,True
+1309,posterior interventricular sulcus,C0225876,Body Space or Junction,CONTAINS,posterior interventricular artery,C0226047,"Body Part, Organ, or Organ Component",True,True
+1309,posterior interventricular sulcus,C0225876,Body Space or Junction,CONTAINS,middle cardiac vein,C0226660,"Body Part, Organ, or Organ Component",True,True
+1314,interventricular septum,C0016520,Body Space or Junction,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1314,atrioventricular septum,C0225871,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1326,right atrium,C0225844,"Body Part, Organ, or Organ Component",ADJACENT_TO,right ventricle,C0225883,"Body Part, Organ, or Organ Component",True,True
+1327,outflow tract,C0504048,Body Space or Junction,PART_OF,right ventricle,C0225883,"Body Part, Organ, or Organ Component",True,True
+1328,trabeculae carneae,C0502348,"Body Part, Organ, or Organ Component",CONNECTED_TO,ventricular walls,C0507618,"Body Part, Organ, or Organ Component",True,True
+1329,chordae tendineae,C0008484,"Body Part, Organ, or Organ Component",CONNECTED_TO,papillary muscle,C0030352,"Body Part, Organ, or Organ Component",True,True
+1333,chordae tendineae{,C0008484,"Body Part, Organ, or Organ Component",CONNECTED_TO,septal wall,C0225836,"Body Part, Organ, or Organ Component",True,True
+1334,septomarginal trabecula,C0225894,"Body Part, Organ, or Organ Component",CONNECTED_TO,interventricular septum,C0225870,"Body Part, Organ, or Organ Component",True,True
+1334,septomarginal trabecula,C0225894,"Body Part, Organ, or Organ Component",CONNECTED_TO,anterior papillary muscle,C0225901,"Body Part, Organ, or Organ Component",True,True
+1334,right bundle,C0225916,"Body Part, Organ, or Organ Component",CONNECTED_TO,anterior wall of right ventricle,C0225883,"Body Part, Organ, or Organ Component",True,True
+1336,chordae tendineae,C0008484,"Body Part, Organ, or Organ Component",CONNECTED_TO,papillary muscles,C0030352,"Body Part, Organ, or Organ Component",True,True
+1342,pulmonary valve,C0034086,"Body Part, Organ, or Organ Component",CONSISTS_OF,semilunar cusps,C0036624,"Body Part, Organ, or Organ Component",True,True
+1342,lunula,C0221991,"Body Part, Organ, or Organ Component",PART_OF,semilunar cusp,C0036624,"Body Part, Organ, or Organ Component",True,True
+1344,left atrium,C0225860,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1348,interatrial septum,C0225836,"Body Part, Organ, or Organ Component",PART_OF,left atrium,C0225860,"Body Part, Organ, or Organ Component",True,True
+1355,interventricular septum,C0225870,"Body Part, Organ, or Organ Component",PART_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",True,True
+1358,aortic vestibule,C0225912,"Body Part, Organ, or Organ Component",CONNECTED_TO,ascending aorta,C0003956,"Body Part, Organ, or Organ Component",True,True
+1358,aortic valve,C0003501,"Body Part, Organ, or Organ Component",CONSISTS_OF,semilunar cusps,C0036624,"Body Part, Organ, or Organ Component",True,True
+1359,left coronary arteries,C0205042,"Body Part, Organ, or Organ Component",BRANCH_OF,left aortic sinuses,C0037197,"Body Part, Organ, or Organ Component",True,True
+1365,cardiac veins,C0226654,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",True,True
+1365,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,right atrium,C0225844,"Body Part, Organ, or Organ Component",True,True
+1366,right coronary artery,C1261316,"Body Part, Organ, or Organ Component",BRANCH_OF,right aortic sinus,C0037197,"Body Part, Organ, or Organ Component",True,True
+1368,right marginal branch,C0226050,"Body Part, Organ, or Organ Component",BRANCH_OF,right coronary artery,C1261316,"Body Part, Organ, or Organ Component",True,True
+1369,posterior interventricular branch,C0500509,"Body Part, Organ, or Organ Component",LOCATION_OF,posterior interventricular sulcus,C0225876,Body Space or Junction,True,True
+1371,left coronary artery,C1261082,"Body Part, Organ, or Organ Component",BRANCH_OF,left aortic sinus,C0003483,"Body Part, Organ, or Organ Component",True,True
+1372,anterior interventricular branch,C0507634,"Body Part, Organ, or Organ Component",LOCATION_OF,anterior interventricular sulcus,C0225874,Body Space or Junction,True,True
+1373,left marginal artery,C0226040,"Body Part, Organ, or Organ Component",BRANCH_OF,circumflex branch,C0507634,"Body Part, Organ, or Organ Component",True,True
+1373,circumflex branch,C0507634,"Body Part, Organ, or Organ Component",LOCATION_OF,coronary sulcus,C0225847,Body Space or Junction,True,True
+1376,posterior interventricular branch,C0500509,"Body Part, Organ, or Organ Component",BRANCH_OF,right coronary artery,C1261316,"Body Part, Organ, or Organ Component",True,True
+1377,posterior interventricular branch,C0500509,"Body Part, Organ, or Organ Component",BRANCH_OF,circumflex branch of the,C0226037,"Body Part, Organ, or Organ Component",True,True
+1379,great cardiac vein,C0226659,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",True,True
+1379,middle cardiac vein,C0226660,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",True,True
+1379,small cardiac vein,C0226661,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",True,True
+1396,atrioventricular node,C0004247,"Body Part, Organ, or Organ Component",ADJACENT_TO,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",True,True
+1397,atrioventricular node,C0004247,"Body Part, Organ, or Organ Component",PART_OF,atrioventricular bundle,C0006382,"Body Part, Organ, or Organ Component",True,True
+1404,stimulation,C1292856,Therapeutic or Preventive Procedure,AFFECTS,contraction,C1140999,Pathologic Function,True,True
+1408,visceral afferents,C0206309,"Body Part, Organ, or Organ Component",PART_OF,cardiac plexus,C0459528,"Body Part, Organ, or Organ Component",True,True
+1408,visceral afferents,C0206309,"Body Part, Organ, or Organ Component",TRAVERSES,cardiac plexus,C0459528,"Body Part, Organ, or Organ Component",True,True
+1411,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",PART_OF,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",True,True
+1422,superior mediastinum,C0230147,Body Location or Region,CONNECTED_TO,neck,C0027530,Body Location or Region,True,True
+1422,superior mediastinum,C0230147,Body Location or Region,CONNECTED_TO,inferior mediastinum,C0230148,Body Location or Region,True,True
+1427,left brachiocephalic vein,C0501122,"Body Part, Organ, or Organ Component",LOCATION_OF,venous drainage,C0678862,Physiologic Function,True,True
+1429,left brachiocephalic vein,C0501122,"Body Part, Organ, or Organ Component",CONNECTED_TO,right brachiocephalic vein,C0501116,"Body Part, Organ, or Organ Component",True,True
+1441,right common carotid artery,C0226086,"Body Part, Organ, or Organ Component",BRANCH_OF,brachiocephalic trunk,C0006094,"Body Part, Organ, or Organ Component",True,True
+1441,right subclavian artery,C0226261,"Body Part, Organ, or Organ Component",BRANCH_OF,brachiocephalic trunk,C0006094,"Body Part, Organ, or Organ Component",True,True
+1443,thyroid ima artery,C0040132,"Body Part, Organ, or Organ Component",BRANCH_OF,brachiocephalic trunk,C0006094,"Body Part, Organ, or Organ Component",True,True
+1445,left common carotid artery,C0007272,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1448,left subclavian artery,C0226262,"Body Part, Organ, or Organ Component",ADJACENT_TO,left common carotid artery,C0007272,"Body Part, Organ, or Organ Component",True,True
+1448,left subclavian artery,C0226262,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1450,ligamentum arteriosum,C0226023,"Body Part, Organ, or Organ Component",CONNECTED_TO,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",True,True
+1451,trachea,C0040578,"Body Part, Organ, or Organ Component",LOCATION_OF,jugular notch,C0222769,Body Location or Region,True,True
+1452,esophagus,C0014876,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1452,esophagus,C0014876,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+1453,azygos vein,C0004526,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1454,left main bronchi,C1261082,"Body Part, Organ, or Organ Component",BRANCH_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1458,right vagus nerve,C0501622,"Body Part, Organ, or Organ Component",ADJACENT_TO,right brachiocephalic vein,C0501116,"Body Part, Organ, or Organ Component",True,True
+1458,right vagus nerve,C0501622,"Body Part, Organ, or Organ Component",ADJACENT_TO,brachiocephalic trunk,C0006094,"Body Part, Organ, or Organ Component",True,True
+1460,left vagus nerve,C0501623,"Body Part, Organ, or Organ Component",ADJACENT_TO,parietal pleura,C0225777,"Body Part, Organ, or Organ Component",True,True
+1460,left vagus nerve,C0501623,"Body Part, Organ, or Organ Component",ADJACENT_TO,arch of aorta,C0230467,Body Location or Region,True,True
+1460,left vagus nerve,C0501623,"Body Part, Organ, or Organ Component",ADJACENT_TO,root of left lung,C0040452,"Body Part, Organ, or Organ Component",True,True
+1462,left recurrent laryngeal nerve,C0459313,"Body Part, Organ, or Organ Component",BRANCH_OF,left vagus nerve,C0501623,"Body Part, Organ, or Organ Component",True,True
+1462,left recurrent laryngeal nerve,C0459313,"Body Part, Organ, or Organ Component",ADJACENT_TO,arch of aorta,C0230467,Body Location or Region,True,True
+1462,left recurrent laryngeal nerve,C0459313,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1462,left recurrent laryngeal nerve,C0459313,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1463,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",BRANCH_OF,cervical spinal cord segments,C0457846,"Body Part, Organ, or Organ Component",True,True
+1465,right phrenic nerve,C0501599,"Body Part, Organ, or Organ Component",ADJACENT_TO,right vagus nerve,C0501622,"Body Part, Organ, or Organ Component",True,True
+1465,right phrenic nerve,C0501599,"Body Part, Organ, or Organ Component",ADJACENT_TO,right brachiocephalic vein,C0501116,"Body Part, Organ, or Organ Component",True,True
+1465,right phrenic nerve,C0501599,"Body Part, Organ, or Organ Component",ADJACENT_TO,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",True,True
+1466,pericardiacophrenic vessels,C0501112,"Body Part, Organ, or Organ Component",CONNECTED_TO,right phrenic nerve,,"Body Part, Organ, or Organ Component",True,True
+1466,right phrenic nerve,,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+1467,left phrenic nerve,C0501600,"Body Part, Organ, or Organ Component",ADJACENT_TO,left vagus nerve,C0501623,"Body Part, Organ, or Organ Component",True,True
+1467,left phrenic nerve,C0501600,"Body Part, Organ, or Organ Component",ADJACENT_TO,left brachiocephalic vein,C0501122,"Body Part, Organ, or Organ Component",True,True
+1467,left phrenic nerve,C0501600,"Body Part, Organ, or Organ Component",ADJACENT_TO,arch of aorta,C0230467,Body Location or Region,True,True
+1468,left phrenic nerve,C0501600,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+1469,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",LOCATION_OF,superior mediastinum,C0230147,Body Location or Region,True,True
+1470,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",ADJACENT_TO,arch of aorta,C0230467,Body Location or Region,True,True
+1470,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1470,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",ADJACENT_TO,parietal pleura,C0225777,"Body Part, Organ, or Organ Component",True,True
+1482,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1483,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1483,left main bronchus,C0225630,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1483,left atrium,C0225860,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1484,hemiazygos veins,C0004526,"Body Part, Organ, or Organ Component",ADJACENT_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1487,esophageal arteries,C0226294,"Body Part, Organ, or Organ Component",BRANCH_OF,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",True,True
+1487,esophageal arteries,C0226294,"Body Part, Organ, or Organ Component",BRANCH_OF,bronchial arteries,C0006257,"Body Part, Organ, or Organ Component",True,True
+1487,esophageal arteries,C0226294,"Body Part, Organ, or Organ Component",BRANCH_OF,left gastric artery,C0226298,"Body Part, Organ, or Organ Component",True,True
+1490,esophageal branches,,"Body Part, Organ, or Organ Component",BRANCH_OF,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",True,True
+1490,esophageal branches,,"Body Part, Organ, or Organ Component",BRANCH_OF,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",True,True
+1498,thoracic portion,C0581620,"Body Part, Organ, or Organ Component",PART_OF,descending aorta,C0011666,"Body Part, Organ, or Organ Component",True,True
+1506,thorax,C0817096,Body Location or Region,LOCATION_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1506,aortic hiatus,C0929524,Body Space or Junction,PART_OF,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+1507,hemiazygos vein,C0226642,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1507,accessory hemiazygos vein,C0226643,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1507,mediastinal veins,C0226646,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1507,pericardial veins,C0226645,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1507,right bronchial veins,C0226650,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",True,True
+1508,hemiazygos vein,C0226642,"Body Part, Organ, or Organ Component",CONNECTED_TO,left renal vein,C0508001,"Body Part, Organ, or Organ Component",True,True
+1509,thorax,C0817096,Body Location or Region,LOCATION_OF,hemiazygos vein,C0226642,"Body Part, Organ, or Organ Component",True,True
+1510,mediastinal veins,C0226646,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,hemiazygos vein,C0226642,"Body Part, Organ, or Organ Component",True,True
+1511,accessory hemiazygos vein,C0226643,"Body Part, Organ, or Organ Component",CONNECTED_TO,left superior intercostal vein,C0226637,"Body Part, Organ, or Organ Component",True,True
+1512,left posterior intercostal veins,,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,accessory hemiazygos vein,C0226643,"Body Part, Organ, or Organ Component",True,True
+1521,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",CONSISTS_OF,cords,C0037925,"Body Part, Organ, or Organ Component",True,True
+1521,ganglia,C0017067,"Body Part, Organ, or Organ Component",CONNECTED_TO,thoracic spinal nerves,C0039983,"Body Part, Organ, or Organ Component",True,True
+1528,preganglionic sympathetic fibers,C0206254,"Body Part, Organ, or Organ Component",PART_OF,thoracic splanchnic nerves,C0037991,"Body Part, Organ, or Organ Component",True,True
+1529,greater splanchnic nerve,C0037991,"Body Part, Organ, or Organ Component",BRANCH_OF,thoracic ganglia,C0229010,"Body Part, Organ, or Organ Component",True,True
+1530,lesser splanchnic nerve,C0229014,"Body Part, Organ, or Organ Component",BRANCH_OF,thoracic ganglia,C0229010,"Body Part, Organ, or Organ Component",True,True
+1531,least splanchnic nerve,C0037991,"Body Part, Organ, or Organ Component",BRANCH_OF,twelfth thoracic ganglion,C0501854,"Body Part, Organ, or Organ Component",True,True
+1536,mammary gland,C0929301,"Body Part, Organ, or Organ Component",SURROUNDS,lower margin,C0458583,"Body Part, Organ, or Organ Component",True,True
+1536,axilla,C0004454,Body Location or Region,LOCATION_OF,mammary gland,C0929301,"Body Part, Organ, or Organ Component",True,True
+1538,manubrium,C0024764,"Body Part, Organ, or Organ Component",CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1539,costal cartilage,C0222787,Tissue,PART_OF,rib ii,C0035561,"Body Part, Organ, or Organ Component",True,True
+1546,internal jugular,C0226550,"Body Part, Organ, or Organ Component",PART_OF,brachiocephalic veins,C0006095,"Body Part, Organ, or Organ Component",True,True
+1546,subclavian veins,C0038532,"Body Part, Organ, or Organ Component",PART_OF,brachiocephalic veins,C0006095,"Body Part, Organ, or Organ Component",True,True
+1552,heart,C0018787,"Body Part, Organ, or Organ Component",LOCATION_OF,second intercostal space,C0230136,Body Space or Junction,True,True
+1554,left margin,C0225819,Body Location or Region,ADJACENT_TO,second intercostal space,C0230136,Body Space or Junction,True,True
+1555,lower margin,C0458583,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1555,lower margin,C0458583,"Body Part, Organ, or Organ Component",ADJACENT_TO,right sixth costal cartilage,C0222787,Tissue,True,True
+1558,tricuspid valve,C0040960,"Body Part, Organ, or Organ Component",ADJACENT_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",True,True
+1558,tricuspid valve,C0040960,"Body Part, Organ, or Organ Component",ADJACENT_TO,fifth intercostal space,C0230136,Body Space or Junction,True,True
+1576,ribs,C0035561,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebrae,C0549207,"Body Part, Organ, or Organ Component",True,True
+1621,right thoracotomy,C0039991,Therapeutic or Preventive Procedure,TREATS,esophageal cancer,C0014859,Neoplastic Process,True,True
+1647,right lung,C0225706,"Body Part, Organ, or Organ Component",LOCATION_OF,tumor,C0027651,Neoplastic Process,True,True
+1663,diaphragmatic surface,C0011980,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+1665,chest,C0817096,Body Location or Region,LOCATION_OF,chest radiographs,C0039985,Diagnostic Procedure,True,True
+1674,pulmonary veins,C0034090,"Body Part, Organ, or Organ Component",CONNECTED_TO,left atrium,C0225860,"Body Part, Organ, or Organ Component",True,True
+1694,vessels,C0005847,"Body Part, Organ, or Organ Component",LOCATION_OF,middle mediastinum,C0230149,Body Location or Region,True,True
+1706,superior mediastinum,C0230147,Body Location or Region,LOCATION_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1724,nipple,C0028109,"Body Part, Organ, or Organ Component",LOCATION_OF,intercostal space,C0230136,Body Space or Junction,True,True
+1727,areola,C0222608,"Body Part, Organ, or Organ Component",PART_OF,breast,C0006141,"Body Part, Organ, or Organ Component",True,True
+1727,axillary process,C0222611,"Body Part, Organ, or Organ Component",PART_OF,breast,C0006141,"Body Part, Organ, or Organ Component",True,True
+1755,cells,C0007634,Cell,PART_OF,acini,C0596030,Cell,True,True
+1755,cells,C0007634,Cell,PART_OF,lactiferous ducts,C0222613,"Body Part, Organ, or Organ Component",True,True
+1755,cells,C0007634,Cell,PART_OF,lobules,C0921005,"Body Part, Organ, or Organ Component",True,True
+1755,acini,C0596030,Cell,PART_OF,breast,C0006141,"Body Part, Organ, or Organ Component",True,True
+1755,lactiferous ducts,C0222613,"Body Part, Organ, or Organ Component",PART_OF,breast,C0006141,"Body Part, Organ, or Organ Component",True,True
+1755,lobules,C0921005,"Body Part, Organ, or Organ Component",PART_OF,breast,C0006141,"Body Part, Organ, or Organ Component",True,True
+1758,lungs,C0024109,"Body Part, Organ, or Organ Component",LOCATION_OF,pulmonary metastases,C0153676,Neoplastic Process,True,True
+1758,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,hepatic metastases,C0494165,Neoplastic Process,True,True
+1758,bone,C0005931,Tissue,LOCATION_OF,bony metastases,C0153690,Neoplastic Process,True,True
+1759,bone,C0005931,Tissue,LOCATION_OF,tumor metastases,C0027627,Neoplastic Process,True,True
+1791,injection,C0021485,Therapeutic or Preventive Procedure,USES,anesthetic,C0002932,Pharmacologic Substance,True,True
+1836,percutaneous intervention,C1532338,Therapeutic or Preventive Procedure,TREATS,coronary artery disease,C0010054,Disease or Syndrome,True,True
+1849,classic symptoms,C1457887,Sign or Symptom,MANIFESTATION_OF,heart attack,C0027051,Disease or Syndrome,True,True
+1863,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",CONNECTED_TO,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",True,True
+1870,aorta,C0003483,"Body Part, Organ, or Organ Component",CONNECTED_TO,aortic valve,C0003501,"Body Part, Organ, or Organ Component",True,True
+1870,aorta,C0003483,"Body Part, Organ, or Organ Component",CONNECTED_TO,ligamentum arteriosum,C0226023,"Body Part, Organ, or Organ Component",True,True
+1874,normal aortic arch,C0003489,"Body Part, Organ, or Organ Component",ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",True,True
+1874,normal aortic arch,C0003489,"Body Part, Organ, or Organ Component",ADJACENT_TO,left main bronchus,C0225630,"Body Part, Organ, or Organ Component",True,True
+1874,left subclavian artery,C0226262,"Body Part, Organ, or Organ Component",BRANCH_OF,great vessels,C0225991,"Body Part, Organ, or Organ Component",True,True
+1877,left vertebral artery,C0226231,"Body Part, Organ, or Organ Component",BRANCH_OF,aortic arch,C0003489,"Body Part, Organ, or Organ Component",True,True
+1877,right subclavian artery,C0226261,"Body Part, Organ, or Organ Component",BRANCH_OF,aortic arch,C0003489,"Body Part, Organ, or Organ Component",True,True
+1881,right recurrent laryngeal nerve,C0459312,"Body Part, Organ, or Organ Component",BRANCH_OF,right vagus nerve,C0501622,"Body Part, Organ, or Organ Component",True,True
+1881,right recurrent laryngeal nerve,C0459312,"Body Part, Organ, or Organ Component",SURROUNDS,right subclavian artery,C0226261,"Body Part, Organ, or Organ Component",True,True
+1888,esophagus,C0014876,"Body Part, Organ, or Organ Component",LOCATION_OF,rupture,C3203359,Injury or Poisoning,True,True
+1907,heart,C0018787,"Body Part, Organ, or Organ Component",PRODUCES,enzymes,C0014442,"Amino Acid, Peptide, or Protein",True,True
+1910,angioplasty,C0162577,Therapeutic or Preventive Procedure,PREVENTS,coronary ischemia,,Disease or Syndrome,True,True
+1910,angioplasty,C0162577,Therapeutic or Preventive Procedure,PREVENTS,myocardial infarction,C0027051,Disease or Syndrome,True,True
+1914,deep veins,C0226514,"Body Part, Organ, or Organ Component",PART_OF,lower limbs,C0023216,"Body Part, Organ, or Organ Component",True,True
+1915,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",LOCATION_OF,saddle thrombus,C3686744,Disease or Syndrome,True,True
+1915,pulmonary arteries,C0034052,"Body Part, Organ, or Organ Component",LOCATION_OF,saddle thrombus,C3686744,Disease or Syndrome,True,True
+1925,surgical excision,C0728940,Therapeutic or Preventive Procedure,TREATS,cervical rib,C0158779,Congenital Abnormality,True,True
+1960,diagnosis,C0011900,Diagnostic Procedure,DIAGNOSES,chest infection,C0149725,Disease or Syndrome,True,True
+1969,diagnosis,C0011900,Diagnostic Procedure,DIAGNOSES,esophageal cancer,C0014859,Neoplastic Process,True,True
+1972,chest,C0817096,Body Location or Region,LOCATION_OF,ct scan,C0040405,Diagnostic Procedure,True,True
+1972,abdomen,C0000726,Body Location or Region,LOCATION_OF,ct scan,C0040405,Diagnostic Procedure,True,True
+1973,nodes,C0746922,"Body Part, Organ, or Organ Component",ADJACENT_TO,celiac trunk,C0007569,"Body Part, Organ, or Organ Component",True,True
+1977,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",CONNECTED_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1977,inferior thyroid artery,C0226264,"Body Part, Organ, or Organ Component",CONNECTED_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1977,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",CONNECTED_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1977,left gastric artery,C0226298,"Body Part, Organ, or Organ Component",CONNECTED_TO,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+1978,stomach,C0038351,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragmatic hiatus,C0011980,"Body Part, Organ, or Organ Component",True,True
+1978,stomach,C0038351,"Body Part, Organ, or Organ Component",CONNECTED_TO,cervical esophagus,C0227186,"Body Part, Organ, or Organ Component",True,True
+1993,thick secretions,C0036537,Body Substance,CAUSES,inflammation,C0021368,Pathologic Function,True,True
+2008,deep abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONNECTED_TO,pelvic wall,C0230284,"Body Part, Organ, or Organ Component",True,True
+2029,peritoneum,C0031153,Tissue,CONSISTS_OF,mesothelium,C0086610,Tissue,True,True
+2029,peritoneum,C0031153,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+2042,diaphragm,C0011980,"Body Part, Organ, or Organ Component",ADJACENT_TO,abdomen,C0000726,Body Location or Region,True,True
+2042,diaphragm,C0011980,"Body Part, Organ, or Organ Component",ADJACENT_TO,thorax,C0817096,Body Location or Region,True,True
+2043,diaphragm,C0011980,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+2048,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONNECTED_TO,pelvic wall,C0230284,"Body Part, Organ, or Organ Component",True,True
+2049,bone,C0005931,Tissue,PART_OF,pelvic inlet,C0030797,"Body Part, Organ, or Organ Component",True,True
+2067,duodenum,C0013303,"Body Part, Organ, or Organ Component",CONNECTED_TO,body wall,C0459558,"Body Part, Organ, or Organ Component",True,True
+2070,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONNECTED_TO,stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+2070,greater omentum,C0028977,"Body Part, Organ, or Organ Component",LOCATION_OF,abdominal cavity,C0230168,Body Location or Region,True,True
+2077,descending colon,C0227389,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,hindgut,C0231053,"Body Part, Organ, or Organ Component",True,True
+2077,sigmoid colon,C0227391,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,hindgut,C0231053,"Body Part, Organ, or Organ Component",True,True
+2077,sigmoid colon,C0227391,"Body Part, Organ, or Organ Component",TRAVERSES,pelvic inlet,C0030797,"Body Part, Organ, or Organ Component",True,True
+2077,sigmoid colon,C0227391,"Body Part, Organ, or Organ Component",CONNECTED_TO,rectum,C0034896,"Body Part, Organ, or Organ Component",True,True
+2084,anterior abdominal wall,C0230193,Body Location or Region,LOCATION_OF,groin,C0018246,Body Location or Region,True,True
+2089,inguinal canal,C0021445,Body Location or Region,TRAVERSES,anterior abdominal wall,C0230193,Body Location or Region,True,True
+2093,transpyloric plane,C0458355,Body Location or Region,TRAVERSES,costal margin,C0582240,Body Location or Region,True,True
+2098,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+2100,left common iliac vein,C0020888,"Body Part, Organ, or Organ Component",PART_OF,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",True,True
+2105,short hepatic veins,C0019155,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",True,True
+2109,round ligament,C0035877,"Body Part, Organ, or Organ Component",CONNECTED_TO,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2110,liver,C0023884,"Body Part, Organ, or Organ Component",ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2128,costal margins,C0582240,Body Location or Region,LOCATION_OF,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",True,True
+2128,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,skin,C0444099,Body Substance,True,True
+2128,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,deep fascias,C0015641,"Body Part, Organ, or Organ Component",True,True
+2128,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,extraperitoneal fascia,C0736767,"Body Part, Organ, or Organ Component",True,True
+2131,superficial layer,C0738214,"Body Part, Organ, or Organ Component",PART_OF,labia majora,C0227760,"Body Part, Organ, or Organ Component",True,True
+2132,membranous layer,C2338391,"Body Part, Organ, or Organ Component",CONNECTED_TO,symphysis pubis,C0034015,Body Space or Junction,True,True
+2138,external oblique,C0224375,"Body Part, Organ, or Organ Component",ADJACENT_TO,superficial fascia,C0278403,Tissue,True,True
+2141,lacunar ligament,C0225044,"Body Part, Organ, or Organ Component",CONNECTED_TO,superior ramus of pubic bone,C0223667,"Body Part, Organ, or Organ Component",True,True
+2144,transversus abdominis muscle,C0224378,"Body Part, Organ, or Organ Component",CONNECTED_TO,anterior aponeurosis,C0225205,Tissue,True,True
+2151,pyramidalis,C0224374,"Body Part, Organ, or Organ Component",ADJACENT_TO,rectus abdominis,C0206066,"Body Part, Organ, or Organ Component",True,True
+2153,rectus abdominis muscle,C0206066,"Body Part, Organ, or Organ Component",ADJACENT_TO,transversalis fascia,C0225232,Tissue,True,True
+2156,posterior wall of the rectus sheath,C0227701,"Body Part, Organ, or Organ Component",PART_OF,rectus sheath,C0740005,"Body Part, Organ, or Organ Component",True,True
+2171,superficial circumflex iliac artery,C0738891,"Body Part, Organ, or Organ Component",BRANCH_OF,femoral artery,C0015801,"Body Part, Organ, or Organ Component",True,True
+2182,aponeurosis,C0225205,Tissue,PART_OF,external oblique,C0224375,"Body Part, Organ, or Organ Component",True,True
+2190,internal spermatic fascia,C0225310,"Body Part, Organ, or Organ Component",PART_OF,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",True,True
+2200,ilio-inguinal nerve,C0027740,"Body Part, Organ, or Organ Component",BRANCH_OF,lumbar plexus,C0205826,"Body Part, Organ, or Organ Component",True,True
+2200,ilio-inguinal nerve,C0027740,"Body Part, Organ, or Organ Component",TRAVERSES,transversus abdominis muscle,C0224378,"Body Part, Organ, or Organ Component",True,True
+2200,ilio-inguinal nerve,C0027740,"Body Part, Organ, or Organ Component",TRAVERSES,internal oblique muscle,C0224376,"Body Part, Organ, or Organ Component",True,True
+2200,ilio-inguinal nerve,C0027740,"Body Part, Organ, or Organ Component",TRAVERSES,superficial inguinal ring,C0225227,"Body Part, Organ, or Organ Component",True,True
+2205,internal spermatic fascia,C0225310,"Body Part, Organ, or Organ Component",CONNECTED_TO,transversalis fascia,C0225232,Tissue,True,True
+2205,internal spermatic fascia,C0225310,"Body Part, Organ, or Organ Component",CONNECTED_TO,margins of the deep inguinal ring,C0229985,"Body Part, Organ, or Organ Component",True,True
+2206,cremasteric fascia,C0225308,"Body Part, Organ, or Organ Component",CONNECTED_TO,internal oblique muscle,C0224376,"Body Part, Organ, or Organ Component",True,True
+2207,external spermatic fascia,C0458658,"Body Part, Organ, or Organ Component",CONNECTED_TO,aponeurosis,C0225205,Tissue,True,True
+2207,external spermatic fascia,C0458658,"Body Part, Organ, or Organ Component",CONNECTED_TO,margins of the superficial inguinal ring,C0229985,"Body Part, Organ, or Organ Component",True,True
+2209,round ligament of the uterus,C0230247,"Body Part, Organ, or Organ Component",CONNECTED_TO,deep inguinal ring,,"Body Part, Organ, or Organ Component",True,True
+2209,round ligament of the uterus,C0230247,"Body Part, Organ, or Organ Component",CONNECTED_TO,superficial inguinal ring,C0225227,"Body Part, Organ, or Organ Component",True,True
+2210,round ligament of the uterus,C0230247,"Body Part, Organ, or Organ Component",CONNECTED_TO,uterus,C0042149,"Body Part, Organ, or Organ Component",True,True
+2211,inguinal canal,C0021445,Body Location or Region,LOCATION_OF,peritoneal sac,C0504217,"Body Part, Organ, or Organ Component",True,True
+2228,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONNECTED_TO,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+2228,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONNECTED_TO,transverse colon,C0227386,"Body Part, Organ, or Organ Component",True,True
+2228,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONNECTED_TO,jejunum,C0022378,"Body Part, Organ, or Organ Component",True,True
+2228,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONNECTED_TO,ileum,C0020885,"Body Part, Organ, or Organ Component",True,True
+2230,lesser omentum,C0230260,"Body Part, Organ, or Organ Component",CONNECTED_TO,stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+2230,lesser omentum,C0230260,"Body Part, Organ, or Organ Component",CONNECTED_TO,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+2230,lesser omentum,C0230260,"Body Part, Organ, or Organ Component",CONNECTED_TO,liver,C0023884,"Body Part, Organ, or Organ Component",True,True
+2235,mesentery,C0025474,Body Location or Region,CONNECTED_TO,posterior abdominal wall,C0230194,Body Location or Region,True,True
+2236,transverse mesocolon,C0230254,"Body Part, Organ, or Organ Component",CONNECTED_TO,transverse colon,C0227386,"Body Part, Organ, or Organ Component",True,True
+2236,transverse mesocolon,C0230254,"Body Part, Organ, or Organ Component",SURROUNDS,transverse colon,C0227386,"Body Part, Organ, or Organ Component",True,True
+2237,sigmoid mesocolon,C0025498,"Body Part, Organ, or Organ Component",CONNECTED_TO,sigmoid colon,C0227391,"Body Part, Organ, or Organ Component",True,True
+2237,sigmoid mesocolon,C0025498,"Body Part, Organ, or Organ Component",CONNECTED_TO,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",True,True
+2238,left kidney,C0227614,"Body Part, Organ, or Organ Component",CONNECTED_TO,spleen,C0037993,"Body Part, Organ, or Organ Component",True,True
+2238,stomach,C0038351,"Body Part, Organ, or Organ Component",CONNECTED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2239,abdominal cavity,C0230168,Body Location or Region,LOCATION_OF,esophagus,C0014876,"Body Part, Organ, or Organ Component",True,True
+2245,pyloric part,C0034196,"Body Part, Organ, or Organ Component",PART_OF,stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+2248,left gastric artery,C0226298,"Body Part, Organ, or Organ Component",BRANCH_OF,celiac trunk,C0007569,"Body Part, Organ, or Organ Component",True,True
+2248,right gastro-omental artery,C0226312,"Body Part, Organ, or Organ Component",BRANCH_OF,gastroduodenal artery,C0226311,"Body Part, Organ, or Organ Component",True,True
+2248,left gastro-omental artery,C0226314,"Body Part, Organ, or Organ Component",BRANCH_OF,splenic artery,C0037996,"Body Part, Organ, or Organ Component",True,True
+2250,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,pancreas,C0030274,"Body Part, Organ, or Organ Component",True,True
+2250,duodenum,C0013303,"Body Part, Organ, or Organ Component",CONNECTED_TO,liver,C0023884,"Body Part, Organ, or Organ Component",True,True
+2252,pyloric orifice,C0227237,Body Space or Junction,PART_OF,stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+2252,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,bile duct,C0005400,"Body Part, Organ, or Organ Component",True,True
+2252,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,gastroduodenal artery,C0226311,"Body Part, Organ, or Organ Component",True,True
+2252,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2252,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",True,True
+2252,duodenum,C0013303,"Body Part, Organ, or Organ Component",LOCATION_OF,duodenal ulcer,C0013295,Disease or Syndrome,True,True
+2254,duodenum,C0013303,"Body Part, Organ, or Organ Component",TRAVERSES,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",True,True
+2254,duodenum,C0013303,"Body Part, Organ, or Organ Component",TRAVERSES,aorta,C0003483,"Body Part, Organ, or Organ Component",True,True
+2254,duodenum,C0013303,"Body Part, Organ, or Organ Component",TRAVERSES,vertebral column,C0037949,"Body Part, Organ, or Organ Component",True,True
+2254,mesenteric artery,C0025465,"Body Part, Organ, or Organ Component",TRAVERSES,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+2255,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,aorta,C0003483,"Body Part, Organ, or Organ Component",True,True
+2256,peritoneum,C0031153,Tissue,SURROUNDS,duodenojejunal flexure,C0227282,Body Space or Junction,True,True
+2256,suspensory muscle,C0023685,Tissue,PART_OF,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+2258,jejunum,C0022378,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+2260,ileum,C0020885,"Body Part, Organ, or Organ Component",PART_OF,small intestine,C0021852,"Body Part, Organ, or Organ Component",True,True
+2260,right lower quadrant,C0230178,Body Location or Region,LOCATION_OF,ileum,C0020885,"Body Part, Organ, or Organ Component",True,True
+2262,ileal arteries,C0226321,"Body Part, Organ, or Organ Component",BRANCH_OF,superior mesenteric artery,C0162861,"Body Part, Organ, or Organ Component",True,True
+2262,ileal branch,,"Body Part, Organ, or Organ Component",BRANCH_OF,ileocolic artery,C0226323,"Body Part, Organ, or Organ Component",True,True
+2263,large intestine,C0021853,"Body Part, Organ, or Organ Component",CONSISTS_OF,cecum,C0007531,"Body Part, Organ, or Organ Component",True,True
+2263,large intestine,C0021853,"Body Part, Organ, or Organ Component",CONSISTS_OF,appendix,C0003617,"Body Part, Organ, or Organ Component",True,True
+2263,large intestine,C0021853,"Body Part, Organ, or Organ Component",CONSISTS_OF,colon,C0009368,"Body Part, Organ, or Organ Component",True,True
+2263,large intestine,C0021853,"Body Part, Organ, or Organ Component",CONSISTS_OF,rectum,C0034896,"Body Part, Organ, or Organ Component",True,True
+2263,large intestine,C0021853,"Body Part, Organ, or Organ Component",PRODUCES,feces,C0015733,Body Substance,True,True
+2264,ascending colon,C0009368,"Body Part, Organ, or Organ Component",PART_OF,large intestine,C0021853,"Body Part, Organ, or Organ Component",True,True
+2269,appendix,C0003617,"Body Part, Organ, or Organ Component",CONNECTED_TO,cecum,C0007531,"Body Part, Organ, or Organ Component",True,True
+2271,anterior cecal artery,C0003842,"Body Part, Organ, or Organ Component",BRANCH_OF,ileocolic artery,C0226323,"Body Part, Organ, or Organ Component",True,True
+2271,posterior cecal artery,C0003842,"Body Part, Organ, or Organ Component",BRANCH_OF,ileocolic artery,C0226323,"Body Part, Organ, or Organ Component",True,True
+2271,appendicular artery,C0226329,"Body Part, Organ, or Organ Component",BRANCH_OF,ileocolic artery,C0226323,"Body Part, Organ, or Organ Component",True,True
+2275,sigmoid colon,C0227391,"Body Part, Organ, or Organ Component",CONNECTED_TO,c0025498,C0025498,"Body Part, Organ, or Organ Component",True,True
+2276,colic branch,,"Body Part, Organ, or Organ Component",BRANCH_OF,c0226323,C0226323,"Body Part, Organ, or Organ Component",True,True
+2276,anterior cecal artery,C0003842,"Body Part, Organ, or Organ Component",BRANCH_OF,c0226323,C0226323,"Body Part, Organ, or Organ Component",True,True
+2276,posterior cecal artery,C0003842,"Body Part, Organ, or Organ Component",BRANCH_OF,c0226323,C0226323,"Body Part, Organ, or Organ Component",True,True
+2276,right colic artery,C0226327,"Body Part, Organ, or Organ Component",BRANCH_OF,c0025465,C0025465,"Body Part, Organ, or Organ Component",True,True
+2277,right colic artery,C0226327,"Body Part, Organ, or Organ Component",BRANCH_OF,c0162861,C0162861,"Body Part, Organ, or Organ Component",True,True
+2277,middle colic artery,C0226328,"Body Part, Organ, or Organ Component",BRANCH_OF,c0162861,C0162861,"Body Part, Organ, or Organ Component",True,True
+2277,left colic artery,C0226318,"Body Part, Organ, or Organ Component",BRANCH_OF,c0162860,C0162860,"Body Part, Organ, or Organ Component",True,True
+2279,sigmoidal arteries,C0226330,"Body Part, Organ, or Organ Component",BRANCH_OF,c0162860,C0162860,"Body Part, Organ, or Organ Component",True,True
+2292,falciform ligament,C0230240,"Body Part, Organ, or Organ Component",CONNECTED_TO,liver,C0023884,"Body Part, Organ, or Organ Component",True,True
+2293,bare area,,"Body Part, Organ, or Organ Component",PART_OF,liver,C0023884,"Body Part, Organ, or Organ Component",True,True
+2302,cystic artery,C0226309,"Body Part, Organ, or Organ Component",BRANCH_OF,right hepatic artery,C0226302,"Body Part, Organ, or Organ Component",True,True
+2302,right hepatic artery,C0226302,"Body Part, Organ, or Organ Component",BRANCH_OF,hepatic artery,C0019145,"Body Part, Organ, or Organ Component",True,True
+2306,duodenum,C0013303,"Body Part, Organ, or Organ Component",LOCATION_OF,head,C0018670,Body Location or Region,True,True
+2308,mesenteric vessels,C4533021,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2308,splenic veins,C0038001,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2311,pancreatic duct,C0030288,"Body Part, Organ, or Organ Component",CONNECTED_TO,bile duct,C0005400,"Body Part, Organ, or Organ Component",True,True
+2312,accessory pancreatic duct,C0227573,"Body Part, Organ, or Organ Component",CONNECTED_TO,duodenum,C0013303,"Body Part, Organ, or Organ Component",True,True
+2316,hepatic artery,C0019145,"Body Part, Organ, or Organ Component",BRANCH_OF,celiac trunk,C0007569,"Body Part, Organ, or Organ Component",True,True
+2321,bile duct,C0005400,"Body Part, Organ, or Organ Component",CONNECTED_TO,pancreatic duct,C0030288,"Body Part, Organ, or Organ Component",True,True
+2322,spleen,C0037993,"Body Part, Organ, or Organ Component",ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2322,left upper quadrant,C0230179,Body Location or Region,LOCATION_OF,spleen,C0037993,"Body Part, Organ, or Organ Component",True,True
+2323,spleen,C0037993,"Body Part, Organ, or Organ Component",CONNECTED_TO,greater curvature of the stomach,C0038351,"Body Part, Organ, or Organ Component",True,True
+2323,spleen,C0037993,"Body Part, Organ, or Organ Component",CONNECTED_TO,left kidney,C0227614,"Body Part, Organ, or Organ Component",True,True
+2324,ligaments,C0023685,Tissue,PART_OF,greater omentum,C0028977,"Body Part, Organ, or Organ Component",True,True
+2325,visceral peritoneum,C0230206,"Body Part, Organ, or Organ Component",SURROUNDS,spleen,C0037993,"Body Part, Organ, or Organ Component",True,True
+2326,splenic artery,C0037996,"Body Part, Organ, or Organ Component",BRANCH_OF,celiac trunk,C0007569,"Body Part, Organ, or Organ Component",True,True
+2327,iliac arteries,C0020887,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+2336,celiac trunk,C0007569,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+2339,short gastric arteries,C0734092,"Body Part, Organ, or Organ Component",BRANCH_OF,splenic artery,C0037996,"Body Part, Organ, or Organ Component",True,True
+2340,common hepatic artery,C0019145,"Body Part, Organ, or Organ Component",BRANCH_OF,celiac trunk,C0007569,"Body Part, Organ, or Organ Component",True,True
+2340,gastroduodenal artery,C0226311,"Body Part, Organ, or Organ Component",BRANCH_OF,common hepatic artery,C0019145,"Body Part, Organ, or Organ Component",True,True
+2351,middle colic artery,C0226328,"Body Part, Organ, or Organ Component",BRANCH_OF,superior mesenteric artery,C0162861,"Body Part, Organ, or Organ Component",True,True
+2351,left colic artery,C0226318,"Body Part, Organ, or Organ Component",BRANCH_OF,inferior mesenteric artery,C0162860,"Body Part, Organ, or Organ Component",True,True
+2352,right colic artery,C0226327,"Body Part, Organ, or Organ Component",BRANCH_OF,superior mesenteric artery,C0162861,"Body Part, Organ, or Organ Component",True,True
+2353,ileocolic artery,C0226323,"Body Part, Organ, or Organ Component",BRANCH_OF,superior mesenteric artery,C0025465,"Body Part, Organ, or Organ Component",True,True
+2361,inferior mesenteric artery,C0162860,"Body Part, Organ, or Organ Component",BRANCH_OF,abdominal aorta,C0003484,"Body Part, Organ, or Organ Component",True,True
+2366,superior rectal artery,C0226331,"Body Part, Organ, or Organ Component",BRANCH_OF,inferior mesenteric artery,C0162860,"Body Part, Organ, or Organ Component",True,True
+2368,portal vein,C0032718,"Body Part, Organ, or Organ Component",CONSISTS_OF,splenic vein,C0038001,"Body Part, Organ, or Organ Component",True,True
+2370,left gastric veins,C0750610,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2370,cystic veins,C0226741,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2370,para-umbilical veins,C0226740,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2371,splenic vein,C0038001,"Body Part, Organ, or Organ Component",TRAVERSES,splenorenal ligament,C0230234,"Body Part, Organ, or Organ Component",True,True
+2371,straight splenic vein,C0038001,"Body Part, Organ, or Organ Component",ADJACENT_TO,pancreas,C0030274,"Body Part, Organ, or Organ Component",True,True
+2371,splenic vein,C0038001,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2371,superior mesenteric vein,C0226742,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",True,True
+2372,short gastric veins,C0226752,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,splenic vein,C0038001,"Body Part, Organ, or Organ Component",True,True
+2372,left gastro-omental vein,C0226753,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,splenic vein,C0038001,"Body Part, Organ, or Organ Component",True,True
+2372,pancreatic veins,C0226743,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,splenic vein,C0038001,"Body Part, Organ, or Organ Component",True,True
+2374,superior mesenteric vein,C0226742,"Body Part, Organ, or Organ Component",CONNECTED_TO,splenic vein,C0038001,"Body Part, Organ, or Organ Component",True,True
+2376,inferior mesenteric vein,C0226754,"Body Part, Organ, or Organ Component",CONNECTED_TO,splenic vein,C0038001,"Body Part, Organ, or Organ Component",True,True
+2376,inferior mesenteric vein,C0226754,"Body Part, Organ, or Organ Component",ADJACENT_TO,pancreas,C0030274,"Body Part, Organ, or Organ Component",True,True
+2388,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",ADJACENT_TO,carotid sheath,C0225220,Tissue,True,True
+2388,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",ADJACENT_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+2388,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",True,True
+2388,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",ADJACENT_TO,lumbar vertebral bodies,C0223486,"Body Part, Organ, or Organ Component",True,True
+2388,ganglion impar,C0229024,"Body Part, Organ, or Organ Component",CONSISTS_OF,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",True,True
+2390,ganglia,C0017067,"Body Part, Organ, or Organ Component",CONNECTED_TO,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",True,True
+2405,aortic plexus,C2339507,"Body Part, Organ, or Organ Component",CONSISTS_OF,ganglia,C0017067,"Body Part, Organ, or Organ Component",True,True
+2413,pelvic splanchnic nerves,C0229025,"Body Part, Organ, or Organ Component",CONNECTED_TO,inferior hypogastric plexus,C0205797,"Body Part, Organ, or Organ Component",True,True
+2417,stomach,C0038351,"Body Part, Organ, or Organ Component",LOCATION_OF,sympathetic innervation,C0039038,Therapeutic or Preventive Procedure,True,True
+2419,preganglionic sympathetic fiber,C0228979,"Body Part, Organ, or Organ Component",CONNECTED_TO,root,C0040452,"Body Part, Organ, or Organ Component",True,True
+2422,white ramus communicans,C0501390,"Body Part, Organ, or Organ Component",CONNECTED_TO,sympathetic trunk,C0228972,"Body Part, Organ, or Organ Component",True,True
+2423,preganglionic fiber,C0004385,"Body Part, Organ, or Organ Component",TRAVERSES,trunk,C0225442,"Body Part, Organ, or Organ Component",True,True
+2424,greater splanchnic nerve,C0037991,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2426,postganglionic fiber,C0004384,"Body Part, Organ, or Organ Component",PART_OF,plexus,C1184808,"Body Part, Organ, or Organ Component",True,True
+2448,diaphragm,C0011980,"Body Part, Organ, or Organ Component",ADJACENT_TO,posterior abdominal region,C1720043,Body Location or Region,True,True
+2449,diaphragm,C0011980,"Body Part, Organ, or Organ Component",CONSISTS_OF,central tendinous,C0039508,"Body Part, Organ, or Organ Component",True,True
+2449,diaphragm,C0011980,"Body Part, Organ, or Organ Component",CONNECTED_TO,lumbar vertebrae,C0024091,"Body Part, Organ, or Organ Component",True,True
+2452,tendinous arch,C0224860,"Body Part, Organ, or Organ Component",ADJACENT_TO,aorta,C0003483,"Body Part, Organ, or Organ Component",True,True
+2453,medial arcuate ligament,C0929519,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebrae,C0549207,"Body Part, Organ, or Organ Component",True,True
+2454,tendinous arch,C0224860,"Body Part, Organ, or Organ Component",CONNECTED_TO,fascia,C0015641,"Body Part, Organ, or Organ Component",True,True
+2454,lateral arcuate ligament,C0929520,"Body Part, Organ, or Organ Component",CONNECTED_TO,fascia,C0015641,"Body Part, Organ, or Organ Component",True,True
+2454,lateral arcuate ligament,C0929520,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebrae,C0549207,"Body Part, Organ, or Organ Component",True,True
+2460,esophagus,C0014876,"Body Part, Organ, or Organ Component",TRAVERSES,musculature,C1995013,"Body Part, Organ, or Organ Component",True,True
+2467,hemi-azygos vein,C0226642,"Body Part, Organ, or Organ Component",TRAVERSES,left crus,,"Body Part, Organ, or Organ Component",True,True
+2469,superior epigastric vessels,,"Body Part, Organ, or Organ Component",ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2469,superior epigastric vessels,,"Body Part, Organ, or Organ Component",ADJACENT_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",True,True
+2470,vessels,C0005847,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2470,nerves,C0027740,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2476,pericardiacophrenic artery,C0501112,"Body Part, Organ, or Organ Component",BRANCH_OF,internal thoracic artery,C0226276,"Body Part, Organ, or Organ Component",True,True
+2476,superior phrenic artery,C0226295,"Body Part, Organ, or Organ Component",BRANCH_OF,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",True,True
