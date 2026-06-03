@@ -1,0 +1,978 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+3,tongue,C0040408,"Body Part, Organ, or Organ Component",LOCATION_OF,lingual artery,C0226104,"Body Part, Organ, or Organ Component",False,True
+12,palms,C0682477,Plant,PART_OF,hands,C0018563,"Body Part, Organ, or Organ Component",False,True
+31,x-ray tube,C0184486,Medical Device,PRODUCES,x-rays,C0043299,Diagnostic Procedure,False,True
+31,tissues,C0040300,Tissue,AFFECTS,x-rays,C0043299,Diagnostic Procedure,False,True
+32,bone,C0005931,Tissue,AFFECTS,x-rays,C0043299,Diagnostic Procedure,False,True
+35,barium sulfate suspension,C0361993,Pharmacologic Substance,AFFECTS,x-rays,C0043299,Diagnostic Procedure,False,True
+36,iodine,C0021968,Pharmacologic Substance,AFFECTS,x-rays,C0043299,Diagnostic Procedure,False,True
+37,contrast media,C0009924,"Indicator, Reagent, or Diagnostic Aid",TRAVERSES,arteries,C0003842,"Body Part, Organ, or Organ Component",False,True
+37,contrast media,C0009924,"Indicator, Reagent, or Diagnostic Aid",TRAVERSES,veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+37,contrast media,C0009924,"Indicator, Reagent, or Diagnostic Aid",TRAVERSES,circulation,C0005775,Physiologic Function,False,True
+45,free protons,C0033727,"Element, Ion, or Isotope",PART_OF,hydrogen nuclei,C0020275,"Element, Ion, or Isotope",False,True
+46,imaging sequences,C0162326,Nucleotide Sequence,PRODUCES,image contrast,C0009924,"Indicator, Reagent, or Diagnostic Aid",False,True
+49,t2-weighted images,C4744828,Diagnostic Procedure,PRODUCES,bright signal,C3539536,Gene or Genome,False,True
+52,imaging,C0011923,Diagnostic Procedure,USES,gamma rays,C0017011,Natural Phenomenon or Process,False,True
+54,nucleus,C0007610,Cell Component,PRODUCES,gamma rays,C0017011,Natural Phenomenon or Process,False,True
+54,electrons,C0013852,"Element, Ion, or Isotope",PRODUCES,x-rays,C0043299,Diagnostic Procedure,False,True
+58,decay,C1265875,Acquired Abnormality,PROCESS_OF,proton-rich radionuclides,C0034595,"Element, Ion, or Isotope",False,True
+66,chest radiograph,C3842377,Diagnostic Procedure,IS_A,plain radiographs,C1306645,Diagnostic Procedure,False,True
+68,chest radiograph,C3842377,Diagnostic Procedure,EXHIBITS,lungs,C0024109,"Body Part, Organ, or Organ Component",False,True
+71,intravenous urography,C0203108,Diagnostic Procedure,IS_A,investigation,C0220825,Health Care Activity,False,True
+72,radiographs,C1306645,Diagnostic Procedure,EXHIBITS,kidneys,C0022646,"Body Part, Organ, or Organ Component",False,True
+77,intravenous contrast agents,C0009924,"Indicator, Reagent, or Diagnostic Aid",AFFECTS,tissue contrast,C0009924,"Indicator, Reagent, or Diagnostic Aid",False,True
+77,mri contrast agents,C0009924,"Indicator, Reagent, or Diagnostic Aid",CONTAINS,gadolinium,C0016911,"Indicator, Reagent, or Diagnostic Aid",False,True
+77,mri contrast agents,C0009924,"Indicator, Reagent, or Diagnostic Aid",CONTAINS,manganese,C0024706,Biologically Active Substance,False,True
+83,skeletal system,C0037253,Body System,CONSISTS_OF,cartilage,C0007301,Tissue,False,True
+83,skeletal system,C0037253,Body System,CONSISTS_OF,bone,C0005931,Tissue,False,True
+84,cartilage,C0007301,Tissue,IS_A,connective tissue,C0009780,Tissue,False,True
+84,cartilage,C0007301,Tissue,CONTAINS,extracellular fibers,C0521119,Cell Component,False,True
+84,cartilage,C0007301,Tissue,CONTAINS,cells,C0007634,Cell,False,True
+85,hyaline,C0020191,Body Substance,IS_A,cartilage,C0007301,Tissue,False,True
+85,elastic,,Tissue,IS_A,cartilage,C0007301,Tissue,False,True
+85,fibrocartilage,C0684077,Tissue,IS_A,cartilage,C0007301,Tissue,False,True
+87,bone,C0005931,Tissue,CONTAINS,calcium,C0006675,Pharmacologic Substance,False,True
+87,bone,C0005931,Tissue,CONTAINS,phosphorus,C0031705,"Element, Ion, or Isotope",False,True
+88,spongy bone,C0222660,Tissue,CONTAINS,blood-forming cells,C0018956,Cell,False,True
+89,long bones,C0222647,"Body Part, Organ, or Organ Component",IS_A,tubular,C0151747,Disease or Syndrome,False,True
+90,short bones,C0222648,"Body Part, Organ, or Organ Component",IS_A,cuboidal,C0935440,Cell,False,True
+91,flat bones,C0222649,"Body Part, Organ, or Organ Component",CONSISTS_OF,compact bone,C0222661,Tissue,False,True
+91,flat bones,C0222649,"Body Part, Organ, or Organ Component",CONSISTS_OF,spongy bone,C0222660,Tissue,False,True
+93,sesamoid bones,C0036846,"Body Part, Organ, or Organ Component",OCCURS_IN,tendons,C0039508,"Body Part, Organ, or Organ Component",False,True
+94,periosteum,C0025255,Tissue,CONTAINS,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+94,periosteum,C0031110,Tissue,CONTAINS,sensory nerve fibers,C0501385,"Body Part, Organ, or Organ Component",False,True
+100,joint capsule,C0206207,"Body Part, Organ, or Organ Component",CONTAINS,inner synovial membrane,C0039099,"Body Part, Organ, or Organ Component",False,True
+100,joint capsule,C0206207,"Body Part, Organ, or Organ Component",CONTAINS,outer fibrous membrane,C1167331,Cell Component,False,True
+115,solid joints,C0699803,Body Space or Junction,CONNECTED_TO,connective tissue,C0009780,Tissue,False,True
+115,solid joints,C0699803,Body Space or Junction,CONNECTED_TO,cartilage,C0007301,Tissue,False,True
+117,skull,C0037303,"Body Part, Organ, or Organ Component",LOCATION_OF,sutures,C0038969,Medical Device,False,True
+120,synchondroses,C0224519,Body Location or Region,PART_OF,cartilaginous joints,C0224518,Body Space or Junction,False,True
+120,symphyses,C0034015,Body Space or Junction,PART_OF,cartilaginous joints,C0224518,Body Space or Junction,False,True
+125,fascia,C0015641,"Body Part, Organ, or Organ Component",CONTAINS,fat,C0001527,Tissue,False,True
+126,superficial (subcutaneous) fascia,C0278403,Tissue,CONNECTED_TO,dermis,C0011646,Tissue,False,True
+126,superficial (subcutaneous) fascia,C0278403,Tissue,CONTAINS,fat,C0001527,Tissue,False,True
+132,cardiovascular system,C0007226,Body System,CONSISTS_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+135,elastic arteries,C0226008,"Body Part, Organ, or Organ Component",CONTAINS,elastic fibers,C0230899,Tissue,False,True
+136,tunica media,C0162867,Tissue,CONTAINS,smooth muscle fibers,C1135918,Cell,False,True
+140,veins,C0042449,"Body Part, Organ, or Organ Component",CONTAINS,smooth muscle,C1267092,Tissue,False,True
+146,valves,C0184252,Medical Device,PART_OF,veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+153,valves,C0184252,Medical Device,PART_OF,vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+154,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",CONTAINS,body’s defense system,C0460002,Body System,False,True
+158,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",CONNECTED_TO,venous system,C1267406,Body System,False,True
+163,cns,C0027763,Body System,CONSISTS_OF,brain,C0006104,"Body Part, Organ, or Organ Component",False,True
+163,cns,C0027763,Body System,CONSISTS_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",False,True
+164,pns,C0206417,Body System,CONSISTS_OF,nervous structures,C0027740,"Body Part, Organ, or Organ Component",False,True
+164,pns,C0206417,Body System,CONSISTS_OF,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",False,True
+164,pns,C0206417,Body System,CONSISTS_OF,cranial nerves,C0010268,"Body Part, Organ, or Organ Component",False,True
+164,pns,C0206417,Body System,CONSISTS_OF,visceral nerves,C0206250,"Body Part, Organ, or Organ Component",False,True
+164,pns,C0206417,Body System,CONSISTS_OF,plexuses,C0501403,"Body Part, Organ, or Organ Component",False,True
+164,pns,C0206417,Body System,CONSISTS_OF,enteric system,C0206111,Body System,False,True
+164,nervous structures,C0027740,"Body Part, Organ, or Organ Component",CONNECTED_TO,cns,C0027763,Body System,False,True
+166,gray matter,C0018220,Tissue,CONTAINS,cell bodies,C0599444,Cell Component,False,True
+166,white matter,C0682708,Tissue,CONTAINS,axons,C0004461,Cell Component,False,True
+166,axons,C0004461,Cell Component,INGREDIENT_OF,tracts,C1185740,"Body Part, Organ, or Organ Component",False,True
+166,axons,C0004461,Cell Component,INGREDIENT_OF,pathways,C1704259,Molecular Function,False,True
+170,vertebral canal,C0037922,Body Space or Junction,LOCATION_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",False,True
+178,somatic,C1257909,Cell,PART_OF,nervous system,C0027763,Body System,False,True
+182,somatic part,C1257909,Cell,CONSISTS_OF,nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+183,dermatomyotome,C0180383,Medical Device,PRODUCES,skeletal muscle,C0242692,Tissue,False,True
+183,dermatomyotome,C0180383,Medical Device,PRODUCES,dermis,C0011646,Body Substance,False,True
+187,neural crest cells,C0815004,Cell,PRODUCES,neurons,C0027882,Cell,False,True
+194,periphery,C1622967,Cell Component,CONNECTED_TO,somatic sensory neurons,C0027883,Cell,False,True
+194,muscles,C0026845,Tissue,LOCATION_OF,special receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+194,tendons,C0039508,"Body Part, Organ, or Organ Component",LOCATION_OF,special receptors,C0597357,"Amino Acid, Peptide, or Protein",False,True
+195,spinal cord,C0037925,"Body Part, Organ, or Organ Component",LOCATION_OF,somatic motor fibers,C3496508,"Body Part, Organ, or Organ Component",False,True
+208,autonomic division,C0004388,Body System,PART_OF,pns,C0206417,Body System,False,True
+212,preganglionic motor neurons,C1520027,Cell,IS_A,visceral motor neurons,C0026609,Cell,False,True
+212,preganglionic fibers,C0004385,"Body Part, Organ, or Organ Component",IS_A,axons,C0004461,Cell Component,False,True
+212,postganglionic fibers,C0004384,"Body Part, Organ, or Organ Component",IS_A,axons,C0004461,Cell Component,False,True
+213,ganglion,C0017067,"Body Part, Organ, or Organ Component",CONTAINS,cell bodies,C0599444,Cell Component,False,True
+214,visceral sensory fibers,,,CO_OCCURS_WITH,somatic sensory fibers,C3496507,"Body Part, Organ, or Organ Component",False,True
+221,sympathetic system,C0039044,Body System,AFFECTS,viscera,C0042779,"Body Part, Organ, or Organ Component",False,True
+222,parasympathetic system,C0030510,Body System,AFFECTS,viscera,C0042779,"Body Part, Organ, or Organ Component",False,True
+224,sympathics,C0039052,Pharmacologic Substance,AFFECTS,periphery,C1622967,Cell Component,False,True
+224,sympathics,C0039052,Pharmacologic Substance,AFFECTS,viscera,C0042779,"Body Part, Organ, or Organ Component",False,True
+225,vertebral column,C0037949,"Body Part, Organ, or Organ Component",LOCATION_OF,trunk,C0225442,"Body Part, Organ, or Organ Component",False,True
+225,white ramus communicans,C0501390,"Body Part, Organ, or Organ Component",CONTAINS,preganglionic sympathetic fibers,C0206254,"Body Part, Organ, or Organ Component",False,True
+229,preganglionic sympathetic fibers,C0206254,"Body Part, Organ, or Organ Component",INTERACTS_WITH,ganglia,C0017067,"Body Part, Organ, or Organ Component",False,True
+232,white rami communicantes,C0228977,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,spinal nerves t1 to l2,C0037941,"Body Part, Organ, or Organ Component",False,True
+232,gray rami communicantes,C0228978,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",False,True
+239,splanchnic nerves,C0037991,"Body Part, Organ, or Organ Component",INTERCONNECTS,sympathetic ganglia,C0017071,"Body Part, Organ, or Organ Component",False,True
+247,postganglionic,C0004384,"Body Part, Organ, or Organ Component",LOCATION_OF,viscera,C0042779,"Body Part, Organ, or Organ Component",False,True
+252,x,C0262201,"Body Part, Organ, or Organ Component",CONTAINS,vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+252,x,C0262201,"Body Part, Organ, or Organ Component",CONTAINS,viscera,C0042779,"Body Part, Organ, or Organ Component",False,True
+256,enteric nervous system,C0206111,Body System,CONSISTS_OF,sensory neurons,C0027883,Cell,False,True
+256,enteric nervous system,C0206111,Body System,CONSISTS_OF,support cells,C0344211,Health Care Activity,False,True
+256,plexuses,C0501403,"Body Part, Organ, or Organ Component",LOCATION_OF,gastrointestinal tract,C0017189,Body System,False,True
+260,plexuses,C0501403,"Body Part, Organ, or Organ Component",PRODUCES,nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+260,plexuses,C0501403,"Body Part, Organ, or Organ Component",PRODUCES,reflexes,C0034929,Organ or Tissue Function,False,True
+261,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",INGREDIENT_OF,somatic plexuses,C0501403,"Body Part, Organ, or Organ Component",False,True
+278,feet,C0016504,"Body Part, Organ, or Organ Component",LOCATION_OF,os naviculare,C0223947,"Body Part, Organ, or Organ Component",False,True
+279,ossification,C0029433,Organ or Tissue Function,PROCESS_OF,carpal,C0007285,"Body Part, Organ, or Organ Component",False,True
+281,internal fixation,C0016642,Therapeutic or Preventive Procedure,PERFORMS,repair,C0043240,Organism Function,False,True
+282,pain,C0030193,Sign or Symptom,CAUSES,wasting,C0006625,Sign or Symptom,False,True
+285,accessory structures,C0000905,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,synovial joints,C0224507,Body Space or Junction,False,True
+289,osteophytic,C1956089,Disease or Syndrome,LOCATION_OF,joint,C0022417,Body Space or Junction,False,True
+293,muscle tear,C0149732,Injury or Poisoning,LOCATION_OF,right adductor longus,C0815810,"Body Part, Organ, or Organ Component",False,True
+293,edema,C0013604,Pathologic Function,LOCATION_OF,muscle,C0026845,Tissue,False,True
+296,regions,C0242961,Nucleotide Sequence,ASSOCIATED_WITH,clusters,C1179412,"Body Part, Organ, or Organ Component",False,True
+296,regions,C0242961,Nucleotide Sequence,ASSOCIATED_WITH,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",False,True
+301,cranial cavity,C0230041,Body Space or Junction,LOCATION_OF,meninges,C0025285,"Body Part, Organ, or Organ Component",False,True
+302,differentiation,C0007589,Cell Function,PROCESS_OF,somites,C0376449,Embryonic Structure,False,True
+304,motor neuron,C0026609,Cell,CONNECTED_TO,muscle,C0026845,Tissue,False,True
+304,neural tube,C0231024,Embryonic Structure,LOCATION_OF,motor neuron cell body,C0599444,Cell Component,False,True
+308,somites,C0376449,Embryonic Structure,ASSOCIATED_WITH,c5 region,C0446415,Body Location or Region,False,True
+308,somites,C0376449,Embryonic Structure,ASSOCIATED_WITH,c6 region,C0242961,Nucleotide Sequence,False,True
+311,motor nerve,C0501384,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+311,motor nerve,C0501384,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,sweat glands,C0038989,"Body Part, Organ, or Organ Component",False,True
+315,sympathetic,C0001646,Tissue,PART_OF,autonomic division,C0004388,Body System,False,True
+317,sympathetic fibers,C0001646,Tissue,TRAVERSES,periphery,C1622967,Cell Component,False,True
+319,sympathetic nerves,C0459521,"Body Part, Organ, or Organ Component",TRAVERSES,periphery,C1622967,Cell Component,False,True
+323,sympathetic nerves,C0459521,"Body Part, Organ, or Organ Component",TRAVERSES,abdominal,C0000726,Body Location or Region,False,True
+325,parasympathetic,C0017069,"Body Part, Organ, or Organ Component",PART_OF,autonomic division,C0004388,Body System,False,True
+335,mechanical stresses,C0038442,Natural Phenomenon or Process,CAUSES,c0030193,C0030193,Sign or Symptom,False,True
+335,steroid injections,C0038317,Organic Chemical,TREATS,c0030193,C0030193,Sign or Symptom,False,True
+343,red marrow,C0229624,Tissue,PRODUCES,red blood cells,C0014792,Cell,False,True
+343,red marrow,C0229624,Tissue,PRODUCES,platelets,C0005821,Cell,False,True
+343,red marrow,C0229624,Tissue,PRODUCES,white blood cells,C0023516,Cell,False,True
+345,bone marrow,C0005953,Tissue,CONTAINS,stem cells,C0038250,Cell,False,True
+345,hemopoietic stem cells,C0018956,Cell,PRODUCES,white blood cells,C0023516,Cell,False,True
+345,hemopoietic stem cells,C0018956,Cell,PRODUCES,red blood cells,C0014792,Cell,False,True
+345,hemopoietic stem cells,C0018956,Cell,PRODUCES,platelets,C0005821,Cell,False,True
+345,mesenchymal stem cells,C1257975,Cell,PRODUCES,bone,C0005931,Tissue,False,True
+345,mesenchymal stem cells,C1257975,Cell,PRODUCES,cartilage,C0007301,Tissue,False,True
+345,mesenchymal stem cells,C1257975,Cell,PRODUCES,muscle,C0026845,Tissue,False,True
+346,chemotherapy,C0013216,Therapeutic or Preventive Procedure,DISRUPTS,bone marrow,C0005953,Tissue,False,True
+348,fractures,C0016658,Injury or Poisoning,OCCURS_IN,bone,C0005931,Tissue,False,True
+349,fractures,C0016658,Injury or Poisoning,OCCURS_IN,growth plate,C0018283,"Body Part, Organ, or Organ Component",False,True
+350,osteoblasts,C0029418,Cell,PRODUCES,calcium hydroxyapatite,C0115137,Biomedical or Dental Material,False,True
+353,fracture,C0016658,Injury or Poisoning,LOCATION_OF,avascular necrosis,C0027543,Disease or Syndrome,False,True
+353,loss of blood flow,C0005775,Physiologic Function,CAUSES,necrosis,C0027540,Organ or Tissue Function,False,True
+357,water,C0043047,Pharmacologic Substance,PART_OF,cartilage,C0007301,Tissue,False,True
+357,proteoglycan,C0033692,"Amino Acid, Peptide, or Protein",PART_OF,cartilage,C0007301,Tissue,False,True
+357,synovial fluid,C0039097,Body Substance,PRODUCES,cysts,C0010709,Anatomical Abnormality,False,True
+361,arthroscopy,C0003904,Diagnostic Procedure,OCCURS_IN,joint,C0022417,Body Space or Junction,False,True
+366,femoral component,C0449434,Medical Device,CONNECTED_TO,femur,C0015811,"Body Part, Organ, or Organ Component",False,True
+377,stroke,C0038454,Disease or Syndrome,CAUSES,muscle paralysis,C0235062,Therapeutic or Preventive Procedure,False,True
+377,trauma,C0043251,Injury or Poisoning,CAUSES,muscle paralysis,C0235062,Therapeutic or Preventive Procedure,False,True
+377,poliomyelitis,C0032371,Disease or Syndrome,CAUSES,muscle paralysis,C0235062,Therapeutic or Preventive Procedure,False,True
+378,muscle paralysis,C0235062,Therapeutic or Preventive Procedure,PRODUCES,secondary muscle wasting,C0027627,Neoplastic Process,False,True
+378,muscle paralysis,C0235062,Therapeutic or Preventive Procedure,PRODUCES,atrophy,C0333641,Pathologic Function,False,True
+380,nerve damage,C0161479,Injury or Poisoning,PRODUCES,muscle atrophy,C0026846,Pathologic Function,False,True
+398,lymphocytes,C0024264,Cell,INTERACTS_WITH,bacteria,C0004611,Bacterium,False,True
+398,lymphocytes,C0024264,Cell,INTERACTS_WITH,viruses,C0042776,Virus,False,True
+398,lymphocytes,C0024264,Cell,INTERACTS_WITH,bodily cells,C0599444,Cell Component,False,True
+402,myotome,C0231043,Embryonic Structure,PART_OF,skeletal muscle,C0242692,Tissue,False,True
+414,bony elements,C0013879,"Element, Ion, or Isotope",CONSISTS_OF,vertebrae,C0549207,"Body Part, Organ, or Organ Component",False,True
+420,muscles,C0026845,Tissue,CONSISTS_OF,extrinsic muscles,C0028863,"Body Part, Organ, or Organ Component",False,True
+421,extrinsic muscles,C0028863,"Body Part, Organ, or Organ Component",PERFORMS,upper limbs,C1140618,"Body Part, Organ, or Organ Component",False,True
+421,extrinsic muscles,C0028863,"Body Part, Organ, or Organ Component",PERFORMS,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+422,intrinsic muscles,C0448353,"Body Part, Organ, or Organ Component",PERFORMS,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+426,vertebral column,C0037949,"Body Part, Organ, or Organ Component",CONTAINS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",False,True
+429,vertebral body,C0223084,"Body Part, Organ, or Organ Component",PART_OF,bone,C0005931,Tissue,False,True
+431,vertebral arches,C1859458,Congenital Abnormality,PART_OF,vertebral canal,C0037922,Body Space or Junction,False,True
+435,vertebra,C0549207,"Body Part, Organ, or Organ Component",CONTAINS,rib elements,C0013879,"Element, Ion, or Isotope",False,True
+436,rib elements,C0013879,"Element, Ion, or Isotope",PART_OF,transverse processes,C0223078,"Body Part, Organ, or Organ Component",False,True
+439,intrinsic muscles,C0448353,"Body Part, Organ, or Organ Component",AFFECTS,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+439,intrinsic muscles,C0448353,"Body Part, Organ, or Organ Component",AFFECTS,head,C0018670,Body Location or Region,False,True
+439,intrinsic muscles,C0448353,"Body Part, Organ, or Organ Component",AFFECTS,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+448,vertebral canal,C0037922,Body Space or Junction,LOCATION_OF,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",False,True
+455,pelvic bones,C3887652,"Body Part, Organ, or Organ Component",CONNECTED_TO,sacrum,C0036033,Body Location or Region,False,True
+459,foramen,C0448011,"Body Part, Organ, or Organ Component",ADJACENT_TO,vertebral arches,C1859458,Congenital Abnormality,False,True
+461,articular processes,C0022417,"Body Part, Organ, or Organ Component",PART_OF,vertebral arches,C1859458,Congenital Abnormality,False,True
+463,dislocation,C0012691,Injury or Poisoning,AFFECTS,function,C0031843,Physiologic Function,False,True
+471,sacrum,C0036033,Body Location or Region,CONNECTED_TO,pelvic bone,C0030786,"Body Part, Organ, or Organ Component",False,True
+471,sacrum,C0036033,Body Location or Region,PART_OF,pelvic wall,C0230284,"Body Part, Organ, or Organ Component",False,True
+476,vertebral arch,C0223076,"Body Part, Organ, or Organ Component",PART_OF,vertebral foramen,C0459720,Body Space or Junction,False,True
+479,pedicles,C0456605,"Body Part, Organ, or{...}",PART_OF,vertebral arch,C0223076,"Body Part, Organ, or Organ Component",False,True
+480,laminae,C1033802,Eukaryote,PART_OF,roof,C0700374,"Body Part, Organ, or Organ Component",False,True
+491,vertebra ci,C0549207,"Body Part, Organ, or Organ Component",CONNECTED_TO,head,C0018670,Body Location or Region,False,True
+493,atlanto-occipital joint,C0004169,Body Space or Junction,AFFECTS,head,C0018670,Body Location or Region,False,True
+494,transverse ligament,C0225055,"Body Part, Organ, or Organ Component",CONNECTED_TO,dens,C0011320,Congenital Abnormality,False,True
+495,dens,C0011320,Congenital Abnormality,AFFECTS,atlas,C0004170,"Body Part, Organ, or Organ Component",False,True
+497,dens,C0011320,Congenital Abnormality,CONNECTED_TO,atlas,C0004170,"Body Part, Organ, or Organ Component",False,True
+498,alar ligaments,C0225002,"Body Part, Organ, or Organ Component",CONNECTED_TO,dens,C0011320,Congenital Abnormality,False,True
+506,sacrum,C0036033,Body Location or Region,CONNECTED_TO,coccyx,C0009194,"Body Part, Organ, or Organ Component",False,True
+512,symphysis,C0034015,Body Space or Junction,ADJACENT_TO,vertebral bodies,C0223084,"Body Part, Organ, or Organ Component",False,True
+515,vertebral column,C0037949,"Body Part, Organ, or Organ Component",PERFORMS,movements,C0026649,Organism Function,False,True
+519,collagen,C0009325,"Amino Acid, Peptide, or Protein",PART_OF,anulus fibrosus,C0223087,"Body Part, Organ, or Organ Component",False,True
+522,zygapophysial joints,C0224521,Body Space or Junction,IS_A,synovial joints,C0224507,Body Space or Junction,False,True
+524,uncinate processes,C0584227,Body Location or Region,CONNECTED_TO,vertebra,C0549207,"Body Part, Organ, or Organ Component",False,True
+525,ligaments,C0023685,Tissue,INTERCONNECTS,vertebral arches,C1859458,Congenital Abnormality,False,True
+527,longitudinal ligament,C0206331,"Body Part, Organ, or Organ Component",CONNECTED_TO,sacrum,C0036033,Body Location or Region,False,True
+529,ligamenta flava,C0206327,"Body Part, Organ, or Organ Component",CONSISTS_OF,elastic tissue,C0013762,Tissue,False,True
+529,ligamenta flava,C0206327,"Body Part, Organ, or Organ Component",PART_OF,vertebral canal,C0037922,Body Space or Junction,False,True
+529,ligamenta flava,C0206327,"Body Part, Organ, or Organ Component",CONNECTED_TO,laminae,C1033802,Eukaryote,False,True
+530,supraspinous ligament,C0225001,"Body Part, Organ, or Organ Component",CONNECTED_TO,vertebral spinous processes,C3897005,Anatomical Structure,False,True
+530,supraspinous ligament,C0225001,"Body Part, Organ, or Organ Component",CONNECTED_TO,sacrum,C0036033,Body Location or Region,False,True
+532,base,C0178499,Chemical Viewed Functionally,CONNECTED_TO,skull,C0037303,"Body Part, Organ, or Organ Component",False,True
+532,base,C0178499,Chemical Viewed Functionally,CONNECTED_TO,occipital protuberance,C1283612,"Body Part, Organ, or Organ Component",False,True
+532,base,C0178499,Chemical Viewed Functionally,CONNECTED_TO,foramen magnum,C0016519,Body Space or Junction,False,True
+533,apex,C0140145,"Amino Acid, Peptide, or Protein",CONNECTED_TO,tip,C1705504,Gene or Genome,False,True
+533,apex,C0140145,"Amino Acid, Peptide, or Protein",CONNECTED_TO,spinous process,C3897005,Anatomical Structure,False,True
+533,apex,C0140145,"Amino Acid, Peptide, or Protein",CONNECTED_TO,vertebra cvii,C0549207,"Body Part, Organ, or Organ Component",False,True
+534,deep side,,,CONNECTED_TO,posterior tubercle of vertebra ci,,"Body Part, Organ, or Organ Component",False,True
+534,deep side,,,CONNECTED_TO,spinous processes of cervical vertebrae,C0728985,"Body Part, Organ, or Organ Component",False,True
+535,ligamentum nuchae,C0225006,"Body Part, Organ, or Organ Component",PREVENTS,flexion,C1627359,Diagnostic Procedure,False,True
+536,interspinous ligaments,C0225000,"Body Part, Organ, or Organ Component",CONNECTED_TO,apex,C0140145,"Amino Acid, Peptide, or Protein",False,True
+540,muscles,C0026845,Tissue,CONNECTED_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+543,muscles,C0026845,Tissue,CONNECTED_TO,"appendicular skeleton (clavicle, scapula, humerus)",C0222646,"Body Part, Organ, or Organ Component",False,True
+543,muscles,C0026845,Tissue,CONNECTED_TO,axial skeleton,C0222645,"Body Part, Organ, or Organ Component",False,True
+555,rhomboid muscles,C1260952,"Body Part, Organ, or Organ Component",PERFORMS,scapula,C0036277,"Body Part, Organ, or Organ Component",False,True
+558,muscles,C0026845,Tissue,CONSISTS_OF,sheets,C0183235,Medical Device,False,True
+558,back,C0004600,Body Location or Region,LOCATION_OF,sheets,C0183235,Medical Device,False,True
+565,thoracolumbar fascia,C0225206,Tissue,ADJACENT_TO,serratus posterior muscle,C0224369,"Body Part, Organ, or Organ Component",False,True
+565,thoracolumbar fascia,C0225206,Tissue,CONNECTED_TO,deep fascia,C1511746,Tissue,False,True
+566,thoracic region,C0817096,Body Location or Region,SURROUNDS,deep muscles,C0026845,Tissue,False,True
+568,medial attachments,C0185023,Therapeutic or Preventive Procedure,PART_OF,thoracolumbar fascia,C0225206,Tissue,False,True
+568,thoracolumbar fascia,C0225206,Tissue,CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+578,iliocostalis,C0224302,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,costal elements,C0013879,"Element, Ion, or Isotope",False,True
+581,muscles,C0026845,Tissue,PERFORMS,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+581,muscles,C0026845,Tissue,PERFORMS,head,C0018670,Body Location or Region,False,True
+590,interspinales,C0224324,"Body Part, Organ, or Organ Component",ADJACENT_TO,spinous processes,C3897005,Anatomical Structure,False,True
+591,deep muscles,C0026845,Tissue,CONNECTED_TO,atlas,C0004170,"Body Part, Organ, or Organ Component",False,True
+591,deep muscles,C0026845,Tissue,CONNECTED_TO,axis,C0004457,"Body Part, Organ, or Organ Component",False,True
+591,deep muscles,C0026845,Tissue,CONNECTED_TO,skull,C0037303,"Body Part, Organ, or Organ Component",False,True
+599,foramen magnum,C0016519,Body Space or Junction,LOCATION_OF,spinal cord,C0037925,"Body Part, Organ, or Organ Component",False,True
+616,vessels,C0005847,"Body Part, Organ, or Organ Component",CONNECTED_TO,systemic veins,C0447117,Body System,False,True
+616,vertebral plexus,C0228996,"Body Part, Organ, or Organ Component",CONNECTED_TO,intracranial veins,C0524466,Body Location or Region,False,True
+618,dura mater,C0013313,"Body Part, Organ, or Organ Component",PART_OF,epineurium,C0205889,Tissue,False,True
+621,arachnoid trabeculae,C1186271,"Body Part, Organ, or Organ Component",INTERCONNECTS,arachnoid mater,C0003707,"Body Part, Organ, or Organ Component",False,True
+621,arachnoid trabeculae,C1186271,"Body Part, Organ, or Organ Component",INTERCONNECTS,pia mater,C0031869,"Body Part, Organ, or Organ Component",False,True
+623,roots,C0242726,Plant,CONNECTED_TO,arachnoid mater,C0003707,"Body Part, Organ, or Organ Component",False,True
+626,apex,C0140145,"Amino Acid, Peptide, or Protein",TRAVERSES,arachnoid mater,C0003707,"Body Part, Organ, or Organ Component",False,True
+626,apex,C0140145,"Amino Acid, Peptide, or Protein",CONNECTED_TO,dura mater,C0013313,"Body Part, Organ, or Organ Component",False,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,vertebrae,C0549207,"Body Part, Organ, or Organ Component",False,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",False,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,posterior longitudinal ligament,C0206330,"Body Part, Organ, or Organ Component",False,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,pedicles,C0456605,"Body Part, Organ, or Organ Component",False,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,laminae,C1033802,Eukaryote,False,True
+629,vertebral canal,C0037922,Body Space or Junction,ADJACENT_TO,ligamenta flava,C0206327,"Body Part, Organ, or Organ Component",False,True
+630,veins,C0042449,"Body Part, Organ, or Organ Component",LOCATION_OF,fatty connective tissue,C0009780,Tissue,False,True
+632,needle,C0027551,Medical Device,TRAVERSES,vertebral spinous processes,C3897005,Anatomical Structure,False,True
+632,needle,C0027551,Medical Device,TRAVERSES,supraspinous ligaments,C0225001,"Body Part, Organ, or Organ Component",False,True
+632,needle,C0027551,Medical Device,TRAVERSES,interspinous ligaments,C0225000,Anatomical Structure,False,True
+632,needle,C0027551,Medical Device,TRAVERSES,extradural space,C0014537,Body Space or Junction,False,True
+632,needle,C0027551,Medical Device,TRAVERSES,dura,C0013313,"Body Part, Organ, or Organ Component",False,True
+632,needle,C0027551,Medical Device,TRAVERSES,arachnoid mater,C0003707,"Body Part, Organ, or Organ Component",False,True
+632,needle,C0027551,Medical Device,TRAVERSES,subarachnoid space,C0038527,Body Space or Junction,False,True
+634,posterior root,C2332346,Anatomical Structure,CONTAINS,processes,C0025361,Mental Process,False,True
+634,sensory neurons,C0027883,Cell,DERIVATIVE_OF,neural crest cells,C0815004,Cell,False,True
+636,roots,C0242726,Plant,CONNECTED_TO,spinal cord,C0037925,"Body Part, Organ, or Organ Component",False,True
+637,rootlets,C0228807,"Body Part, Organ, or Organ Component",PRODUCES,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",False,True
+637,roots,C0242726,Plant,CONNECTED_TO,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",False,True
+638,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",CONTAINS,anterior ramus,C0228810,"Body Part, Organ, or Organ Component",False,True
+639,posterior rami,,,AFFECTS,intrinsic back muscles,C0448353,"Body Part, Organ, or Organ Component",False,True
+639,posterior rami,,,AFFECTS,skin,C0444099,Body Substance,False,True
+640,anterior rami,,,AFFECTS,skeletal muscles,C0242692,Tissue,False,True
+640,anterior rami,,,AFFECTS,limbs,C0015385,"Body Part, Organ, or Organ Component",False,True
+640,anterior rami,,,AFFECTS,trunk,C0225442,"Body Part, Organ, or Organ Component",False,True
+640,anterior rami,,,AFFECTS,skin,C0444099,Body Substance,False,True
+641,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",PRODUCES,recurrent meningeal nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+641,recurrent meningeal nerves,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,dura,C0013313,"Body Part, Organ, or Organ Component",False,True
+641,recurrent meningeal nerves,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,ligaments,C0023685,Tissue,False,True
+641,recurrent meningeal nerves,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",False,True
+641,recurrent meningeal nerves,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+642,anterior rami,,,PRODUCES,somatic plexuses,C0228603,"Body Part, Organ, or Organ Component",False,True
+643,roots,C0242726,Plant,TRAVERSES,cervical to coccygeal regions,,,False,True
+645,cauda equina,C0007458,"Body Part, Organ, or Organ Component",CONSISTS_OF,roots,C0242726,Plant,False,True
+648,vertebral canal,C0037922,Body Space or Junction,LOCATION_OF,first cervical nerve,C0501817,"Body Part, Organ, or Organ Component",False,True
+648,vertebral canal,C0037922,Body Space or Junction,LOCATION_OF,cervical nerves c2 to c7,C0228815,"Body Part, Organ, or Organ Component",False,True
+649,features,C1514562,Amino Acid Sequence,USES,muscle groups,C1995013,"Body Part, Organ, or Organ Component",False,True
+649,features,C1514562,Amino Acid Sequence,USES,organs,C0178784,"Body Part, Organ, or Organ Component",False,True
+660,spinous process,C3897005,Anatomical Structure,PART_OF,vertebra cii,C0549207,"Body Part, Organ, or Organ Component",False,True
+684,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",AFFECTS,intrinsic muscles,C0224334,"Body Part, Organ, or Organ Component",False,True
+696,cervical region,C0556956,Body Location or Region,PART_OF,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+699,thoracic region,C0817096,Body Location or Region,PART_OF,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+702,lumbar region,C0024090,Body Location or Region,PART_OF,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+717,osteoporosis,C0029456,Disease or Syndrome,ASSOCIATED_WITH,wedge fracture,C0521169,Pathologic Function,False,True
+724,metastatic myeloma infiltration,C0332448,Pathologic Function,CAUSES,collapsed vertebrae,C0549207,"Body Part, Organ, or Organ Component",False,True
+724,cancer cells,C0334227,Cell,EXHIBITS,high glucose metabolism,C0596620,Molecular Function,False,True
+762,mri,C0024485,Diagnostic Procedure,OCCURS_IN,spine,C0037949,"Body Part, Organ, or Organ Component",False,True
+762,discitis,C0012624,Disease or Syndrome,MANIFESTATION_OF,t10-t11 intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",False,True
+762,epidural abscess,C0270629,Disease or Syndrome,AFFECTS,cord,C1550235,"Body Part, Organ, or Organ Component",False,True
+793,spina bifida,C0080178,Congenital Abnormality,IS_A,disorder,C0012634,Disease or Syndrome,False,True
+807,kyphosis,C0022821,Anatomical Abnormality,PRODUCES,hunchback,C0000768,Congenital Abnormality,False,True
+809,lordosis,C0024003,Disease or Syndrome,PRODUCES,swayback deformity,C0000768,Congenital Abnormality,False,True
+811,klippel-feil syndrome,C0022738,Disease or Syndrome,ASSOCIATED_WITH,high-riding abnormalities,C0000768,Congenital Abnormality,False,True
+817,metastatic disease,C0027627,Neoplastic Process,LOCATION_OF,vertebrae,C0549207,"Body Part, Organ, or Organ Component",False,True
+817,cancer cells,C0334227,Cell,DISRUPTS,bone cell,C0029432,Cell,False,True
+817,cancer cells,C0334227,Cell,CAUSES,bone destruction,C0238790,Disease or Syndrome,False,True
+817,vertebrae,C0549207,"Body Part, Organ, or Organ Component",CONTAINS,metastatic disease,C0027627,Neoplastic Process,False,True
+819,osteoporosis,C0029456,Disease or Syndrome,IS_A,metabolic bone disorder,C0005944,Disease or Syndrome,False,True
+825,back pain,C0004604,Sign or Symptom,IS_A,disorder,C0012634,Disease or Syndrome,False,True
+826,needle,C0027551,Medical Device,LOCATION_OF,facet joint,C0224521,Body Space or Junction,False,True
+828,herniation,C0019270,Anatomical Abnormality,OCCURS_IN,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",False,True
+829,tear,C0039409,Body Substance,OCCURS_IN,anulus fibrosus,C0223087,"Body Part, Organ, or Organ Component",False,True
+832,rheumatoid arthritis,C0003873,Disease or Syndrome,AFFECTS,synovial joints,C0224507,Body Space or Junction,False,True
+832,rheumatoid arthritis,C0003873,Disease or Syndrome,AFFECTS,synovial bursae,C0006441,"Body Part, Organ, or Organ Component",False,True
+836,vertebral fractures,C0080179,Injury or Poisoning,OCCURS_IN,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+839,phrenic nerve,C0031774,"Body Part, Organ, or Organ Component",AFFECTS,respiratory function,C0035203,Physiologic Function,False,True
+842,vertebral dislocations,C0012691,Injury or Poisoning,OCCURS_IN,hyperflexion injuries,C3697471,Injury or Poisoning,False,True
+849,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",AFFECTS,nerve root,C0228084,"Body Part, Organ, or Organ Component",False,True
+849,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",AFFECTS,meningeal sac,C1550235,"Body Part, Organ, or Organ Component",False,True
+849,intervertebral disc,C0021815,"Body Part, Organ, or Organ Component",AFFECTS,cord,C1550235,"Body Part, Organ, or Organ Component",False,True
+854,accessory nerve,C0000905,"Body Part, Organ, or Organ Component",AFFECTS,weakness,C0004093,Sign or Symptom,False,True
+855,thoracodorsal nerve,C0228889,"Body Part, Organ, or Organ Component",AFFECTS,weakness,C0004093,Sign or Symptom,False,True
+861,brainstem,C0006121,"Body Part, Organ, or Organ Component",CONTAINS,cardiac,C0018787,"Body Part, Organ, or Organ Component",False,True
+861,brainstem,C0006121,"Body Part, Organ, or Organ Component",CONTAINS,respiratory centers,C0035216,"Body Part, Organ, or Organ Component",False,True
+862,distraction injury,C1369039,Therapeutic or Preventive Procedure,CAUSES,fracture,C0016658,Injury or Poisoning,False,True
+862,distraction injury,C1369039,Therapeutic or Preventive Procedure,CAUSES,spondylolisthesis of c2 on c3,C0038016,Disease or Syndrome,False,True
+873,virus,C0042776,Virus,PRODUCES,chickenpox,C0008049,Disease or Syndrome,False,True
+887,patient,C0030705,Patient or Disabled Group,IS_A,quadriplegic,C0034372,Disease or Syndrome,False,True
+889,sputum,C0038056,Body Substance,CONTAINS,mucus,C0026727,Body Substance,False,True
+889,sputum,C0038056,Body Substance,CONTAINS,blood,C0005767,Body Substance,False,True
+891,aspiration,C0349707,Therapeutic or Preventive Procedure,CONTAINS,pus,C0034161,Body Substance,False,True
+893,psoas muscle sheath,C0085221,"Body Part, Organ, or Organ Component",LOCATION_OF,pus,C0034161,Body Substance,False,True
+895,antibiotic regimen,C0003232,Antibiotic,TREATS,patient,C0030705,Patient or Disabled Group,False,True
+897,ambulance,C0002422,Medical Device,LOCATION_OF,blood pressure,C0005823,Organism Function,False,True
+902,aortic dissection,C0340643,Disease or Syndrome,PRODUCES,pain,C0030193,Sign or Symptom,False,True
+904,ischemia,C0022116,Pathologic Function,CAUSES,paraplegia,C0030486,Disease or Syndrome,False,True
+905,aortic dissection,C0340643,Disease or Syndrome,PRODUCES,acute spinal cord ischemia,C0752130,Disease or Syndrome,False,True
+907,examination,C0031809,Health Care Activity,EXHIBITS,weakness,C0004093,Sign or Symptom,False,True
+924,superior thoracic aperture,C0230137,Body Location or Region,PART_OF,thorax,C0817096,Body Location or Region,False,True
+924,inferior thoracic aperture,C0230138,Body Location or Region,PART_OF,thorax,C0817096,Body Location or Region,False,True
+925,vertebrae,C0549207,"Body Part, Organ, or Organ Component",PART_OF,thorax,C0817096,Body Location or Region,False,True
+925,ribs,C0035561,"Body Part, Organ, or Organ Component",PART_OF,thorax,C0817096,Body Location or Region,False,True
+925,muscles,C0026845,Tissue,PART_OF,thorax,C0817096,Body Location or Region,False,True
+925,sternum,C0038293,"Body Part, Organ, or Organ Component",PART_OF,thorax,C0817096,Body Location or Region,False,True
+926,right pleural cavity,C0225782,Body Space or Junction,SURROUNDS,lung,C0024109,"Body Part, Organ, or Organ Component",False,True
+927,mediastinum,C0025066,Body Location or Region,CONTAINS,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+927,mediastinum,C0025066,Body Location or Region,CONTAINS,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+927,mediastinum,C0025066,Body Location or Region,CONTAINS,trachea,C0040578,"Body Part, Organ, or Organ Component",False,True
+927,mediastinum,C0025066,Body Location or Region,CONTAINS,major nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+927,mediastinum,C0025066,Body Location or Region,CONTAINS,systemic blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+930,thorax,C0817096,Body Location or Region,CONTAINS,lungs,C0024109,"Body Part, Organ, or Organ Component",False,True
+936,esophagus,C0014876,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+936,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+936,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+937,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+938,trachea,C0040578,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+938,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+939,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",CONSISTS_OF,skeletal elements,C0013879,"Element, Ion, or Isotope",False,True
+939,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",CONSISTS_OF,muscles,C0026845,Tissue,False,True
+944,rib,C0035561,"Body Part, Organ, or Organ Component",CONSISTS_OF,costal cartilage,C0222787,Tissue,False,True
+946,costal cartilages,C0222787,Tissue,CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+947,costal cartilages,C0222787,Tissue,CONNECTED_TO,inferior margins,C0223887,Body Location or Region,False,True
+948,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",CONTAINS,attachment sites,C0004266,"Nucleic Acid, Nucleoside, or Nucleotide",False,True
+950,superior thoracic aperture,C0230137,Body Location or Region,CONTAINS,rib i,C0035561,"Body Part, Organ, or Organ Component",False,True
+950,superior thoracic aperture,C0230137,Body Location or Region,CONTAINS,manubrium,C0024764,"Body Part, Organ, or Organ Component",False,True
+953,pleural cavities,C0178802,Body Space or Junction,ADJACENT_TO,mediastinum,C0025066,Body Location or Region,False,True
+955,bone,C0005931,Tissue,PART_OF,inferior thoracic aperture,C0230138,Body Location or Region,False,True
+955,cartilage,C0007301,Tissue,PART_OF,inferior thoracic aperture,C0230138,Body Location or Region,False,True
+955,ligaments,C0023685,Tissue,PART_OF,inferior thoracic aperture,C0230138,Body Location or Region,False,True
+957,ribs,C0035561,"Body Part, Organ, or Organ Component",PART_OF,costal margin,C0582240,Body Location or Region,False,True
+958,joint,C0022417,Body Space or Junction,CONNECTED_TO,costal margin,C0582240,Body Location or Region,False,True
+958,joint,C0022417,Body Space or Junction,CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+961,margins,C0229985,"Body Part, Organ, or Organ Component",PART_OF,inferior thoracic aperture,C0230138,Body Location or Region,False,True
+964,diaphragm,C0011980,"Body Part, Organ, or Organ Component",AFFECTS,thorax,C0817096,Body Location or Region,False,True
+965,esophagus,C0014876,"Body Part, Organ, or Organ Component",PHYSICALLY_RELATED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+965,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",PHYSICALLY_RELATED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+967,pericardium,C0031050,"Body Part, Organ, or Organ Component",CONTAINS,pericardial cavity,C0225972,Body Space or Junction,False,True
+967,pericardium,C0031050,"Body Part, Organ, or Organ Component",PART_OF,middle mediastinum,C0230149,Body Location or Region,False,True
+967,heart,C0018787,"Body Part, Organ, or Organ Component",PART_OF,middle mediastinum,C0230149,Body Location or Region,False,True
+971,pleural cavities,C0178802,Body Space or Junction,SURROUNDS,lung,C0024109,"Body Part, Organ, or Organ Component",False,True
+972,lung,C0024109,"Body Part, Organ, or Organ Component",CONNECTED_TO,mediastinum,C0025066,Body Location or Region,False,True
+973,parietal pleura,C0225777,"Body Part, Organ, or Organ Component",PART_OF,thoracic cavity,C0230139,Body Space or Junction,False,True
+974,recesses,C4239574,Body Space or Junction,PART_OF,pleural cavity,C0178802,Body Space or Junction,False,True
+974,costodiaphragmatic recess,C0230151,Body Location or Region,PART_OF,pleural cavity,C0178802,Body Space or Junction,False,True
+974,costodiaphragmatic recess,C0230151,Body Location or Region,ADJACENT_TO,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",False,True
+974,costodiaphragmatic recess,C0230151,Body Location or Region,ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+976,visceral structures,C0225776,"Body Part, Organ, or Organ Component",PHYSICALLY_RELATED_TO,neck,C0027530,Body Location or Region,False,True
+976,visceral structures,C0225776,"Body Part, Organ, or Organ Component",PHYSICALLY_RELATED_TO,superior mediastinum,C0025066,Body Location or Region,False,True
+977,axillary inlet,C0004454,Body Location or Region,CONNECTED_TO,root,C0040452,"Body Part, Organ, or Organ Component",False,True
+982,brachial plexus,C0006090,"Body Part, Organ, or Organ Component",CONNECTED_TO,axillary inlet,C0004454,Body Location or Region,False,True
+984,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",PHYSICALLY_RELATED_TO,central tendon,C0230162,"Body Part, Organ, or Organ Component",False,True
+985,abdomen,C0000726,Body Location or Region,CONTAINS,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+992,vessels,C0005847,"Body Part, Organ, or Organ Component",CONNECTED_TO,axillary region,C0004454,Body Location or Region,False,True
+992,lymphatics,C0024235,Body System,CONNECTED_TO,axillary region,C0004454,Body Location or Region,False,True
+1002,upper limb,C1140618,"Body Part, Organ, or Organ Component",LOCATION_OF,thoracic dermatome,C0180383,Medical Device,False,True
+1013,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",ADJACENT_TO,roots,C0242726,Plant,False,True
+1020,breasts,C0006141,"Body Part, Organ, or Organ Component",CONSISTS_OF,connective tissues,C0009780,Tissue,False,True
+1020,mammary glands,C0929301,"Body Part, Organ, or Organ Component",IS_A,sweat glands,C0038989,"Body Part, Organ, or Organ Component",False,True
+1021,mammary glands,C0929301,"Body Part, Organ, or Organ Component",CONSISTS_OF,secretory lobules,C1327616,Cell Function,False,True
+1021,lactiferous ducts,C0222613,"Body Part, Organ, or Organ Component",LOCATION_OF,nipple,C0028109,"Body Part, Organ, or Organ Component",False,True
+1022,carcinoma,C0007097,Neoplastic Process,PRODUCES,tension,C0233494,Mental or Behavioral Dysfunction,False,True
+1036,pectoral region,C0230111,Body Location or Region,CONTAINS,pectoralis major,C0030747,"Body Part, Organ, or Organ Component",False,True
+1036,pectoral region,C0230111,Body Location or Region,CONTAINS,pectoralis minor,C0030747,"Body Part, Organ, or Organ Component",False,True
+1036,pectoral region,C0230111,Body Location or Region,CONTAINS,subclavius muscles,C0224348,"Body Part, Organ, or Organ Component",False,True
+1037,breast,C0006141,"Body Part, Organ, or Organ Component",LOCATION_OF,pectoralis major muscle,C0585574,"Body Part, Organ, or Organ Component",False,True
+1044,deep fascia,C1511746,Tissue,CONTAINS,subclavius,C0224348,"Body Part, Organ, or Organ Component",False,True
+1044,deep fascia,C1511746,Tissue,CONNECTED_TO,clavicle,C0008913,"Body Part, Organ, or Organ Component",False,True
+1044,deep fascia,C1511746,Tissue,CONNECTED_TO,axilla,C0004454,Body Location or Region,False,True
+1047,skeletal elements,C0013879,"Element, Ion, or Isotope",CONSISTS_OF,thoracic vertebrae,C0039987,"Body Part, Organ, or Organ Component",False,True
+1047,skeletal elements,C0013879,"Element, Ion, or Isotope",CONSISTS_OF,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",False,True
+1047,skeletal elements,C0013879,"Element, Ion, or Isotope",CONSISTS_OF,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+1047,skeletal elements,C0013879,"Element, Ion, or Isotope",CONSISTS_OF,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+1053,transverse costal facet,C0222679,Body Location or Region,CONNECTED_TO,tubercle,C1184740,"Body Part, Organ, or Organ Component",False,True
+1055,body of vertebra ti,C0223084,"Body Part, Organ, or Organ Component",CONNECTED_TO,facet,C0222679,Body Location or Region,False,True
+1057,vertebrae txi,C0549207,"Body Part, Organ, or Organ Component",CONNECTED_TO,heads,C0018670,Body Location or Region,False,True
+1062,head,C0018670,Body Location or Region,PART_OF,rib,C0035561,"Body Part, Organ, or Organ Component",False,True
+1062,neck,C0027530,Body Location or Region,PART_OF,rib,C0035561,"Body Part, Organ, or Organ Component",False,True
+1064,neck,C0027530,Body Location or Region,PART_OF,bone,C0005931,Tissue,False,True
+1067,ligament attachments,C0185023,Therapeutic or Preventive Procedure,AFFECTS,nonarticular part,C0022417,Body Space or Junction,False,True
+1078,manubrium,C0024764,"Body Part, Organ, or Organ Component",PART_OF,neck,C0027530,Body Location or Region,False,True
+1078,manubrium,C0024764,"Body Part, Organ, or Organ Component",PART_OF,thorax,C0817096,Body Location or Region,False,True
+1079,jugular notch,C0222769,Body Location or Region,PART_OF,manubrium,C0024764,"Body Part, Organ, or Organ Component",False,True
+1090,intra-articular ligament,C0023686,"Body Part, Organ, or Organ Component",CONNECTED_TO,crest,C0206138,Disease or Syndrome,False,True
+1091,costotransverse joint,C0224507,Body Space or Junction,CONNECTED_TO,tubercle,C1184740,"Body Part, Organ, or Organ Component",False,True
+1091,costotransverse joint,C0224507,Body Space or Junction,CONNECTED_TO,vertebra,C0549207,"Body Part, Organ, or Organ Component",False,True
+1091,capsule,C0006935,Biomedical or Dental Material,SURROUNDS,joint,C0022417,Body Space or Junction,False,True
+1092,costotransverse ligament,C0225018,"Body Part, Organ, or Organ Component",CONNECTED_TO,neck,C0027530,Body Location or Region,False,True
+1094,superior costotransverse ligament,C0225019,"Body Part, Organ, or Organ Component",CONNECTED_TO,neck,C0027530,Body Location or Region,False,True
+1095,movements,C0026649,Organism Function,OCCURS_IN,costotransverse joints,C0224507,Body Space or Junction,False,True
+1097,joint,C0022417,Body Space or Junction,CONSISTS_OF,fibrocartilaginous connection,C0224520,Body Space or Junction,False,True
+1100,interchondral joints,C0224687,Body Space or Junction,CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+1105,costal groove,C0222813,Body Space or Junction,LOCATION_OF,intercostal nerves,C1285089,"Body Part, Organ, or Organ Component",False,True
+1105,costal groove,C0222813,Body Space or Junction,LOCATION_OF,arteries,C0003842,"Body Part, Organ, or Organ Component",False,True
+1105,costal groove,C0222813,Body Space or Junction,LOCATION_OF,veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+1106,artery,C0003842,"Body Part, Organ, or Organ Component",SPATIALLY_RELATED_TO,vein,C0042449,"Body Part, Organ, or Organ Component",False,True
+1106,nerve,C0027740,"Body Part, Organ, or Organ Component",SPATIALLY_RELATED_TO,artery,C0003842,"Body Part, Organ, or Organ Component",False,True
+1108,layer,C0934502,"Body Part, Organ, or Organ Component",CONTAINS,fat,C0001527,Tissue,False,True
+1111,muscles,C0026845,Tissue,AFFECTS,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+1111,muscles,C0026845,Tissue,AFFECTS,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+1111,muscles,C0026845,Tissue,AFFECTS,thoracic volume,C4084761,Diagnostic Procedure,False,True
+1111,muscles,C0026845,Tissue,AFFECTS,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",False,True
+1116,intercostal nerves,C1285089,"Body Part, Organ, or Organ Component",AFFECTS,intercostal muscles,C0021724,"Body Part, Organ, or Organ Component",False,True
+1116,intercostal muscles,C0021724,"Body Part, Organ, or Organ Component",AFFECTS,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+1129,musculophrenic artery,C0226289,"Body Part, Organ, or Organ Component",TRAVERSES,diaphragm,C0011980,"Body Part, Organ, or{...}",False,True
+1137,internal thoracic veins,C0226633,"Body Part, Organ, or Organ Component",INTERCONNECTS,brachiocephalic veins,C0006095,"Body Part, Organ, or Organ Component",False,True
+1140,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",ASSOCIATED_WITH,internal thoracic arteries,C0226276,"Body Part, Organ, or Organ Component",False,True
+1140,diaphragmatic nodes,C0229762,"Body Part, Organ, or Organ Component",OCCURS_IN,regions,C0242961,Nucleotide Sequence,False,True
+1142,nodes,C0746922,"Body Part, Organ, or Organ Component",INTERCONNECTS,parasternal nodes,C0229755,"Body Part, Organ, or Organ Component",False,True
+1142,nodes,C0746922,"Body Part, Organ, or Organ Component",INTERCONNECTS,prevertebral,C0549207,"Body Part, Organ, or Organ Component",False,True
+1142,nodes,C0746922,"Body Part, Organ, or Organ Component",INTERCONNECTS,juxta-esophageal nodes,C0229760,"Body Part, Organ, or Organ Component",False,True
+1142,nodes,C0746922,"Body Part, Organ, or Organ Component",INTERCONNECTS,brachiocephalic nodes,C0229763,"Body Part, Organ, or Organ Component",False,True
+1142,nodes,C0746922,"Body Part, Organ, or Organ Component",INTERCONNECTS,lateral aortic/lumbar nodes,C0229789,"Body Part, Organ, or Organ Component",False,True
+1145,intercostal nerve,C1285089,"Body Part, Organ, or Organ Component",TRAVERSES,intercostal space,C0230136,Body Space or Junction,False,True
+1161,aorta,C0003483,"Body Part, Organ, or Organ Component",ADJACENT_TO,attachment,C0185023,Therapeutic or Preventive Procedure,False,True
+1168,contraction,C1140999,Pathologic Function,CAUSES,thoracic volume,C4084761,Diagnostic Procedure,False,True
+1171,muscle fibers,C0242697,Cell,CAUSES,depression,C0011570,Mental or Behavioral Dysfunction,False,True
+1176,pleural cavities,C0178802,Body Space or Junction,SURROUNDS,lungs,C0024109,"Body Part, Organ, or Organ Component",False,True
+1177,pleural cavities,C0178802,Body Space or Junction,LOCATION_OF,root,C0040452,"Body Part, Organ, or Organ Component",False,True
+1179,mediastinum,C0025066,Body Location or Region,PART_OF,pleural cavity,C0178802,Body Space or Junction,False,True
+1207,lung,C0024109,"Body Part, Organ, or Organ Component",CONTAINS,base,C0178499,Chemical Viewed Functionally,False,True
+1207,lung,C0024109,"Body Part, Organ, or Organ Component",CONTAINS,apex,C0140145,"Amino Acid, Peptide, or Protein",False,True
+1208,diaphragm,C0011980,"Body Part, Organ, or Organ Component",LOCATION_OF,base,C0178499,Chemical Viewed Functionally,False,True
+1209,root,C0040452,"Body Part, Organ, or Organ Component",LOCATION_OF,apex,C0140145,"Amino Acid, Peptide, or Protein",False,True
+1210,costal surface,C4521198,Body Location or Region,ADJACENT_TO,ribs,C0035561,"Body Part, Organ, or Organ Component",False,True
+1210,costal surface,C4521198,Body Location or Region,ADJACENT_TO,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",False,True
+1210,mediastinal surface,C0025066,Body Location or Region,ADJACENT_TO,vertebral column,C0037949,"Body Part, Organ, or Organ Component",False,True
+1210,mediastinal surface,C0025066,Body Location or Region,CONTAINS,hilum,C0929176,"Body Part, Organ, or Organ Component",False,True
+1213,root,C0040452,"Body Part, Organ, or Organ Component",CONNECTED_TO,mediastinum,C0025066,Body Location or Region,False,True
+1225,apex,C0140145,"Amino Acid, Peptide, or Protein",LOCATION_OF,root,C0040452,"Body Part, Organ, or Organ Component",False,True
+1226,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",LOCATION_OF,stethoscope,C0183559,Medical Device,False,True
+1228,right subclavian artery,C0226261,"Body Part, Organ, or Organ Component",TRAVERSES,axilla,C0004454,Body Location or Region,False,True
+1230,curved line,C4023747,Anatomical Abnormality,INDICATES,left oblique fissure,C0225735,Body Space or Junction,False,True
+1238,posterior wall of,C0230131,Body Location or Region,PART_OF,trachea,C0040578,"Body Part, Organ, or Organ Component",False,True
+1240,root,C0040452,"Body Part, Organ, or Organ Component",LOCATION_OF,lobar bronchus,C0225653,"Body Part, Organ, or Organ Component",False,True
+1246,bronchopulmonary segment,C0225705,Body Location or Region,PART_OF,lung,C0024109,"Body Part, Organ, or Organ Component",False,True
+1247,lung,C0024109,"Body Part, Organ, or Organ Component",CONTAINS,bronchopulmonary segment,C0225705,Body Location or Region,False,True
+1250,right pulmonary artery,C0226054,"Body Part, Organ, or Organ Component",TRAVERSES,mediastinum,C0025066,Body Location or Region,False,True
+1255,vascular system,C0489903,Body System,PART_OF,pulmonary tissues,C0024109,"Body Part, Organ, or Organ Component",False,True
+1259,lungs,C0024109,"Body Part, Organ, or Organ Component",LOCATION_OF,bronchial arteries,C0006257,"Body Part, Organ, or Organ Component",False,True
+1263,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",AFFECTS,bronchioles,C0006270,"Body Part, Organ, or Organ Component",False,True
+1263,sympathetic system,C0039044,Body System,AFFECTS,bronchioles,C0006270,"Body Part, Organ, or Organ Component",False,True
+1264,lung,C0024109,"Body Part, Organ, or Organ Component",LOCATION_OF,tracheobronchial nodes,C0229751,"Body Part, Organ, or Organ Component",False,True
+1264,hilum,C0929176,"Body Part, Organ, or Organ Component",LOCATION_OF,tracheobronchial nodes,C0229751,"Body Part, Organ, or Organ Component",False,True
+1267,mediastinum,C0025066,Body Location or Region,CONTAINS,thymus gland,C0040112,Biologically Active Substance,False,True
+1267,mediastinum,C0025066,Body Location or Region,CONTAINS,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",False,True
+1267,mediastinum,C0025066,Body Location or Region,CONTAINS,arteries,C0003842,"Body Part, Organ, or Organ Component",False,True
+1267,mediastinum,C0025066,Body Location or Region,CONTAINS,veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+1268,esophagus,C0014876,"Body Part, Organ, or Organ Component",TRAVERSES,thorax,C0817096,Body Location or Region,False,True
+1268,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",TRAVERSES,thorax,C0817096,Body Location or Region,False,True
+1269,superior mediastinum,C0230147,Body Location or Region,PART_OF,mediastinum,C0025066,Body Location or Region,False,True
+1269,inferior mediastinum,C1261193,Body Location or Region,PART_OF,mediastinum,C0025066,Body Location or Region,False,True
+1269,posterior mediastinum,C0230150,Body Location or Region,PART_OF,inferior mediastinum,C1261193,Body Location or Region,False,True
+1270,anterior mediastinum,C0230148,Body Location or Region,ADJACENT_TO,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",False,True
+1270,anterior mediastinum,C0230148,Body Location or Region,ADJACENT_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+1270,posterior mediastinum,C0230150,Body Location or Region,ADJACENT_TO,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",False,True
+1270,posterior mediastinum,C0230150,Body Location or Region,ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+1270,posterior mediastinum,C0230150,Body Location or Region,ADJACENT_TO,vertebrae,C0549207,"Body Part, Organ, or Organ Component",False,True
+1270,middle mediastinum,C0230149,Body Location or Region,CONTAINS,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",False,True
+1273,anterior mediastinum,C0230148,Body Location or Region,ADJACENT_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+1274,anterior mediastinum,C0230148,Body Location or Region,ADJACENT_TO,parietal pleura,C0225777,"Body Part, Organ, or Organ Component",False,True
+1275,thymus gland,C0040112,Biologically Active Substance,LOCATION_OF,anterior mediastinum,C0230148,Body Location or Region,False,True
+1276,middle mediastinum,C0230149,Body Location or Region,CONTAINS,pericardium,C0031050,"Body Part, Organ, or Organ Component",False,True
+1276,middle mediastinum,C0230149,Body Location or Region,CONTAINS,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1276,middle mediastinum,C0230149,Body Location or Region,CONTAINS,nerves,C0027740,"Body Part, Organ, or Organ Component",False,True
+1276,middle mediastinum,C0230149,Body Location or Region,CONTAINS,vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+1276,thoracic cavity,C0230139,Body Space or Junction,LOCATION_OF,middle mediastinum,C0230149,Body Location or Region,False,True
+1277,pericardium,C0031050,"Body Part, Organ, or Organ Component",CONSISTS_OF,fibrous pericardium,C0225974,Tissue,False,True
+1283,pericardiacophrenic vessels,C0501112,"Body Part, Organ, or Organ Component",LOCATION_OF,fibrous pericardium,C0225974,Tissue,False,True
+1285,zone of reflection,C5238986,Therapeutic or Preventive Procedure,SURROUNDS,veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+1296,base,C0178499,Chemical Viewed Functionally,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1296,apex,C0140145,"Amino Acid, Peptide, or Protein",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1296,intercostal space,C0230136,Body Space or Junction,LOCATION_OF,apex,C0140145,"Amino Acid, Peptide, or Protein",False,True
+1300,left pulmonary surface,C0818611,Body Location or Region,ADJACENT_TO,left lung,C0225730,"Body Part, Organ, or Organ Component",False,True
+1300,left pulmonary surface,C0818611,Body Location or Region,CONSISTS_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",False,True
+1300,left pulmonary surface,C0818611,Body Location or Region,CONSISTS_OF,left atrium,C0225860,"Body Part, Organ, or Organ Component",False,True
+1301,right pulmonary surface,C0818610,Body Location or Region,ADJACENT_TO,right lung,C0225706,"Body Part, Organ, or Organ Component",False,True
+1301,right pulmonary surface,C0818610,Body Location or Region,CONSISTS_OF,right atrium,C0225844,"Body Part, Organ, or{...}",False,True
+1305,obtuse margin,C0225819,Body Location or Region,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1305,obtuse margin,C0225819,Body Location or Region,CONSISTS_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",False,True
+1305,obtuse margin,C0225819,Body Location or Region,CONSISTS_OF,left auricle,C0225861,"Body Part, Organ, or Organ Component",False,True
+1306,right border,C0225818,Body Location or Region,CONSISTS_OF,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",False,True
+1306,right border,C0225818,Body Location or Region,CONSISTS_OF,right atrium,C0225844,"Body Part, Organ, or Organ Component",False,True
+1306,right border,C0225818,Body Location or Region,CONSISTS_OF,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",False,True
+1306,left border,C0225818,Body Location or Region,CONSISTS_OF,aorta,C0003483,"Body Part, Organ, or Organ Component",False,True
+1306,left border,C0225818,Body Location or Region,CONSISTS_OF,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",False,True
+1306,left border,C0225818,Body Location or Region,CONSISTS_OF,left auricle,C0225861,"Body Part, Organ, or Organ Component",False,True
+1306,left border,C0225818,Body Location or Region,CONSISTS_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",False,True
+1306,inferior border,C0225818,Body Location or Region,CONSISTS_OF,right ventricle,C0225883,"Body Part, Organ, or Organ Component",False,True
+1306,inferior border,C0225818,Body Location or Region,CONSISTS_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",False,True
+1308,coronary sulcus,C0018787,"Body Part, Organ, or Organ Component",CONTAINS,right coronary artery,C1261316,"Body Part, Organ, or Organ Component",False,True
+1308,coronary sulcus,C0018787,"Body Part, Organ, or Organ Component",CONTAINS,small cardiac vein,C0226661,"Body Part, Organ, or Organ Component",False,True
+1308,coronary sulcus,C0018787,"Body Part, Organ, or Organ Component",CONTAINS,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",False,True
+1308,coronary sulcus,C0018787,"Body Part, Organ, or Organ Component",CONTAINS,circumflex branch of left coronary artery,C0226037,"Body Part, Organ, or Organ Component",False,True
+1311,heart,C0018787,"Body Part, Organ, or Organ Component",CONSISTS_OF,pump,C0182537,Medical Device,False,True
+1314,interatrial septum,C4505172,Disease or Syndrome,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1315,right atrium,C0225844,"Body Part, Organ, or Organ Component",PART_OF,right border,C0225818,Body Location or Region,False,True
+1327,outflow tract,C0504048,Body Space or Junction,CONNECTED_TO,pulmonary trunk,C0034052,"Body Part, Organ, or Organ Component",False,True
+1329,chordae tendineae,C0008484,"Body Part, Organ, or Organ Component",CONNECTED_TO,cusps,C0180259,Medical Device,False,True
+1330,anterior papillary muscle,C0225901,"Body Part, Organ, or Organ Component",PART_OF,ventricle,C0007799,Body Space or Junction,False,True
+1335,fibrous ring,C0334148,Pathologic Function,SURROUNDS,atrioventricular orifice,C0503995,Body Space or Junction,False,True
+1335,cusps,C0180259,Medical Device,CONNECTED_TO,fibrous ring,C0334148,Pathologic Function,False,True
+1336,cusps,C0180259,Medical Device,CONNECTED_TO,chordae tendineae,C0008484,"Body Part, Organ, or Organ Component",False,True
+1337,right ventricle,C0225883,"Body Part, Organ, or Organ Component",LOCATION_OF,cusps,C0180259,Medical Device,False,True
+1338,papillary muscles,C0030352,"Body Part, Organ, or Organ Component",CONNECTED_TO,cusps,C0180259,Medical Device,False,True
+1342,nodule,C0028259,Acquired Abnormality,PART_OF,semilunar cusp,C0036624,"Body Part, Organ, or Organ Component",False,True
+1343,blood,C0005773,Cell,CAUSES,cusps,C0180259,Medical Device,False,True
+1348,valve,C0184252,Medical Device,PART_OF,foramen ovale,C0016521,Embryonic Structure,False,True
+1349,valve,C0184252,Medical Device,PREVENTS,blood,C0005767,Body Substance,False,True
+1357,left atrioventricular orifice,C0503892,Body Space or Junction,LOCATION_OF,left ventricle,C0225897,"Body Part, Organ, or Organ Component",False,True
+1357,cusps,C0180259,Medical Device,CONNECTED_TO,commissures,C1185742,Body Space or Junction,False,True
+1357,papillary muscles,C0030352,"Body Part, Organ, or Organ Component",INTERACTS_WITH,chordae tendineae,C0008484,"Body Part, Organ, or Organ Component",False,True
+1361,cardiac skeleton,C0504004,"Body Part, Organ, or Organ Component",CONSISTS_OF,connective tissue,C0009780,Tissue,False,True
+1361,rings,C1260969,Medical Device,SURROUNDS,atrioventricular orifices,C0004247,"Body Part, Organ, or Organ Component",False,True
+1384,left ventricle,C0225897,"Body Part, Organ, or Organ Component",LOCATION_OF,posterior cardiac vein,C0231087,Embryonic Structure,False,True
+1384,posterior cardiac vein,C0231087,Embryonic Structure,TRIBUTARY_OF,great cardiac vein,C0226659,"Body Part, Organ, or Organ Component",False,True
+1389,cardiac conduction system,C0018796,Body System,CONSISTS_OF,nodes,,"Body Part, Organ, or Organ Component",False,True
+1389,cardiac conduction system,C0018796,Body System,CONSISTS_OF,specialized cardiac muscle cells,C0225828,Cell,False,True
+1393,sinu-atrial node,C0037189,"Body Part, Organ, or Organ Component",LOCATION_OF,impulses,C0034107,Health Care Activity,False,True
+1395,sinu-atrial node,C0037189,"Body Part, Organ, or Organ Component",PRODUCES,excitation signals,C0037083,Cell Function,False,True
+1396,atria,C0524422,"Body Part, Organ, or Organ Component",AFFECTS,atrioventricular node,C0004247,"Body Part, Organ, or Organ Component",False,True
+1399,right bundle branch,C0225916,"Body Part, Organ, or Organ Component",LOCATION_OF,interventricular septum,C0225870,"Body Part, Organ, or Organ Component",False,True
+1399,network,C0150775,Population Group,TRAVERSES,ventricle,C0007799,Body Space or Junction,False,True
+1399,network,C0150775,Population Group,AFFECTS,ventricular musculature,C0018827,"Body Part, Organ, or Organ Component",False,True
+1400,left bundle branch,C0459156,"Body Part, Organ, or{...}",LOCATION_OF,interventricular septum,C0225870,"Body Part, Organ, or Organ Component",False,True
+1400,network,C0150775,Population Group,TRAVERSES,left ventricle,C0225897,"Body Part, Organ, or Organ Component",False,True
+1401,autonomic division,C0004388,Body System,AFFECTS,heart rate,C0018810,Clinical Attribute,False,True
+1401,autonomic division,C0004388,Body System,AFFECTS,contraction,C1140999,Pathologic Function,False,True
+1401,autonomic division,C0004388,Body System,AFFECTS,cardiac output,C0007165,Clinical Attribute,False,True
+1402,parasympathetic,C0017069,"Body Part, Organ, or Organ Component",AFFECTS,cardiac plexus,C0459528,"Body Part, Organ, or Organ Component",False,True
+1402,sympathetic systems,C0039044,Body System,AFFECTS,cardiac plexus,C0459528,"Body Part, Organ, or Organ Component",False,True
+1403,small branches,,"Body Part, Organ, or Organ Component",AFFECTS,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1403,small branches,,"Body Part, Organ, or Organ Component",AFFECTS,nodal tissue,C0037189,"Body Part, Organ, or Organ Component",False,True
+1403,small branches,,"Body Part, Organ, or Organ Component",AFFECTS,conduction system,C0018796,Body System,False,True
+1403,small branches,,"Body Part, Organ, or Organ Component",AFFECTS,coronary blood vessels,C0010075,"Body Part, Organ, or Organ Component",False,True
+1403,small branches,,"Body Part, Organ, or Organ Component",AFFECTS,atrial musculature,C0018792,"Body Part, Organ, or Organ Component",False,True
+1403,small branches,,"Body Part, Organ, or Organ Component",AFFECTS,ventricular musculature,C0018827,"Body Part, Organ, or Organ Component",False,True
+1404,stimulation,C1292856,Therapeutic or Preventive Procedure,AFFECTS,heart rate,C0018810,Clinical Attribute,False,True
+1404,stimulation,C1292856,Therapeutic or Preventive Procedure,AFFECTS,coronary arteries,C0205042,"Body Part, Organ, or Organ Component",False,True
+1413,aortic orifice,C0503899,Body Space or Junction,LOCATION_OF,ascending aorta,C0003956,"Body Part, Organ, or Organ Component",False,True
+1415,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",TRAVERSES,fibrous pericardium,C0225974,Tissue,False,True
+1416,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",TRAVERSES,fibrous pericardium,C0225974,Tissue,False,True
+1416,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",CONTAINS,vessel,C0005847,"Body Part, Organ, or Organ Component",False,True
+1417,pulmonary veins,C0034090,"Body Part, Organ, or Organ Component",TRAVERSES,fibrous pericardium,C0225974,Tissue,False,True
+1417,oblique pericardial sinus,C0225980,Body Space or Junction,ADJACENT_TO,right pulmonary veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+1417,oblique pericardial sinus,C0225980,Body Space or Junction,ADJACENT_TO,left pulmonary veins,C0226670,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,thymus,C0040112,Biologically Active Substance,False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,left brachiocephalic veins,C0501122,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,left superior intercostal vein,C0226637,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,arch of the aorta,C0003483,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,trachea,C0040578,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,blood vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+1423,superior mediastinum,C0230147,Body Location or Region,CONTAINS,lymphatics,C0024235,Body System,False,True
+1424,thymus,C0040112,Biologically Active Substance,ADJACENT_TO,manubrium,C0024764,"Body Part, Organ, or Organ Component",False,True
+1436,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",PART_OF,mediastinum,C0025066,Body Location or Region,False,True
+1441,brachiocephalic trunk,C0006094,"Body Part, Organ, or Organ Component",BRANCH_OF,arch,C0230467,Body Location or Region,False,True
+1441,brachiocephalic trunk,C0006094,"Body Part, Organ, or Organ Component",LOCATION_OF,manubrium,C0024764,"Body Part, Organ, or Organ Component",False,True
+1445,left common carotid artery,C0007272,"Body Part, Organ, or Organ Component",BRANCH_OF,arch,C0230467,Body Location or Region,False,True
+1448,left subclavian artery,C0226262,"Body Part, Organ, or Organ Component",BRANCH_OF,arch of aorta,C0230467,Body Location or Region,False,True
+1448,left subclavian artery,C0226262,"Body Part, Organ, or Organ Component",TRAVERSES,superior mediastinum,C0025066,Body Location or Region,False,True
+1450,ligamentum arteriosum,C0226023,"Body Part, Organ, or Organ Component",CONNECTED_TO,arch of aorta,C0230467,Body Location or Region,False,True
+1451,trachea,C0040578,"Body Part, Organ, or Organ Component",TRAVERSES,superior mediastinum,C0230147,Body Location or Region,False,True
+1453,arch of aorta,C0230467,Body Location or Region,ADJACENT_TO,trachea,C0040578,"Body Part, Organ, or Organ Component",False,True
+1454,esophagus,C0014876,"Body Part, Organ, or Organ Component",TRAVERSES,posterior mediastinum,C0230150,Body Location or Region,False,True
+1456,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",CARRIES_OUT,visceral afferents,C0206309,"Body Part, Organ, or Organ Component",False,True
+1456,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",TRAVERSES,thorax,C0817096,Body Location or Region,False,True
+1464,phrenic nerves,C0031774,"Body Part, Organ, or Organ Component",PERFORMS,innervation,C0206234,Therapeutic or Preventive Procedure,False,True
+1470,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",TRAVERSES,posterior portion of superior mediastinum,,Body Location or Region,False,True
+1471,posterior mediastinum,C0230150,Body Location or Region,ADJACENT_TO,lower thoracic vertebrae,C0039987,"Body Part, Organ, or Organ Component",False,True
+1476,posterior mediastinum,C0230150,Body Location or Region,CONTAINS,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+1488,venous drainage,C0678862,Physiologic Function,CONTAINS,small vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+1493,sensory innervation,C0021516,Organ or Tissue Function,CONTAINS,vagus nerves,C0042276,"Body Part, Organ, or Organ Component",False,True
+1493,sensory innervation,C0021516,Organ or Tissue Function,CONTAINS,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",False,True
+1493,sensory innervation,C0021516,Organ or Tissue Function,CONTAINS,splanchnic nerves,C0037991,"Body Part, Organ, or Organ Component",False,True
+1494,visceral afferents,C0206309,"Body Part, Organ, or Organ Component",CONNECTED_TO,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",False,True
+1496,esophageal plexus,C0501627,"Body Part, Organ, or Organ Component",PRODUCES,anterior vagal trunk,C0228787,"Body Part, Organ, or Organ Component",False,True
+1496,esophageal plexus,C0501627,"Body Part, Organ, or Organ Component",PRODUCES,posterior vagal trunk,C0228788,"Body Part, Organ, or Organ Component",False,True
+1498,thoracic portion,C0581620,"Body Part, Organ, or Organ Component",CONNECTED_TO,arch,C0230467,Body Location or Region,False,True
+1506,aortic hiatus,C0929524,Body Space or Junction,LOCATION_OF,azygos vein,C0004526,"Body Part, Organ, or Organ Component",False,True
+1514,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",CONNECTED_TO,venous system,C1267406,Body System,False,True
+1514,lymph trunks,C3642313,Anatomical Structure,PART_OF,confluence,C0226863,Body Space or Junction,False,True
+1520,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",PART_OF,sympathetic,C0001646,Tissue,False,True
+1520,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",PART_OF,posterior mediastinum,C0230150,Body Location or Region,False,True
+1529,celiac ganglion,C0007571,"Body Part, Organ, or Organ Component",LOCATION_OF,greater splanchnic nerve,C0037991,"Body Part, Organ, or Organ Component",False,True
+1530,aorticorenal ganglion,C0229040,"Body Part, Organ, or Organ Component",LOCATION_OF,lesser splanchnic nerve,C0229014,"Body Part, Organ, or Organ Component",False,True
+1531,renal plexus,C0229036,"Body Part, Organ, or Organ Component",LOCATION_OF,least splanchnic nerve,C0037991,"Body Part, Organ, or Organ Component",False,True
+1536,thoracic wall,C0205076,"Body Part, Organ, or Organ Component",LOCATION_OF,breasts,C0006141,"Body Part, Organ, or Organ Component",False,True
+1539,costal cartilage,C0222787,Tissue,CONNECTED_TO,sternum,C0038293,"Body Part, Organ, or Organ Component",False,True
+1541,ascending aorta,C0003956,"Body Part, Organ, or Organ Component",CONNECTED_TO,arch,C0230467,Body Location or Region,False,True
+1542,arch,C0230467,Body Location or Region,CONNECTED_TO,thoracic aorta,C1522460,"Body Part, Organ, or Organ Component",False,True
+1547,left brachiocephalic vein,C0501122,"Body Part, Organ, or Organ Component",LOCATION_OF,manubrium,C0024764,"Body Part, Organ, or Organ Component",False,True
+1549,arch,C0230467,Body Location or Region,PART_OF,aorta,C0003483,"Body Part, Organ, or Organ Component",False,True
+1553,right margin,C0225818,Body Location or Region,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1553,right margin,C0225818,Body Location or Region,ADJACENT_TO,right third costal cartilage,C0502697,"Body Part, Organ, or Organ Component",False,True
+1553,right margin,C0225818,Body Location or Region,ADJACENT_TO,right sixth costal cartilage,C0222787,Tissue,False,True
+1554,left margin,C0225819,Body Location or Region,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1555,lower margin,C0458583,"Body Part, Organ, or Organ Component",ADJACENT_TO,apex,C0140145,"Amino Acid, Peptide, or Protein",False,True
+1559,mitral valve,C0026264,"Body Part, Organ, or Organ Component",ADJACENT_TO,apex,C0140145,"Amino Acid, Peptide, or Protein",False,True
+1591,dermatomes,C0180383,Medical Device,ASSOCIATED_WITH,thoracic spinal nerves,C0039983,"Body Part, Organ, or Organ Component",False,True
+1595,sternum,C0038293,"Body Part, Organ, or Organ Component",OCCURS_IN,inspiration,C0004048,Organism Function,False,True
+1596,innervation,C0021516,Organ or Tissue Function,OCCURS_IN,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+1599,muscles,C0026845,Tissue,PART_OF,pectoral region,C0230111,Body Location or Region,False,True
+1599,fascia,C0015641,"Body Part, Organ, or Organ Component",PART_OF,pectoral region,C0230111,Body Location or Region,False,True
+1621,stomach,C0038351,"Body Part, Organ, or Organ Component",INGREDIENT_OF,neo-esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+1628,root,C0040452,"Body Part, Organ, or Organ Component",PART_OF,lung,C0027530,Body Location or Region,False,True
+1647,fdg,C0046056,Organic Chemical,INGREDIENT_OF,radionuclide study,C0034606,Diagnostic Procedure,False,True
+1668,pumps,C0182537,Medical Device,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1691,heart,C0018787,"Body Part, Organ, or Organ Component",LOCATION_OF,conduction system,C0018796,Body System,False,True
+1702,thymus,C0040112,Biologically Active Substance,LOCATION_OF,superior mediastinum,C0230147,Body Location or Region,False,True
+1708,right vagus nerve,C0501622,"Body Part, Organ, or Organ Component",TRAVERSES,superior mediastinum,C0230147,Body Location or Region,False,True
+1709,left vagus nerve,C0501623,"Body Part, Organ, or Organ Component",TRAVERSES,superior mediastinum,C0230147,Body Location or Region,False,True
+1710,left recurrent laryngeal nerve,C0023056,"Body Part, Organ, or Organ Component",TRAVERSES,superior mediastinum,C0230147,Body Location or Region,False,True
+1715,left main bronchus,C0225630,"Body Part, Organ, or Organ Component",COMPRESSES,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+1740,heart pain,C0423636,Sign or Symptom,LOCATION_OF,t1–4 dermatomes,C0180383,Medical Device,False,True
+1743,chest radiograph,C3842377,Diagnostic Procedure,EXHIBITS,pleural cavity,C0178802,Body Space or Junction,False,True
+1744,venous system,C1267406,Body System,LOCATION_OF,pacemaker wires,C0030163,Medical Device,False,True
+1744,heart,C0018787,"Body Part, Organ, or Organ Component",LOCATION_OF,pacemaker wires,C0030163,Medical Device,False,True
+1747,chest radiograph,C3842377,Diagnostic Procedure,EXHIBITS,left upper lobe infection,C1261076,"Body Part, Organ, or Organ Component",False,True
+1753,upper lateral region,C0230171,Body Location or Region,PART_OF,breast,C0006141,"Body Part, Organ, or Organ Component",False,True
+1756,biopsy,C0005558,Diagnostic Procedure,PERFORMS,diagnosis,C0011900,Diagnostic Procedure,False,True
+1756,evaluation,C0220825,Health Care Activity,PERFORMS,diagnosis,C0011900,Diagnostic Procedure,False,True
+1761,breast cancer,C0006142,Neoplastic Process,PRODUCES,cancer en cuirasse,C0346152,Neoplastic Process,False,True
+1765,cervical rib,C0158779,Congenital Abnormality,CONNECTED_TO,vertebra cvii,C0549207,"Body Part, Organ, or Organ Component",False,True
+1765,cervical rib,C0158779,Congenital Abnormality,CONNECTED_TO,rib i,C0035561,"Body Part, Organ, or Organ Component",False,True
+1767,small cervical ribs,C0158779,Congenital Abnormality,PRODUCES,cervical band,C0027530,Body Location or Region,False,True
+1767,small cervical ribs,C0158779,Congenital Abnormality,CONNECTED_TO,rib i,C0035561,"Body Part, Organ, or Organ Component",False,True
+1768,cervical band,C0027530,Body Location or Region,CAUSES,thoracic outlet syndrome,C0039984,Disease or Syndrome,False,True
+1771,evaluation,C0220825,Health Care Activity,DIAGNOSES,blood diseases,C0018939,Disease or Syndrome,False,True
+1771,evaluation,C0220825,Health Care Activity,DIAGNOSES,leukemia,C0023418,Neoplastic Process,False,True
+1774,deep inspiration,C0004048,Organism Function,PREVENTS,lung expansion,C0007595,Cell Function,False,True
+1779,sternum,C0038293,"Body Part, Organ, or Organ Component",CAUSES,traction,C0040597,Therapeutic or Preventive Procedure,False,True
+1781,division,C0152060,Therapeutic or Preventive Procedure,CAUSES,postoperative pain,C0030201,Sign or Symptom,False,True
+1782,minimally invasive thoracic surgery,C0282624,Therapeutic or Preventive Procedure,PERFORMS,lobectomy,C0023928,Therapeutic or Preventive Procedure,False,True
+1782,minimally invasive thoracic surgery,C0282624,Therapeutic or Preventive Procedure,PERFORMS,lung biopsy,C0189485,Diagnostic Procedure,False,True
+1782,minimally invasive thoracic surgery,C0282624,Therapeutic or Preventive Procedure,PERFORMS,esophagectomy,C0085198,Therapeutic or Preventive Procedure,False,True
+1788,local anesthesia,C0002921,Therapeutic or Preventive Procedure,PRODUCES,analgesia,C0002766,Therapeutic or Preventive Procedure,False,True
+1794,malignant infiltration,C0153687,Neoplastic Process,CAUSES,phrenic nerve palsy,C0238371,Disease or Syndrome,False,True
+1794,lung cancer,C0242379,Neoplastic Process,CAUSES,malignant infiltration,C0153687,Neoplastic Process,False,True
+1800,pneumothorax,C0032326,Disease or Syndrome,CONSISTS_OF,gas,C0017110,Chemical Viewed Structurally,False,True
+1800,gas,C0017110,Chemical Viewed Structurally,LOCATION_OF,pleural cavity,C0178802,Body Space or Junction,False,True
+1800,tension pneumothorax,C0264558,Disease or Syndrome,IS_A,pneumothorax,C0032326,Disease or Syndrome,False,True
+1805,disease,C0012634,Disease or Syndrome,OCCURS_IN,lungs,C0024109,"Body Part, Organ, or Organ Component",False,True
+1809,bronchoscope,C0179432,Medical Device,TRAVERSES,nose,C0028429,"Body Part, Organ, or Organ Component",False,True
+1814,metastases,C0027627,Neoplastic Process,AFFECTS,prognosis,C0033325,Health Care Activity,False,True
+1815,fdg pet,C0046056,Organic Chemical,USES,gamma radiation emitter,C0017011,Natural Phenomenon or Process,False,True
+1815,gamma radiation emitter,C0017011,Natural Phenomenon or Process,CONNECTED_TO,glucose molecule,,,False,True
+1820,pericardial effusion,C0031039,Disease or Syndrome,CONSISTS_OF,excess fluid,C0020488,Disease or Syndrome,False,True
+1821,excess fluid,C0020488,Disease or Syndrome,AFFECTS,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1821,pericardial sac,C0031050,"Body Part, Organ, or Organ Component",CONTAINS,needle,C0027551,Medical Device,False,True
+1827,rheumatic fever,C0035436,Disease or Syndrome,CAUSES,mitral valve stenosis,C0026269,Disease or Syndrome,False,True
+1828,atherosclerosis,C0003850,Disease or Syndrome,CAUSES,calcification,C0006660,Organ or Tissue Function,False,True
+1829,infection,C0009450,Disease or Syndrome,CAUSES,valve disease,C0036310,Disease or Syndrome,False,True
+1834,occlusion,C0001168,Acquired Abnormality,CAUSES,inadequate oxygenation,C0282636,Cell Function,False,True
+1834,occlusion,C0001168,Acquired Abnormality,CAUSES,cell death,C0007587,Cell Function,False,True
+1836,great saphenous vein,C0392907,"Body Part, Organ, or Organ Component",INGREDIENT_OF,graft,C0181074,Biomedical or Dental Material,False,True
+1837,bypass,C0741847,Therapeutic or Preventive Procedure,TREATS,blocked sections,C0007876,Therapeutic or Preventive Procedure,False,True
+1842,tetralogy of fallot,C0039685,Congenital Abnormality,CONSISTS_OF,pulmonary stenosis,C0034089,Disease or Syndrome,False,True
+1842,tetralogy of fallot,C0039685,Congenital Abnormality,CONSISTS_OF,vsd,C0018818,Congenital Abnormality,False,True
+1842,tetralogy of fallot,C0039685,Congenital Abnormality,CONSISTS_OF,overriding aorta,C0003483,"Body Part, Organ, or Organ Component",False,True
+1842,tetralogy of fallot,C0039685,Congenital Abnormality,CONSISTS_OF,right ventricular hypertrophy,C0162770,Disease or Syndrome,False,True
+1843,ductus arteriosus,C0013273,Embryonic Structure,CONNECTED_TO,pulmonary artery,C0034052,"Body Part, Organ, or Organ Component",False,True
+1843,ductus arteriosus,C0013273,Embryonic Structure,CONNECTED_TO,aortic arch,C0003489,"Body Part, Organ, or Organ Component",False,True
+1843,oxygenated blood,C1260866,Therapeutic or Preventive Procedure,PRODUCES,pulmonary hypertension,C0020542,Pathologic Function,False,True
+1855,coronary artery disease,C0010054,Disease or Syndrome,AFFECTS,cardiac conduction system,C0018796,Body System,False,True
+1855,dysrhythmia,C0003811,Disease or Syndrome,AFFECTS,heart rate,C0018810,Clinical Attribute,False,True
+1858,third pharyngeal pouch,C0231067,Embryonic Structure,PRODUCES,thymus,C0040112,Biologically Active Substance,False,True
+1858,ectopic parathyroid glands,C4023196,Anatomical Abnormality,LOCATION_OF,thymus,C0040112,Biologically Active Substance,False,True
+1867,coarctation,C0003492,Congenital Abnormality,IS_A,congenital abnormality,C0000768,Congenital Abnormality,False,True
+1867,coarctation,C0003492,Congenital Abnormality,AFFECTS,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1871,deceleration injury,C0011100,Natural Phenomenon or Process,CAUSES,aortic trauma,,,False,True
+1872,aortic dissection,C0340643,Disease or Syndrome,OCCURS_IN,aorta,C0003483,"Body Part, Organ, or Organ Component",False,True
+1877,vascular ring,C0221214,Congenital Abnormality,SURROUNDS,trachea,C0040578,"Body Part, Organ, or Organ Component",False,True
+1877,vascular ring,C0221214,Congenital Abnormality,SURROUNDS,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+1891,electrocardiogram,C0013798,Diagnostic Procedure,EXHIBITS,anterior myocardial infarction,C0340293,Disease or Syndrome,False,True
+1894,left ventricular function,C0080310,Organ or Tissue Function,CAUSES,breathlessness,C0013404,Sign or Symptom,False,True
+1896,contractile force,C0026820,Physiologic Function,CAUSES,blood pressure,C0005823,Organism Function,False,True
+1900,left coronary artery,C1261082,"Body Part, Organ, or Organ Component",AFFECTS,heart,C0018787,"Body Part, Organ, or Organ Component",False,True
+1901,right coronary artery,C1261316,"Body Part, Organ, or Organ Component",AFFECTS,sino-atrial node,C0037189,"Body Part, Organ, or Organ Component",False,True
+1901,right coronary artery,C1261316,"Body Part, Organ, or Organ Component",AFFECTS,atrioventricular node,C0004247,"Body Part, Organ, or Organ Component",False,True
+1902,ecg,C0013798,Diagnostic Procedure,DIAGNOSES,myocardial function,C0027061,Tissue,False,True
+1902,echocardiography,C0013516,Diagnostic Procedure,DIAGNOSES,myocardial function,C0027061,Tissue,False,True
+1902,angiography,C0002978,Diagnostic Procedure,DIAGNOSES,myocardial function,C0027061,Tissue,False,True
+1905,right coronary artery occlusion,C1290385,Disease or Syndrome,PRODUCES,infarction,C0021308,Pathologic Function,False,True
+1905,inferior myocardial infarction,C0340305,Disease or Syndrome,IS_A,infarction,C0021308,Pathologic Function,False,True
+1907,enzymes,C0014442,"Amino Acid, Peptide, or Protein",USES,diagnosis,C0011900,Diagnostic Procedure,False,True
+1914,thrombus,C0087086,Pathologic Function,LOCATION_OF,deep veins,C0226514,"Body Part, Organ, or Organ Component",False,True
+1928,veins,C0042449,"Body Part, Organ, or Organ Component",INDICATES,venous obstruction,C0948441,Disease or Syndrome,False,True
+1929,collapse,C0036974,Pathologic Function,OCCURS_IN,lung,C0024109,"Body Part, Organ, or Organ Component",False,True
+1931,pathological processes,C0030660,Pathologic Function,OCCURS_IN,pleural cavity,C0178802,Body Space or Junction,False,True
+1932,rib fractures,C0035522,Pathologic Function,CAUSES,pneumothorax,C0032326,Disease or Syndrome,False,True
+1932,positive pressure ventilation,C0021778,Therapeutic or Preventive Procedure,CAUSES,pneumothorax,C0032326,Disease or Syndrome,False,True
+1936,needle,C0027551,Medical Device,LOCATION_OF,pleural cavity,C0178802,Body Space or Junction,False,True
+1942,subclavius muscle,C0224348,"Body Part, Organ, or Organ Component",DISRUPTS,wire,C0005978,Medical Device,False,True
+1942,wire,C0005978,Medical Device,LOCATION_OF,right atrium,C0225844,"Body Part, Organ, or Organ Component",False,True
+1942,wire,C0005978,Medical Device,LOCATION_OF,right ventricle,C0225883,"Body Part, Organ, or Organ Component",False,True
+1943,dilated collateral intercostal arteries,C0459917,"Body Part, Organ, or Organ Component",CAUSES,notching,C1235660,Body Space or Junction,False,True
+1944,enlargement,C0020564,Pathologic Function,CAUSES,notching,C1235660,Body Space or Junction,False,True
+1949,aortic dissection,C0340643,Disease or Syndrome,IS_A,disorder,C0012634,Disease or Syndrome,False,True
+1949,aortic wall,C0507851,"Body Part, Organ, or Organ Component",CONTAINS,layers,C0934502,"Body Part, Organ, or Organ Component",False,True
+1955,cells,C0007634,Cell,PRODUCES,acid,C0001128,Chemical,False,True
+1968,left upper lobe bronchus,C0225632,"Body Part, Organ, or Organ Component",LOCATION_OF,sputum,C0038056,Body Substance,False,True
+1970,mouth,C0226896,Body Space or Junction,LOCATION_OF,tube,C0175730,Medical Device,False,True
+1970,esophagus,C0014876,"Body Part, Organ, or Organ Component",LOCATION_OF,tube,C0175730,Medical Device,False,True
+1973,abdominal scan,C0860675,Diagnostic Procedure,EVALUATION_OF,liver,C0023884,"Body Part, Organ, or Organ Component",False,True
+1974,bleeding,C0019080,Pathologic Function,CAUSES,anemia,C0002871,Disease or Syndrome,False,True
+1975,tumors,C0027651,Neoplastic Process,CAUSES,chronic bleeding,C0333278,Pathologic Function,False,True
+1977,tumor spread,C0027627,Neoplastic Process,OCCURS_IN,locoregional lymph nodes,C1184738,"Body Part, Organ, or Organ Component",False,True
+1980,esophageal cancers,C0546837,Neoplastic Process,CONNECTED_TO,lymph node metastatic,C0686619,Neoplastic Process,False,True
+1980,tumor,C0027651,Neoplastic Process,CONNECTED_TO,liver,C0023884,"Body Part, Organ, or Organ Component",False,True
+1983,portacath,C3495140,Medical Device,IS_A,subcutaneous reservoir,C1283116,Medical Device,False,True
+1990,catheter,C0085590,Medical Device,TRAVERSES,right internal jugular vein,C0501117,"Body Part, Organ, or Organ Component",False,True
+1990,catheter,C0085590,Medical Device,TRAVERSES,right brachiocephalic vein,C0501116,"Body Part, Organ, or Organ Component",False,True
+1993,cystic fibrosis,C0010674,Disease or Syndrome,IS_A,autosomal recessive disorder,C3899988,Disease or Syndrome,False,True
+1993,inflammation,C0021368,Pathologic Function,CAUSES,distortion,C0332482,Anatomical Abnormality,False,True
+1993,inflammation,C0021368,Pathologic Function,CAUSES,dilation,C0012359,Pathologic Function,False,True
+2008,inferior thoracic aperture,C0230138,Body Location or Region,PART_OF,abdomen,C0000726,Body Location or Region,False,True
+2012,abdomen,C0000726,Body Location or Region,CONTAINS,spleen,C0037993,"Body Part, Organ, or Organ Component",False,True
+2018,forced expiration,C0231800,Organism Function,USES,abdominal muscles,C0000739,"Body Part, Organ, or Organ Component",False,True
+2020,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,bone,C0005931,Tissue,False,True
+2020,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,muscle,C0026845,Tissue,False,True
+2020,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONTAINS,lumbar vertebrae,C0024091,"Body Part, Organ, or Organ Component",False,True
+2020,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONTAINS,intervertebral discs,C0021815,"Body Part, Organ, or Organ Component",False,True
+2020,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONTAINS,pelvic bones,C3887652,"Body Part, Organ, or Organ Component",False,True
+2030,peritoneum,C0031153,Tissue,PART_OF,mesenteries,C0025474,Body Location or Region,False,True
+2031,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",LOCATION_OF,parietal peritoneum,C1527430,"Body Part, Organ, or Organ Component",False,True
+2034,retroperitoneal,C0035359,Body Space or Junction,LOCATION_OF,abdominal viscera,C0728992,Body Location or Region,False,True
+2037,kidneys,C0022646,"Body Part, Organ, or Organ Component",PART_OF,retroperitoneal structures,C0035359,Body Space or Junction,False,True
+2037,ureters,C0041951,"Body Part, Organ, or Organ Component",PART_OF,retroperitoneal structures,C0035359,Body Space or Junction,False,True
+2038,retroperitoneal,C0035359,Body Space or Junction,LOCATION_OF,organs,C0178784,"Body Part, Organ, or Organ Component",False,True
+2041,inferior thoracic aperture,C0230138,Body Location or Region,CONTAINS,vertebra txii,C0549207,"Body Part, Organ, or Organ Component",False,True
+2041,inferior thoracic aperture,C0230138,Body Location or Region,CONTAINS,costal margin,C0582240,Body Location or Region,False,True
+2041,inferior thoracic aperture,C0230138,Body Location or Region,CONTAINS,xiphoid process,C0043356,"Body Part, Organ, or Organ Component",False,True
+2043,diaphragm,C0011980,"Body Part, Organ, or Organ Component",CONNECTED_TO,inferior thoracic aperture,C0230138,Body Location or Region,False,True
+2047,diaphragm,C0011980,"Body Part, Organ, or Organ Component",PART_OF,posterior abdominal wall,C0230194,Body Location or Region,False,True
+2048,abdominal cavity,C0230168,Body Location or Region,CONNECTED_TO,pelvic cavity,C0030797,"Body Part, Organ, or Organ Component",False,True
+2052,pelvic inlet,C0030797,"Body Part, Organ, or Organ Component",CONNECTED_TO,abdomen,C0000726,Body Location or Region,False,True
+2055,major artery,C0682605,"Body Part, Organ, or Organ Component",TRAVERSES,aperture,C0152287,Body Space or Junction,False,True
+2055,vein,C0042449,"Body Part, Organ, or Organ Component",TRAVERSES,aperture,C0152287,Body Space or Junction,False,True
+2060,dorsal mesentery,C0231007,Embryonic Structure,CONNECTED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+2060,ventral mesentery,C0025474,Body Location or Region,CONNECTED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+2061,gut tube,C0175730,Medical Device,CONSISTS_OF,foregut,C0231051,Embryonic Structure,False,True
+2061,gut tube,C0175730,Medical Device,CONSISTS_OF,midgut,C0231052,Embryonic Structure,False,True
+2061,gut tube,C0175730,Medical Device,CONSISTS_OF,hindgut,C0231053,"Body Part, Organ, or Organ Component",False,True
+2063,foregut,C0231051,Embryonic Structure,PRODUCES,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+2063,foregut,C0231051,Embryonic Structure,PRODUCES,stomach,C0038351,"Body Part, Organ, or Organ Component",False,True
+2063,foregut,C0231051,Embryonic Structure,PRODUCES,duodenum,C0013303,"Body Part, Organ, or Organ Component",False,True
+2064,diverticulum,C0012817,Anatomical Abnormality,PRODUCES,liver,C0023884,"Body Part, Organ, or Organ Component",False,True
+2064,diverticulum,C0012817,Anatomical Abnormality,PRODUCES,gallbladder,C0016976,"Body Part, Organ, or Organ Component",False,True
+2064,diverticulum,C0012817,Anatomical Abnormality,PRODUCES,ventral part of pancreas,C0152280,"Body Part, Organ, or Organ Component",False,True
+2065,foregut,C0231051,Embryonic Structure,PRODUCES,dorsal part of pancreas,C0030274,"Body Part, Organ, or Organ Component",False,True
+2065,dorsal mesentery,C0231007,Embryonic Structure,LOCATION_OF,spleen,C0037993,"Body Part, Organ, or Organ Component",False,True
+2066,mesentery,C0025474,Body Location or Region,CONNECTED_TO,body wall,C0459558,"Body Part, Organ, or Organ Component",False,True
+2067,dorsal mesentery,C0231007,Embryonic Structure,CONNECTED_TO,body wall,C0459558,"Body Part, Organ, or Organ Component",False,True
+2068,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,ventral mesentery,C1283969,Embryonic Structure,False,True
+2068,liver,C0023884,"Body Part, Organ, or Organ Component",CONNECTED_TO,diaphragm,C0011980,"Body Part, Organ, or{...}",False,True
+2069,dorsal mesentery,C0231007,Embryonic Structure,CONTAINS,omental bursa,C0230212,Body Space or Junction,False,True
+2069,omental foramen,C0230213,Body Space or Junction,CONNECTED_TO,peritoneal cavity,C1704247,Body Space or Junction,False,True
+2070,mesentery,C0025474,Body Location or Region,PRODUCES,greater omentum,C0028977,"Body Part, Organ, or Organ Component",False,True
+2072,duodenum,C0013303,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,midgut,C0231052,Embryonic Structure,False,True
+2072,jejunum,C0022378,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,midgut,C0231052,Embryonic Structure,False,True
+2072,ileum,C0020885,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,midgut,C0231052,Embryonic Structure,False,True
+2072,ascending colon,C0227375,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,midgut,C0231052,Embryonic Structure,False,True
+2072,proximal two-thirds of the transverse colon,C0227386,"Body Part, Organ, or Organ Component",DEVELOPMENTAL_FORM_OF,midgut,C0231052,Embryonic Structure,False,True
+2073,cavity,C0011334,Disease or Syndrome,LOCATION_OF,cecum,C0007531,"Body Part, Organ, or Organ Component",False,True
+2079,anterior rami of thoracic spinal nerves t7 to t12,C1285089,"Body Part, Organ, or Organ Component",TRAVERSES,costal margin,C0582240,Body Location or Region,False,True
+2085,pelvic cavity,C0030797,"Body Part, Organ, or Organ Component",LOCATION_OF,gonads,C0018067,"Body Part, Organ, or Organ Component",False,True
+2086,cord,C1550235,"Body Part, Organ, or Organ Component",TRAVERSES,anterior abdominal wall,C0230193,Body Location or Region,False,True
+2086,cord,C1550235,"Body Part, Organ, or Organ Component",INTERCONNECTS,inferior pole,C0205097,Body Location or Region,False,True
+2086,cord,C1550235,"Body Part, Organ, or Organ Component",INTERCONNECTS,primordia,C0678727,Organ or Tissue Function,False,True
+2088,scrotum,C0036471,"Body Part, Organ, or Organ Component",LOCATION_OF,testis,C0039597,"Body Part, Organ, or Organ Component",False,True
+2088,caudal pole,C0205097,Body Location or Region,INTERCONNECTS,scrotum,C0036471,"Body Part, Organ, or Organ Component",False,True
+2090,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,peritoneal cavity,C1704247,Body Space or Junction,False,True
+2091,round ligament of the uterus,C0035877,"Body Part, Organ, or Organ Component",TRAVERSES,inguinal canal,C0021445,Body Location or Region,False,True
+2093,transpyloric plane,C0458355,Body Location or Region,TRAVERSES,vertebra li,C0549207,"Body Part, Organ, or Organ Component",False,True
+2095,arteries,C0003842,"Body Part, Organ, or Organ Component",TRAVERSES,dorsal mesenteries,C0025474,Body Location or Region,False,True
+2095,arteries,C0003842,"Body Part, Organ, or Organ Component",TRAVERSES,ventral mesenteries,C0025474,Body Location or Region,False,True
+2103,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,vascular bed,C0598051,"Body Part, Organ, or Organ Component",False,True
+2104,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,hepatic portal vein,C0032718,"Body Part, Organ, or Organ Component",False,True
+2104,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,vascular exchange network,C3714653,Anatomical Structure,False,True
+2106,vascular beds,C0268338,Disease or Syndrome,CONNECTED_TO,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",False,True
+2109,round ligament,C0035877,"Body Part, Organ, or Organ Component",CONNECTED_TO,umbilicus,C0041638,Body Location or Region,False,True
+2109,small veins,C0751984,"Amino Acid, Peptide, or Protein",INTERCONNECTS,portal system,C0032717,"Body Part, Organ, or Organ Component",False,True
+2109,small veins,C0751984,"Amino Acid, Peptide, or Protein",INTERCONNECTS,para-umbilical regions,C0226740,"Body Part, Organ, or Organ Component",False,True
+2109,para-umbilical regions,C0226740,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,systemic veins,C0447117,Body System,False,True
+2110,gastrointestinal tract,C0012240,Body System,ADJACENT_TO,posterior abdominal wall,C0230194,Body Location or Region,False,True
+2112,vessels,C0005847,"Body Part, Organ, or Organ Component",INTERCONNECTS,portal,C0205054,Body Location or Region,False,True
+2119,abdomen,C0000726,Body Location or Region,PART_OF,trunk,C0225442,"Body Part, Organ, or Organ Component",False,True
+2120,abdominal cavity,C0230168,Body Location or Region,CONTAINS,peritoneal cavity,C0031153,Tissue,False,True
+2120,abdominal cavity,C0230168,Body Location or Region,CONTAINS,abdominal viscera,C0728992,Body Location or Region,False,True
+2128,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,superficial fascia,C0278403,Tissue,False,True
+2128,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,muscles,C0026845,Tissue,False,True
+2128,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",CONSISTS_OF,parietal peritoneum,C0230203,Tissue,False,True
+2130,superficial fatty layer,C0222331,Tissue,CONTAINS,fat,C0001527,Tissue,False,True
+2130,superficial fatty layer,C0222331,Tissue,CONNECTED_TO,inguinal ligament,C0225043,"Body Part, Organ, or Organ Component",False,True
+2131,fascial layer,C1268198,"Body Part, Organ, or Organ Component",CONTAINS,smooth muscle fibers,C1135918,Cell,False,True
+2132,membranous layer,C2338391,"Body Part, Organ, or Organ Component",CONNECTED_TO,linea alba,C0230195,Body Location or Region,False,True
+2141,lacunar ligament,C0225044,"Body Part, Organ, or Organ Component",CONNECTED_TO,pecten pubis,C0735747,Body Location or Region,False,True
+2143,aponeurosis,C0225205,Tissue,CONNECTED_TO,linea alba,C0230195,Body Location or Region,False,True
+2144,anterior aponeurosis,C0225205,Tissue,CONNECTED_TO,linea alba,C0230195,Body Location or Region,False,True
+2146,transversalis fascia,C0225232,Tissue,CONNECTED_TO,thoracolumbar fascia,C0225206,Tissue,False,True
+2147,transversalis fascia,C0225232,Tissue,CONNECTED_TO,crest,C0206138,Disease or Syndrome,False,True
+2148,deep fascia,C1511746,Tissue,SURROUNDS,abdominal cavity,C0230168,Body Location or Region,False,True
+2151,pyramidalis,C0224374,"Body Part, Organ, or Organ Component",CONNECTED_TO,linea alba,C0230195,Body Location or Region,False,True
+2159,fat,C0001527,Tissue,CONNECTED_TO,preperitoneal fat,C0736778,"Body Part, Organ, or Organ Component",False,True
+2160,peritoneum,C0031153,Tissue,SURROUNDS,abdominal cavity,C0230168,Body Location or Region,False,True
+2160,peritoneum,C0031153,Tissue,SURROUNDS,viscera,C0042779,"Body Part, Organ, or Organ Component",False,True
+2162,t7,C0446425,Body Location or Region,AFFECTS,skin,C0444099,Body Substance,False,True
+2162,t12,C0446430,Body Location or Region,AFFECTS,skin,C0444099,Body Substance,False,True
+2162,l1 spinal nerves,C0037941,"Body Part, Organ, or Organ Component",AFFECTS,skin,C0444099,Body Substance,False,True
+2163,intercostal nerves,C1285089,"Body Part, Organ, or Organ Component",AFFECTS,skin,C0444099,Body Substance,False,True
+2165,nerves t7,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,anterolateral abdominal wall muscles,C1744565,"Body Part, Organ, or Organ Component",False,True
+2165,nerves t7,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,parietal peritoneum,C0230203,Tissue,False,True
+2165,nerves t7,C0027740,"Body Part, Organ, or Organ Component",AFFECTS,skin,C0444099,Body Substance,False,True
+2167,t10,C0446428,Body Location or Region,AFFECTS,skin,C0444099,Body Substance,False,True
+2168,t11,C0446429,Body Location or Region,AFFECTS,skin,C0444099,Body Substance,False,True
+2168,l1,C0446432,Body Location or Region,AFFECTS,skin,C0444099,Body Substance,False,True
+2170,ilio-inguinal nerve,C0228906,"Body Part, Organ, or Organ Component",AFFECTS,scrotum,C0036471,"Body Part, Organ, or Organ Component",False,True
+2170,ilio-inguinal nerve,C0228906,"Body Part, Organ, or Organ Component",AFFECTS,labia majora,C0227760,"Body Part, Organ, or Organ Component",False,True
+2170,ilio-inguinal nerve,C0228906,"Body Part, Organ, or Organ Component",AFFECTS,thigh,C0039866,Body Location or Region,False,True
+2183,layers,C0934502,"Body Part, Organ, or Organ Component",PART_OF,anterior abdominal wall,C0230193,Body Location or Region,False,True
+2185,processus vaginalis,C0450297,"Body Part, Organ, or Organ Component",ADJACENT_TO,gubernaculum,C4277611,Embryonic Structure,False,True
+2186,testes,C0021358,"Body Part, Organ, or Organ Component",TRAVERSES,inguinal canal,C0021445,Body Location or Region,False,True
+2187,pelvic cavity,C0030797,"Body Part, Organ, or Organ Component",LOCATION_OF,ovaries,C0029939,"Body Part, Organ, or Organ Component",False,True
+2187,round ligament of the uterus,C0230247,"Body Part, Organ, or Organ Component",PART_OF,gubernaculum,C4277611,Embryonic Structure,False,True
+2189,inguinal canal,C0021445,Body Location or Region,CONTAINS,genital branch of the genitofemoral nerve,C0017420,"Body Part, Organ, or Organ Component",False,True
+2189,inguinal canal,C0021445,Body Location or Region,CONTAINS,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",False,True
+2189,inguinal canal,C0021445,Body Location or Region,CONTAINS,round ligament of the uterus,C0035877,"Body Part, Organ, or Organ Component",False,True
+2189,ilio-inguinal nerve,C0228906,"Body Part, Organ, or Organ Component",TRAVERSES,inguinal canal,C0021445,Body Location or Region,False,True
+2190,deep inguinal ring,,,PART_OF,inguinal canal,C0021445,Body Location or Region,False,True
+2190,deep inguinal ring,,,ADJACENT_TO,inguinal ligament,C0225043,"Body Part, Organ, or Organ Component",False,True
+2191,superficial (external) inguinal ring,C0225227,"Body Part, Organ, or Organ Component",PART_OF,inguinal canal,C0021445,Body Location or Region,False,True
+2193,aponeurosis,C0225205,Tissue,PRODUCES,anterior wall of the inguinal canal,C0559280,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,ductus deferens,C0042360,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,artery,C0003842,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,testicular artery,C0226409,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,testicular veins,C0226718,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,cremasteric artery,C0226403,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,vein,C0042449,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,genital branch,C0017420,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,visceral afferent nerve fibers,C0206309,"Body Part, Organ, or Organ Component",False,True
+2202,spermatic cord,C0037855,"Body Part, Organ, or Organ Component",CONTAINS,lymphatics,C0024235,Body System,False,True
+2219,innervation,C0021516,Organ or Tissue Function,FUNCTIONALLY_RELATED_TO,peritoneum,C0031153,Tissue,False,True
+2220,somatic afferents,C0597491,"Body Part, Organ, or Organ Component",FUNCTIONALLY_RELATED_TO,parietal peritoneum,C0230203,Tissue,False,True
+2220,visceral afferents,C0206309,"Body Part, Organ, or Organ Component",FUNCTIONALLY_RELATED_TO,visceral peritoneum,C0230206,Tissue,False,True
+2220,autonomic nerves,C0206250,"Body Part, Organ, or Organ Component",FUNCTIONALLY_RELATED_TO,visceral peritoneum,C0230206,Tissue,False,True
+2221,greater sac,C1325744,Cell Component,PART_OF,peritoneal cavity,C1704247,Body Space or Junction,False,True
+2221,omental bursa,C0230212,Body Space or Junction,PART_OF,peritoneal cavity,C1704247,Body Space or Junction,False,True
+2223,omental bursa,C0230212,Body Space or Junction,CONNECTED_TO,greater sac,C1325744,Cell Component,False,True
+2224,peritoneum,C0031153,Tissue,SURROUNDS,portal vein,C0032718,"Body Part, Organ, or Organ Component",False,True
+2224,peritoneum,C0031153,Tissue,SURROUNDS,hepatic artery proper,C0019145,"Body Part, Organ, or Organ Component",False,True
+2224,peritoneum,C0031153,Tissue,SURROUNDS,bile duct,,"Body Part, Organ, or Organ Component",False,True
+2224,peritoneum,C0031153,Tissue,SURROUNDS,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",False,True
+2224,peritoneum,C0031153,Tissue,SURROUNDS,caudate lobe,C0227489,"Body Part, Organ, or Organ Component",False,True
+2224,peritoneum,C0031153,Tissue,SURROUNDS,duodenum,C0227302,"Body Part, Organ, or Organ Component",False,True
+2226,peritoneal folds,C0031153,Tissue,CONNECTED_TO,organs,C0178784,"Body Part, Organ, or Organ Component",False,True
+2226,peritoneal folds,C0031153,Tissue,CONNECTED_TO,abdominal wall,C0836916,"Body Part, Organ, or Organ Component",False,True
+2227,omenta,C0028977,"Body Part, Organ, or Organ Component",CONSISTS_OF,peritoneum,C0031153,Tissue,False,True
+2229,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONTAINS,fat,C0001527,Tissue,False,True
+2229,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONTAINS,arteries,C0003842,"Body Part, Organ, or Organ Component",False,True
+2229,greater omentum,C0028977,"Body Part, Organ, or Organ Component",CONTAINS,veins,C0042449,"Body Part, Organ, or Organ Component",False,True
+2231,thin membrane,C0025255,Tissue,CONNECTED_TO,peritoneal,C0031153,Tissue,False,True
+2235,mesentery,C0025474,Body Location or Region,CONNECTED_TO,jejunum,C0022378,"Body Part, Organ, or Organ Component",False,True
+2235,mesentery,C0025474,Body Location or Region,CONNECTED_TO,ileum,C0020885,"Body Part, Organ, or Organ Component",False,True
+2236,transverse mesocolon,C0230254,"Body Part, Organ, or Organ Component",CONNECTED_TO,posterior abdominal wall,C0230194,Body Location or Region,False,True
+2237,sigmoid and superior rectal vessels,,"Body Part, Organ, or Organ Component",TRAVERSES,peritoneal fold,C0738779,Body Location or Region,False,True
+2241,anterior vagal trunk,C0228787,"Body Part, Organ, or Organ Component",CONSISTS_OF,trunks,C0001969,Mental or Behavioral Dysfunction,False,True
+2242,posterior vagal trunk,C0228788,"Body Part, Organ, or Organ Component",CONSISTS_OF,single trunk,C0037179,Population Group,False,True
+2242,trunk,C0225442,"Body Part, Organ, or Organ Component",LOCATION_OF,esophagus,C0014876,"Body Part, Organ, or Organ Component",False,True
+2247,greater curvature,C0227223,Body Location or Region,CONNECTED_TO,gastrosplenic ligament,C0230230,"Body Part, Organ, or Organ Component",False,True
+2247,greater curvature,C0227223,Body Location or Region,CONNECTED_TO,greater omentum,C0028977,"Body Part, Organ, or Organ Component",False,True
+2247,lesser curvature,C0227221,Body Location or Region,CONNECTED_TO,lesser omentum,C0230260,"Body Part, Organ, or Organ Component",False,True
+2249,small intestine,C0021852,"Body Part, Organ, or Organ Component",PART_OF,gastrointestinal tract,C0017189,Body System,False,True
+2252,neck,C0027530,Body Location or Region,PART_OF,gallbladder,C0016976,"Body Part, Organ, or Organ Component",False,True
+2252,duodenum,C0013303,"Body Part, Organ, or Organ Component",ADJACENT_TO,li,C0079154,Disease or Syndrome,False,True
+2263,large intestine,C0021853,"Body Part, Organ, or Organ Component",CONSISTS_OF,anal canal,C0227411,Body Space or Junction,False,True
+2273,left colic flexure,C0227387,Body Location or Region,ADJACENT_TO,c0037993,C0037993,"Body Part, Organ, or Organ Component",False,True
+2273,bend,C0011119,Disease or Syndrome,CONNECTED_TO,c0011980,C0011980,"Body Part, Organ, or Organ Component",False,True
+2291,porta hepatis,C0227498,Body Space or Junction,LOCATION_OF,hepatic arteries,C0019145,"Body Part, Organ, or Organ Component",False,True
+2291,porta hepatis,C0227498,Body Space or Junction,LOCATION_OF,portal vein,C0032718,"Body Part, Organ, or Organ Component",False,True
+2291,porta hepatis,C0227498,Body Space or Junction,LOCATION_OF,hepatic ducts,C0917710,"Body Part, Organ, or Organ Component",False,True
+2292,falciform ligament,C0230240,"Body Part, Organ, or Organ Component",CONNECTED_TO,anterior abdominal wall,C0230193,Body Location or Region,False,True
+2292,peritoneum,C0031153,Tissue,CONNECTED_TO,stomach,C0038351,"Body Part, Organ, or Organ Component",False,True
+2299,caudate lobe,C0227489,"Body Part, Organ, or Organ Component",ADJACENT_TO,fissure,C0332469,Anatomical Structure,False,True
+2305,retroperitoneal,C0035359,Body Space or Junction,LOCATION_OF,pancreas,C0030274,"Body Part, Organ, or Organ Component",False,True
+2310,splenorenal ligament,C0230234,"Body Part, Organ, or Organ Component",CONTAINS,tail,C0039259,"Body Part, Organ, or Organ Component",False,True
+2311,hepatopancreatic ampulla,C0042425,"Body Part, Organ, or Organ Component",LOCATION_OF,duodenum,C0013303,"Body Part, Organ, or Organ Component",False,True
+2311,hepatopancreatic ampulla,C0042425,"Body Part, Organ, or Organ Component",LOCATION_OF,duodenal papilla,C0227296,"Body Part, Organ, or Organ Component",False,True
+2315,main pancreatic duct,,,COMMUNICATES_WITH,accessory pancreatic duct,C0227573,"Body Part, Organ, or Organ Component",False,True
+2316,arterial supply,C0003842,"Body Part, Organ, or Organ Component",SUPPLIES,pancreas,C0030274,"Body Part, Organ, or Organ Component",False,True
+2317,duct system,C0927196,Body System,CONNECTS_WITH,gallbladder,C0016976,"Body Part, Organ, or Organ Component",False,True
+2317,duct system,C0927196,Body System,EMPTIES_INTO,descending part of the duodenum,C0227301,"Body Part, Organ, or Organ Component",False,True
+2319,common hepatic duct,C0019149,"Body Part, Organ, or Organ Component",FORMATION_OF,bile duct,C0005400,"Body Part, Organ, or Organ Component",False,True
+2319,bile duct,C0005400,"Body Part, Organ, or Organ Component",LIES_TO_RIGHT_OF,hepatic artery,C0019145,"Body Part, Organ, or Organ Component",False,True
+2319,bile duct,C0005400,"Body Part, Organ, or Organ Component",LIES_ANTERIOR_TO,portal vein,C0032718,"Body Part, Organ, or Organ Component",False,True
+2322,spleen,C0037993,"Body Part, Organ, or Organ Component",PART_OF,vascular system,C0489903,Body System,False,True
+2325,splenic hilum,C0229685,"Body Part, Organ, or Organ Component",CONTAINS,splenic vessels,C0005847,"Body Part, Organ, or Organ Component",False,True
+2338,splenorenal ligament,C0230234,"Body Part, Organ, or Organ Component",LOCATION_OF,splenic artery,C0037996,"Body Part, Organ, or Organ Component",False,True
+2351,middle colic artery,C0226328,"Body Part, Organ, or Organ Component",INTERCONNECTS,right colic artery,C0226327,"Body Part, Organ, or Organ Component",False,True
+2352,right colic artery,C0226327,"Body Part, Organ, or Organ Component",INTERCONNECTS,ileocolic artery,C0226323,"Body Part, Organ, or Organ Component",False,True
+2352,right colic artery,C0226327,"Body Part, Organ, or Organ Component",INTERCONNECTS,middle colic artery,C0226328,"Body Part, Organ, or Organ Component",False,True
+2381,abdominal viscera,C0728992,Body Location or Region,CONNECTED_TO,nervous system,C0027763,Body System,False,True
+2384,abdominal viscera,C0728992,Body Location or Region,CONNECTED_TO,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",False,True
+2384,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",CONNECTED_TO,visceral afferent fibers,C0206309,"Body Part, Organ, or Organ Component",False,True
+2384,central nervous system,C3540014,"Indicator, Reagent, or Diagnostic Aid",CONNECTED_TO,visceral efferent fibers,C0206309,"Body Part, Organ, or Organ Component",False,True
+2385,visceral efferent fibers,C0206309,"Body Part, Organ, or Organ Component",PART_OF,sympathetic,C0001646,Tissue,False,True
+2385,visceral efferent fibers,C0206309,"Body Part, Organ, or Organ Component",PART_OF,parasympathetic parts,C0334416,Neoplastic Process,False,True
+2386,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",CONTAINS,visceral afferent fibers,C0206309,"Body Part, Organ, or Organ Component",False,True
+2389,paravertebral sympathetic ganglia,C0017071,"Body Part, Organ, or Organ Component",CONSISTS_OF,neuronal cell bodies,C0599444,Cell Component,False,True
+2390,trunks,C0001969,Mental or Behavioral Dysfunction,CONNECTED_TO,spinal nerves,C0037941,"Body Part, Organ, or Organ Component",False,True
+2390,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",CONTAINS,preganglionic sympathetic fibers,C1520027,Cell,False,True
+2390,sympathetic trunks,C1710393,"Body Part, Organ, or Organ Component",CONTAINS,postganglionic sympathetic fibers,C0004384,"Body Part, Organ, or Organ Component",False,True
+2391,splanchnic nerves,C0037991,"Body Part, Organ, or Organ Component",PART_OF,innervation,C0021516,Organ or Tissue Function,False,True
+2394,pelvic splanchnic nerves,C0229025,"Body Part, Organ, or Organ Component",CONTAINS,preganglionic,C1520027,Cell,False,True
+2394,pelvic splanchnic nerves,C0229025,"Body Part, Organ, or Organ Component",CONTAINS,parasympathetic fibers,C0001646,Tissue,False,True
+2405,aortic plexus,C2339507,"Body Part, Organ, or Organ Component",CONSISTS_OF,nerve fibers,C0027749,Cell Component,False,True
+2406,superior hypogastric plexus,C0229047,"Body Part, Organ, or Organ Component",CONTAINS,ganglia,C0017067,"Body Part, Organ, or Organ Component",False,True
+2407,aortic plexus,C2339507,"Body Part, Organ, or Organ Component",CONTAINS,inferior mesenteric plexus,C0229041,"Body Part, Organ, or Organ Component",False,True
+2407,aortic plexus,C2339507,"Body Part, Organ, or Organ Component",CONTAINS,spermatic plexus,C0037868,Cell,False,True
+2407,aortic plexus,C2339507,"Body Part, Organ, or Organ Component",CONTAINS,external iliac plexus,C0229044,"Body Part, Organ, or Organ Component",False,True
+2414,enteric system,C0206111,Body System,CONSISTS_OF,plexuses,C0501403,"Body Part, Organ, or Organ Component",False,True
+2414,myenteric plexuses,C0501403,"Body Part, Organ, or Organ Component",INTERCONNECTS,submucosal plexuses,C0038564,"Body Part, Organ, or Organ Component",False,True
+2416,postganglionic sympathetic,C0206254,"Body Part, Organ, or Organ Component",CONNECTED_TO,enteric system,C0206111,Body System,False,True
+2416,preganglionic parasympathetic neurons,C0017069,"Body Part, Organ, or Organ Component",CONNECTED_TO,enteric system,C0206111,Body System,False,True
+2418,sympathetic innervation,C0039038,Therapeutic or Preventive Procedure,PART_OF,pathway,C1704259,Molecular Function,False,True
+2421,preganglionic,C1520027,Cell,TRAVERSES,white ramus communicans,C0501390,"Body Part, Organ, or Organ Component",False,True
+2425,preganglionic fiber,C1520027,Cell,INTERACTS_WITH,postganglionic neuron,C1520027,Cell,False,True
+2427,fiber,C0225326,Organic Chemical,TRAVERSES,plexus,C1184808,"Body Part, Organ, or Organ Component",False,True
+2434,upper margin,C0458582,"Body Part, Organ, or Organ Component",PART_OF,sacrum,C0036033,Body Location or Region,False,True
+2434,sacrum,C0036033,Body Location or Region,CONSISTS_OF,sacral vertebrae,C1261045,"Body Part, Organ, or Organ Component",False,True
+2435,ilia,,"Body Part, Organ, or Organ Component",ATTACHES_TO,sacrum,C0036033,Body Location or Region,False,True
+2448,musculotendinous sheet,C4531103,Anatomical Abnormality,ADJACENT_TO,abdominal cavity,C0230168,Body Location or Region,False,True
+2448,musculotendinous sheet,C4531103,Anatomical Abnormality,ADJACENT_TO,thoracic cavity,C0230139,Body Space or Junction,False,True
+2449,muscle fibers,C0242697,Cell,CONNECTED_TO,central tendinous,C0039508,"Body Part, Organ, or Organ Component",False,True
+2459,thoracic duct,C0039979,"Body Part, Organ, or Organ Component",TRAVERSES,aortic hiatus,C0929524,Body Space or Junction,False,True
+2461,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",TRAVERSES,esophageal hiatus,C0230160,Body Space or Junction,False,True
+2462,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",TRAVERSES,caval opening,C0929525,Body Space or Junction,False,True
+2463,right phrenic nerve,C0501599,"Body Part, Organ, or Organ Component",TRAVERSES,caval opening,C0929525,Body Space or Junction,False,True
+2471,fibrous pericardium,C0225974,Tissue,CONNECTED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",False,True
+2487,inferior pole,C1179623,Body Location or Region,PART_OF,kidney,C0022646,"Body Part, Organ, or Organ Component",False,True
+2487,inferior pole,C1179623,Body Location or Region,PHYSICALLY_RELATED_TO,right colic flexure,C0227385,"Body Part, Organ, or Organ Component",False,True
