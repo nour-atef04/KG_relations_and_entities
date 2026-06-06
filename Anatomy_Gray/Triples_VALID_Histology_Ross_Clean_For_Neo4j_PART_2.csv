@@ -1,0 +1,336 @@
+paragraph_id,subject,subject_cui,subject_type,relation,object,object_cui,object_type,rule_valid,gemini_verdict
+1682,osteoblasts,C0029418,Cell,PRODUCES,alkaline phosphatase,C0002059,"Amino Acid, Peptide, or Protein",True,True
+1692,pth,C0020063,"Amino Acid, Peptide, or Protein",AFFECTS,bone formation,C0029433,Organ or Tissue Function,True,True
+1696,hormones,C0019932,Hormone,AFFECTS,bone growth,C0971859,Organ or Tissue Function,True,True
+1696,pituitary growth hormone,C0037663,"Amino Acid, Peptide, or Protein",AFFECTS,growth,C0018270,Organism Function,True,True
+1696,liver,C0023884,"Body Part, Organ, or Organ Component",PRODUCES,igf-i,C0037657,"Amino Acid, Peptide, or Protein",True,True
+1696,pituitary growth hormone,C0037663,"Amino Acid, Peptide, or Protein",CAUSES,gigantism,C0017547,Disease or Syndrome,True,True
+1702,bone tissue,C0391978,Tissue,PART_OF,bones,C0262950,"Body Part, Organ, or Organ Component",True,True
+1710,blood vessels,C0005847,"Body Part, Organ, or Organ Component",CONNECTED_TO,haversian canals,C4082189,"Body Part, Organ, or Organ Component",True,True
+1718,cartilage,C0007301,Tissue,PART_OF,epiphysis,C0014570,"Body Part, Organ, or Organ Component",True,True
+1720,periosteum,C0031110,Tissue,SURROUNDS,bone,C0005931,Tissue,True,True
+1721,bone,C0005931,Tissue,LOCATION_OF,remodeling,C0085268,Organ or Tissue Function,True,True
+1723,bone tissue,C0391978,Tissue,CONSISTS_OF,branching trabeculae,C2826619,Tissue,True,True
+1757,osteoblasts,C0029418,Cell,PRODUCES,ground substance,C1253945,Body Substance,True,True
+1757,osteoblasts,C0029418,Cell,PRODUCES,collagen,C0009325,"Amino Acid, Peptide, or Protein",True,True
+1764,ob2,C1420852,Gene or Genome,PRODUCES,osteoid,C0682561,Body Substance,True,True
+1769,lipid droplets,C0230704,Cell Component,PART_OF,adipocytes,C0206131,Cell,True,True
+1778,mesentery,C0025474,Body Location or Region,LOCATION_OF,adipose tissue,C0001527,Tissue,True,True
+1779,white adipose tissue,C1704223,Tissue,PRODUCES,hormones,C0019932,Hormone,True,True
+1779,white adipose tissue,C1704223,Tissue,PRODUCES,growth factors,C0018284,"Amino Acid, Peptide, or Protein",True,True
+1779,white adipose tissue,C1704223,Tissue,PRODUCES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",True,True
+1780,adipocytes,C0206131,Cell,PRODUCES,hormones,C0019932,Hormone,True,True
+1780,adipocytes,C0206131,Cell,PRODUCES,growth factors,C0018284,"Amino Acid, Peptide, or Protein",True,True
+1780,adipocytes,C0206131,Cell,PRODUCES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",True,True
+1780,adipocytes,C0206131,Cell,PRODUCES,leptin,C0299583,"Amino Acid, Peptide, or Protein",True,True
+1780,leptin,C0299583,"Amino Acid, Peptide, or Protein",AFFECTS,food intake,C0013470,Organism Function,True,True
+1780,leptin,C0299583,"Amino Acid, Peptide, or Protein",AFFECTS,metabolic rate,C0870882,Physiologic Function,True,True
+1781,adipose tissue,C0001527,Tissue,PRODUCES,steroid hormones,C0301818,Organic Chemical,True,True
+1781,adipose tissue,C0001527,Tissue,PRODUCES,hormones,C0019932,Hormone,True,True
+1784,ppar,C0166418,"Amino Acid, Peptide, or Protein",AFFECTS,adipocyte differentiation,C0007589,Cell Function,True,True
+1784,ppar target genes,C1332838,Gene or Genome,AFFECTS,lipogenic pathways,C1704259,Molecular Function,True,True
+1791,acylation-stimulating,C1332656,Gene or Genome,AFFECTS,triglyceride synthesis,C1157337,Molecular Function,True,True
+1791,adiponectin,C0389071,"Amino Acid, Peptide, or Protein",AFFECTS,fatty-acid oxidation,C1158366,Molecular Function,True,True
+1791,angiotensin ii,C0003009,"Amino Acid, Peptide, or Protein",AFFECTS,blood pressure,C0005823,Organism Function,True,True
+1791,angiotensin ii,C0003009,"Amino Acid, Peptide, or Protein",AFFECTS,adipose tissue differentiation,C0007589,Cell Function,True,True
+1791,insulinlike growth factor i,C0037657,"Amino Acid, Peptide, or Protein",AFFECTS,cell proliferation,C0334094,Pathologic Function,True,True
+1791,leptin,C0299583,"Amino Acid, Peptide, or Protein",AFFECTS,appetite,C0003622,Organism Function,True,True
+1791,leptin,C0299583,"Amino Acid, Peptide, or Protein",AFFECTS,body energy expenditure,C0014272,Physiologic Function,True,True
+1791,resistin,C0963992,"Amino Acid, Peptide, or Protein",AFFECTS,insulin resistance,C0021655,Pathologic Function,True,True
+1797,lipid droplets,C0230704,Cell Component,PART_OF,cytoplasm,C0010834,Cell Component,True,True
+1831,hypertension,C0020538,Disease or Syndrome,ASSOCIATED_WITH,obesity,C0028754,Disease or Syndrome,True,True
+1831,cardiovascular diseases,C0007222,Disease or Syndrome,ASSOCIATED_WITH,obesity,C0028754,Disease or Syndrome,True,True
+1831,diabetes,C0011847,Disease or Syndrome,ASSOCIATED_WITH,obesity,C0028754,Disease or Syndrome,True,True
+1832,collagen fibers,C0225325,Tissue,SURROUNDS,brown adipose cells,C1720857,Cell,True,True
+1851,dense connective tissue,C1511770,Tissue,SURROUNDS,adipose tissue,C0001527,Tissue,True,True
+1855,cytoplasm,C0010834,Cell Component,SURROUNDS,vacuoles,C0042219,Cell Component,True,True
+1860,blood,C0005767,Body Substance,CONSISTS_OF,plasma,C0032105,Body Substance,True,True
+1892,lipid bilayer,C0023768,Cell Component,PART_OF,cell membrane,C0007603,Cell Component,True,True
+1900,deficiency in band 4.1 proteins,C0138793,"Amino Acid, Peptide, or Protein",CAUSES,hereditary elliptocytosis,C0013902,Disease or Syndrome,True,True
+1926,lysosomes,C0024369,Cell Component,PART_OF,neutrophil,C0027950,Cell,True,True
+1930,selectins,C0282651,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",True,True
+1942,fc receptors,C0034805,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,igg antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+1943,complement receptors,C0034793,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,immune complexes,C0003313,"Amino Acid, Peptide, or Protein",True,True
+1961,compact heterochromatin,C0019397,Cell Component,ADJACENT_TO,nuclear envelope,C0028584,Cell Component,True,True
+1965,cybb gene,C1413844,Gene or Genome,PRODUCES,glycoprotein 91,C1429424,"Amino Acid, Peptide, or Protein",True,True
+1972,eosinophils,C0014467,Cell,PRODUCES,arylsulfatase,C0003940,"Amino Acid, Peptide, or Protein",True,True
+1972,eosinophils,C0014467,Cell,PRODUCES,histaminase,C0019587,"Amino Acid, Peptide, or Protein",True,True
+1973,nucleus,C0007610,Cell Component,PART_OF,eosinophil,C0014467,Cell,True,True
+1976,basophils,C0004827,Cell,PART_OF,wbcs,C0023516,Cell,True,True
+1977,cd40l,C0167627,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cd40,C0054959,"Amino Acid, Peptide, or Protein",True,True
+1980,histamine,C0019588,Organic Chemical,CAUSES,dilation,C0012359,Pathologic Function,True,True
+1980,heparan sulfate,C0019143,Organic Chemical,CAUSES,dilation,C0012359,Pathologic Function,True,True
+1981,lysosomes,C0024369,Cell Component,PART_OF,basophils,C0004827,Cell,True,True
+1995,nk cells,C0022688,Cell,PRODUCES,interferon,C0002199,"Amino Acid, Peptide, or Protein",True,True
+2027,glycocalyx,C0061622,Cell Component,PART_OF,platelets,C0005821,Cell,True,True
+2047,red bone marrow,C0229624,Tissue,LOCATION_OF,hemopoiesis,C0018951,Organ or Tissue Function,True,True
+2079,free ribosomes,C1179933,Cell Component,PRODUCES,hemoglobin,C0008721,Organic Chemical,True,True
+2100,endothelial cells,C0225336,Cell,PRODUCES,gm-csf,C0079460,"Amino Acid, Peptide, or Protein",True,True
+2119,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,hemopoiesis,C0018951,Organ or Tissue Function,True,True
+2119,local mediators,C0127400,Organic Chemical,AFFECTS,hemopoiesis,C0018951,Organ or Tissue Function,True,True
+2120,signaling molecules,C1519315,Biologically Active Substance,AFFECTS,intracellular pathways,C2936269,Cell Function,True,True
+2120,transcription factors,C0040648,"Amino Acid, Peptide, or Protein",AFFECTS,genetic changes,C1705285,Cell or Molecular Dysfunction,True,True
+2120,cytokine,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,cell division,C0007590,Cell Function,True,True
+2120,cytokine,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,differentiation,C0007589,Cell Function,True,True
+2120,cytokine,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,cell function,C0007613,Cell Function,True,True
+2120,kidney cells,C0553257,Cell,PRODUCES,erythropoietin,C0014822,"Amino Acid, Peptide, or Protein",True,True
+2120,liver hepatocytes,C0227525,Cell,PRODUCES,thrombopoietin,C0040052,"Amino Acid, Peptide, or Protein",True,True
+2120,t lymphocytes,C0039194,Cell,PRODUCES,il-3,C0021757,"Amino Acid, Peptide, or Protein",True,True
+2120,endothelial cells,C0225336,Cell,PRODUCES,il-6,C0021760,"Amino Acid, Peptide, or Protein",True,True
+2120,adventitial cells,C0598800,Cell,PRODUCES,il-7,C0021761,"Amino Acid, Peptide, or Protein",True,True
+2125,il-3,C0021757,"Amino Acid, Peptide, or Protein",AFFECTS,differentiation,C0007589,Cell Function,True,True
+2127,transcription factors,C0040648,"Amino Acid, Peptide, or Protein",AFFECTS,lineage commitment,C0870312,Mental Process,True,True
+2128,ikaros family,C1825588,Gene or Genome,AFFECTS,differentiation,C0007589,Cell Function,True,True
+2132,adventitial cell,C0598800,Cell,PRODUCES,reticular fibers,C0035285,"Amino Acid, Peptide, or Protein",True,True
+2143,hypocellular bone marrow,C0522620,Cell or Molecular Dysfunction,OCCURS_IN,aplastic anemia,C0002874,Disease or Syndrome,True,True
+2146,granulocytes,C0023516,Cell,CONSISTS_OF,neutrophils,C0027950,Cell,True,True
+2146,granulocytes,C0023516,Cell,CONSISTS_OF,eosinophils,C0014467,Cell,True,True
+2146,granulocytes,C0023516,Cell,CONSISTS_OF,basophils,C0004827,Cell,True,True
+2193,myofilament,C0025979,Cell Component,AFFECTS,muscle cell contraction,C0026820,Physiologic Function,True,True
+2198,connective tissue,C0009780,Tissue,SURROUNDS,muscle,C0026845,Tissue,True,True
+2208,connective tissue,C0009780,Tissue,SURROUNDS,individual muscle fibers,C0242697,Cell,True,True
+2209,endomysium,C0504097,Tissue,SURROUNDS,muscle fibers,C0242697,Cell,True,True
+2211,perimysium,C0224087,"Body Part, Organ, or Organ Component",SURROUNDS,fascicle,C1185741,Tissue,True,True
+2212,epimysium,C0504096,Tissue,CONSISTS_OF,dense connective tissue,C0009780,Tissue,True,True
+2212,epimysium,C0504096,Tissue,SURROUNDS,fascicles,C1185741,Tissue,True,True
+2214,sodium hydroxide,C0037517,Hazardous or Poisonous Substance,DISRUPTS,muscle cells,C0596981,Cell,True,True
+2214,endomysium,C0504097,Tissue,SURROUNDS,muscle cells,C0596981,Cell,True,True
+2220,type i fibers,C0242874,Cell,PART_OF,long muscles,C0026845,Tissue,True,True
+2220,type i fibers,C0242874,Cell,PART_OF,muscles,C0026845,Tissue,True,True
+2222,type iib fibers,C0242874,Cell,PRODUCES,lactic acid,C0064582,Organic Chemical,True,True
+2222,type iib fibers,C0242874,Cell,PART_OF,extraocular muscles,C0028863,"Body Part, Organ, or Organ Component",True,True
+2223,myofibril,C0027075,Cell Component,PART_OF,muscle fiber,C0242697,Cell,True,True
+2224,myofibrils,C0027075,Cell Component,PART_OF,muscle fiber,C0242697,Cell,True,True
+2224,myofibrils,C0027075,Cell Component,PART_OF,muscle cell,C0596981,Cell,True,True
+2226,myofilaments,C0025979,Cell Component,PART_OF,striated muscle,C0242692,Tissue,True,True
+2232,muscle fiber,C0242697,Cell,PART_OF,muscle fascicle,C0504095,"Body Part, Organ, or Organ Component",True,True
+2232,myofilament,C0025979,Cell Component,PART_OF,myofibril,C0027075,Cell Component,True,True
+2233,muscle fiber,C0242697,Cell,PART_OF,skeletal muscle,C0242692,Tissue,True,True
+2233,fascicle,C1185741,Tissue,PART_OF,skeletal muscle,C0242692,Tissue,True,True
+2233,myosin filament,C2246364,Cell Component,PART_OF,a band,C0230717,Cell Component,True,True
+2234,sarcoplasm,C0682566,Cell Component,SURROUNDS,myofibril,C0027075,Cell Component,True,True
+2234,connective tissue,,Cell Component,PART_OF,endomysium,C0504097,Tissue,True,True
+2235,sarcomere,C0036225,Cell Component,PART_OF,myofibril,C0027075,Cell Component,True,True
+2236,sarcomere,C0036225,Cell Component,PART_OF,striated muscle,C0242692,Tissue,True,True
+2238,thick filament,C0025979,Cell Component,PART_OF,central portion,C0222595,"Body Part, Organ, or Organ Component",True,True
+2269,goat polyclonal antibody,C0312586,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,dystrophin,C0079259,"Amino Acid, Peptide, or Protein",True,True
+2270,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",INTERACTS_WITH,myosin head,C1179941,"Amino Acid, Peptide, or Protein",True,True
+2278,myosin head,C1179941,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,binding site,C0005456,Receptor,True,True
+2282,thin filaments,C0025979,Cell Component,PART_OF,sarcomere,C0036225,Cell Component,True,True
+2285,sarcoplasmic reticulum,C0036226,Cell Component,SURROUNDS,myofibrils,C0027075,Cell Component,True,True
+2285,sarcoplasmic reticulum,C0036226,Cell Component,SURROUNDS,i band,C0230716,Cell Component,True,True
+2290,increased concentration of ca2,C0666743,"Amino Acid, Peptide, or Protein",CAUSES,contraction,C1140999,Pathologic Function,True,True
+2314,axon,C0004461,Cell Component,PART_OF,motor neuron,C0026609,Cell,True,True
+2321,plasma membrane,C0007603,Cell Component,PART_OF,muscle cell,C0596981,Cell,True,True
+2329,ca2,C0666743,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,tnc,C0068613,"Amino Acid, Peptide, or Protein",True,True
+2334,ache inhibitors,C0003015,Pharmacologic Substance,TREATS,myasthenia gravis,C0026896,Disease or Syndrome,True,True
+2334,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,ach nicotinic receptors,C0034830,"Amino Acid, Peptide, or Protein",True,True
+2342,myod,C1417574,Gene or Genome,AFFECTS,myostatin gene expression,C0017262,Genetic Function,True,True
+2354,cisterna,C1166837,Cell Component,PART_OF,sarcoplasmic reticulum,C0036226,Cell Component,True,True
+2355,t tubules,C1179122,Cell Component,PART_OF,cardiac muscle,C0027061,Tissue,True,True
+2355,t tubules,C1179122,Cell Component,PART_OF,skeletal muscle,C0242692,Tissue,True,True
+2359,mitochondria,C0026237,Cell Component,ADJACENT_TO,myofibril,C0027075,Cell Component,True,True
+2360,glycogen granules,C1325641,Cell Component,ADJACENT_TO,myofibrils,C0027075,Cell Component,True,True
+2360,mitochondria,C0026237,Cell Component,ADJACENT_TO,myofibrils,C0027075,Cell Component,True,True
+2374,impulses,C0034107,Health Care Activity,AFFECTS,contraction,C1140999,Pathologic Function,True,True
+2378,gap junctions,C0206117,Body Space or Junction,INTERCONNECTS,smooth muscle cells,C1135918,Cell,True,True
+2383,contractile apparatus,C0025979,Cell Component,PART_OF,smooth muscle cells,C1135918,Cell,True,True
+2387,intermediate filaments,C0021770,Cell Component,PART_OF,cytoskeleton,C0010853,Cell Component,True,True
+2388,actin,C0001271,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,myosin ii molecules,C0027103,"Amino Acid, Peptide, or Protein",True,True
+2392,ca2–calmodulin complex,C0006772,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mlck,C0027120,"Amino Acid, Peptide, or Protein",True,True
+2413,phosphorylation,C0031715,Molecular Function,PRECEDES,smooth muscle contraction,C1155937,Organ or Tissue Function,True,True
+2418,ca2,C0666743,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,calmodulin,C0006772,"Amino Acid, Peptide, or Protein",True,True
+2418,myosin,C0027096,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,actin,C0001271,"Amino Acid, Peptide, or Protein",True,True
+2418,atp,C0001480,"Nucleic Acid, Nucleoside, or Nucleotide",CAUSES,contraction,C1140999,Pathologic Function,True,True
+2424,smooth muscle cells,C1135918,Cell,PRODUCES,collagen,C0009325,"Amino Acid, Peptide, or Protein",True,True
+2424,smooth muscle cells,C1135918,Cell,PRODUCES,type iii collagen,C0009332,"Amino Acid, Peptide, or Protein",True,True
+2424,smooth muscle cells,C1135918,Cell,PRODUCES,elastin,C0013765,"Amino Acid, Peptide, or Protein",True,True
+2424,smooth muscle cells,C1135918,Cell,PRODUCES,proteoglycans,C0033692,"Amino Acid, Peptide, or Protein",True,True
+2441,connective tissue,C0009780,"Body Part, Organ, or Organ Component",PART_OF,perimysium,C0224087,"Body Part, Organ, or Organ Component",True,True
+2443,z-line,C0230719,Cell Component,PART_OF,sarcomere,C0036225,Cell Component,True,True
+2466,connective tissue,C0009780,Tissue,SURROUNDS,muscle fibers,C0242697,Cell,True,True
+2468,myofibrils,C0027075,Cell Component,SURROUNDS,nuclei,C0007610,Cell Component,True,True
+2496,neurons,C0027882,Cell,PART_OF,nerve tissue,C0027757,Tissue,True,True
+2497,cell body,C0599444,Cell Component,PART_OF,neuron,C0027882,Cell,True,True
+2497,nucleus,C0007610,Cell Component,PART_OF,cell body,C0599444,Cell Component,True,True
+2504,heart,C0018787,"Body Part, Organ, or Organ Component",LOCATION_OF,cardiac conducting cells,C0232217,Organ or Tissue Function,True,True
+2516,axon,C0004461,Cell Component,PART_OF,cell,C0007634,Cell,True,True
+2518,axon,C0004461,Cell Component,PART_OF,neuron,C0027882,Cell,True,True
+2518,axonal branch,C1178982,Cell Component,PART_OF,axon,C0004461,Cell Component,True,True
+2525,axon,C0004461,Cell Component,PART_OF,spinal nerve,C0037941,"Body Part, Organ, or Organ Component",True,True
+2552,presynaptic element,C3546722,Cell Component,PART_OF,neuron process,C1184743,"Body Part, Organ, or Organ Component",True,True
+2553,receptors,C0597357,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,neurotransmitters,C0027908,Biologically Active Substance,True,True
+2558,voltage-gated ca2 channels,C3494197,"Amino Acid, Peptide, or Protein",AFFECTS,transmitter release,C0598964,Cell Function,True,True
+2572,curare,C0010463,Organic Chemical,INTERACTS_WITH,nicotinic ach receptors,C0034830,"Amino Acid, Peptide, or Protein",True,True
+2572,atropin,C0004259,Organic Chemical,INTERACTS_WITH,muscarinic ach receptors,C0034826,"Amino Acid, Peptide, or Protein",True,True
+2599,mesaxon membrane,C1179949,Cell Component,SURROUNDS,axon,C0004461,Cell Component,True,True
+2617,nuclei,C0007610,Cell Component,PART_OF,glial cells,C0027836,Cell,True,True
+2644,ependymal cells,C0228092,Cell,PART_OF,ventricles,C0018827,"Body Part, Organ, or Organ Component",True,True
+2646,epithelium-like lining,C5451534,Organism Function,PRODUCES,cerebrospinal fluid,C0007806,Body Substance,True,True
+2648,ependymal cells,C0228092,Cell,PART_OF,choroid plexus,C0008524,"Body Part, Organ, or Organ Component",True,True
+2648,associated capillaries,C0006901,"Body Part, Organ, or Organ Component",PART_OF,choroid plexus,C0008524,"Body Part, Organ, or Organ Component",True,True
+2664,neural cells,C0027882,Cell,PRODUCES,csf-1,C0079784,"Amino Acid, Peptide, or Protein",True,True
+2670,connective tissue,C0009780,Tissue,PART_OF,peripheral nerve,C0031119,"Body Part, Organ, or Organ Component",True,True
+2671,nerve fibers,C0027749,Cell Component,PART_OF,peripheral nerve,C0031119,"Body Part, Organ, or Organ Component",True,True
+2681,endoneurium,C0205888,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+2682,collagen fibrils,C0225328,Cell Component,PART_OF,endoneurium,C0205888,Tissue,True,True
+2685,perineurium,C0205890,Tissue,SURROUNDS,nerve fascicle,C1185741,Tissue,True,True
+2688,epineurium,C0205889,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+2688,epineurium,C0205889,Tissue,SURROUNDS,nerve fascicles,C1185741,Tissue,True,True
+2690,epineurium,C0205889,Tissue,PART_OF,peripheral nerve,C0031119,"Body Part, Organ, or Organ Component",True,True
+2690,epineurium,C0205889,Tissue,SURROUNDS,fascicles,C1185741,Tissue,True,True
+2723,nerve network,C0027740,"Body Part, Organ, or Organ Component",SURROUNDS,carotid arteries,C0007272,"Body Part, Organ, or Organ Component",True,True
+2727,paravertebral ganglia,C0228973,"Body Part, Organ, or Organ Component",PART_OF,sympathetic trunk,C0228972,"Body Part, Organ, or Organ Component",True,True
+2727,adrenal medullary cells,C0001629,"Body Part, Organ, or Organ Component",PRODUCES,neurotransmitter,C0027908,Biologically Active Substance,True,True
+2729,cranial cavity,C0230041,Body Space or Junction,CONTAINS,brain,C0006104,"Body Part, Organ, or Organ Component",True,True
+2729,vertebral canal,C0037922,Body Space or Junction,CONTAINS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+2743,spinal cord,C0037925,"Body Part, Organ, or Organ Component",CONNECTED_TO,brain stem,C0006121,"Body Part, Organ, or Organ Component",True,True
+2744,spinal cord,C0037925,"Body Part, Organ, or Organ Component",SURROUNDS,central canal,C0459414,"Body Part, Organ, or Organ Component",True,True
+2744,spinal cord,C0037925,"Body Part, Organ, or Organ Component",SURROUNDS,gray matter,C0018220,Tissue,True,True
+2757,pia mater,C0031869,"Body Part, Organ, or Organ Component",SURROUNDS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+2757,gray commissure,C2338155,"Body Part, Organ, or Organ Component",CONNECTED_TO,ventral horns,C0019939,"Body Part, Organ, or Organ Component",True,True
+2757,gray commissure,C2338155,"Body Part, Organ, or Organ Component",CONNECTED_TO,dorsal horns,C0228575,"Body Part, Organ, or Organ Component",True,True
+2760,dura mater,C0013313,"Body Part, Organ, or Organ Component",ADJACENT_TO,periosteum,C0031110,Tissue,True,True
+2761,dura mater,C0013313,"Body Part, Organ, or Organ Component",SURROUNDS,spinal cord,C0037925,"Body Part, Organ, or Organ Component",True,True
+2762,arachnoid,C0003707,"Body Part, Organ, or Organ Component",ADJACENT_TO,dura,C0013313,"Body Part, Organ, or Organ Component",True,True
+2767,arachnoid,C0003707,"Body Part, Organ, or Organ Component",ADJACENT_TO,dura mater,C0013313,"Body Part, Organ, or Organ Component",True,True
+2767,subarachnoid space,C0038527,Body Space or Junction,CONTAINS,cerebrospinal fluid,C0007806,Body Substance,True,True
+2767,subarachnoid space,C0038527,Body Space or Junction,CONTAINS,larger blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+2788,astrocyte-derived scar,C1333669,Gene or Genome,AFFECTS,nerve regeneration,C0027756,Cell Function,True,True
+2789,injury,C3263722,Injury or Poisoning,DISRUPTS,blood–brain barrier,C0005854,"Body Part, Organ, or Organ Component",True,True
+2790,traumatic degeneration,C0035354,Cell or Molecular Dysfunction,OCCURS_IN,injured nerve,C0161479,Injury or Poisoning,True,True
+2805,autonomic ganglia,C0017068,"Body Part, Organ, or Organ Component",LOCATION_OF,synapses,C0039062,Body Space or Junction,True,True
+2815,myelin space,C0026969,Tissue,SURROUNDS,axon,C0004461,Cell Component,True,True
+2816,nuclei,C0007610,Cell Component,SURROUNDS,cell body,C0599444,Cell Component,True,True
+2817,neurilemma,C0027807,Tissue,SURROUNDS,axon,C0004461,Cell Component,True,True
+2817,myelin,C0026969,Tissue,SURROUNDS,axon,C0004461,Cell Component,True,True
+2817,grooves,C1184482,Body Space or Junction,LOCATION_OF,axon,C0004461,Cell Component,True,True
+2822,neurilemma,C0027807,Tissue,SURROUNDS,myelin space,C0026969,Tissue,True,True
+2826,cerebrum,C0039452,"Body Part, Organ, or Organ Component",PART_OF,brain,C0006104,"Body Part, Organ, or Organ Component",True,True
+2847,cerebellum,C0007765,"Body Part, Organ, or Organ Component",PART_OF,brain,C0006104,"Body Part, Organ, or Organ Component",True,True
+2856,purkinje cell bodies,C0034143,Cell,PART_OF,cerebellum,C0007765,"Body Part, Organ, or Organ Component",True,True
+2862,nucleus,C0007610,Cell Component,PART_OF,ventral horn cell,C0003154,Cell,True,True
+2867,venous end,C0042449,"Body Part, Organ, or Organ Component",PART_OF,blood capillaries,C0006901,"Body Part, Organ, or Organ Component",True,True
+2869,interatrial septum,C0225836,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2874,superior vena cava,C0042459,"Body Part, Organ, or Organ Component",CONNECTED_TO,right atrium,C0225844,"Body Part, Organ, or Organ Component",True,True
+2874,inferior vena cava,C0042458,"Body Part, Organ, or Organ Component",CONNECTED_TO,right atrium,C0225844,"Body Part, Organ, or Organ Component",True,True
+2874,pulmonary arteries,C0034052,"Body Part, Organ, or Organ Component",CONNECTED_TO,lungs,C0024109,"Body Part, Organ, or Organ Component",True,True
+2875,heart,C0018787,"Body Part, Organ, or Organ Component",CONNECTED_TO,diaphragm,C0011980,"Body Part, Organ, or Organ Component",True,True
+2877,right atrium,C0225844,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2877,right ventricle,C0225883,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2877,interventricular septum,C0225870,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2879,cardiac muscle,C0027061,Tissue,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2880,fibrous skeleton,C0504004,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2880,membranous part of interatrial septa,C0225836,"Body Part, Organ, or Organ Component",PART_OF,fibrous skeleton,C0504004,"Body Part, Organ, or Organ Component",True,True
+2881,purkinje fibers,C0034144,Tissue,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2882,atrioventricular bundle,C0006382,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2883,sinuatrial node,C0037189,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2883,atrial wall,C0507617,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2883,atrioventricular (av) node,C0004247,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2885,cardiac veins,C0226654,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2885,coronary sinus,C0456944,"Body Part, Organ, or Organ Component",PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2886,epicardium,C0225968,Tissue,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2886,myocardium,C0027061,Tissue,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2886,endocardium,C0014124,Tissue,PART_OF,heart,C0018787,"Body Part, Organ, or Organ Component",True,True
+2898,ventricular wall,C0507618,"Body Part, Organ, or Organ Component",CONSISTS_OF,layers,C0934502,"Body Part, Organ, or Organ Component",True,True
+2906,papillary muscle,C0030352,"Body Part, Organ, or Organ Component",CONNECTED_TO,chordae tendineae,C0008484,"Body Part, Organ, or Organ Component",True,True
+2920,autonomic fibers,C0004385,"Body Part, Organ, or Organ Component",PRODUCES,norepinephrine,C0028351,Organic Chemical,True,True
+2922,adrenal medulla,C0001629,"Body Part, Organ, or Organ Component",PRODUCES,hormones,C0019932,Hormone,True,True
+2923,epinephrine,C0014563,Organic Chemical,AFFECTS,contraction,C1140999,Pathologic Function,True,True
+2927,carotid bodies,C0007277,"Body Part, Organ, or Organ Component",CONSISTS_OF,cords,C0037925,"Body Part, Organ, or Organ Component",True,True
+2934,tunica adventitia,C0225342,Tissue,CONSISTS_OF,collagenous tissue,C0225333,Tissue,True,True
+2934,tunica adventitia,C0225342,Tissue,CONSISTS_OF,elastic fibers,C0230899,Tissue,True,True
+2937,endothelial cells,C0225336,Cell,PART_OF,vascular wall,C0005847,"Body Part, Organ, or Organ Component",True,True
+2943,endothelial cells,C0225336,Cell,PRODUCES,heparin,C0019134,Organic Chemical,True,True
+2944,endothelium,C0014257,Tissue,PART_OF,blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+2951,no,C0028128,Pharmacologic Substance,AFFECTS,blood vessel diameter,C4328968,Organ or Tissue Function,True,True
+2952,endothelial cell,C0225336,Cell,PRODUCES,prostacyclin,C0033567,Organic Chemical,True,True
+2954,pgi2,C0033567,Organic Chemical,INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",True,True
+2956,vascular endothelial cells,C1257792,Cell,PRODUCES,endothelins,C0079284,"Amino Acid, Peptide, or Protein",True,True
+2965,endothelins,C0079284,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,receptors,C0597357,"Amino Acid, Peptide, or Protein",True,True
+2970,von willebrand factor,C0795677,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,coagulating factor viii,C0015506,"Amino Acid, Peptide, or Protein",True,True
+2974,internal elastic membrane,C1512870,Tissue,PART_OF,elastic arteries,C0226008,"Body Part, Organ, or Organ Component",True,True
+2977,endothelium lining,C0014257,Tissue,PART_OF,blood vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+2978,tunica media,C0162867,Tissue,PART_OF,elastic arteries,C0226008,"Body Part, Organ, or Organ Component",True,True
+2982,collagen fibrils,C1179626,Tissue,PART_OF,tunica adventitia,C0225342,Tissue,True,True
+2984,smooth muscle cells,C1135918,Cell,PRODUCES,ground substance,C1253945,Body Substance,True,True
+2986,tunica adventitia,C0225342,Tissue,PART_OF,elastic arteries,C0226008,"Body Part, Organ, or Organ Component",True,True
+2988,fibroblasts,C0016030,Cell,PART_OF,tunica adventitia,C0225342,Tissue,True,True
+2988,macrophages,C0024432,Cell,PART_OF,tunica adventitia,C0225342,Tissue,True,True
+2993,tunica adventitia,C0225342,Tissue,CONSISTS_OF,connective tissue,C0009780,Tissue,True,True
+2997,tunica intima,C0162864,"Body Part, Organ, or Organ Component",PART_OF,muscular arteries,C0226002,"Body Part, Organ, or Organ Component",True,True
+2998,tunica media,C0162867,Tissue,CONSISTS_OF,smooth muscle,C1267092,Tissue,True,True
+3001,tunica adventitia,C0225342,Tissue,ADJACENT_TO,tunica media,C0162867,Tissue,True,True
+3002,tunica adventitia,C0225342,Tissue,CONSISTS_OF,collagen fibers,C0225325,Tissue,True,True
+3013,occluding junctions,C0242358,Body Space or Junction,PART_OF,continuous capillary,C1179614,"Body Part, Organ, or Organ Component",True,True
+3019,liver,C0023884,"Body Part, Organ, or Organ Component",LOCATION_OF,discontinuous capillaries,C0682624,Body Space or Junction,True,True
+3019,spleen,C0037993,"Body Part, Organ, or Organ Component",LOCATION_OF,discontinuous capillaries,C0682624,Body Space or Junction,True,True
+3019,bone marrow,C0005953,Tissue,LOCATION_OF,discontinuous capillaries,C0682624,Body Space or Junction,True,True
+3028,capillaries,C0006901,"Body Part, Organ, or Organ Component",BRANCH_OF,arterioles,C0003847,"Body Part, Organ, or Organ Component",True,True
+3028,capillaries,C0006901,"Body Part, Organ, or Organ Component",BRANCH_OF,metarterioles,C1179613,"Body Part, Organ, or Organ Component",True,True
+3034,arterioles,C0003847,"Body Part, Organ, or Organ Component",CONNECTED_TO,muscular venules,C0042520,"Body Part, Organ, or Organ Component",True,True
+3037,postcapillary venules,C0226505,"Body Part, Organ, or Organ Component",CONTAINS,blood,C0005767,Body Substance,True,True
+3042,smooth muscle,C1267092,Tissue,PART_OF,tunica media,C0162867,Tissue,True,True
+3042,tunica adventitia,C0225342,Tissue,PART_OF,vessels,C0005847,"Body Part, Organ, or Organ Component",True,True
+3059,great saphenous vein,C0392907,"Body Part, Organ, or Organ Component",PART_OF,lower limb,C0023216,"Body Part, Organ, or Organ Component",True,True
+3066,lymphatic capillaries,C0162405,"Body Part, Organ, or Organ Component",TRIBUTARY_OF,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",True,True
+3066,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",CONNECTED_TO,veins,C0042449,"Body Part, Organ, or Organ Component",True,True
+3086,endothelium,C0014257,Tissue,PART_OF,intima,C0162864,"Body Part, Organ, or Organ Component",True,True
+3103,smooth muscle cells,C1135918,Cell,PART_OF,tunica media,C0162867,Tissue,True,True
+3107,venule,C0042520,"Body Part, Organ, or Organ Component",ADJACENT_TO,arteriole,C0003847,"Body Part, Organ, or Organ Component",True,True
+3109,vessel,C0005847,"Body Part, Organ, or Organ Component",ADJACENT_TO,adipose tissue,C0001527,Tissue,True,True
+3117,lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",CONNECTED_TO,blood vascular system,C0005847,"Body Part, Organ, or Organ Component",True,True
+3121,lymphatic tissue,C0024296,Tissue,PART_OF,organ,C0178784,"Body Part, Organ, or Organ Component",True,True
+3125,genes,C0017337,Gene or Genome,PRODUCES,immunoglobulins,C0021027,"Amino Acid, Peptide, or Protein",True,True
+3125,genes,C0017337,Gene or Genome,PRODUCES,specific receptors,C0034805,"Amino Acid, Peptide, or Protein",True,True
+3129,supporting cells,C0007634,Cell,PART_OF,meshworks,C0040573,"Body Part, Organ, or Organ Component",True,True
+3133,cd4,C0003323,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc ii molecules,C0019630,"Amino Acid, Peptide, or Protein",True,True
+3134,circulating lymphocytes,C0024264,Cell,PART_OF,lymphatic tissue,C0024296,Tissue,True,True
+3141,helper t cells,C0018894,Cell,PRODUCES,il-4,C0021758,"Amino Acid, Peptide, or Protein",True,True
+3141,helper t cells,C0018894,Cell,PRODUCES,il-5,C0021759,"Amino Acid, Peptide, or Protein",True,True
+3141,helper t cells,C0018894,Cell,PRODUCES,il-13,C0214743,"Amino Acid, Peptide, or Protein",True,True
+3154,plasma cells,C0032112,Cell,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+3154,antibodies,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,antigen,C0003320,Immunologic Factor,True,True
+3154,fc receptors,C0034805,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+3156,nk cells,C0022688,Cell,PRODUCES,perforins,C0070410,"Amino Acid, Peptide, or Protein",True,True
+3177,b lymphocytes,C0004561,Cell,PRODUCES,antibodies,C0003241,"Amino Acid, Peptide, or Protein",True,True
+3180,tcr,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,antigen,C0003320,Immunologic Factor,True,True
+3182,proteins,C0033684,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc molecules,C0019629,"Amino Acid, Peptide, or Protein",True,True
+3186,mhc ii,C0024518,Gene or Genome,LOCATION_OF,apcs,C0033036,Disease or Syndrome,True,True
+3196,mhc i molecule,C0019629,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,tcr,C0034790,"Amino Acid, Peptide, or Protein",True,True
+3196,mhc i molecule,C0019629,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cd8 molecule,C0085358,Immunologic Factor,True,True
+3197,mhc ii molecule,C0019630,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,tcr,C0034790,"Amino Acid, Peptide, or Protein",True,True
+3197,mhc ii molecule,C0019630,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cd4 molecule,C0003323,"Amino Acid, Peptide, or Protein",True,True
+3199,cd40l,C0167627,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cd40 molecules,C0054959,"Amino Acid, Peptide, or Protein",True,True
+3202,tcr,C0034790,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,mhc ii molecule,C0019630,"Amino Acid, Peptide, or Protein",True,True
+3202,helper cd4 t lymphocyte,C0018894,Cell,PRODUCES,interleukins,C0021764,"Amino Acid, Peptide, or Protein",True,True
+3203,interferon,C0021747,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,cell surface receptor,C0034800,"Amino Acid, Peptide, or Protein",True,True
+3203,antibody,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,fc receptors,C0034805,"Amino Acid, Peptide, or Protein",True,True
+3204,plasma cells,C0032112,Cell,PRODUCES,antibody,C0003241,"Amino Acid, Peptide, or Protein",True,True
+3206,plasma cell,C0032112,Cell,PRODUCES,antibody,C0003241,"Amino Acid, Peptide, or Protein",True,True
+3206,antibody,C0003241,"Amino Acid, Peptide, or Protein",INTERACTS_WITH,antigen,C0003320,Immunologic Factor,True,True
+3211,cytotoxic cd8 t lymphocytes,C0039195,Cell,PRODUCES,perforins,C0070410,"Amino Acid, Peptide, or Protein",True,True
+3211,cytotoxic cd8 t lymphocytes,C0039195,Cell,PRODUCES,granzymes,C1333877,"Amino Acid, Peptide, or Protein",True,True
+3215,suppressor t cells,C0038856,Cell,PRODUCES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",True,True
+3215,tgf-β,C0040691,"Amino Acid, Peptide, or Protein",AFFECTS,proliferation,C0334094,Pathologic Function,True,True
+3217,activated t lymphocytes,C1515879,Cell,PRODUCES,cytokines,C0079189,"Amino Acid, Peptide, or Protein",True,True
+3218,cytokines,C0079189,"Amino Acid, Peptide, or Protein",AFFECTS,function of immune system effector cells,C0031843,Physiologic Function,True,True
+3219,interleukins,C0021764,"Amino Acid, Peptide, or Protein",AFFECTS,growth,C0018270,Organism Function,True,True
+3219,interleukins,C0021764,"Amino Acid, Peptide, or Protein",AFFECTS,differentiation,C0007589,Cell Function,True,True
+3245,t cell,C0039194,Cell,PRODUCES,il-2,C0021756,"Amino Acid, Peptide, or Protein",True,True
+3245,il-2,C0021756,"Amino Acid, Peptide, or Protein",AFFECTS,differentiation,C0007589,Cell Function,True,True
+3245,helper cd4 t lymphocytes,C0018894,Cell,PRODUCES,interferon,C0021747,"Amino Acid, Peptide, or Protein",True,True
+3266,axilla,C0004454,Body Location or Region,LOCATION_OF,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",True,True
+3266,groin,C0018246,Body Location or Region,LOCATION_OF,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",True,True
+3266,mesenteries,C0025474,Body Location or Region,LOCATION_OF,lymph nodes,C0024204,"Body Part, Organ, or Organ Component",True,True
+3267,hilum,C0929176,"Body Part, Organ, or Organ Component",PART_OF,node,C0746922,"Body Part, Organ, or Organ Component",True,True
+3268,lamina propria,C1179187,Tissue,PART_OF,ileum,C0020885,"Body Part, Organ, or Organ Component",True,True
+3268,submucosa,C0225344,Tissue,PART_OF,ileum,C0020885,"Body Part, Organ, or Organ Component",True,True
+3273,fibroblasts,C0016030,Cell,PRODUCES,type iii collagen,C0009332,"Amino Acid, Peptide, or Protein",True,True
+3273,fibroblasts,C0016030,Cell,PRODUCES,ground substance,C1253945,Body Substance,True,True
+3278,medulla,C0025148,"Body Part, Organ, or Organ Component",PART_OF,lymph node,C0024204,"Body Part, Organ, or Organ Component",True,True
+3287,medullary sinuses,C0001629,"Body Part, Organ, or Organ Component",CONNECTED_TO,efferent lymphatic vessels,C0229889,"Body Part, Organ, or Organ Component",True,True
+3331,type vi epithelioreticular cells,C1516944,Cell,PART_OF,thymic medulla,C0229949,"Body Part, Organ, or Organ Component",True,True
+3332,thymic corpuscles,C0229950,"Body Part, Organ, or Organ Component",PART_OF,medulla,C0025148,"Body Part, Organ, or Organ Component",True,True
+3333,blood vessels,C0005847,"Body Part, Organ, or Organ Component",TRAVERSES,parenchyma,C0933845,"Body Part, Organ, or Organ Component",True,True
+3335,basal lamina,C0085872,Tissue,PART_OF,capillary wall,C0006901,"Body Part, Organ, or Organ Component",True,True
